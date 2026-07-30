@@ -1,0 +1,831 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tower of Hercules — Concept Reference</title>
+
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#1e2233">
+<link rel="icon" type="image/png" sizes="32x32" href="icons/icon-32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="icons/icon-16.png">
+<link rel="apple-touch-icon" href="icons/icon-180.png">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Tower">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=DM+Sans:wght@400;500;600;700&family=DM+Mono:wght@400;500&family=Georgia&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --navy: #1e2233;
+    --navy-light: #2a3049;
+    --navy-lighter: #3a4260;
+    --paper: #f7f5f0;
+    --paper-dim: #e9e6dd;
+    --gold: #c8a96e;
+    --gold-bright: #ddc48f;
+    --ink: #1e2233;
+    --ink-soft: #565c73;
+
+    --c-sociology: #2d5f6b;
+    --c-psychology: #6b2d5f;
+    --c-physiology: #2d6b3f;
+    --c-aviation: #a3591e;
+    --c-law: #8a6d1f;
+
+    --fs-xs: 0.72rem;
+    --fs-sm: 0.85rem;
+    --fs-base: 1rem;
+    --fs-md: 1.15rem;
+    --fs-lg: 1.5rem;
+    --fs-xl: 2.1rem;
+    --fs-hero: 3rem;
+
+    --serif: Georgia, 'Times New Roman', serif;
+    --display: 'Oswald', sans-serif;
+    --body: 'DM Sans', sans-serif;
+    --mono: 'DM Mono', monospace;
+  }
+
+  *{box-sizing:border-box; margin:0; padding:0;}
+  html{scroll-behavior:smooth;}
+  body{
+    background: var(--navy);
+    color: var(--paper);
+    font-family: var(--body);
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  ::selection{ background: var(--gold); color: var(--navy); }
+
+  a{color:inherit;}
+
+  /* ===== TOP BAR ===== */
+  header{
+    padding: 28px clamp(20px,5vw,64px) 20px;
+    border-bottom: 1px solid rgba(200,169,110,0.18);
+  }
+  .brand{
+    display:flex; align-items:center; gap:14px; flex-wrap:wrap;
+  }
+  .brand-icon{ flex:none; }
+  .brand h1{
+    font-family: var(--serif);
+    font-weight:400;
+    font-size: clamp(1.7rem, 3.4vw, 2.3rem);
+    letter-spacing: 0.01em;
+    color: var(--paper);
+  }
+  .brand .tag{
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: var(--gold);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    border: 1px solid rgba(200,169,110,0.4);
+    padding: 3px 9px;
+    border-radius: 3px;
+  }
+  .brand-sub{
+    font-family: var(--serif);
+    font-style: italic;
+    color: var(--ink-soft);
+    color: #a7abc0;
+    font-size: var(--fs-sm);
+    margin-top: 6px;
+  }
+
+  /* ===== PILLAR SWITCHER ===== */
+  nav.pillars{
+    display:flex; gap:10px; flex-wrap:wrap;
+    padding: 18px clamp(20px,5vw,64px) 0;
+  }
+  .pillar-btn{
+    font-family: var(--display);
+    font-size: var(--fs-sm);
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background: transparent;
+    border: 1.5px solid var(--pc, var(--gold));
+    color: var(--paper);
+    padding: 9px 18px 8px;
+    border-radius: 999px;
+    cursor:pointer;
+    display:flex; align-items:center; gap:8px;
+    transition: all .2s ease;
+    opacity:0.72;
+  }
+  .pillar-btn .dot{ width:8px; height:8px; border-radius:50%; background: var(--pc); flex:none; }
+  .pillar-btn:hover{ opacity:1; transform: translateY(-1px); }
+  .pillar-btn.active{
+    background: var(--pc);
+    border-color: var(--pc);
+    opacity:1;
+    color: var(--navy);
+    font-weight:600;
+  }
+  .pillar-btn.active .dot{ background: var(--navy); }
+
+  /* ===== MAIN ===== */
+  main{ padding: 32px clamp(20px,5vw,64px) 80px; max-width: 1180px; margin: 0 auto; }
+
+  .section-label{
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--pc);
+    margin-bottom: 6px;
+  }
+  .section-title{
+    font-family: var(--serif);
+    font-size: var(--fs-lg);
+    font-weight: 400;
+    color: var(--paper);
+    margin-bottom: 22px;
+    padding-bottom: 14px;
+    border-bottom: 1px solid rgba(247,245,240,0.1);
+  }
+
+  /* card grid */
+  .grid{
+    display:grid;
+    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+    gap: 16px;
+  }
+  .card{
+    background: var(--navy-light);
+    border: 1px solid rgba(247,245,240,0.08);
+    border-left: 3px solid var(--pc);
+    border-radius: 6px;
+    padding: 18px 20px;
+    cursor: pointer;
+    transition: transform .18s ease, background .18s ease, border-color .18s ease;
+    animation: rise .4s ease backwards;
+  }
+  .card:hover{ background: var(--navy-lighter); transform: translateY(-2px); }
+  .card h3{
+    font-family: var(--serif);
+    font-size: var(--fs-md);
+    font-weight:400;
+    margin-bottom: 8px;
+    color: var(--paper);
+  }
+  .card p{
+    font-size: var(--fs-sm);
+    color: #b7bbd0;
+    line-height:1.5;
+  }
+  .card .meta{
+    margin-top:12px;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: var(--pc);
+    opacity:0.85;
+  }
+
+  @keyframes rise{ from{opacity:0; transform: translateY(10px);} to{opacity:1; transform:translateY(0);} }
+
+  /* ===== DETAIL VIEW ===== */
+  .detail{ display:none; }
+  .detail.active{ display:block; animation: rise .3s ease; }
+  .back-btn{
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    letter-spacing:0.06em;
+    background:none; border:none; color: var(--gold);
+    cursor:pointer; margin-bottom:22px;
+    display:flex; align-items:center; gap:6px;
+  }
+  .back-btn:hover{ color: var(--gold-bright); }
+
+  .detail-head{
+    border-left: 4px solid var(--pc);
+    padding-left: 20px;
+    margin-bottom: 28px;
+  }
+  .detail-head .eyebrow{
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    color: var(--pc);
+    margin-bottom:6px;
+  }
+  .detail-head h2{
+    font-family: var(--display);
+    font-weight:600;
+    font-size: clamp(1.4rem, 3vw, 1.9rem);
+    color: var(--paper);
+  }
+
+  .accordion-item{
+    border-bottom: 1px solid rgba(247,245,240,0.1);
+  }
+  .accordion-item:first-child{ border-top: 1px solid rgba(247,245,240,0.1); }
+  .accordion-trigger{
+    width:100%;
+    background:none; border:none;
+    display:flex; align-items:center; justify-content:space-between;
+    padding: 16px 4px;
+    cursor:pointer;
+    font-family: var(--display);
+    font-size: var(--fs-base);
+    letter-spacing:0.03em;
+    text-transform: uppercase;
+    color: var(--paper);
+    text-align:left;
+  }
+  .accordion-trigger:hover{ color: var(--gold); }
+  .chev{
+    font-family: var(--mono);
+    color: var(--pc);
+    transition: transform .25s ease;
+    flex:none; margin-left:12px;
+  }
+  .accordion-trigger[aria-expanded="true"] .chev{ transform: rotate(180deg); }
+  .accordion-panel{
+    max-height:0;
+    overflow:hidden;
+    transition: max-height .3s ease;
+  }
+  .accordion-panel .inner{
+    padding: 2px 4px 20px;
+    font-size: var(--fs-base);
+    line-height:1.7;
+    color: #d3d5e2;
+  }
+  .accordion-panel .inner em{ font-family: var(--serif); font-style:italic; color: var(--gold-bright); }
+
+  /* cross-link pills — the signature element */
+  .connections{
+    margin-top: 34px;
+    padding-top: 24px;
+    border-top: 1px dashed rgba(200,169,110,0.3);
+  }
+  .connections .section-label{ margin-bottom:12px; }
+  .pill-row{ display:flex; flex-wrap:wrap; gap:10px; }
+  .link-pill{
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    padding: 8px 14px;
+    border-radius: 999px;
+    border: 1px solid var(--lpc, var(--gold));
+    background: linear-gradient(180deg, rgba(200,169,110,0.08), transparent);
+    color: var(--paper);
+    cursor:pointer;
+    display:flex; align-items:center; gap:8px;
+    transition: all .2s ease;
+  }
+  .link-pill:hover{ background: var(--lpc); color: var(--navy); border-color: var(--lpc); }
+  .link-pill .dot{ width:6px; height:6px; border-radius:50%; background: var(--lpc); flex:none; }
+  .link-pill:hover .dot{ background: var(--navy); }
+
+  /* ===== SEARCH BAR ===== */
+  .search-wrap{
+    padding: 20px clamp(20px,5vw,64px) 0;
+  }
+  .search-box{
+    position: relative;
+    max-width: 640px;
+  }
+  .search-box svg{
+    position: absolute;
+    left: 14px; top: 50%; transform: translateY(-50%);
+    pointer-events: none;
+    opacity: 0.55;
+  }
+  .search-box input{
+    width: 100%;
+    background: var(--navy-light);
+    border: 1.5px solid rgba(200,169,110,0.25);
+    border-radius: 8px;
+    padding: 13px 16px 13px 42px;
+    font-family: var(--body);
+    font-size: var(--fs-base);
+    color: var(--paper);
+    outline: none;
+    transition: border-color .2s ease, background .2s ease;
+  }
+  .search-box input::placeholder{ color: #7d8199; }
+  .search-box input:focus{ border-color: var(--gold); background: var(--navy-lighter); }
+  .search-meta{
+    margin-top: 8px;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: #8a8fae;
+    min-height: 16px;
+  }
+  .search-meta .pillar-tag{
+    display:inline-block;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    padding: 2px 8px;
+    border-radius: 999px;
+    margin-right: 6px;
+  }
+  .card .origin-pillar{
+    display:inline-block;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--pc);
+    margin-bottom: 8px;
+    opacity: 0.85;
+  }
+
+  /* ===== LOADING / ERROR STATES ===== */
+  .load-state{
+    text-align:center;
+    padding: 80px 20px;
+    font-family: var(--mono);
+    color: #8a8fae;
+  }
+  .load-state.error{
+    max-width: 640px;
+    margin: 0 auto;
+    text-align: left;
+    background: var(--navy-light);
+    border: 1px solid rgba(200,169,110,0.25);
+    border-radius: 8px;
+    padding: 28px 32px;
+  }
+  .load-state.error h3{
+    font-family: var(--display);
+    color: var(--gold-bright);
+    margin-bottom: 12px;
+    font-size: var(--fs-md);
+  }
+  .load-state.error code{
+    background: rgba(0,0,0,0.3);
+    padding: 2px 8px;
+    border-radius: 4px;
+    color: var(--gold);
+  }
+  .load-state.error p{ margin-top: 10px; line-height: 1.6; font-family: var(--body); color: #c7cadf; }
+  .spinner{
+    width: 28px; height: 28px;
+    border: 2px solid rgba(200,169,110,0.2);
+    border-top-color: var(--gold);
+    border-radius: 50%;
+    margin: 0 auto 16px;
+    animation: spin 0.8s linear infinite;
+  }
+  @keyframes spin{ to{ transform: rotate(360deg); } }
+
+  footer{
+    text-align:center;
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: #565c73;
+    padding: 30px 20px 50px;
+  }
+
+  /* ===== SPARRING CARDS ===== */
+  .sparring{
+    margin-top: 34px;
+    padding-top: 24px;
+    border-top: 1px dashed rgba(200,169,110,0.3);
+  }
+  .spar-stack{ display:flex; flex-direction:column; gap:10px; }
+  .spar-card{
+    border: 1px solid rgba(247,245,240,0.1);
+    border-left: 3px solid var(--pc);
+    border-radius: 6px;
+    background: var(--navy-light);
+    padding: 14px 18px;
+    cursor: pointer;
+    transition: background .2s ease;
+  }
+  .spar-card:hover{ background: var(--navy-lighter); }
+  .spar-card .spar-label{
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    letter-spacing:0.08em;
+    text-transform:uppercase;
+    color: var(--pc);
+    display:flex; align-items:center; justify-content:space-between;
+  }
+  .spar-card .spar-hint{ font-family: var(--mono); font-size: var(--fs-xs); color:#8a8fae; }
+  .spar-card .spar-q{
+    display:none;
+    font-family: var(--serif);
+    font-style: italic;
+    font-size: var(--fs-md);
+    color: var(--paper);
+    margin-top:10px;
+    line-height:1.5;
+  }
+  .spar-card .spar-a{
+    display:none;
+    font-size: var(--fs-sm);
+    color: #c7cadf;
+    line-height:1.6;
+    margin-top:12px;
+    padding-top:12px;
+    border-top: 1px solid rgba(247,245,240,0.08);
+  }
+  .spar-card[data-state="1"] .spar-q{ display:block; }
+  .spar-card[data-state="2"] .spar-q{ display:block; }
+  .spar-card[data-state="2"] .spar-a{ display:block; }
+  .spar-card[data-state="2"]{ cursor:default; }
+  .spar-card[data-state="2"]:hover{ background: var(--navy-light); }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation: none !important; transition: none !important; }
+  }
+
+  /* ===== FONT BAR ===== */
+  body{ padding-bottom: 64px; } /* keep content clear of the fixed bar */
+  .font-bar{
+    position: fixed;
+    left: 0; right: 0; bottom: 0;
+    z-index: 50;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+    padding: 10px clamp(16px,4vw,40px);
+    background: var(--navy-light);
+    border-top: 1px solid rgba(200,169,110,0.2);
+  }
+  .font-bar button{
+    font-family: var(--mono);
+    background: transparent;
+    border: 1px solid rgba(200,169,110,0.3);
+    color: var(--paper);
+    border-radius: 6px;
+    padding: 7px 13px;
+    cursor: pointer;
+    font-size: 0.85rem;
+    line-height: 1;
+    transition: background .15s ease, border-color .15s ease;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .font-bar button:hover{ background: rgba(200,169,110,0.12); border-color: var(--gold); }
+  .font-bar button:active{ background: rgba(200,169,110,0.2); }
+  .font-bar button:disabled{ opacity: 0.35; cursor: default; }
+  .font-bar button:disabled:hover{ background: transparent; border-color: rgba(200,169,110,0.3); }
+  .font-bar .fb-label{
+    font-family: var(--mono);
+    font-size: 0.68rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #8a8fae;
+    margin: 0 10px;
+    min-width: 40px;
+    text-align: center;
+  }
+  .font-bar .fb-dec{ font-size: 0.75rem; }
+  .font-bar .fb-inc{ font-size: 1rem; }
+  .font-bar .fb-reset{ font-family: var(--body); font-size: 0.78rem; }
+
+  /* ===== TABLET / IPAD RANGE ===== */
+  @media (min-width: 768px) and (max-width: 1024px){
+    main{ max-width: 920px; padding-left: 40px; padding-right: 40px; }
+    .grid{ grid-template-columns: repeat(3, 1fr); gap: 20px; }
+    header{ padding-left: 40px; padding-right: 40px; }
+    .search-wrap{ padding-left: 40px; padding-right: 40px; }
+    nav.pillars{ padding-left: 40px; padding-right: 40px; }
+    .pillar-btn{ padding: 11px 22px 10px; font-size: 0.92rem; }
+    .card{ padding: 22px 24px; }
+    .detail-head h2{ font-size: 2rem; }
+    .accordion-trigger{ padding: 18px 4px; }
+    .font-bar button{ padding: 9px 16px; font-size: 0.92rem; }
+  }
+  @media (min-width: 1025px) and (max-width: 1366px) and (orientation: landscape){
+    /* iPad Pro / large tablet landscape */
+    main{ max-width: 1100px; }
+    .grid{ grid-template-columns: repeat(4, 1fr); }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">
+    <svg class="brand-icon" width="34" height="34" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M18 2 L11 10.5 M18 2 L25 10.5" stroke="#ddc48f" stroke-width="1.4" stroke-linecap="round" opacity="0.65"/>
+      <rect x="14" y="8.5" width="8" height="6" rx="1" fill="#ddc48f"/>
+      <path d="M15 14.5 L21 14.5 L23.2 30.5 L12.8 30.5 Z" fill="#f7f5f0"/>
+      <rect x="13.4" y="17.5" width="9.2" height="2.4" fill="#1e2233"/>
+      <rect x="13" y="23.5" width="10" height="2.4" fill="#1e2233"/>
+      <rect x="9.5" y="30.5" width="17" height="2.8" rx="1" fill="#ddc48f"/>
+    </svg>
+    <h1>Tower of Hercules</h1>
+  </div>
+</header>
+
+<div class="search-wrap">
+  <div class="search-box">
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <circle cx="11" cy="11" r="7" stroke="#ddc48f" stroke-width="2"/>
+      <path d="M20 20L16.5 16.5" stroke="#ddc48f" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    <input type="text" id="searchInput" placeholder="Search the whole reference — theorists, concepts, keywords..." oninput="handleSearch(this.value)" autocomplete="off">
+  </div>
+  <p class="search-meta" id="searchMeta"></p>
+</div>
+
+<nav class="pillars" id="pillarNav"></nav>
+
+<main>
+  <div id="loadState" class="load-state">
+    <div class="spinner"></div>
+    <p>Loading the reference — five pillars, from data/*.json...</p>
+  </div>
+
+  <div id="gridView" style="display:none">
+    <p class="section-label" id="gridLabel" style="--pc: var(--gold)">Pillar</p>
+    <h2 class="section-title">Browse concepts</h2>
+    <div class="grid" id="cardGrid"></div>
+  </div>
+
+  <div id="detailView" class="detail">
+    <button class="back-btn" onclick="showGrid()">← Back to all concepts</button>
+    <div class="detail-head">
+      <p class="eyebrow" id="dEyebrow"></p>
+      <h2 id="dTitle"></h2>
+    </div>
+    <div id="dAccordion"></div>
+    <div class="sparring">
+      <p class="section-label">Sparring</p>
+      <div class="spar-stack" id="dSparring"></div>
+    </div>
+    <div class="connections">
+      <p class="section-label">Connections</p>
+      <div class="pill-row" id="dConnections"></div>
+    </div>
+  </div>
+</main>
+
+<footer>Five pillars, cross-linked. Content lives in <code>data/*.json</code> — this shell never changes for new content.</footer>
+
+<div class="font-bar" role="group" aria-label="Adjust text size">
+  <button class="fb-dec" onclick="adjustFont(-1)" aria-label="Decrease text size">A−</button>
+  <span class="fb-label" id="fbLabel">100%</span>
+  <button class="fb-inc" onclick="adjustFont(1)" aria-label="Increase text size">A+</button>
+  <button class="fb-reset" onclick="resetFont()" aria-label="Reset text size">Reset</button>
+</div>
+
+<script>
+const PILLARS = {
+  sociology:  { label: "Sociology",  color: "var(--c-sociology)" },
+  psychology: { label: "Psychology", color: "var(--c-psychology)" },
+  physiology: { label: "Physiology", color: "var(--c-physiology)" },
+  aviation:   { label: "Aviation",   color: "var(--c-aviation)" },
+  law:        { label: "Law",        color: "var(--c-law)" },
+};
+
+let ENTRIES = [];
+
+function renderNav(){
+  const nav = document.getElementById('pillarNav');
+  nav.innerHTML = Object.entries(PILLARS).map(([key,p],i)=>
+    `<button class="pillar-btn ${i===0?'active':''}" style="--pc:${p.color}" onclick="selectPillar('${key}', this)">
+      <span class="dot"></span>${p.label}
+    </button>`).join('');
+}
+
+let currentPillar = 'sociology';
+let searchQuery = '';
+
+function selectPillar(key, btn){
+  currentPillar = key;
+  searchQuery = '';
+  document.getElementById('searchInput').value = '';
+  document.getElementById('searchMeta').textContent = '';
+  document.querySelectorAll('.pillar-btn').forEach(b=>b.classList.remove('active'));
+  if(btn) btn.classList.add('active');
+  renderGrid();
+  showGrid();
+}
+
+function entryMatches(e, q){
+  const hay = [
+    e.title, e.teaser,
+    ...Object.values(e.sections || {}),
+    ...(e.sparring || []).flatMap(s => [s.q, s.a])
+  ].join(' ').toLowerCase();
+  return hay.includes(q);
+}
+
+function handleSearch(value){
+  searchQuery = value.trim().toLowerCase();
+  const meta = document.getElementById('searchMeta');
+  if(!searchQuery){
+    meta.textContent = '';
+    renderGrid();
+    showGrid();
+    return;
+  }
+  const results = ENTRIES.filter(e => entryMatches(e, searchQuery));
+  meta.textContent = `${results.length} result${results.length!==1?'s':''} across all pillars`;
+  renderSearchResults(results);
+  showGrid();
+}
+
+function renderSearchResults(results){
+  document.getElementById('gridLabel').textContent = 'Search Results';
+  document.getElementById('gridLabel').style.setProperty('--pc', 'var(--gold)');
+  const grid = document.getElementById('cardGrid');
+  if(results.length===0){
+    grid.innerHTML = `<p style="color:#8a8fae; font-family:var(--mono); font-size:var(--fs-sm);">No matches. Try a different term — search covers titles, hooks, mechanisms, and sparring questions across every pillar.</p>`;
+    return;
+  }
+  grid.innerHTML = results.map((e,i)=>{
+    const p = PILLARS[e.pillar];
+    return `<div class="card" style="--pc:${p.color}; animation-delay:${i*0.04}s" onclick="openEntry('${e.id}')">
+      <div class="origin-pillar">${p.label}</div>
+      <h3>${e.title}</h3>
+      <p>${e.teaser}</p>
+      <div class="meta">${e.links.length} connection${e.links.length!==1?'s':''}</div>
+    </div>`;
+  }).join('');
+}
+
+function renderGrid(){
+  const p = PILLARS[currentPillar];
+  document.getElementById('gridLabel').textContent = p.label;
+  document.getElementById('gridLabel').style.setProperty('--pc', p.color);
+  const grid = document.getElementById('cardGrid');
+  const items = ENTRIES.filter(e=>e.pillar===currentPillar);
+  if(items.length===0){
+    grid.innerHTML = `<p style="color:#8a8fae; font-family:var(--mono); font-size:var(--fs-sm);">No sample entries loaded for this pillar in the mockup yet — real content already exists on Notion.</p>`;
+    return;
+  }
+  grid.innerHTML = items.map((e,i)=>
+    `<div class="card" style="--pc:${p.color}; animation-delay:${i*0.05}s" onclick="openEntry('${e.id}')">
+      <h3>${e.title}</h3>
+      <p>${e.teaser}</p>
+      <div class="meta">${e.links.length} connection${e.links.length!==1?'s':''}</div>
+    </div>`).join('');
+}
+
+function openEntry(id){
+  const e = ENTRIES.find(x=>x.id===id);
+  const p = PILLARS[e.pillar];
+  document.getElementById('dEyebrow').textContent = p.label;
+  document.getElementById('dEyebrow').style.setProperty('--pc', p.color);
+  document.getElementById('dTitle').textContent = e.title;
+  document.querySelector('.detail-head').style.setProperty('--pc', p.color);
+
+  const acc = document.getElementById('dAccordion');
+  acc.innerHTML = Object.entries(e.sections).map(([label,content],i)=>
+    `<div class="accordion-item" style="--pc:${p.color}">
+      <button class="accordion-trigger" aria-expanded="${i===0?'true':'false'}" onclick="toggleAcc(this)">
+        ${label} <span class="chev">▾</span>
+      </button>
+      <div class="accordion-panel" style="max-height:${i===0?'500px':'0'}">
+        <div class="inner">${content}</div>
+      </div>
+    </div>`).join('');
+
+  const conn = document.getElementById('dConnections');
+  document.querySelector('.connections .section-label').style.setProperty('--pc', p.color);
+  conn.innerHTML = e.links.length ? e.links.map(l=>{
+    const target = ENTRIES.find(x=>x.id===l.id);
+    const tc = target ? PILLARS[target.pillar].color : p.color;
+    return `<button class="link-pill" style="--lpc:${tc}" onclick="openEntry('${l.id}')"><span class="dot"></span>${l.label}</button>`;
+  }).join('') : `<span style="color:#565c73; font-family:var(--mono); font-size:var(--fs-xs);">No cross-links logged yet</span>`;
+
+  const spar = document.getElementById('dSparring');
+  document.querySelector('.sparring .section-label').style.setProperty('--pc', p.color);
+  const sparItems = e.sparring || [];
+  spar.innerHTML = sparItems.length ? sparItems.map((s,i)=>
+    `<div class="spar-card" style="--pc:${p.color}" data-state="0" onclick="advanceSpar(this)">
+      <div class="spar-label"><span>Sparring Question ${i+1}</span><span class="spar-hint">tap to reveal</span></div>
+      <div class="spar-q">${s.q}</div>
+      <div class="spar-a">${s.a}</div>
+    </div>`).join('') : `<span style="color:#565c73; font-family:var(--mono); font-size:var(--fs-xs);">No sparring questions logged yet</span>`;
+
+  showDetail();
+}
+
+function advanceSpar(card){
+  const state = parseInt(card.getAttribute('data-state'), 10);
+  if(state >= 2) return;
+  const next = state + 1;
+  card.setAttribute('data-state', String(next));
+  const hint = card.querySelector('.spar-hint');
+  hint.textContent = next === 1 ? 'tap to reveal answer' : 'answered';
+}
+
+function toggleAcc(btn){
+  const expanded = btn.getAttribute('aria-expanded') === 'true';
+  btn.setAttribute('aria-expanded', String(!expanded));
+  const panel = btn.nextElementSibling;
+  panel.style.maxHeight = expanded ? '0' : panel.scrollHeight + 'px';
+}
+
+function showDetail(){
+  document.getElementById('gridView').style.display = 'none';
+  document.getElementById('detailView').classList.add('active');
+  window.scrollTo({top:0, behavior:'smooth'});
+}
+function showGrid(){
+  document.getElementById('detailView').classList.remove('active');
+  document.getElementById('gridView').style.display = 'block';
+}
+
+const PILLAR_FILES = ['sociology', 'psychology', 'physiology', 'aviation', 'law'];
+
+async function loadData(){
+  const loadEl = document.getElementById('loadState');
+  const gridEl = document.getElementById('gridView');
+
+  if(location.protocol === 'file:'){
+    loadEl.innerHTML = `
+      <div class="load-state error">
+        <h3>Can't load data over file://</h3>
+        <p>This shell fetches its content from <code>data/sociology.json</code>, <code>data/psychology.json</code>, and three more — that's how the app stays content-free and editable without touching this file. Browsers block <code>fetch()</code> from a page opened directly (double-clicked), for security reasons unrelated to this app specifically.</p>
+        <p>Serve this folder over a trivial local server instead. From a terminal, inside the folder containing <code>index.html</code> and <code>data/</code>:</p>
+        <p><code>python3 -m http.server 8000</code></p>
+        <p>Then open <code>http://localhost:8000</code> in your browser. Any static host (GitHub Pages, Netlify, a Notion-adjacent host) works the same way once deployed — this limitation is specific to opening the raw file locally.</p>
+      </div>`;
+    return;
+  }
+
+  try{
+    const responses = await Promise.all(
+      PILLAR_FILES.map(p => fetch(`data/${p}.json`).then(r => {
+        if(!r.ok) throw new Error(`${p}.json — HTTP ${r.status}`);
+        return r.json();
+      }))
+    );
+    ENTRIES = responses.flat();
+
+    // integrity check, not just a happy-path load
+    const ids = ENTRIES.map(e => e.id);
+    const dupes = ids.filter((id,i) => ids.indexOf(id) !== i);
+    const deadLinks = [];
+    ENTRIES.forEach(e => (e.links||[]).forEach(l => { if(!ids.includes(l.id)) deadLinks.push(`${e.id} -> ${l.id}`); }));
+    if(dupes.length || deadLinks.length){
+      console.warn('Data integrity issue on load:', { dupes, deadLinks });
+    }
+
+    loadEl.style.display = 'none';
+    gridEl.style.display = 'block';
+    renderNav();
+    renderGrid();
+  } catch(err){
+    loadEl.innerHTML = `
+      <div class="load-state error">
+        <h3>Couldn't load the data files</h3>
+        <p><code>${err.message}</code></p>
+        <p>Confirm the <code>data/</code> folder (with <code>sociology.json</code>, <code>psychology.json</code>, <code>physiology.json</code>, <code>aviation.json</code>, <code>law.json</code>) sits next to this HTML file, and that you're serving over http(s), not file://.</p>
+      </div>`;
+    console.error(err);
+  }
+}
+
+loadData();
+
+if ('serviceWorker' in navigator){
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('sw.js').catch(err => console.warn('Service worker registration failed:', err));
+  });
+}
+
+/* ===== FONT SCALING =====
+   Every font-size in this shell is set in rem, so scaling the root <html>
+   element's font-size scales the entire app proportionally — headings,
+   body text, cards, sparring questions, all of it, in one place. */
+const FONT_STEPS = [75, 81.25, 87.5, 93.75, 100, 106.25, 112.5, 118.75, 125, 131.25, 137.5, 150];
+const DEFAULT_STEP_INDEX = 4; // 100%
+let fontStepIndex = DEFAULT_STEP_INDEX;
+
+function applyFontStep(){
+  const pct = FONT_STEPS[fontStepIndex];
+  document.documentElement.style.fontSize = pct + '%';
+  document.getElementById('fbLabel').textContent = pct + '%';
+  document.querySelector('.fb-dec').disabled = fontStepIndex === 0;
+  document.querySelector('.fb-inc').disabled = fontStepIndex === FONT_STEPS.length - 1;
+  try{ localStorage.setItem('toh-font-step', String(fontStepIndex)); }catch(e){ /* storage unavailable, degrade silently */ }
+}
+
+function adjustFont(direction){
+  fontStepIndex = Math.min(FONT_STEPS.length - 1, Math.max(0, fontStepIndex + direction));
+  applyFontStep();
+}
+
+function resetFont(){
+  fontStepIndex = DEFAULT_STEP_INDEX;
+  applyFontStep();
+}
+
+(function initFont(){
+  try{
+    const saved = localStorage.getItem('toh-font-step');
+    if(saved !== null && FONT_STEPS[parseInt(saved,10)] !== undefined){
+      fontStepIndex = parseInt(saved, 10);
+    }
+  }catch(e){ /* storage unavailable, use default */ }
+  applyFontStep();
+})();
+</script>
+
+</body>
+</html>
