@@ -198,5 +198,198 @@
         "a": "Blackstone's number was rhetorical, not derived from precise calculation, and isn't presented here as a literally calibrated ratio. The substantive claim is the asymmetry itself — wrongful conviction is worse than wrongful acquittal — not the specific number. Different systems and theorists have proposed different implicit ratios reflecting the same asymmetric-error principle without claiming ten is uniquely correct."
       }
     ]
+  },
+  {
+    "id": "bentham",
+    "pillar": "law",
+    "title": "Bentham — Utilitarianism and the Codification Movement",
+    "teaser": "\"Dog law\" — a judge who waits for you to break an unstated rule, then punishes you for it, the way you'd train a dog.",
+    "sections": {
+      "Core Idea": "The \"greatest happiness principle\" — an act or law is right insofar as it maximizes aggregate utility across everyone affected. Bentham founded the codification movement: law should be systematic, clear, written code, not scattered precedent and judicial discretion.",
+      "The Hook": "<em>Macaulay was explicitly instructed to draft India's penal law along Benthamite lines. The result, the Indian Penal Code of 1860, is the direct ancestor of Pakistan's own Penal Code — Bentham's philosophy isn't a historical footnote, it's the drafting logic embedded in the PPC's structure.</em>",
+      "Application": "<strong>Law:</strong> utilitarian reasoning (does this rule produce the best aggregate outcome) remains a standard justificatory framework for deterrence and proportionality arguments in criminal law, alongside retributive and rights-based reasoning."
+    },
+    "links": [
+      {
+        "id": "austin",
+        "label": "Austin — Command Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Bentham's whole project was replacing unpredictable judicial \"dog law\" with clear, comprehensive codes, why does the PPC — his own direct descendant — still require so much judicial interpretation to apply in practice?",
+        "a": "A genuine limitation Bentham likely underestimated — no code can anticipate every future fact pattern precisely enough to apply itself without interpretation. Closer to a vindication of Hart's later point about a rule's \"penumbra\" of genuinely uncertain edge-cases — codification reduces the scope of judicial discretion compared to pure common law, but doesn't eliminate it entirely."
+      },
+      {
+        "q": "Utilitarianism can 'in principle justify severe harm to a minority' for a larger aggregate benefit. Does the PPC, as Bentham's direct descendant, actually contain provisions vulnerable to this exact critique?",
+        "a": "A fair question worth taking seriously rather than treating the critique as purely abstract — any provision trading an individual's rights for a broader stated social good (preventive detention, deterrence-justified sentencing) sits closer to the utilitarian-justification end, and is exactly where rights-based constitutional review is supposed to do corrective work. Whether it succeeds in any specific case is a live, fact-specific question."
+      }
+    ]
+  },
+  {
+    "id": "dicey",
+    "pillar": "law",
+    "title": "Dicey — The Rule of Law",
+    "teaser": "Could a government official be sued in an ordinary court, by an ordinary citizen, for exceeding their authority, and lose? If yes, the Rule of Law holds.",
+    "sections": {
+      "Core Idea": "Three components: supremacy of regular law over arbitrary power; equality before the law, officials included; the constitution as the result of ordinary law, not its source (in Dicey's own British context).",
+      "The Hook": "<em>If officials are effectively above the law's reach in practice, the Rule of Law doesn't hold — regardless of what any constitution says on paper.</em>",
+      "Application": "<strong>Law:</strong> the direct conceptual ancestor of judicial review striking down executive action that exceeds statutory authority (ultra vires) — the entire administrative-law tradition of holding officials accountable in ordinary courts traces to this principle."
+    },
+    "links": [
+      {
+        "id": "austin",
+        "label": "Austin — Command Theory"
+      },
+      {
+        "id": "hart",
+        "label": "Hart — Rule of Recognition"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "Pakistan explicitly rejects Dicey's third component (constitution as source of rights) by having a written constitution. Does that put the other two components at risk too, or are they independent?",
+        "a": "Genuinely more independent than Dicey's own formulation implied — supremacy of law and equality before it don't logically require an unwritten, judicially-evolved constitution. They're secured instead by explicit constitutional text (Article 4, Article 25) that a court enforces the same way a British court enforces unwritten convention. Bundled together in Dicey's own context, not logically interdependent."
+      },
+      {
+        "q": "What about a state where the mechanism to sue officials exists on paper and is occasionally used, but only against politically weak officials, never powerful ones? Does Dicey's test detect that kind of selective, cosmetic Rule of Law?",
+        "a": "Not fully on its own — Dicey's test asks a yes/no institutional-capacity question (does the mechanism exist and get used at all), not a distributional one (used consistently across every category of official). This is exactly the gap the differential-enforcement material elsewhere in this knowledgebase is designed to catch — complementary, not redundant: one asks whether the mechanism exists, the other whether it's applied equally once it does."
+      }
+    ]
+  },
+  {
+    "id": "kelsen",
+    "pillar": "law",
+    "title": "Kelsen — The Grundnorm (Pure Theory of Law)",
+    "teaser": "A constitution is valid because a prior one authorized it — until you reach a first one, validated by nothing. That's the Grundnorm.",
+    "sections": {
+      "Core Idea": "Law as a self-contained hierarchical system of norms, each deriving validity from a higher norm, up to a single foundational norm that must simply be presupposed, not validated further.",
+      "The Hook": "<em>Kelsen fled Austria in 1933 as the Nazi regime seized power — watching a legal system he'd spent his career formally describing get captured by a regime his own theory, taken to its logical extreme, couldn't explain why should be resisted.</em>",
+      "Application": "<strong>Law:</strong> Pakistan's doctrine-of-necessity cases are frequently analyzed in explicitly Kelsenian language — did a coup create a new Grundnorm, or remain illegitimate against the old one?"
+    },
+    "links": [
+      {
+        "id": "hart",
+        "label": "Hart — Rule of Recognition"
+      },
+      {
+        "id": "natural-law",
+        "label": "Natural Law Tradition"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the Grundnorm must simply be 'presupposed,' isn't that smuggling in exactly the kind of foundational assumption his 'pure' theory claims to avoid?",
+        "a": "A genuinely sharp, frequently made criticism Kelsen was aware of — his defense is that the Grundnorm is a purely logical presupposition required for validity-talk to make sense, not a moral or sociological claim. Whether that distinction holds up, or is a distinction without a real difference, remains genuinely contested."
+      },
+      {
+        "q": "Kelsen fled the Nazi regime his own theory couldn't explain resisting. Doesn't that suggest a real, practical moral blind spot?",
+        "a": "The strongest available real-world illustration of natural law theorists' central objection to pure positivism — a theory that can formally validate a legal system regardless of its moral content has, by design, nothing further to say about why that system shouldn't be obeyed. Doesn't refute the theory logically, but makes the abstract debate feel urgent, not academic."
+      }
+    ]
+  },
+  {
+    "id": "legal-realism",
+    "pillar": "law",
+    "title": "Holmes & Llewellyn — Legal Realism (The Prediction Theory)",
+    "teaser": "\"The prophecies of what the courts will do in fact, and nothing more pretentious, are what I mean by the law.\"",
+    "sections": {
+      "Core Idea": "Law is not abstract rules mechanically applied — it's what courts actually, predictably do. Study what judges have done and will likely do, not the rule in the abstract.",
+      "The Hook": "<em>Reacted against formalism — judges mechanically applying clear rules to reach determinate answers. Realists argued actual decisions are shaped by far more, only written up afterward to sound inevitable.</em>",
+      "Application": "<strong>Law:</strong> directly relevant to client counseling — predicting what a specific court will actually do, not just reciting the black-letter rule."
+    },
+    "links": [
+      {
+        "id": "differential-offending-enforcement",
+        "label": "Differential Offending vs. Enforcement"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If law is just a prediction of what courts will do, doesn't that make legal argument itself pointless?",
+        "a": "Overstates the claim past what most realists actually argued — the theory says the rule ALONE isn't a complete predictor, not that argument is causally irrelevant. A skilled lawyer's argument is itself one of the real-world inputs shaping what a judge does, fully consistent with realism."
+      }
+    ]
+  },
+  {
+    "id": "raz-authority",
+    "pillar": "law",
+    "title": "Raz — The Service Conception of Authority",
+    "teaser": "A doctor's instruction isn't one factor to weigh against your own judgment — if they're a genuine authority, it's meant to replace your weighing entirely.",
+    "sections": {
+      "Core Idea": "A directive has genuine authority when following it helps you comply better with reasons that already apply to you than weighing those reasons yourself — \"exclusionary reasons\" that pre-empt independent reasoning rather than compete with it.",
+      "The Hook": "<em>Raz's own example: you're better off following a traffic light's authority than independently calculating the optimal moment to cross at each intersection.</em>",
+      "Application": "<strong>Law:</strong> a genuine test for evaluating regulatory authority's proper scope — replacing reasoning where the regulated party would predictably do worse, versus claiming authority over a domain they're better positioned to judge themselves."
+    },
+    "links": [
+      {
+        "id": "austin",
+        "label": "Austin — Command Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If authority is legitimate only when it helps you comply with reasons that already apply to you, isn't the framework circular — how do you know the 'right' reasons independent of the authority, to test whether it helps?",
+        "a": "A real methodological challenge — Raz's response is that underlying first-order reasons (safety, honesty) can be identified and reasoned about independently of any specific authority, even imperfectly. The framework would be circular only if the reasons were themselves defined by the authority's own directives, which Raz's theory explicitly denies."
+      }
+    ]
+  },
+  {
+    "id": "critical-legal-studies",
+    "pillar": "law",
+    "title": "Critical Legal Studies — Law as Politics, the Indeterminacy Thesis",
+    "teaser": "\"Law is politics\" — not that judges act in bad faith, but that legal reasoning's appearance of neutrality is itself what CLS set out to unmask.",
+    "sections": {
+      "Core Idea": "For hard cases, available legal materials can typically support more than one outcome — the actual decision often reflects political commitments dressed in neutral-sounding reasoning after the fact, not discovered by that reasoning.",
+      "The Hook": "<em>Directly challenges Dworkin's Hercules: CLS argues doctrinal materials in genuinely contested cases are balanced or contradictory enough that a skilled advocate can construct a respectable argument for more than one outcome.</em>",
+      "Application": "<strong>Law:</strong> recognizing a hard case's materials can support both sides is precisely why hard cases require genuine persuasive skill, not mechanical rule-application."
+    },
+    "links": [
+      {
+        "id": "dworkin",
+        "label": "Dworkin — Law as Integrity"
+      },
+      {
+        "id": "kelsen",
+        "label": "Kelsen — The Grundnorm"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If CLS is right that legal materials rarely determine outcomes in hard cases, doesn't that make Dworkin's Hercules project simply wrong?",
+        "a": "A genuine, direct disagreement, not one where both can be fully right on the core claim — Dworkin assumes hard cases DO have a single best-justified answer; CLS denies this for a meaningful class of genuinely hard cases. What can coexist is a scope disagreement, not a full reconciliation, for the overlapping set of truly hard cases."
+      },
+      {
+        "q": "CLS's own name is explicitly political. Does that political starting point undermine its descriptive claim about indeterminacy?",
+        "a": "Genuinely separable — the indeterminacy thesis is, in principle, a testable descriptive claim about doctrinal materials, evaluable independent of CLS's broader political commitments. A reader could accept the thesis while rejecting the political program, or vice versa — treating them as a package deal is itself a simplification CLS's more careful scholars would resist."
+      }
+    ]
+  },
+  {
+    "id": "finnis-basic-goods",
+    "pillar": "law",
+    "title": "Finnis — Basic Goods and Practical Reasonableness",
+    "teaser": "Life, knowledge, play, friendship — irreducible goods that can't be traded off against each other on a single scale the way utility can.",
+    "sections": {
+      "Core Idea": "A modern restatement of natural law around self-evidently valuable \"basic goods\" (life, knowledge, play, aesthetic experience, sociability, practical reasonableness, religion broadly) plus nine requirements of practical reasonableness for pursuing them coherently.",
+      "The Hook": "<em>You can't trade \"more knowledge\" against \"more friendship\" on a single scale — unlike Bentham's utility calculation, each basic good is irreducibly valuable in itself.</em>",
+      "Application": "<strong>Law:</strong> a genuine alternative to purely utilitarian policy justification for constitutional rights reasoning — a right defended as protecting an irreducible good, not maximizing aggregate welfare."
+    },
+    "links": [
+      {
+        "id": "natural-law",
+        "label": "Natural Law Tradition"
+      },
+      {
+        "id": "bentham",
+        "label": "Bentham — Utilitarianism"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the basic goods can't be ranked against each other, how does the framework ever resolve a real conflict between them without some further ranking principle doing the actual work?",
+        "a": "A real, frequently pressed challenge — Finnis's answer relies on the requirements of practical reasonableness doing genuine work without becoming a disguised ranking: respecting every basic good rules out directly damaging one purely as a means to another, while allowing incidental effects. Whether this \"intended vs. merely foreseen\" distinction avoids smuggling in a ranking, or just relocates it, remains contested among natural law theorists themselves."
+      }
+    ]
   }
 ]
