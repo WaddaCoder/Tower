@@ -1,0 +1,202 @@
+[
+  {
+    "id": "austin",
+    "pillar": "law",
+    "title": "Austin — Command Theory of Law",
+    "teaser": "Law as the command of a sovereign, backed by sanction — 'the gunman writ large,' per Hart's own later critique.",
+    "sections": {
+      "Core Idea": "Law is the command of a sovereign, backed by the threat of sanction, habitually obeyed. Whether a law is good is separate from whether it's valid.",
+      "The Hook": "<em>Hart's critique: Austin's model can't distinguish a legitimate legal system from a robber holding a gun to your head — both are just commands backed by threats that people habitually obey.</em>"
+    },
+    "links": [
+      {
+        "id": "hart",
+        "label": "Hart — Rule of Recognition"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If law is just commands backed by threats, what happens to a law that's never enforced — is it still a command?",
+        "a": "Under strict Austinian theory, arguably not fully a 'law' in the operative sense — a command habitually disobeyed with no sanction following isn't really commanding anything. One of the theory's real weaknesses: Hart's Rule of Recognition can explain why an unenforced-but-still-valid law remains law (created through the recognized process), where Austin's model struggles."
+      }
+    ]
+  },
+  {
+    "id": "hart",
+    "pillar": "law",
+    "title": "Hart — The Rule of Recognition",
+    "teaser": "The bedrock social fact — officials' shared practice of what counts as law — that a legal system's validity ultimately rests on.",
+    "sections": {
+      "Core Idea": "Primary rules govern conduct directly; secondary rules govern how primary rules are created, changed, and recognized. The Rule of Recognition is the master secondary rule specifying what counts as law at all.",
+      "The Hook": "<em>Not itself validated by anything further back — the bedrock the whole system rests on, the way a foundation doesn't rest on another foundation beneath it.</em>"
+    },
+    "links": [
+      {
+        "id": "austin",
+        "label": "Austin — Command Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the Rule of Recognition is just 'what officials happen to accept,' what stops it from being whatever those officials say it is, with no real constraint at all?",
+        "a": "The genuine weak point Dworkin exploited. Hart's answer is that it's a social fact about actual, converging official practice, not any individual official's say-so — but in a genuinely contested moment (a coup, a constitutional crisis), where officials themselves disagree about what counts as law, the model has less to say than it does in stable times. Pakistan's own doctrine-of-necessity history tests exactly this limit."
+      }
+    ]
+  },
+  {
+    "id": "dworkin",
+    "pillar": "law",
+    "title": "Dworkin — Law as Integrity (Principles, Not Just Rules; Judge Hercules)",
+    "teaser": "Legal systems run on principles with weight, not just binary rules — Hercules decides hard cases by finding the interpretation that makes the whole system cohere.",
+    "sections": {
+      "Core Idea": "Principles have weight rather than binary application, letting Dworkin claim a single right answer exists in hard cases if a judge correctly does the interpretive work of \"fit\" and \"justification.\"",
+      "The Hook": "<em>The \"chain novel\": each judge deciding a hard case adds the next chapter to a book many previous authors already wrote, constrained to make the best possible sense of everything that came before.</em>"
+    },
+    "links": [
+      {
+        "id": "hart",
+        "label": "Hart — Rule of Recognition"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Hercules must find the interpretation that makes the whole system make the 'most coherent moral sense,' whose sense of coherence — isn't this smuggling the judge's own values in through the back door?",
+        "a": "Dworkin's defense is that this isn't unconstrained — 'fit' requires genuinely according with existing legal materials, not just feeling coherent personally; a reading that ignores precedent to reach a preferred outcome fails fit regardless of felt coherence. Critics still argue the fit constraint is looser than Dworkin claims — a real, unresolved tension the entry's own caveat names."
+      },
+      {
+        "q": "The chain novel implies each judge is constrained by everyone before them. Doesn't a precedent-overturning decision require breaking that constraint entirely?",
+        "a": "Dworkin's answer: overturning precedent can still be the 'best fit' move if the overturned doctrine was itself a mistake that doesn't cohere with the deeper principles running through the rest of the tradition. The chain novel doesn't treat every prior chapter as equally authoritative, just requires engaging seriously with the whole body of material and explaining why a precedent doesn't actually belong."
+      }
+    ]
+  },
+  {
+    "id": "fuller",
+    "pillar": "law",
+    "title": "Fuller — The Inner Morality of Law (Eight Desiderata)",
+    "teaser": "Law has a built-in procedural morality independent of substantive content — a system failing basic lawmaking requirements isn't functioning as law at all.",
+    "sections": {
+      "Core Idea": "Eight failure modes: too ad hoc, unpublicized, retroactive, unintelligible, contradictory, impossible, too frequently changed, or administered differently than announced.",
+      "The Hook": "<em>A king who wants to fail at making law entirely could do it by keeping rules secret and changing them retroactively — none of that requires a single substantively unjust command.</em>"
+    },
+    "links": [
+      {
+        "id": "hart",
+        "label": "Hart — Rule of Recognition"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If procedural morality is separate from substantive morality, could a genuinely evil law still pass Fuller's eight-part test perfectly — published clearly, applied prospectively, consistently enforced?",
+        "a": "Yes — exactly the limit Fuller's own framework accepts. His claim is narrower than full natural law: procedural failure is sufficient to undermine a system's claim to function as law, but procedural success doesn't guarantee substantive justice. Fuller's framework catches one specific failure mode, not every possible one."
+      }
+    ]
+  },
+  {
+    "id": "natural-law",
+    "pillar": "law",
+    "title": "Natural Law Tradition — Aquinas to Finnis (Lex Iniusta Non Est Lex)",
+    "teaser": "Human law must be measured against a higher moral order — an unjust law fails to bind in conscience, whatever formal procedure enacted it.",
+    "sections": {
+      "Core Idea": "The tradition separates validity (properly enacted) from obligation (does it bind in conscience) — positivism collapses these into one question; natural law insists they can come apart.",
+      "The Hook": "<em>Nuremberg: defendants argued they'd simply followed valid German law — the tribunal's rejection, for acts formally legal but substantively monstrous, is natural law theory's most consequential real-world vindication.</em>"
+    },
+    "links": [
+      {
+        "id": "fuller",
+        "label": "Fuller"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If validity and obligation can come apart, and an unjust law 'fails to bind in conscience,' can anyone simply declare any law they disagree with unjust and refuse to follow it?",
+        "a": "No — the tradition's own most common misreading. Radbruch's 'intolerable degree' threshold guards against exactly this. The claim isn't that ordinary disagreement suspends obligation; it's that a narrow category of extreme, systemic injustice crosses a threshold ordinary legal disagreement doesn't. Treating routine policy disagreement as equivalent is a real misapplication, not a legitimate extension."
+      },
+      {
+        "q": "Article 8 is cited as natural-law reasoning built into Pakistan's constitution. But a court applying Article 8 is just applying valid positive law — isn't that positivism wearing natural-law clothing?",
+        "a": "A genuinely sharp observation made about constitutional bills of rights generally. Once a natural-law-style moral constraint gets written into positive law, applying it looks procedurally identical to ordinary positivist rule-following. What remains distinctively natural-law is the deeper justification for why the provision exists at all — the text encodes the insight, but a court applying it is mechanically doing exactly what Hart's model would predict."
+      }
+    ]
+  },
+  {
+    "id": "coase",
+    "pillar": "law",
+    "title": "Coase — The Coase Theorem",
+    "teaser": "Without transaction costs, it doesn't matter which party a rule initially assigns a right to — bargaining reallocates it to whoever values it most.",
+    "sections": {
+      "Core Idea": "Since real transaction costs are never zero, the initial legal allocation matters precisely to the extent bargaining is costly, slow, or blocked.",
+      "The Hook": "<em>A rancher's cattle straying onto a farmer's land — whichever party the law makes liable, they bargain to the same efficient outcome if bargaining is costless; the rule only changes who pays whom.</em>"
+    },
+    "links": [
+      {
+        "id": "cooper-vane",
+        "label": "Cooper Vane"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If transaction costs are always positive in reality, and the theorem is 'best understood as a thought experiment,' does it give any real policy guidance, or just a useful fiction?",
+        "a": "Real practical guidance, precisely from what the thought experiment reveals by contrast — knowing what happens at zero transaction costs tells you exactly which real-world frictions matter, focusing policy attention on reducing the specific costs blocking an efficient bargain rather than on the initial rights allocation itself. The fiction is the diagnostic tool."
+      }
+    ]
+  },
+  {
+    "id": "calabresi-melamed",
+    "pillar": "law",
+    "title": "Calabresi & Melamed — Property Rules vs. Liability Rules (The Cathedral)",
+    "teaser": "Two ways law protects an entitlement — requiring consent to transfer it, or allowing a taking with after-the-fact compensation.",
+    "sections": {
+      "Core Idea": "Property rules suit low-transaction-cost settings; liability rules suit high-transaction-cost settings (too many parties, or a holdout problem) where a court-set price substitutes for negotiation that couldn't practically happen.",
+      "The Hook": "<em>A shop with a price tag versus a shop where you take the item and a court bills you a fair price afterward — the second sounds absurd for a shop, which is exactly why the choice is a real design decision.</em>"
+    },
+    "links": [
+      {
+        "id": "coase",
+        "label": "Coase Theorem"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If liability rules exist because bargaining is too costly, couldn't you always just lower transaction costs — build a registry, a platform — and keep everything under property rules?",
+        "a": "Sometimes, and it's a real area of legal-economic innovation (patent pools, collective licensing). But some transaction-cost problems are structural, not technological: a holdout problem doesn't go away because negotiation becomes cheaper to initiate — it can get worse, since cheap negotiation makes the holdout's leverage easier to exercise, not harder."
+      }
+    ]
+  },
+  {
+    "id": "mens-rea",
+    "pillar": "law",
+    "title": "Mens Rea & Actus Reus — The Concurrence Principle",
+    "teaser": "The guilty mind must exist at the same time as the guilty act — forming intent after the act is complete doesn't satisfy either element.",
+    "sections": {
+      "Core Idea": "A guilty mind arriving after a guilty act is legally irrelevant to that act — the principle prevents liability being assigned on bad character divorced from culpable conduct at the relevant moment.",
+      "The Hook": "<em>A driver who accidentally strikes a pedestrian, then afterward wishes they'd meant to, has not committed a crime that didn't already exist at the moment of impact.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "The entry's example seems obvious. Is the concurrence principle ever genuinely hard to apply, or mostly common sense in Latin-adjacent terminology?",
+        "a": "Genuinely hard in continuing-act cases — the entry's own no-parking example shows it. When does an initially innocent act transform into a culpable one as a later intention forms, if the physical situation continues unchanged? Courts have reached different conclusions on structurally similar facts, which is why this is a live doctrinal question, not a settled, obvious rule."
+      }
+    ]
+  },
+  {
+    "id": "burden-of-proof",
+    "pillar": "law",
+    "title": "Burden and Standard of Proof — Beyond Reasonable Doubt vs. Balance of Probabilities",
+    "teaser": "Who has to prove a claim, and how convincingly — two distinct questions the system deliberately calibrates differently for criminal and civil cases.",
+    "sections": {
+      "Core Idea": "The differing standards reflect a deliberate policy choice about the relative cost of two kinds of error — Blackstone's ratio: better ten guilty escape than one innocent suffer.",
+      "The Hook": "<em>O.J. Simpson's criminal acquittal alongside his civil liability finding, on substantially the same evidence, is the clearest illustration these are genuinely different thresholds.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If 'beyond reasonable doubt' famously resists numerical definition, how can two different juries reliably apply 'the same' standard at all?",
+        "a": "A real, acknowledged limitation courts have generally accepted rather than solved — deliberately qualitative to preserve juror judgment rather than mechanizing it into false precision, but this means real variation in how strictly different juries apply it, one reason appellate review and jury-instruction standardization exist as partial, not complete, corrections."
+      },
+      {
+        "q": "Blackstone's ratio says better ten guilty go free than one innocent suffer. Doesn't that ratio need justifying — why ten, not five, or a hundred?",
+        "a": "Blackstone's number was rhetorical, not derived from precise calculation, and isn't presented here as a literally calibrated ratio. The substantive claim is the asymmetry itself — wrongful conviction is worse than wrongful acquittal — not the specific number. Different systems and theorists have proposed different implicit ratios reflecting the same asymmetric-error principle without claiming ten is uniquely correct."
+      }
+    ]
+  }
+]

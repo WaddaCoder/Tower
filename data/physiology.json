@@ -1,0 +1,242 @@
+[
+  {
+    "id": "merleau-ponty",
+    "pillar": "physiology",
+    "title": "Merleau-Ponty — Phenomenology of Perception",
+    "teaser": "Cognition cannot happen without a body — the body is constitutive of thought, not just an input device.",
+    "sections": {
+      "Core Idea": "Perception, thought, and meaning are structured from the start by having a body, moving through a physical environment.",
+      "The Hook": "<em>You don't first see a chair and then calculate how to sit in it — your body already understands 'sit-ability' as part of perceiving the chair at all.</em>",
+      "Application": "<strong>Marketing:</strong> a product's tactile feel shapes meaning before conscious evaluation — the Cotton League tactile-purchase argument."
+    },
+    "links": [
+      {
+        "id": "touch",
+        "label": "Touch — Somatosensory System"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If cognition can't happen without a body, what does that imply about an AI system with no body at all?",
+        "a": "A genuinely live, unresolved question in modern embodied-cognition research — not settled by a 1945 text that predates computing entirely. Strict embodied-cognition theorists say a disembodied system lacks something essential; others argue a rich enough sensorimotor training signal, even simulated, could satisfy the functional requirement. Flagged here as open, not resolved."
+      },
+      {
+        "q": "This entry ties to the Cotton League tactile-purchase argument. Could a good enough haptic device eventually make that argument obsolete?",
+        "a": "In principle, yes. Nothing in the framework requires the body-schema information to come specifically from unmediated touch — only that it arrive through a genuine sensorimotor channel rather than pure visual description. A haptic device good enough to transmit real texture and weight would satisfy the same requirement. Current consumer haptics aren't there yet — a technological limit, not a permanent philosophical one."
+      }
+    ]
+  },
+  {
+    "id": "touch",
+    "pillar": "physiology",
+    "title": "Touch — The Somatosensory System",
+    "teaser": "Touch is several distinct sensory channels bundled under one word — a photo cannot deliver what the hand does.",
+    "sections": {
+      "Core Idea": "Discriminative touch, thermoception, nociception, and proprioception run through different specialized receptor types.",
+      "The Hook": "<em>The direct theoretical grounding for the Cotton League channel strategy: a photo cannot deliver what the hand does.</em>"
+    },
+    "links": [
+      {
+        "id": "merleau-ponty",
+        "label": "Merleau-Ponty"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "Doesn't this argument prove too much — wouldn't it justify forcing every retail category into in-person-only sales?",
+        "a": "No — it's category-specific. The argument applies where fine texture, weight, or authenticity detail is actually part of what's being evaluated and can't be verified another way (a handmade rug's weave). For products where the relevant quality is fully captured by other channels (a book's content, a digital subscription), there's no missing sensory information for touch to supply."
+      }
+    ]
+  },
+  {
+    "id": "lakoff-johnson",
+    "pillar": "physiology",
+    "title": "Lakoff & Johnson — Conceptual Metaphor Theory",
+    "teaser": "Abstract concepts are understood by mapping them onto concrete, bodily experience — not decorative language, how thought actually works.",
+    "sections": {
+      "Core Idea": "Conceptual metaphors map a physically-grounded source domain (up/down, containers, journeys) onto a less concrete target domain, and the mapping isn't arbitrary — constrained by actual bodily experience.",
+      "The Hook": "<em>\"Prices are rising,\" \"my spirits are high\" — vertical space is a bodily experience recruited to structure entirely abstract domains because it's the only truly universal, pre-linguistic foundation available.</em>"
+    },
+    "links": [
+      {
+        "id": "merleau-ponty",
+        "label": "Merleau-Ponty"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If literally all abstract reasoning is metaphorically structured, as the strong version claims, how could you recognize a piece of 'pure' non-metaphorical thought to compare it against?",
+        "a": "Exactly the entry's own flagged weak point — the strong, no-exceptions claim is close to unfalsifiable without a clear non-metaphorical comparison case. The defensible core (some abstract reasoning is demonstrably metaphor-structured, tested against specific cases) doesn't require the universal claim to be true."
+      },
+      {
+        "q": "This entry ties directly to 'visual words.' Is that genuine theoretical grounding, or two people independently noticing the same pattern and calling it related?",
+        "a": "More than surface-level — both land on the same specific mechanism (concrete, bodily source domains carry more persuasive force than abstract ones), reached independently from academic linguistics and marketing practice, itself a form of corroboration. The real test is whether the theory predicts which words will work better before testing them, not just sharing vocabulary for the same intuition."
+      }
+    ]
+  },
+  {
+    "id": "gallagher",
+    "pillar": "physiology",
+    "title": "Gallagher — How the Body Shapes the Mind",
+    "teaser": "Body image (conscious) and body schema (automatic) are separable systems — a phantom-limb patient can know the limb is gone while still reaching for a cup with it.",
+    "sections": {
+      "Core Idea": "The body schema operates below conscious awareness and continuously updates as the body moves; disruptions produce measurable cognitive and social effects, not just motor ones.",
+      "The Hook": "<em>The two systems can come apart — exactly the evidence they're genuinely separate mechanisms, not two words for the same thing.</em>"
+    },
+    "links": [
+      {
+        "id": "merleau-ponty",
+        "label": "Merleau-Ponty"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If body image and body schema can come apart, which one is 'really' in control of behavior — is conscious belief just along for the ride?",
+        "a": "Neither is straightforwardly in control alone — they operate on different timescales for different purposes. Body schema handles fast, automatic coordination; body image handles slower conscious planning. The phantom-limb case shows they can conflict, not that one is a passive bystander — conscious body image genuinely does override automatic reaching in many other contexts."
+      }
+    ]
+  },
+  {
+    "id": "sensory-substitution",
+    "pillar": "physiology",
+    "title": "Sensory Substitution & Synesthesia — Cross-Modal Perception",
+    "teaser": "The brain doesn't care which raw sensory channel information arrives through, only that it arrives in a structured, learnable pattern.",
+    "sections": {
+      "Core Idea": "Sensory substitution devices route one sense's information through a different channel, and with training the brain learns to 'perceive' it almost as the original sense.",
+      "The Hook": "<em>A speaker wearing a vibrating sensor vest so words could be felt on the skin instead of heard — the brain doesn't care which channel, only that the pattern arrives.</em>"
+    },
+    "links": [
+      {
+        "id": "touch",
+        "label": "Touch — Somatosensory System"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the brain doesn't care which channel information arrives through, could any sufficiently rich data stream eventually replace any sense — could you 'see' through your skin as well as your eyes?",
+        "a": "Current evidence says training substantially improves substituted-channel performance but doesn't fully equal the original — bandwidth and resolution limits of the substitute channel (skin has far fewer, more widely-spaced receptors than the retina) create a real ceiling. Genuine flexibility, not unlimited."
+      },
+      {
+        "q": "If synesthesia is likely genetic cross-wiring rather than learned, why does sensory substitution training — a learned skill — produce anything like a synesthetic experience at all?",
+        "a": "They may reach a similar functional endpoint (cross-modal integration) through different routes — synesthesia through atypical wiring present early, substitution through trained cortical reorganization in adulthood. Convergent evidence for plasticity, not identical mechanisms."
+      }
+    ]
+  },
+  {
+    "id": "central-pattern-generators",
+    "pillar": "physiology",
+    "title": "Central Pattern Generators — Spinal Locomotor Autonomy",
+    "teaser": "The spinal cord itself can generate coordinated stepping motions, largely on its own, disconnected from the brain's voluntary control.",
+    "sections": {
+      "Core Idea": "CPGs are spinal interneuron networks generating rhythmic motor output from simple sensory triggers, without step-by-step brain instructions — the brain's role is more supervisory than authorial.",
+      "The Hook": "<em>A person with a complete spinal cord injury, placed on a treadmill, will involuntarily generate stepping motions with zero conscious input.</em>"
+    },
+    "links": [
+      {
+        "id": "gallagher",
+        "label": "Gallagher"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the spinal cord can generate walking without brain input, does that mean the brain is less important to movement than commonly assumed?",
+        "a": "Differently important, not less. The brain's role is supervisory — initiating, modulating, steering — rather than authoring every muscle movement. Removing brain input doesn't produce purposeful, goal-directed walking (crossing a street, avoiding an obstacle), just the raw rhythmic pattern the brain would normally recruit and direct."
+      }
+    ]
+  },
+  {
+    "id": "damasio",
+    "pillar": "physiology",
+    "title": "Damasio — The Somatic Marker Hypothesis",
+    "teaser": "Emotion isn't the enemy of rational decision-making — the body's rapid, unconscious markers pre-filter an overwhelming option set before deliberation engages.",
+    "sections": {
+      "Core Idea": "Somatic markers are learned associations between a situation-type and a bodily-emotional state, firing before conscious deliberation and biasing attention toward or away from options.",
+      "The Hook": "<em>Patients with damage to the marker-integrating brain region retain full IQ and reasoning, yet become catastrophically bad at real decisions — debating two appointment times for twenty minutes without choosing.</em>"
+    },
+    "links": [
+      {
+        "id": "kahneman-dual",
+        "label": "Kahneman & Tversky"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If emotion pre-filters options before conscious reasoning engages, how would you ever know if a decision was reasoned or just rationalized after an emotional marker already decided it?",
+        "a": "Genuinely hard to distinguish from inside any single case — which is why Damasio's evidence relies on patients who've lost the capacity entirely, comparing decision quality with and without functioning markers, rather than introspecting the sequence within one intact mind. Clinical contrast, not introspection, makes the claim testable."
+      },
+      {
+        "q": "This entry says it complements Kahneman's System 1 caveat. But both describe fast, unconscious processing — are these two different mechanisms, or one mechanism described twice?",
+        "a": "A fair question the entry doesn't fully resolve. Damasio's specific contribution is the physiological, body-based mechanism — an actual felt bodily state — underlying the phenomenon; Kahneman's is the higher-level cognitive-science description of its behavioral effects. Likely two levels of description of a related process, worth treating as complementary rather than redundant, but genuinely unreconciled here."
+      }
+    ]
+  },
+  {
+    "id": "vestibular-system",
+    "pillar": "physiology",
+    "title": "Vestibular System — Balance & Spatial Orientation",
+    "teaser": "Semicircular canals and otolith organs feed a mostly unconscious sense of 'which way is up' — reliable until acceleration and gravity become hard to distinguish.",
+    "sections": {
+      "Core Idea": "Semicircular canals detect rotation; otolith organs detect linear acceleration and gravity via crystals on a gel layer bending sensory hair cells — the root of most vestibular illusions.",
+      "The Hook": "<em>You don't consciously calculate balance on a moving bus — three fluid-filled loops and two gravity-sensing pouches do that math nonstop.</em>"
+    },
+    "links": [
+      {
+        "id": "somatogravic-illusion",
+        "label": "Somatogravic Illusion"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the vestibular system is 'highly reliable under normal conditions,' why does ordinary motion (a car, a boat) reliably make some people sick?",
+        "a": "The unreliability isn't the vestibular system misreporting motion — it's accurately reporting motion the visual system, fixed on something stationary, doesn't corroborate. The sickness comes from the mismatch between two accurate but conflicting signals, a genuinely different failure mode from the sense simply being wrong."
+      }
+    ]
+  },
+  {
+    "id": "somatogravic-illusion",
+    "pillar": "physiology",
+    "title": "Somatogravic Illusion — When Acceleration Feels Like Pitch",
+    "teaser": "Sustained acceleration gets misread by the otolith organs as nose-up pitch — the sensory hardware genuinely cannot tell the two apart without an external reference.",
+    "sections": {
+      "Core Idea": "The otolith organs detect the combined vector of gravity plus linear acceleration, not gravity alone — strong forward acceleration shifts the resultant in exactly the direction a genuine pitch-up would.",
+      "The Hook": "<em>On a dark night with no horizon, a pilot accelerating hard can feel, with total conviction, that the aircraft has pitched dangerously nose-up — and push the stick forward into the ground to \"correct\" it.</em>"
+    },
+    "links": [
+      {
+        "id": "vestibular-system",
+        "label": "Vestibular System"
+      },
+      {
+        "id": "deviation-spiral",
+        "label": "Deviation Spiral"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the hardware genuinely can't distinguish acceleration from pitch without an external reference, why isn't this illusion constant during every takeoff rather than only occasionally causing accidents?",
+        "a": "It's likely present to some degree during most accelerations, but only becomes dangerous under specific compounding conditions — darkness removing the visual horizon, and a pilot lacking instrument training or failing to trust instruments over sensation in that moment. Probably a constant, low-grade signal; the accident happens when every other safeguard against it is also absent."
+      },
+      {
+        "q": "Could the exact same mechanism be deliberately exploited rather than just guarded against — could someone intentionally induce a false sensation of pitch through controlled acceleration?",
+        "a": "In principle, yes, and it cuts both ways — anyone who understands the mechanism could theoretically induce the same false sensation deliberately, which is exactly why the aviation response is institutional and training-based (trust instruments, always) rather than relying on any individual detecting the illusion while it's happening to them."
+      }
+    ]
+  },
+  {
+    "id": "vision",
+    "pillar": "physiology",
+    "title": "Vision — Foveal vs. Peripheral Processing",
+    "teaser": "Two functionally distinct systems sharing the same eyes — high-resolution central scrutiny and fast, low-resolution peripheral threat detection.",
+    "sections": {
+      "Core Idea": "The fovea handles sharp central vision and color in a tiny fraction of the visual field; peripheral rod cells handle motion and contrast across the rest, largely pre-consciously.",
+      "The Hook": "<em>You can read fine print only in a roughly two-degree cone directly ahead — everything else is processed at far lower resolution than it feels like.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If most of the visual field is low-resolution peripheral processing, why doesn't everyday vision feel blurry or incomplete outside the center of gaze?",
+        "a": "The brain fills the gap with prediction and rapid eye movements (saccades) sampling different points many times per second, constructing a subjective impression of uniform detail the raw sensory data never provides — the felt completeness is a construction, closely related to why the magic-trick misdirection example works."
+      }
+    ]
+  }
+]

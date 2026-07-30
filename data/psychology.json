@@ -1,0 +1,702 @@
+[
+  {
+    "id": "kahneman-dual",
+    "pillar": "psychology",
+    "title": "Kahneman & Tversky — Dual Process Theory",
+    "teaser": "System 1 is fast and automatic; System 2 is slow and effortful — most of what feels like thinking is System 1 running the show.",
+    "sections": {
+      "Core Idea": "The mind runs two operating systems. System 1 is fast, automatic, intuitive — it answers 2+2 instantly. System 2 is slow, deliberate, effortful — it computes 17×24. Most of what feels like thinking is System 1 running the show.",
+      "The Hook": "<em>System 1 is the autopilot co-pilot who reacts before you've consciously registered the turbulence. System 2 is the trainee who has to pull out the manual.</em>",
+      "Application": "<strong>Marketing:</strong> positioning is a System 1 play — owning an instant pattern-matched answer before System 2 ever engages. <strong>Law:</strong> codified procedural rules exist partly as System 2 scaffolding forced onto judicial pattern-matching."
+    },
+    "links": [
+      {
+        "id": "griskevicius",
+        "label": "Conspicuous Conservation"
+      },
+      {
+        "id": "cooper-vane",
+        "label": "Cooper Vane"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If System 1 is unreliable and biased, why hasn't evolution just replaced it with System 2 entirely?",
+        "a": "Because System 2 is metabolically expensive and slow — an organism that deliberated over every decision would be outcompeted by one that pattern-matches fast in the 99% of cases where speed matters more than precision. System 1's errors are the acceptable cost of a system built for survival speed, not truth."
+      },
+      {
+        "q": "Is \"trust your gut\" good advice or bad advice?",
+        "a": "Depends entirely on domain feedback quality — good advice where feedback is fast, clear, and repeated (a surgeon's hands, a chess master's board sense), where System 1 has had the chance to calibrate; bad advice where feedback is slow or absent (most financial and relationship decisions), where System 1 never gets the training data to be accurate."
+      },
+      {
+        "q": "You just used System 1/2 to explain why System 1 makes mistakes. Doesn't that mean your explanation is itself potentially just a fluent-sounding System 1 story?",
+        "a": "Yes — a genuine, acknowledged epistemic bind. Dual-process theory is itself a simplification, popularized partly because it's fluent and memorable, exactly what System 1 favors. The theory being intuitively satisfying isn't evidence it's true; its actual support comes from controlled experiments — the bat-and-ball problem, dual-task interference studies — not from how compelling it feels to read about."
+      }
+    ]
+  },
+  {
+    "id": "griskevicius",
+    "pillar": "psychology",
+    "title": "Griskevicius et al. — Conspicuous Conservation",
+    "teaser": "Green products function as status goods specifically when the sacrifice is visible — the Prius effect.",
+    "sections": {
+      "Core Idea": "An extension of Veblen's conspicuous consumption — sustainable choices command a premium only when visible to others.",
+      "The Hook": "<em>The Prius's distinctive shape isn't accidental — the point is everyone can tell from across a parking lot.</em>"
+    },
+    "links": [
+      {
+        "id": "kahneman-dual",
+        "label": "Kahneman & Tversky"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If visibility is what drives the premium, does that mean genuinely private, unglamorous sustainability efforts are economically irrational?",
+        "a": "Not irrational, just differently motivated. Private sustainable choices are typically driven by intrinsic motivation (cross-links Deci & Ryan's Self-Determination Theory) rather than status signaling. The finding isn't that invisible sustainability doesn't happen — it's that the visible kind commands a measurable market premium the invisible kind doesn't."
+      }
+    ]
+  },
+  {
+    "id": "cobra-effect",
+    "pillar": "psychology",
+    "title": "Siebert — The Cobra Effect",
+    "teaser": "An incentive that manufactures new supply of the exact problem it targets — a generative, not a gap, failure.",
+    "sections": {
+      "Core Idea": "An incentive that manufactures new supply of the problem it was designed to eliminate — the reward becomes a production input for the harm.",
+      "Application": "<strong>Law:</strong> the test for any bounty/informant scheme — does it pay for a verified outcome, or an easily-gamed proxy?"
+    },
+    "links": [
+      {
+        "id": "cooper-vane",
+        "label": "Cooper Vane"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the specific India cobra story is unverified folklore, does the whole concept collapse?",
+        "a": "No — the Hanoi rat bounty is independently, robustly documented, and 'perverse incentive' is a well-established category across economics literature far beyond either anecdote. The cobra story is a vivid teaching device for a real phenomenon, not the phenomenon's only evidence."
+      },
+      {
+        "q": "Every incentive scheme technically risks some gaming. Where's the line between ordinary gaming and a genuine cobra effect?",
+        "a": "Does the harmful supply exist independent of the incentive (ordinary gaming — ordinary problem the incentive fails to fully solve), or does the incentive itself manufacture new supply that wouldn't exist otherwise (cobra effect — the incentive is a production input for the harm)? A rep padding hours slightly is ordinary gaming; a rep manufacturing fake leads specifically because leads are the paid metric is the cobra effect."
+      }
+    ]
+  },
+  {
+    "id": "prospect-theory",
+    "pillar": "psychology",
+    "title": "Kahneman & Tversky — Prospect Theory (Loss Aversion)",
+    "teaser": "Losses loom roughly twice as large as equivalent gains — the same amount, asymmetric pain.",
+    "sections": {
+      "Core Idea": "People evaluate outcomes as gains or losses relative to a reference point, not in absolute terms — and losses loom larger than equivalent gains, roughly twice as heavily.",
+      "The Hook": "<em>Losing Rs.1,000 hurts about twice as much as finding Rs.1,000 feels good — same amount, asymmetric pain.</em>",
+      "Application": "<strong>Marketing:</strong> \"don't miss out,\" money-back guarantees, and the endowment effect all lean on loss framing. <strong>Law:</strong> plea bargaining exploits loss aversion directly — a certain, smaller sentence against a risky, larger one at trial."
+    },
+    "links": [
+      {
+        "id": "kahneman-dual",
+        "label": "Dual Process Theory"
+      },
+      {
+        "id": "nudge-theory",
+        "label": "Nudge Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If losses loom twice as large as gains, why do people still gamble — voluntarily risking a loss for an uncertain gain?",
+        "a": "Because the risk-averse-for-gains / risk-seeking-for-losses asymmetry flips by domain. Once you've already paid for the ticket, continuing to gamble often gets processed as avoiding a loss (getting the money back), not seeking a fresh gain — exactly the domain where the theory predicts risk-seeking."
+      },
+      {
+        "q": "Doesn't 'the reference point is set by expectation, not absolute wealth' make the theory unfalsifiable — you can always pick a convenient reference point after the fact?",
+        "a": "A real, legitimate methodological criticism. Reference-point selection is a known vulnerability where post-hoc reasoning can retrofit the theory to any outcome. The field's response has been to require the reference point be specified and justified before the experiment, not chosen afterward to fit the data — the theory's soft spot, not a reason to dismiss it."
+      }
+    ]
+  },
+  {
+    "id": "heuristics-biases",
+    "pillar": "psychology",
+    "title": "Tversky & Kahneman — Heuristics & Biases",
+    "teaser": "Mental shortcuts that work well most of the time but produce systematic, predictable errors.",
+    "sections": {
+      "Core Idea": "Anchoring pulls an estimate toward an initial number even when irrelevant. Availability substitutes ease of recall for actual frequency. Confirmation bias preferentially searches for and interprets evidence that supports an existing belief.",
+      "The Hook": "<em>The mind takes the nearest exit, not the best route.</em>"
+    },
+    "links": [
+      {
+        "id": "kahneman-dual",
+        "label": "Dual Process Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If anchoring works even on random numbers, why doesn't an absurdly high anchor (a car priced at $10 million) work just as well as a plausible one?",
+        "a": "Anchoring has documented limits — implausible anchors are more likely to trigger conscious rejection, which breaks the effect. Anchors work best when plausible enough to avoid scrutiny but still pull the estimate — itself evidence anchoring isn't pure numeric contamination, it interacts with whatever plausibility-check System 2 sometimes runs."
+      },
+      {
+        "q": "Confirmation bias and simply having well-supported beliefs can look identical from outside. How do you actually tell them apart?",
+        "a": "By whether the search was symmetric before the belief was reached, not after. Confirmation bias is diagnosed by the search process — did you seek disconfirming sources with equal effort — not by whether the conclusion happens to be true. A correct belief reached through asymmetric search is still evidence of the bias."
+      }
+    ]
+  },
+  {
+    "id": "cialdini",
+    "pillar": "psychology",
+    "title": "Cialdini — Six Principles of Influence",
+    "teaser": "Reciprocity, commitment, social proof, authority, liking, scarcity — pre-installed shortcuts for deciding without deliberating.",
+    "sections": {
+      "Core Idea": "Six recurring psychological triggers reliably increase compliance, each exploiting a normally adaptive social heuristic.",
+      "The Hook": "<em>Each principle is a pre-installed shortcut people use to decide quickly — someone who knows the shortcuts can trigger them on purpose.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If all six are 'normally adaptive social heuristics,' does knowing about them actually protect you, or does awareness alone not neutralize an automatic response?",
+        "a": "Awareness helps but doesn't fully neutralize. Cialdini's own research found that people warned in advance still show reduced but not eliminated susceptibility. The practical defense is usually structural (a mandatory cooling-off period before a big purchase) rather than relying on willpower in the moment."
+      }
+    ]
+  },
+  {
+    "id": "milgram",
+    "pillar": "psychology",
+    "title": "Milgram — Obedience to Authority",
+    "teaser": "Ordinary people will shock a stranger to apparent danger simply because a legitimate-seeming authority says to continue.",
+    "sections": {
+      "Core Idea": "The 'agentic state' — under legitimate authority, people shift from feeling like autonomous moral agents to instruments carrying out another's will, displacing responsibility onto the authority.",
+      "The Hook": "<em>\"The experiment requires that you continue\" — said by a man in a lab coat — is often enough to override a person's own moral objection.</em>",
+      "Application": "<strong>Law:</strong> the doctrine that 'superior orders' is not a complete defense (Nuremberg) is a direct legal response to exactly this psychological mechanism."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If proximity to victim and authority moderates compliance so strongly, didn't Milgram measure something narrower than 'obedience in general'?",
+        "a": "A fair scope-narrowing point — and one Milgram's own follow-up variations were explicitly designed to test. The finding holds up as 'obedience is real and substantial, and highly sensitive to specific situational variables,' actually more precise and useful than a blanket claim would have been."
+      },
+      {
+        "q": "Doesn't citing Milgram to explain 'superior orders' risk excusing the people who actually pulled the trigger?",
+        "a": "The legal doctrine is careful about this distinction — Milgram's psychology explains why obedience happens, it doesn't excuse it legally. Nuremberg's rejection of the defense holds people responsible despite the psychological pressure being real, because the law's job is to set a standard people are expected to meet even when it's psychologically difficult."
+      }
+    ]
+  },
+  {
+    "id": "asch",
+    "pillar": "psychology",
+    "title": "Asch — Conformity",
+    "teaser": "People will give an answer they know is wrong simply to match a unanimous group — even on an unambiguous task.",
+    "sections": {
+      "Core Idea": "Normative influence (wanting to be liked) is distinct from informational influence (assuming the group knows something you don't). Even one ally breaking unanimity sharply cuts conformity.",
+      "The Hook": "<em>It's easier to agree with the room than to be the one voice that's visibly, uncomfortably alone.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If even one ally breaking unanimity sharply cuts conformity, doesn't that mean conformity is really about unanimity specifically, not group size at all?",
+        "a": "Largely yes — one of Asch's most practically important findings. The raw number disagreeing with you matters far less than whether the disagreement is unanimous, which is why one person willing to say the unpopular thing is disproportionately powerful in a room."
+      }
+    ]
+  },
+  {
+    "id": "zimbardo",
+    "pillar": "psychology",
+    "title": "Zimbardo — Situational Power (Stanford Prison Experiment)",
+    "teaser": "Ordinary people, randomly assigned a role, rapidly adopted behavior consistent with the role rather than their own personality.",
+    "sections": {
+      "Core Idea": "Role assignment plus institutional legitimacy plus deindividuation lowers the threshold for behavior the same person wouldn't otherwise consider.",
+      "The Hook": "<em>Give someone a badge and near-total power with no accountability, and the situation can rewrite the person faster than most would predict.</em>"
+    },
+    "links": [
+      {
+        "id": "cooper-vane",
+        "label": "Cooper Vane"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "Given that guards were reportedly coached, why keep citing the SPE at all instead of a cleaner study?",
+        "a": "Fair challenge, and part of why this entry deliberately redirects its fullest evidentiary weight to the Abu Ghraib case rather than resting on the SPE itself. The SPE remains historically important for shaping decades of thinking about situational power — it's just not the evidentiary backbone here."
+      },
+      {
+        "q": "Is 'situational power' actually distinct from Milgram's obedience, or a different name for the same mechanism?",
+        "a": "Related but distinct. Milgram's mechanism is obedience to an explicit, present authority giving direct instructions. Zimbardo's is role-and-institution-driven behavior with no one issuing moment-to-moment orders — a guard wasn't following commands, they were improvising cruelty consistent with an internalized role."
+      }
+    ]
+  },
+  {
+    "id": "festinger",
+    "pillar": "psychology",
+    "title": "Festinger — Cognitive Dissonance",
+    "teaser": "Holding two contradictory beliefs produces real discomfort — usually resolved by changing the belief, not the behavior.",
+    "sections": {
+      "Core Idea": "Dissonance is proportional to how much choice, effort, and irrevocability were involved — a freely chosen, effortful, irreversible decision produces the most belief-change pressure.",
+      "The Hook": "<em>It's easier to convince yourself the thing you already bought was a good idea than to admit you wasted the money.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If dissonance scales with effort and irrevocability, does that mean the MORE painful a bad decision was, the MORE convinced afterward someone will be it was right?",
+        "a": "Yes — one of the theory's most counter-intuitive, well-replicated findings. The size of the belief-change effect scales with the size of the sunk cost, not inversely. The people most resistant to admitting a decision was wrong are often the ones who paid the highest price for it."
+      }
+    ]
+  },
+  {
+    "id": "maslow",
+    "pillar": "psychology",
+    "title": "Maslow — Hierarchy of Needs",
+    "teaser": "Physiological, safety, belonging, esteem, self-actualization — lower needs generally take priority when unmet.",
+    "sections": {
+      "Core Idea": "Needs lower in the hierarchy are prepotent — a person without food security isn't motivated by esteem until physiological and safety needs are reasonably secured.",
+      "The Hook": "<em>The pyramid image is a cliché — Maslow himself never drew it as a strict pyramid; that came from later popularizers.</em>"
+    },
+    "links": [
+      {
+        "id": "deci-ryan",
+        "label": "Self-Determination Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "The entry itself says the pyramid isn't Maslow's own diagram. Is there anything left of 'the hierarchy' once the strict pyramid is dropped?",
+        "a": "Yes — the defensible core survives: some needs really are prepotent, unmet physiological/safety needs really do dominate motivation in extremis. What doesn't survive is the rigid, always-sequential five-stage ladder, which claims more precision than Maslow's own later writing or the evidence supports."
+      }
+    ]
+  },
+  {
+    "id": "deci-ryan",
+    "pillar": "psychology",
+    "title": "Deci & Ryan — Self-Determination Theory",
+    "teaser": "Intrinsic motivation depends on autonomy, competence, and relatedness — external rewards can crowd it out.",
+    "sections": {
+      "Core Idea": "The 'overjustification effect' — introducing an external reward for an already-intrinsically-motivated activity makes people re-attribute their reason for doing it to the reward, weakening intrinsic motivation once the reward is removed.",
+      "The Hook": "<em>Paying a child for a drawing they already loved making can make them stop wanting to draw for free.</em>"
+    },
+    "links": [
+      {
+        "id": "maslow",
+        "label": "Hierarchy of Needs"
+      },
+      {
+        "id": "griskevicius",
+        "label": "Conspicuous Conservation"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If external rewards can undermine intrinsic motivation, does that mean paying people for work they'd otherwise enjoy is always counterproductive?",
+        "a": "No — the undermining effect specifically happens when the reward is perceived as controlling rather than informational. A salary that simply enables someone to do work they love, without micromanaging how, functions differently from a reward explicitly tied to producing more of a specific monitored behavior."
+      },
+      {
+        "q": "Isn't 'intrinsic motivation is better' just survivorship bias — people who already enjoy their work saying so?",
+        "a": "The controlled experiments rule this out specifically because participants are randomly assigned to paid vs. unpaid conditions, not self-selected. The same people, same task, show measurably different post-task interest depending purely on whether they were paid — isolating the causal mechanism, not just observing a correlation."
+      }
+    ]
+  },
+  {
+    "id": "big-five",
+    "pillar": "psychology",
+    "title": "Costa & McCrae — Big Five / OCEAN",
+    "teaser": "Personality clusters along five dimensions — Openness, Conscientiousness, Extraversion, Agreeableness, Neuroticism.",
+    "sections": {
+      "Core Idea": "Derived from the lexical hypothesis — factor-analyzing the trait-adjectives people actually use converges on five stable clusters across languages and cultures.",
+      "The Hook": "<em>OCEAN — each dimension is a spectrum, not a type. Nobody is purely 'an introvert'; everyone sits somewhere on a continuum.</em>"
+    },
+    "links": [
+      {
+        "id": "dark-triad",
+        "label": "Dark Triad"
+      },
+      {
+        "id": "gray-bas-bis",
+        "label": "Reinforcement Sensitivity Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If traits are dimensional, not typological, why does everyday language and marketing segmentation keep sorting people into discrete types anyway?",
+        "a": "Because discrete types are cognitively easier for fast decisions — a System-1-friendly simplification of a genuinely continuous reality. Segmentation often buckets a continuous score into high/medium/low bands, a legitimate simplification for action as long as the dimensional reality isn't forgotten for an individual case near a boundary."
+      }
+    ]
+  },
+  {
+    "id": "dark-triad",
+    "pillar": "psychology",
+    "title": "Paulhus & Williams — Dark Triad",
+    "teaser": "Machiavellianism, narcissism, psychopathy — three overlapping but distinct traits predicting exploitative behavior.",
+    "sections": {
+      "Core Idea": "The three traits correlate with each other but are empirically separable — a person can be high in one and low in the others.",
+      "The Hook": "<em>Three different flavors of 'not a good person to trust' — the Machiavellian plans it, the narcissist needs it, the psychopath doesn't feel the cost of it.</em>"
+    },
+    "links": [
+      {
+        "id": "big-five",
+        "label": "Big Five / OCEAN"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the three traits are empirically separable, why do they always get grouped together as 'the Dark Triad' instead of studied independently?",
+        "a": "They correlate more than chance predicts and share a common core (a callous, exploitative orientation) while remaining statistically distinguishable — the triad framing captures a real overlapping cluster, not a claim the three are identical. Researchers study each independently too; the triad is the useful summary label for shared variance."
+      },
+      {
+        "q": "Isn't there a risk that labeling someone 'high in Machiavellianism' becomes a self-fulfilling, unfalsifiable accusation — any charm read as manipulation in hindsight?",
+        "a": "A genuine risk, and exactly why this is framed as a defensive-literacy tool built on a specific field-observation method — does charm appear selectively toward people who can benefit the person, or consistently across contexts — rather than a vibe-based judgment."
+      }
+    ]
+  },
+  {
+    "id": "freud",
+    "pillar": "psychology",
+    "title": "Freud — Psychoanalytic Theory (Id, Ego, Superego)",
+    "teaser": "The mind as three conflicting agencies — primal drives, moral constraint, and the exhausted mediator between them.",
+    "sections": {
+      "Core Idea": "When the ego can't resolve the conflict between id impulses and superego constraints, it deploys defense mechanisms — repression, projection, denial, rationalization — to manage the resulting anxiety.",
+      "The Hook": "<em>The id is the toddler who wants it now, the superego is the strict parent who says no, the ego is the exhausted adult in between.</em>"
+    },
+    "links": [
+      {
+        "id": "lacan",
+        "label": "Lacan — Mirror Stage"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Freud's theory isn't falsifiable, why does his vocabulary (repression, denial, projection) remain genuinely useful in everyday psychological reasoning?",
+        "a": "A useful vocabulary for describing patterns doesn't require the underlying causal architecture to be scientifically validated. The words survived because they capture real, observable patterns people recognize, even though the specific unconscious-mechanics explanation has been superseded by better-validated accounts."
+      },
+      {
+        "q": "Isn't calling Freud 'not falsifiable' itself an unfalsifiable claim — how would you know for certain no experiment could ever test it?",
+        "a": "Fair pushback on the phrasing. The more precise version: key parts of the theory have consistently resisted the operationalization that would make them testable, and psychology has largely moved to frameworks that do meet that bar — not that testing is logically impossible in principle."
+      }
+    ]
+  },
+  {
+    "id": "piaget",
+    "pillar": "psychology",
+    "title": "Piaget — Cognitive Development Stages",
+    "teaser": "Children's thinking develops through four qualitatively distinct stages, not just 'more of the same' with age.",
+    "sections": {
+      "Core Idea": "Development proceeds through assimilation and accommodation — each stage's reasoning is qualitatively different from, not just more than, the one before.",
+      "The Hook": "<em>A toddler who thinks a tall thin glass has 'more' juice than a short wide one with the same volume genuinely hasn't developed the logical operation needed to understand it yet.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If children often show competence earlier than Piaget's own methods detected, does that undermine the whole stage theory, or just his age boundaries?",
+        "a": "Just the age boundaries. The qualitative claim — reasoning changes in kind across development — has held up well; what's been revised is how early certain capacities emerge, largely because Piaget's methods (requiring verbal explanation from young children) underestimated competence later experiments detected non-verbally."
+      }
+    ]
+  },
+  {
+    "id": "skinner",
+    "pillar": "psychology",
+    "title": "Skinner — Operant Conditioning",
+    "teaser": "Behavior is shaped by consequences — and the schedule of reinforcement matters as much as the reward itself.",
+    "sections": {
+      "Core Idea": "Variable-ratio reinforcement — reward after an unpredictable number of responses — produces the highest, most persistent response rates of any schedule.",
+      "The Hook": "<em>A slot machine doesn't pay out every pull, and that's exactly why it's more addictive than a vending machine that pays out every time.</em>"
+    },
+    "links": [
+      {
+        "id": "nudge-theory",
+        "label": "Nudge Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If variable-ratio reinforcement is the most powerful schedule, why doesn't every company use it for everything instead of fixed salaries?",
+        "a": "Because it's powerful specifically for behaviors you want repeated frequently and compulsively. For behaviors requiring sustained quality and trust (a salaried professional's judgment) rather than raw repetition frequency, the same unpredictability that drives compulsive engagement breeds anxiety and short-termism — actively counterproductive."
+      }
+    ]
+  },
+  {
+    "id": "nudge-theory",
+    "pillar": "psychology",
+    "title": "Thaler & Sunstein — Nudge Theory (Choice Architecture)",
+    "teaser": "A default, easy to opt out of, predictably shapes what people choose without restricting any option.",
+    "sections": {
+      "Core Idea": "Defaults exploit status-quo bias — directly downstream of loss aversion, since switching away from a default feels like a small loss. 'Libertarian paternalism' insists a legitimate nudge must remain easy and costless to opt out of.",
+      "The Hook": "<em>Making the healthy option the default in a cafeteria line changes what most people eat, even though the unhealthy option is still fully available.</em>"
+    },
+    "links": [
+      {
+        "id": "prospect-theory",
+        "label": "Prospect Theory"
+      },
+      {
+        "id": "skinner",
+        "label": "Operant Conditioning"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If a nudge is only legitimate when easy to opt out of, who decides how 'easy' is easy enough — isn't that doing all the real ethical work?",
+        "a": "Genuinely the crux of the whole debate. Thaler and Sunstein set a principle without a bright-line test for how easy is easy enough — exactly why 'dark pattern' criticism and legitimate nudge design sit on a spectrum rather than either side of a clean boundary."
+      },
+      {
+        "q": "Does the cafeteria example actually prove nudges work, or could people just be picking whatever's physically first in line?",
+        "a": "The default-effect literature controls for exactly this by testing defaults requiring no extra physical effort to bypass (a pre-checked box, one click to uncheck). The effect persists even with zero additional physical effort required — ruling out pure convenience and pointing to genuine status-quo psychological inertia."
+      }
+    ]
+  },
+  {
+    "id": "jung",
+    "pillar": "psychology",
+    "title": "Jung — Analytical Psychology (Archetypes, Collective Unconscious)",
+    "teaser": "Recurring symbolic patterns — the Shadow, the Hero, the Wise Old Man — surfacing independently across unconnected cultures.",
+    "sections": {
+      "Core Idea": "Archetypes aren't specific images but organizing patterns — inherited predispositions to experience certain figures in emotionally charged ways. The Shadow is the disowned part of personality, projected onto others.",
+      "The Hook": "<em>Myths from unconnected cultures keep producing the same characters because the same psychic structure generates them independently, not because one culture copied another.</em>"
+    },
+    "links": [
+      {
+        "id": "campbell",
+        "label": "The Hero's Journey"
+      },
+      {
+        "id": "neumann",
+        "label": "The Great Mother"
+      },
+      {
+        "id": "jordan-peterson",
+        "label": "Competence Hierarchies"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If archetypes recur across unconnected cultures, doesn't that require a literal biological transmission mechanism — and if there isn't one, doesn't the theory collapse?",
+        "a": "This is exactly where the entry's caveat draws the line. The recurring pattern is real and documented; Jung's proposed mechanism (inherited collective unconscious) isn't supported by modern genetics. Similar human environments and universal developmental experiences (birth, death, threat, mentorship) can independently generate similar symbolic responses without any shared inherited structure."
+      },
+      {
+        "q": "Isn't 'the Shadow' just a flattering rebrand of ordinary projection and denial — does Jung add anything Freud's vocabulary doesn't already cover?",
+        "a": "Real overlap, and the entry doesn't claim otherwise. Jung's contribution isn't inventing projection, it's framing the disowned material as having positive integration value rather than purely pathological content to defend against — a genuinely different therapeutic prescription (consciously own it) built on a similar underlying mechanism."
+      }
+    ]
+  },
+  {
+    "id": "jordan-peterson",
+    "pillar": "psychology",
+    "title": "Jordan Peterson — Competence Hierarchies & Archetypal Synthesis",
+    "teaser": "Synthesizing Piaget, Jung, and neuroscience into a framework about navigating dominance hierarchies.",
+    "sections": {
+      "Core Idea": "Competence hierarchies (who is actually good at the task) are functionally distinct from, and healthier than, pure power hierarchies (who can coerce whom).",
+      "The Hook": "<em>Lobsters establish dominance hierarchies using serotonin-mediated posture signaling that predates humans by 350 million years.</em>"
+    },
+    "links": [
+      {
+        "id": "jung",
+        "label": "Analytical Psychology"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "The lobster analogy already drew scientific pushback per the entry's own caveat. If the flagship example is shaky, how much weight should the rest carry?",
+        "a": "Less weight on the specific cross-species mechanism claim, but the separable core doesn't depend on lobsters being right — that low status-hierarchy position correlates with worse stress-hormone and mental-health outcomes is supported by human-specific research (the Whitehall Studies on civil-service hierarchy and health) independent of any crustacean comparison."
+      },
+      {
+        "q": "How do you actually tell a competence hierarchy from a power hierarchy from the inside, when the person on top of a power hierarchy usually claims their position is earned?",
+        "a": "Genuinely hard to verify from inside, which is why this works better as a diagnostic question than a certain label. Does removal from the top happen through demonstrated failure at the actual task, or only through loss of coercive backing? A competence hierarchy visibly rewards skill under pressure; a power hierarchy protects the incumbent regardless."
+      }
+    ]
+  },
+  {
+    "id": "carl-rogers",
+    "pillar": "psychology",
+    "title": "Carl Rogers — Person-Centered Therapy",
+    "teaser": "Growth happens most reliably in a relationship of unconditional positive regard, empathy, and genuineness.",
+    "sections": {
+      "Core Idea": "An innate 'actualizing tendency' gets blocked by conditions of worth — the sense that acceptance is conditional on meeting others' standards. Removing the conditions, not adding expert advice, unblocks growth.",
+      "The Hook": "<em>A good therapist doesn't fix you by telling you what's wrong — they create a room safe enough that you fix yourself.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If unconditional positive regard is the key ingredient, doesn't that risk enabling harmful behavior by never signaling disapproval?",
+        "a": "Unconditional positive regard is for the person, not the behavior. A Rogerian therapist can be entirely honest a specific action was harmful while holding the person's underlying worth as unconditional — a genuinely load-bearing distinction, not a loophole: 'I value you, and this needs to change,' not 'I'll value you if you stop.'"
+      }
+    ]
+  },
+  {
+    "id": "lacan",
+    "pillar": "psychology",
+    "title": "Lacan — The Mirror Stage & the Symbolic Order",
+    "teaser": "An infant mistakes its reflected image for a coherent self, before its actual coordination catches up — a gap that never fully closes.",
+    "sections": {
+      "Core Idea": "The mirror stage founds the 'ideal-I' — a fictional, unified self-image the fragmented infant identifies with, recurring whenever a person measures themselves against an idealized self-image.",
+      "The Hook": "<em>You fall in love with a more put-together version of yourself before you actually become that person.</em>"
+    },
+    "links": [
+      {
+        "id": "freud",
+        "label": "Psychoanalytic Theory"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the 'ideal-I' gap never fully closes, doesn't that make the framework a counsel of despair — nothing to actually do about it?",
+        "a": "Not despair, more a permanent feature to work with rather than eliminate. The practical takeaway isn't closing the gap, which Lacan says is structurally impossible — it's recognizing the gap isn't a personal failure. The unfair comparison loses some sting once seen as structural, not evidence you're uniquely behind."
+      }
+    ]
+  },
+  {
+    "id": "panksepp",
+    "pillar": "psychology",
+    "title": "Panksepp — Affective Neuroscience (Seven Primary Emotional Systems)",
+    "teaser": "SEEKING, RAGE, FEAR, LUST, CARE, PANIC/GRIEF, PLAY — subcortical emotional systems shared across mammals.",
+    "sections": {
+      "Core Idea": "SEEKING is the general-purpose 'wanting to explore/acquire' circuit, closely related to but distinct from the dopamine-driven 'wanting' system already logged in Marketing — an overlap flagged as unreconciled, not resolved.",
+      "The Hook": "<em>A rat, a dog, and a human share the same basic emotional wiring — the same brain stimulation and drugs produce the same emotional behavior across species.</em>"
+    },
+    "links": [
+      {
+        "id": "gray-bas-bis",
+        "label": "BAS/BIS"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "The entry admits SEEKING and dopamine 'wanting' overlap but aren't reconciled. Is this entry finished, or presenting an open question as settled content?",
+        "a": "Correctly presenting a genuine open question as open. The cross-reference note flags this explicitly rather than silently merging the frameworks — build what's known, flag what isn't, don't manufacture false resolution for a tidier entry."
+      },
+      {
+        "q": "How can Panksepp claim animals have subjective emotional experience — isn't 'what it feels like to be a rat' fundamentally unverifiable?",
+        "a": "Subjective experience is unverifiable in the strict sense for any mind but your own. Panksepp's actual testable claim is narrower: the same brain stimulation and drugs produce the same behavioral and physiological signatures across species — evidence for a shared mechanism, not direct proof of subjective experience."
+      }
+    ]
+  },
+  {
+    "id": "gray-bas-bis",
+    "pillar": "psychology",
+    "title": "Gray — Reinforcement Sensitivity Theory (BAS/BIS)",
+    "teaser": "Two neural systems with opposite jobs — approach, sensitive to reward; inhibition, sensitive to threat.",
+    "sections": {
+      "Core Idea": "BAS activity ties to dopaminergic reward pathways; BIS ties to amygdala threat-detection — a more neuroscience-grounded alternative to the Big Five, explaining why, not just that, some people are more reward-seeking.",
+      "The Hook": "<em>Two people look at the identical opportunity — one sees mainly the upside, the other mainly the downside — not different information, different threat/reward calibration.</em>"
+    },
+    "links": [
+      {
+        "id": "big-five",
+        "label": "Big Five / OCEAN"
+      },
+      {
+        "id": "panksepp",
+        "label": "Affective Neuroscience"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If BAS/BIS explains why some people are naturally more reward-seeking, does that mean risk tolerance is basically fixed, not a matter of training?",
+        "a": "No — a baseline calibration, not a hard ceiling. The Big Five entry already logged that Conscientiousness is trainable despite a real biological baseline; the same logic applies. A BIS-dominant baseline makes risk feel costlier by default, but deliberate exposure can shift the felt calibration over time."
+      }
+    ]
+  },
+  {
+    "id": "mcgilchrist",
+    "pillar": "psychology",
+    "title": "McGilchrist — Hemisphere Lateralization",
+    "teaser": "The two hemispheres attend to the world in different modes — the right grasping the whole, the left abstracting parts.",
+    "sections": {
+      "Core Idea": "Not the old 'creative right brain' myth, which McGilchrist explicitly rejects — both hemispheres are involved in nearly everything; the real difference is the mode of attention each brings.",
+      "The Hook": "<em>The left hemisphere is a brilliant, narrow specialist who's very good at building a precise map — modern culture has increasingly mistaken the map for the territory.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "Isn't 'the left hemisphere has taken over Western culture' an enormous, unfalsifiable claim dressed up in neuroscience?",
+        "a": "The entry's own caveat says essentially this — the underlying neuroscience is real and peer-reviewed; the sweeping cultural-history thesis built on top is McGilchrist's own interpretive argument, not something the neuroscience proves. Solid science, speculative extrapolation — worth reading as separable claims."
+      },
+      {
+        "q": "The entry draws a parallel to the Marketing hub's abstraction-ladder-vs-context tension. Is that a genuine structural match, or just two things that both involve the word 'context'?",
+        "a": "Flagged in the entry itself as 'not yet formally connected' — an honest admission it's suggestive, not demonstrated. Per the Cross-Disciplinary Metaphor Method's own standard: does it generate a checkable prediction, or just redescribe two similar-sounding things? As written, it hasn't cleared that bar yet."
+      }
+    ]
+  },
+  {
+    "id": "ericsson",
+    "pillar": "psychology",
+    "title": "Ericsson — Deliberate Practice",
+    "teaser": "Expert performance correlates with focused, effortful practice at the edge of ability, not raw hours or talent alone.",
+    "sections": {
+      "Core Idea": "Deliberate practice targets the specific sub-skill just beyond current ability, paired with immediate feedback that corrects errors before they habituate.",
+      "The Hook": "<em>10,000 easy, comfortable hours builds almost nothing new; 10,000 hours pushing against the exact edge of competence, with real-time correction, is what builds expertise.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If deliberate practice requires a coach or clear feedback, is self-directed learning without a coach structurally incapable of building real expertise?",
+        "a": "Not incapable, but harder. Without external feedback, it's genuinely difficult to know whether you're practicing at the actual edge of competence or comfortably below it. Self-directed deliberate practice is possible but requires substituting something for the coach's feedback function — objective performance data, structured self-testing, or a peer."
+      }
+    ]
+  },
+  {
+    "id": "campbell",
+    "pillar": "psychology",
+    "title": "Campbell — The Hero's Journey (Monomyth)",
+    "teaser": "Myths across unconnected cultures share a common structure — call, threshold, trials, ordeal, return transformed.",
+    "sections": {
+      "Core Idea": "Campbell drew heavily on Jung's archetype theory — the mentor figure is structurally the same as the Wise Old Man archetype; threshold-crossing maps onto psychological individuation.",
+      "The Hook": "<em>Already one of Khokhar's own two foundational personal philosophies — this isn't abstract here, it's load-bearing in how the LLB-to-NY-Bar journey gets understood.</em>"
+    },
+    "links": [
+      {
+        "id": "jung",
+        "label": "Analytical Psychology"
+      },
+      {
+        "id": "neumann",
+        "label": "The Great Mother"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the monomyth's universality is 'somewhat overfit,' per the entry's own caveat, does that weaken its usefulness as a personal orienting framework?",
+        "a": "A separate question, worth keeping apart. Whether the monomyth accurately describes all world mythology is a different claim from whether it's a useful personal narrative structure for an ongoing challenge — a framework can be imperfect anthropology and still be a genuinely functional tool, the way a map doesn't need to be a perfect scale replica to help you navigate."
+      }
+    ]
+  },
+  {
+    "id": "neumann",
+    "pillar": "psychology",
+    "title": "Neumann — The Great Mother & Origins of Consciousness",
+    "teaser": "Consciousness must differentiate itself from an original undifferentiated unity — the Great Mother archetype's two poles.",
+    "sections": {
+      "Core Idea": "The Great Mother has a nurturing pole and a devouring pole — psychological maturation requires a stable ego capable of relating to both without being engulfed by either.",
+      "The Hook": "<em>Before a hero can go on Campbell's journey, consciousness itself first has to be 'born' out of an original undifferentiated unity.</em>"
+    },
+    "links": [
+      {
+        "id": "jung",
+        "label": "Analytical Psychology"
+      },
+      {
+        "id": "campbell",
+        "label": "The Hero's Journey"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "The entry flags this as having a smaller evidence base than Piaget or Erikson. Why include it at all rather than wait for stronger grounding?",
+        "a": "Because it's explicitly filed and flagged as an interpretive, mythologically-grounded framework rather than an empirically validated developmental model — deliberate labeling work, following the discipline applied throughout: include genuinely useful interpretive frameworks, but never let them borrow the evidentiary weight of the empirically-grounded entries beside them."
+      }
+    ]
+  },
+  {
+    "id": "pinker",
+    "pillar": "psychology",
+    "title": "Pinker — The Blank Slate & Evolutionary Psychology of Mind",
+    "teaser": "A substantial, evolved architecture underlies human cognition — against the view that the mind is purely culturally shaped.",
+    "sections": {
+      "Core Idea": "A toddler acquires the grammar of any human language with almost no explicit instruction, faster than any adult learner — evidence language-acquisition capacity is built in, not purely absorbed.",
+      "The Hook": "<em>Squarely in the evolved/universal camp of an explicitly, deliberately unresolved debate with Bourdieu and Wolf's constructionist positions elsewhere in this knowledgebase.</em>"
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "The entry says universal grammar is the 'least controversial part' of Pinker's argument. Does that mean the rest is on shakier ground?",
+        "a": "Yes, and the entry says so directly. The linguistic evidence for innate language-acquisition capacity is relatively uncontroversial; Pinker's extrapolation to moral intuitions, personality, and policy implications is considerably more contested and sits inside an active debate the entry deliberately doesn't resolve."
+      },
+      {
+        "q": "If treating the mind as a blank slate 'denies real variation a fair hearing,' couldn't the same argument justify almost any claim about group differences?",
+        "a": "Exactly the fraught territory the entry flags and asks to be read alongside the contrary view. Pinker's argument, at face value, concerns innate structure in cognition generally, not a blank check for any specific group-difference claim — the caution exists precisely because this argument has historically been mis-extended beyond what Pinker's own evidence supports."
+      }
+    ]
+  }
+]
