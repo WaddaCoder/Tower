@@ -391,5 +391,929 @@
         "a": "A real, frequently pressed challenge — Finnis's answer relies on the requirements of practical reasonableness doing genuine work without becoming a disguised ranking: respecting every basic good rules out directly damaging one purely as a means to another, while allowing incidental effects. Whether this \"intended vs. merely foreseen\" distinction avoids smuggling in a ranking, or just relocates it, remains contested among natural law theorists themselves."
       }
     ]
+  },
+  {
+    "id": "separation-of-powers",
+    "pillar": "law",
+    "title": "Separation of Powers",
+    "teaser": "There is no liberty if the power of judging is not separated from the legislative and executive powers.",
+    "sections": {
+      "Core Idea": "Montesquieu's doctrine, developed in <em>The Spirit of the Laws</em> (1748) though building on earlier English constitutional practice and Locke's own prior work, holds that a state's power should be divided among three genuinely distinct branches — legislative, executive, judicial — with each checking the others, precisely to prevent any single branch from accumulating enough power to govern arbitrarily.",
+      "The Hook": "<em>Montesquieu's own famous warning: \"there is no liberty if the power of judging is not separated from the legislative and executive powers\" — because a body that both makes the law and judges violations of it can simply define guilt however suits it.</em>",
+      "Mechanism": "The doctrine's actual mechanism isn't a rigid, watertight partition — nearly every real constitutional system has genuine overlaps (executive veto over legislation, judicial review of both). It functions instead through checks and balances, where each branch retains enough independent authority to resist encroachment by the others.",
+      "Application": "<strong>Law:</strong> embedded directly in Pakistan's own constitutional structure, judicial independence and constitutional review checking legislative and executive overreach. <strong>Life:</strong> an organization that concentrates rule-making, enforcement, and adjudication in one unaccountable body is running the exact structural risk Montesquieu warned against, whatever the scale."
+    },
+    "links": [
+      {
+        "id": "judicial-review",
+        "label": "Judicial Review"
+      },
+      {
+        "id": "hart",
+        "label": "Hart — Rule of Recognition"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If every real system blends the branches to some degree, how do you tell healthy overlap from a genuine violation of the doctrine?",
+        "a": "By whether the overlap still leaves each branch enough independent authority to meaningfully resist the others — an executive veto is a check; an executive that can unilaterally remove judges at will has crossed from overlap into capture. The test is functional independence, not zero contact."
+      }
+    ]
+  },
+  {
+    "id": "judicial-review",
+    "pillar": "law",
+    "title": "Judicial Review",
+    "teaser": "A legislature can pass a law; judicial review is what makes that law's survival conditional on actually complying with the constitution it operates under.",
+    "sections": {
+      "Core Idea": "The doctrine empowering courts to assess whether legislation or executive action complies with a constitution, and to strike down or refuse to enforce what doesn't — the actual operative mechanism giving Separation of Powers its real teeth.",
+      "The Hook": "<em>A legislature can pass a law; judicial review makes its survival conditional on actually complying with the constitution that legislature itself operates under.</em>",
+      "Mechanism": "Functions differently across systems — the US model gives ordinary courts the power directly (via <em>Marbury v. Madison</em>); many civil law systems route constitutional questions to a specialized court; Pakistan's superior courts exercise it directly under Article 8.",
+      "Application": "<strong>Law:</strong> Pakistan's own superior court jurisprudence striking down executive action exceeding statutory authority is judicial review in everyday operation — the same doctrine exercised, at its most dramatic, during the country's constitutional crises already discussed under Kelsen and Hart."
+    },
+    "links": [
+      {
+        "id": "separation-of-powers",
+        "label": "Separation of Powers"
+      },
+      {
+        "id": "kelsen",
+        "label": "Kelsen — The Grundnorm"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If judicial review lets unelected judges override an elected legislature, isn't that itself a separation-of-powers problem?",
+        "a": "This is the real, unresolved 'counter-majoritarian difficulty' in constitutional theory. The standard response is that judicial review checks compliance with a constitution the legislature didn't unilaterally write — a narrower power than lawmaking — but reasonable scholars still disagree how much democratic legitimacy that actually secures."
+      }
+    ]
+  },
+  {
+    "id": "proportionality",
+    "pillar": "law",
+    "title": "Proportionality",
+    "teaser": "Not just whether a right was limited, but whether it was limited more than it had to be.",
+    "sections": {
+      "Core Idea": "The test courts use, now dominant across most constitutional systems, to assess whether a rights-limiting law goes further than necessary: is the aim legitimate, is the measure suitable, is it necessary, does its benefit outweigh the harm.",
+      "The Hook": "<em>Originating in German administrative law, now the dominant global framework from the European Court of Human Rights to Pakistan's own constitutional jurisprudence.</em>",
+      "Mechanism": "The real analytical work happens at necessity and balancing — almost any restriction passes the first two stages; it's the requirement that no less-restrictive alternative existed that gives the test genuine bite.",
+      "Application": "A blanket, indefinite curfew is far more vulnerable to being struck down than a narrowly targeted, time-limited one addressing the same safety concern, because the broader measure fails necessity."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If almost any restriction can pass the first two stages, doesn't the whole test come down to a judge's subjective sense of 'necessary' and 'worth it'?",
+        "a": "Real truth to this — proportionality is criticized as less predictable than a rule-based test. Defenders argue a flexible test that weighs context beats a rigid rule producing the same answer regardless of how extreme the facts are, but the subjectivity concern is a genuine, unanswered cost."
+      }
+    ]
+  },
+  {
+    "id": "basic-structure-doctrine",
+    "pillar": "law",
+    "title": "Basic Structure Doctrine",
+    "teaser": "A constitution's core features cannot be amended away even through a formally valid amendment process.",
+    "sections": {
+      "Core Idea": "Originating in India's <em>Kesavananda Bharati</em> case (1973), holding that a constitution's core features — democracy, judicial independence, federalism — cannot be amended away even validly, because doing so destroys the constitution's identity rather than changing it.",
+      "The Hook": "<em>A legislature with formal power to amend a constitution isn't thereby given power to abolish the constitution's own foundational character — amendment power is not unlimited constituent power.</em>",
+      "Application": "Actively debated and contested in Pakistan's own constitutional jurisprudence, alongside Bangladesh — genuinely globalized well beyond its Indian origin, even as its precise application remains one of the most contested questions in comparative constitutional law."
+    },
+    "links": [
+      {
+        "id": "judicial-review",
+        "label": "Judicial Review"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If courts decide which features are 'basic,' doesn't that just relocate ultimate power to the judiciary rather than limit it?",
+        "a": "A fair version of the counter-majoritarian concern, sharpened here since it constrains even a supermajority. Defenders argue some minimum content must be protected for a constitution to mean anything; critics argue that judgment should stay with elected bodies. Genuinely unresolved."
+      }
+    ]
+  },
+  {
+    "id": "natural-justice",
+    "pillar": "law",
+    "title": "Natural Justice",
+    "teaser": "Audi alteram partem, nemo judex in causa sua — about as close to a universal procedural floor as law gets.",
+    "sections": {
+      "Core Idea": "Two foundational procedural fairness principles across nearly every legal system: audi alteram partem, hear the other side; and nemo judex in causa sua, no one should be a judge in their own cause.",
+      "The Hook": "<em>A decision reached without hearing the affected party, or by someone with a stake in the outcome, is treated as defective across common law, civil law, and international systems alike — regardless of how substantively correct the outcome might otherwise be.</em>",
+      "Application": "<strong>Law:</strong> administrative law worldwide relies on these principles to review government decisions. <strong>Life:</strong> an employer disciplining staff, a university adjudicating academic integrity, a platform banning an account all face the identical fairness question."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If a decision can be substantively correct and still struck down for a process violation, doesn't that let a clearly guilty party escape on a technicality?",
+        "a": "A fair process is what makes any conclusion legitimate rather than merely lucky. A guilty verdict reached without letting the accused respond isn't proven right by chance — it's a process failure that happened to land on the correct outcome, and the next time it might not."
+      }
+    ]
+  },
+  {
+    "id": "presumption-of-innocence",
+    "pillar": "law",
+    "title": "Presumption of Innocence",
+    "teaser": "The burden sits with the state to prove guilt, not with the individual to prove innocence.",
+    "sections": {
+      "Core Idea": "An accused is treated as innocent until proven guilty to the applicable standard, rather than required to prove their own innocence — UDHR Article 11, present in essentially every modern legal system.",
+      "The Hook": "<em>A deceptively simple allocation of burden that shapes nearly every other feature of criminal procedure downstream of it.</em>",
+      "Application": "Pre-trial detention practices are judged against this principle — extended detention without trial sits in real tension with it, which is why bail rights and speedy-trial guarantees exist to limit how much the presumption erodes through delay."
+    },
+    "links": [
+      {
+        "id": "burden-of-proof",
+        "label": "Burden and Standard of Proof"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the presumption is genuinely eroded by pre-trial detention and media coverage even where formally guaranteed, is it doing real protective work or is it mostly symbolic?",
+        "a": "Real, if partial, work — it still shapes the standard of proof, burden allocation, and appellate review, all with measurable outcome effects even where informal erosion undercuts it elsewhere. Symbolic and substantively protective aren't mutually exclusive."
+      }
+    ]
+  },
+  {
+    "id": "res-judicata",
+    "pillar": "law",
+    "title": "Res Judicata",
+    "teaser": "A judgment has to actually end something, or it isn't really a judgment at all.",
+    "sections": {
+      "Core Idea": "A matter already finally decided by a competent court cannot be relitigated between the same parties — a practical necessity every functioning legal system independently arrives at.",
+      "The Hook": "<em>Without this doctrine, litigation could continue indefinitely with no final resolution ever actually binding anyone.</em>",
+      "Application": "A plaintiff who loses a contract dispute cannot simply refile the identical claim hoping for a better outcome — the appropriate remedy for a wrong decision is appeal, not relitigation."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If new evidence surfaces after judgment that would clearly change the outcome, doesn't insistence on finality directly conflict with reaching a correct result?",
+        "a": "Yes, and the doctrine's own recognized exceptions manage that conflict rather than deny it — newly discovered evidence that couldn't reasonably have been found earlier is one narrow ground for reopening a matter. Finality is the default; the exceptions are for the clearest injustices."
+      }
+    ]
+  },
+  {
+    "id": "locus-standi",
+    "pillar": "law",
+    "title": "Locus Standi",
+    "teaser": "Not \"is this claim correct\" but \"is this the right person to be making it.\"",
+    "sections": {
+      "Core Idea": "The doctrine determining who is entitled to bring a claim — a party must generally show a sufficient personal interest, not merely general concern that the law is being broken.",
+      "The Hook": "<em>The universal gatekeeping question sitting before any court can even reach the substance of a dispute.</em>",
+      "Application": "Public interest litigation is a deliberate loosening of traditional standing — Pakistan's own superior courts, under suo motu and public-interest jurisdiction, allow a broader range of parties to bring claims precisely because rigid rules would leave certain systemic wrongs unchallengeable."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If standing rules exist to keep courts from being flooded with claims from people with no real stake, doesn't loosening them for public interest litigation reintroduce the exact problem standing was meant to prevent?",
+        "a": "A real, live tension — broadened standing does increase claim volume, which is why courts that allow it typically pair it with their own discretionary gatekeeping over which public-interest claims to actually hear, rather than treating it as an unlimited open door."
+      }
+    ]
+  },
+  {
+    "id": "nullum-crimen-sine-lege",
+    "pillar": "law",
+    "title": "Nullum Crimen Sine Lege / Nulla Poena Sine Lege",
+    "teaser": "No crime without law, no punishment without law.",
+    "sections": {
+      "Core Idea": "No one can be punished for an act not defined as a crime, with a specified penalty, by law existing before the act — the direct legal operationalization of Fuller's anti-retroactivity concern.",
+      "The Hook": "<em>A government cannot criminalize conduct after the fact and then prosecute someone for having done it before the new law existed.</em>",
+      "Application": "The Nuremberg trials had to directly confront this principle — some defendants argued crimes against humanity hadn't been clearly criminalized before the acts occurred; the tribunal's response remains one of the most debated applications of this doctrine in legal history."
+    },
+    "links": [
+      {
+        "id": "fuller",
+        "label": "Fuller — Inner Morality of Law"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "The Nuremberg tribunal argued the conduct was already prohibited under existing principles even without prior codification. Isn't that exactly the after-the-fact reasoning this principle is supposed to prevent?",
+        "a": "The strongest version of the objection, and serious scholars remain unsatisfied by the tribunal's answer. Its position was recognition of an existing prohibition, not retroactive criminalization — defensible in principle, harder to sustain the less clearly that prior prohibition was actually established. This is the doctrine's hardest real case, not a clean vindication of it."
+      }
+    ]
+  },
+  {
+    "id": "strict-liability",
+    "pillar": "law",
+    "title": "Strict Liability",
+    "teaser": "Liability that doesn't require proof of fault, intent, or negligence — the deliberate exception to mens rea.",
+    "sections": {
+      "Core Idea": "A category of liability, criminal and civil, attaching simply because a particular result occurred, deliberately departing from fault-based liability.",
+      "The Hook": "<em>A regulatory offence like selling alcohol to a minor can often be committed even where the seller reasonably believed the buyer was of age — the legislature has decided the harm is serious enough to remove the fault requirement entirely.</em>",
+      "Application": "Many environmental pollution offences are strict liability specifically because proving a company's mental state at the moment of discharge would make effective enforcement nearly impossible."
+    },
+    "links": [
+      {
+        "id": "mens-rea",
+        "label": "Mens Rea & Actus Reus"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If strict liability removes the fault requirement because proving corporate intent is hard, doesn't that punish companies for the state's own investigative limitations?",
+        "a": "A real critique, part of why strict liability stays confined to regulatory contexts. The counter-argument: it isn't about intent at all — it places the cost of an activity's inherent risk on whoever undertakes it, regardless of fault, because the activity itself carries public risk the actor chose to take on."
+      }
+    ]
+  },
+  {
+    "id": "causation",
+    "pillar": "law",
+    "title": "Causation",
+    "teaser": "But for being born, no one would ever commit any crime — which is exactly why factual causation alone isn't enough.",
+    "sections": {
+      "Core Idea": "A genuine causal link required before liability attaches — factual causation (the \"but for\" test) and legal/proximate causation, which limits liability to consequences not too remote or unforeseeable.",
+      "The Hook": "<em>Factual causation alone produces absurd results if left unchecked, which is why a second, narrower test sits on top of it.</em>",
+      "Application": "If a negligently started fire spreads unpredictably due to a freak wind and destroys a building miles away, factual causation might be satisfied, but proximate causation likely cuts off liability before that remote extent of harm."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If there's no single mechanical formula for where proximate causation cuts off, doesn't that make outcomes essentially unpredictable?",
+        "a": "Genuinely one of private law's least mechanically predictable areas, and scholars acknowledge this rather than paper over it. The doctrine trades predictability for the ability to track fairness intuitions case by case — a mechanical formula would be more predictable and would also produce clearly unjust results a rigid rule couldn't anticipate."
+      }
+    ]
+  },
+  {
+    "id": "pacta-sunt-servanda",
+    "pillar": "law",
+    "title": "Pacta Sunt Servanda",
+    "teaser": "Agreements must be kept — the bedrock assumption underneath every commercial transaction and treaty relationship in the world.",
+    "sections": {
+      "Core Idea": "A validly formed agreement binds the parties and must be performed in good faith — the foundational principle of contract and international law alike.",
+      "The Hook": "<em>Without some version of this principle, a contract or treaty would be nothing more than a non-binding statement of intent.</em>",
+      "Application": "A state cannot simply walk away from an inconvenient treaty obligation, which is precisely why the recognized exceptions — frustration, force majeure, rebus sic stantibus — rather than the principle's absence, are where most genuine disputes concentrate."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the exceptions are where most real disputes concentrate, in what sense is \"agreements must be kept\" really the operative rule rather than the label everyone argues around?",
+        "a": "The default does real work even though exceptions get the litigation attention — most contracts and treaties are performed exactly as agreed, without any exception ever invoked. The exceptions concentrate disputes because they're the narrow, contested edge; that doesn't mean the rule isn't operative everywhere else."
+      }
+    ]
+  },
+  {
+    "id": "good-faith",
+    "pillar": "law",
+    "title": "Good Faith (Bona Fides)",
+    "teaser": "Technical compliance with every explicit term while deliberately sabotaging the deal's actual purpose — exactly what this doctrine exists to catch.",
+    "sections": {
+      "Core Idea": "The requirement that contracting parties act honestly and fairly, not merely complying with the letter while undermining the relationship's purpose — weighted very differently across legal traditions.",
+      "The Hook": "<em>A franchisor deliberately delaying approvals it fully controls to run out the clock on a deadline it doesn't want to meet is technically compliant and substantively acting in bad faith at once.</em>",
+      "Application": "Civil law systems generally treat good faith as an overarching principle across the entire contract; common law systems recognize it more narrowly through specific doctrines rather than one general duty."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If common law functions fine without a general good-faith duty while civil law builds its whole contract tradition around one, doesn't that suggest the duty isn't actually necessary?",
+        "a": "Common law doesn't forgo the protection, it reaches it through narrower, piecemeal doctrines instead of one general principle. The real difference is doctrinal architecture, not outcome — both traditions catch the same bad-faith problem with structurally different tools."
+      }
+    ]
+  },
+  {
+    "id": "vicarious-liability",
+    "pillar": "law",
+    "title": "Vicarious Liability",
+    "teaser": "An employer can be liable for an employee's negligence without having done anything wrong themselves.",
+    "sections": {
+      "Core Idea": "An employer or principal is legally responsible for wrongful acts committed by an employee or agent within the scope of employment, even absent direct employer fault.",
+      "The Hook": "<em>A delivery company can be liable for a driver's negligent accident even though the company never drove the vehicle and trained the driver reasonably — liability attaches through the relationship, not direct fault.</em>",
+      "Application": "A hospital is typically liable for a nurse's negligent treatment during their shift; not liable for an employee's unrelated personal crime committed entirely outside working hours."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If an employer can be liable after doing everything reasonable to hire and train well, doesn't that punish genuinely blameless employers?",
+        "a": "Vicarious liability is explicitly not fault-based, and its defenders don't pretend otherwise — the justification is that the employer is better positioned to spread cost through insurance, supervise the activity, and profits from it. Whether that policy justification outweighs the fairness concern for a blameless employer is a real, ongoing tort-theory debate."
+      }
+    ]
+  },
+  {
+    "id": "ultra-vires",
+    "pillar": "law",
+    "title": "Ultra Vires",
+    "teaser": "Beyond the powers — the core limiting principle underneath administrative law, corporate law, and any delegated authority.",
+    "sections": {
+      "Core Idea": "An action taken beyond the legal power actually granted to whoever performed it is invalid from the outset.",
+      "The Hook": "<em>A government agency or corporate board can only validly do what its actual grant of power authorizes — anything genuinely beyond that is not merely unwise, it's legally void.</em>",
+      "Application": "A local government body authorized only to regulate traffic within its own boundaries acts ultra vires attempting to regulate outside them; a board exceeding its own constitutional documents faces the identical challenge."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If some jurisdictions let ultra vires acts be ratified after the fact, doesn't that undermine the whole point — if it can just be validated retroactively, was the limit ever really binding?",
+        "a": "Ratification doesn't erase the violation, it provides a controlled remedy for it — the act was still ultra vires when performed, and ratification typically requires an affirmative decision by whoever actually holds the exceeded power. Acting beyond your authority still isn't safe by default; it just isn't always fatal."
+      }
+    ]
+  },
+  {
+    "id": "stare-decisis",
+    "pillar": "law",
+    "title": "Stare Decisis / Doctrine of Precedent",
+    "teaser": "A legal system without precedent means identical facts could produce entirely different outcomes depending purely on which judge heard the case that day.",
+    "sections": {
+      "Core Idea": "Courts follow previously decided cases on materially similar facts, providing stability rather than requiring every judge to reason from first principles each time.",
+      "The Hook": "<em>Stare decisis is what makes \"the law\" something reasonably predictable in advance, rather than simply whatever a given judge happens to think on a given morning.</em>",
+      "Application": "Pakistan's own superior court system operates on this doctrine — the entire hierarchical court structure functions coherently only because of stare decisis holding it together."
+    },
+    "links": [
+      {
+        "id": "ratio-decidendi-obiter-dicta",
+        "label": "Ratio Decidendi vs. Obiter Dicta"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If a court can depart from its own precedent in \"exceptional circumstances,\" and civil law courts follow precedent as a strong norm anyway without being bound, how different are the two systems in practice versus just in self-description?",
+        "a": "The formal difference matters more than it appears — a common law court departing from precedent has to affirmatively justify why the earlier case was wrong, a burden that doesn't exist the same way for a civil law court simply reasoning differently. Practical convergence in outcomes doesn't erase a real structural difference in what each system treats as the default requiring justification to escape."
+      }
+    ]
+  },
+  {
+    "id": "ratio-decidendi-obiter-dicta",
+    "pillar": "law",
+    "title": "Ratio Decidendi vs. Obiter Dicta",
+    "teaser": "Only the part that actually did the work of deciding the case becomes binding law — everything else is the judge thinking out loud.",
+    "sections": {
+      "Core Idea": "The ratio decidendi is the reasoning genuinely necessary to a decision and alone carries binding force; obiter dicta are other observations carrying only persuasive weight.",
+      "The Hook": "<em>A judge can say many things in a judgment, but only the part necessary to the actual decision becomes binding law for the future.</em>",
+      "Application": "A landmark case establishing a new legal test has that test as its ratio; a passing speculative comment about a different hypothetical fact pattern is obiter — persuasive, not binding."
+    },
+    "links": [
+      {
+        "id": "stare-decisis",
+        "label": "Stare Decisis"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If reasonable judges frequently disagree about what a case's actual ratio is, doesn't that mean stare decisis is less predictable in practice than it claims in theory?",
+        "a": "A fair limitation, not a fatal flaw — the distinction reduces uncertainty relative to having none at all, even without eliminating it entirely. Disagreement about a specific ratio is a normal feature of legal argument, evidence that applying any general principle to new facts requires judgment no doctrinal framework can fully remove."
+      }
+    ]
+  },
+  {
+    "id": "diplomatic-immunity",
+    "pillar": "law",
+    "title": "Diplomatic Immunity & Persona Non Grata",
+    "teaser": "A diplomat who commits a serious crime abroad generally cannot be arrested at all — the host state's remedy is expulsion, not prosecution.",
+    "sections": {
+      "Core Idea": "The Vienna Convention on Diplomatic Relations (1961) grants accredited diplomats immunity from the host state's criminal jurisdiction, and largely civil and administrative too, while giving the receiving state power to declare any diplomat persona non grata — unwelcome — and demand withdrawal, without stating a reason.",
+      "The Hook": "<em>The host state's real remedy for a diplomat's crime is expulsion, and in severe cases, formal protest to the home government — not arrest or prosecution.</em>",
+      "Application": "<strong>Law:</strong> immunity protects the functioning of diplomatic relations, not the individual personally. Persona non grata is the counterweight — the receiving state retains total discretion to expel."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the sending state is 'responsible' for disciplining its own diplomat, but has no real incentive to actually do so, doesn't immunity just create impunity in practice?",
+        "a": "A real, recurring criticism — the theoretical remedy (the sending state prosecutes its own diplomat) is rarely exercised in practice for anything short of extreme cases. Persona non grata is the practical answer to this exact gap: the host state can't punish, but it can permanently end the relationship, which is real leverage even without prosecution."
+      }
+    ]
+  },
+  {
+    "id": "sovereign-immunity",
+    "pillar": "law",
+    "title": "Sovereign / State Immunity",
+    "teaser": "An equal has no authority over an equal — one state generally cannot be sued in another's domestic courts.",
+    "sections": {
+      "Core Idea": "One state generally cannot be sued in another state's domestic courts without consent — par in parem non habet imperium — reflecting international law's structure of formally equal sovereign states.",
+      "The Hook": "<em>If a foreign government defaults on a contract, the aggrieved party generally cannot simply sue that government in domestic courts the way they could sue a private company.</em>",
+      "Application": "Modern practice distinguishes a state's sovereign acts (acta jure imperii) from its commercial acts (acta jure gestionis), with immunity increasingly limited to the former."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If a state-owned enterprise can be sued for commercial acts but not sovereign ones, what stops a state from simply relabeling a commercial default as a 'sovereign policy decision' to escape liability?",
+        "a": "Courts don't defer to the state's own characterization — they independently assess whether the underlying act was genuinely governmental in nature or was, in substance, an ordinary market transaction regardless of how it's framed. This is exactly why the sovereign/commercial line is litigated case by case rather than settled by the defendant state's own say-so."
+      }
+    ]
+  },
+  {
+    "id": "act-of-state-doctrine",
+    "pillar": "law",
+    "title": "Act of State Doctrine",
+    "teaser": "Courts of one country decline to judge another sovereign's official acts performed within its own territory.",
+    "sections": {
+      "Core Idea": "Courts decline to sit in judgment on the validity of another sovereign state's official governmental acts performed within its own territory — distinct from sovereign immunity, since it can apply even between private parties.",
+      "The Hook": "<em>A domestic court will typically refuse to rule on whether a foreign government's expropriation within its own borders was lawful, even in a relevant private lawsuit.</em>",
+      "Application": "Rests on separation-of-powers and comity concerns — courts are reluctant to embarrass the executive's own conduct of foreign relations."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If courts won't rule on a foreign government's acts even in private disputes, doesn't that leave genuinely wronged private parties with no remedy at all?",
+        "a": "Often yes, in the specific dispute before that court — the doctrine deliberately trades individual remedy for institutional restraint, on the theory that the wronged party's real recourse is diplomatic pressure through their own government, not domestic litigation. Whether that trade-off is worth it for the individual left without a remedy is exactly the doctrine's most persistent critique."
+      }
+    ]
+  },
+  {
+    "id": "jus-cogens",
+    "pillar": "law",
+    "title": "Jus Cogens",
+    "teaser": "A treaty authorizing genocide would simply be void — peremptory norms bind every state regardless of consent.",
+    "sections": {
+      "Core Idea": "Peremptory norms of international law — the prohibition on genocide, slavery, torture — that bind every state regardless of consent, and that no treaty can validly override.",
+      "The Hook": "<em>Unlike almost every other international law rule, jus cogens norms bind every state whether or not it ever consented.</em>",
+      "Application": "Sits at the top of the international legal hierarchy because these norms are considered too fundamental for state consent, the ordinary source of obligation, to be sufficient to escape them."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the exact list of jus cogens norms is contested at the margins, how can the category function as an absolute, non-negotiable floor if we can't even agree on everything that's on it?",
+        "a": "The core set — genocide, slavery, torture, aggressive war — commands broad enough agreement to do real work even with contested edges. The category functions less like a fixed, closed list and more like a strong presumption: a claimed norm has to clear a very high bar of near-universal recognition before it earns jus cogens status, which keeps the contested margin narrow rather than undermining the settled core."
+      }
+    ]
+  },
+  {
+    "id": "non-refoulement",
+    "pillar": "law",
+    "title": "Non-Refoulement",
+    "teaser": "A state cannot return a refugee to a country where they face genuine persecution — regardless of how they arrived.",
+    "sections": {
+      "Core Idea": "A state cannot return a refugee or asylum seeker to a country where they face genuine risk of persecution, torture, or serious harm — one of the most contested, actively litigated doctrines in international law right now.",
+      "The Hook": "<em>Once someone is within a state's effective control, that state cannot send them back to genuine, serious danger, regardless of how they arrived.</em>",
+      "Application": "Directly relevant to Pakistan's own position as both a country of origin for migrants and a long-term host to large refugee populations, particularly from Afghanistan."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the protection applies regardless of formal immigration status, doesn't that effectively give any state's border policy zero practical control over who it must allow to remain?",
+        "a": "Not zero control — the protection is against return to genuine danger specifically, not a general right to remain; a state can still deny entry, detain pending assessment, or remove someone to a genuinely safe third country. The real constraint is narrower than 'anyone who arrives must stay' — it's specifically 'cannot be sent back to face persecution,' which still leaves real, if reduced, room for border policy."
+      }
+    ]
+  },
+  {
+    "id": "universal-jurisdiction",
+    "pillar": "law",
+    "title": "Universal Jurisdiction",
+    "teaser": "Pirates could be tried by any state — genocide and war crimes now carry the same status.",
+    "sections": {
+      "Core Idea": "Certain crimes are considered so serious that any state can prosecute them regardless of where they occurred or the nationality of those involved — piracy historically, now genocide, war crimes, crimes against humanity.",
+      "The Hook": "<em>Pirates operated outside any state's territory, so every state was given power to try them, on the logic that piracy threatened shared maritime interests equally.</em>",
+      "Application": "Relevant to which forum has authority to prosecute an atrocity crime where the state where it occurred is unwilling or unable to do so."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If universal jurisdiction lets any state prosecute crimes with no connection to it, what stops it from becoming a tool for political persecution dressed up as international justice?",
+        "a": "A real, documented risk that's part of why several states have narrowed their own universal jurisdiction statutes after diplomatic friction — the doctrine's legitimacy depends heavily on prosecutorial discretion being exercised in genuinely serious, well-evidenced cases rather than politically motivated ones, and there's no fully reliable structural safeguard ensuring that discretion is used well every time."
+      }
+    ]
+  },
+  {
+    "id": "rebus-sic-stantibus",
+    "pillar": "law",
+    "title": "Rebus Sic Stantibus",
+    "teaser": "The deliberate counterweight to pacta sunt servanda — a treaty can lapse when the ground it was built on genuinely collapses.",
+    "sections": {
+      "Core Idea": "A treaty obligation can lapse when a fundamental, unforeseen change of circumstances radically transforms the extent of obligations still to be performed.",
+      "The Hook": "<em>A treaty negotiated on a specific set of facts doesn't necessarily survive unchanged if those facts collapse in a way neither party could have reasonably anticipated.</em>",
+      "Application": "Deliberately construed narrowly precisely because pacta sunt servanda is the strong governing default — the change must be fundamental and unforeseen, not merely inconvenient."
+    },
+    "links": [
+      {
+        "id": "pacta-sunt-servanda",
+        "label": "Pacta Sunt Servanda"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If successful invocations of this doctrine are 'genuinely rare,' is it actually a meaningful legal safety valve, or mostly a theoretical possibility that never really applies?",
+        "a": "Its rarity is the point, not a sign of dysfunction — a doctrine that too easily excused treaty obligations would undermine the entire predictability pacta sunt servanda is meant to provide. It functions as a genuine, if narrow, escape valve for truly extreme cases, deliberately calibrated to almost never fire rather than to fire often."
+      }
+    ]
+  },
+  {
+    "id": "corporate-veil",
+    "pillar": "law",
+    "title": "Separate Legal Personality & Piercing the Corporate Veil",
+    "teaser": "Even a company owned and run by one man is legally a separate person from him — Salomon v. Salomon, in its starkest form.",
+    "sections": {
+      "Core Idea": "A validly incorporated company is its own legal person, distinct from shareholders and directors — established by Salomon v. Salomon & Co (1897). Piercing the veil is the narrow, exceptional departure where a court holds individuals personally liable.",
+      "The Hook": "<em>Salomon's own case established the principle in its starkest form — even a company wholly owned and controlled by one man is legally separate from him, protecting his personal assets when the business failed.</em>",
+      "Application": "Foundational to limited liability, and directly relevant to Beneficial Ownership doctrine, which sees through corporate structures for regulatory purposes even where veil-piercing for liability wouldn't apply."
+    },
+    "links": [
+      {
+        "id": "beneficial-ownership",
+        "label": "Beneficial Ownership"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If courts have become MORE cautious about piercing the veil over time, not less, doesn't that make the corporate form an increasingly reliable shield for exactly the kind of abuse the exception exists to catch?",
+        "a": "A real, legitimate tension in modern corporate law — the trend toward caution reflects a policy preference for certainty and predictability in commercial law over case-by-case equitable intervention. Whether that trade-off has gone too far, making the veil too hard to pierce even in genuine abuse cases, is an active, unresolved debate in corporate law scholarship."
+      }
+    ]
+  },
+  {
+    "id": "frustration-force-majeure",
+    "pillar": "law",
+    "title": "Doctrine of Frustration / Force Majeure",
+    "teaser": "A concert hall burns down before the event — the entire basis of the contract is destroyed, not just made harder to perform.",
+    "sections": {
+      "Core Idea": "A contract's obligations are discharged when an unforeseen event, through no fault of either party, makes performance genuinely impossible or radically transforms it. Force majeure is the contractual mechanism defining this in advance.",
+      "The Hook": "<em>A contract to rent a concert hall that burns down through no fault of either party cannot simply be performed as agreed.</em>",
+      "Application": "COVID-19 generated enormous frustration and force majeure litigation worldwide, with outcomes varying by whether contracts contained a force majeure clause and how broadly it was drafted."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If frustration requires the event to destroy the contract's fundamental purpose, not just make it harder or costlier, who actually decides where 'harder' ends and 'fundamentally transformed' begins?",
+        "a": "Courts do, case by case, which is exactly why parties increasingly prefer explicit force majeure clauses over relying on the common law default — a well-drafted clause lets the parties define the trigger in advance rather than leaving a genuinely fact-specific, unpredictable line to be drawn after the dispute has already arisen."
+      }
+    ]
+  },
+  {
+    "id": "nemo-dat",
+    "pillar": "law",
+    "title": "Nemo Dat Quod Non Habet",
+    "teaser": "You cannot give what you do not have — a thief cannot pass good title to an innocent buyer.",
+    "sections": {
+      "Core Idea": "A seller generally cannot pass better title to property than the seller actually possessed — a buyer generally acquires no better ownership claim than their seller had to give.",
+      "The Hook": "<em>If someone steals your property and sells it to an entirely innocent buyer, that buyer generally still doesn't acquire good title, because the thief never had good title to pass on.</em>",
+      "Application": "Foundational to sale of goods and property law, directly relevant to any transaction where establishing clear chain of title matters."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If an entirely innocent buyer can still lose the property to the original owner, doesn't that make ordinary commerce risky in a way that discourages legitimate transactions?",
+        "a": "Exactly the tension that produced the recognized exceptions — good-faith purchaser protections for negotiable instruments and certain commercial goods exist specifically because unlimited application of nemo dat would indeed chill legitimate commerce. The principle states the strong default; the exceptions exist precisely to manage this real cost."
+      }
+    ]
+  },
+  {
+    "id": "money-laundering-stages",
+    "pillar": "law",
+    "title": "Money Laundering — The Three-Stage Model",
+    "teaser": "Placement, Layering, Integration — the framework structuring how AML law and enforcement are actually built.",
+    "sections": {
+      "Core Idea": "Criminal proceeds are disguised through three stages: Placement (introducing illicit cash into the legitimate system), Layering (complex transactions obscuring origin), Integration (reintroducing the now-apparent-legitimate funds for open use).",
+      "The Hook": "<em>Placement is typically the most detectable stage, which is exactly why layering exists — a deliberate effort to break the traceable link.</em>",
+      "Application": "Structuring or smurfing (deposits kept just under reporting thresholds) is classic placement; shell companies and cross-border wires are classic layering; real estate purchases are classic integration."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If real-world laundering doesn't cleanly separate into three sequential stages, especially with cryptocurrency compressing them, is the three-stage model actually still useful, or just a tidy textbook fiction regulators keep using out of habit?",
+        "a": "Still useful as an analytical lens even where the real process is compressed or blurred — it identifies three genuinely distinct FUNCTIONS (entry, obscuring, re-emergence) that any laundering scheme has to accomplish somehow, even if a crypto-based scheme collapses them into near-simultaneous steps. The model describes what has to happen, not necessarily in what order or how visibly."
+      }
+    ]
+  },
+  {
+    "id": "terrorism-financing",
+    "pillar": "law",
+    "title": "Terrorism Financing (CFT)",
+    "teaser": "Money laundering asks where did this money come from; terrorism financing asks where is this money going.",
+    "sections": {
+      "Core Idea": "Addressing funds intended for terrorist acts — sharply distinguished from money laundering: laundering hides criminal origin, terrorism financing can involve entirely clean money diverted to an illegitimate end.",
+      "The Hook": "<em>The 2005 London bombings were financed with an estimated cost of under a few thousand pounds — far below thresholds that trigger typical money-laundering detection.</em>",
+      "Application": "Directly relevant to Pakistan's own FATF grey-listing experience (2018–2022), driven substantially by CFT deficiencies specifically."
+    },
+    "links": [
+      {
+        "id": "fatf",
+        "label": "FATF"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If terrorism financing can involve entirely legitimate money and small amounts that evade transaction-monitoring, what actually stops CFT regulation from just becoming broad, intrusive surveillance of ordinary charitable giving?",
+        "a": "A real, live tension the regulation itself has to manage — charitable and non-profit sectors face genuine additional scrutiny precisely because of this vulnerability, and there's an acknowledged risk of that scrutiny chilling legitimate humanitarian work. FATF's own guidance has had to explicitly caution against disproportionate restriction of the non-profit sector for exactly this reason."
+      }
+    ]
+  },
+  {
+    "id": "fatf",
+    "pillar": "law",
+    "title": "FATF and the Global AML/CFT Standard-Setting Regime",
+    "teaser": "Not a court, not a treaty body — but the grey list and black list carry more real leverage than most binding law.",
+    "sections": {
+      "Core Idea": "The Financial Action Task Force (1989) is the primary standard-setter for AML/CFT — its 40 Recommendations have become the de facto template nearly every country's domestic law is now built to match.",
+      "The Hook": "<em>FATF's real power isn't formal legal authority — it's the grey list and black list, public designations with severe practical consequences for international banking access.</em>",
+      "Application": "Pakistan's own grey-listing from 2018 to 2022 is the single most consequential real-world instance of this mechanism in this project's own context — years of legislative reform were required before removal."
+    },
+    "links": [
+      {
+        "id": "terrorism-financing",
+        "label": "Terrorism Financing"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If FATF has no formal legal authority at all, why does grey-listing actually work as enforcement — what's stopping a country from just ignoring the designation?",
+        "a": "Because compliance isn't really coerced by FATF directly — it's coerced by international banks themselves, who become reluctant to process transactions connected to a grey- or black-listed jurisdiction to avoid their own regulatory exposure. FATF doesn't need legal authority because it's shaping the risk calculus of thousands of private financial institutions worldwide simultaneously, which functions as leverage no single treaty obligation could match."
+      }
+    ]
+  },
+  {
+    "id": "kyc-cdd",
+    "pillar": "law",
+    "title": "Know Your Customer / Customer Due Diligence",
+    "teaser": "The upstream obligation everything else in AML/CFT depends on — you can't stop laundering you never notice happening.",
+    "sections": {
+      "Core Idea": "Regulated entities must verify a customer's identity and understand the source of their funds before establishing a relationship — the preventive obligation sitting upstream of everything else in this section.",
+      "The Hook": "<em>KYC is why opening a bank account now requires identity documentation and increasingly detailed questions about source of funds — friction that exists because anonymous accounts are exactly what makes Placement easy.</em>",
+      "Application": "Enhanced Due Diligence applies to higher-risk categories, including politically exposed persons and unusually opaque corporate structures."
+    },
+    "links": [
+      {
+        "id": "beneficial-ownership",
+        "label": "Beneficial Ownership"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If KYC's real value depends on institutions actually verifying rather than just collecting information, how would you know whether a given bank's KYC program is genuinely effective versus just generating paperwork?",
+        "a": "The honest answer is you often can't tell from the outside — regulatory audits and enforcement actions are the real test, and the frequent finding across many jurisdictions is that KYC information gets collected but not meaningfully cross-checked or acted upon, a documented gap between formal compliance and actual risk detection that mirrors the same weakness flagged under Beneficial Ownership registries."
+      }
+    ]
+  },
+  {
+    "id": "beneficial-ownership",
+    "pillar": "law",
+    "title": "Beneficial Ownership",
+    "teaser": "A company owned by a company, owned by a trust, controlled by a foundation elsewhere — this doctrine cuts through however many layers exist.",
+    "sections": {
+      "Core Idea": "Looking through a corporate or trust structure to identify the real natural person who ultimately owns or controls it — a regulatory extension of veil-piercing logic, operating preventively through registries rather than as an exceptional judicial remedy.",
+      "The Hook": "<em>The offshore structures exposed by the Panama Papers typically relied on exactly the kind of multi-layered corporate and trust structures this doctrine now specifically targets.</em>",
+      "Application": "Increasingly relevant to Pakistani law given post-grey-listing regulatory reform in this specific area."
+    },
+    "links": [
+      {
+        "id": "corporate-veil",
+        "label": "Corporate Veil"
+      },
+      {
+        "id": "kyc-cdd",
+        "label": "KYC / CDD"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If beneficial ownership registries often just accept self-declared information without independent verification, what's actually stopping someone from simply lying on the registration and defeating the whole point of the regulation?",
+        "a": "In practice, not much, in jurisdictions with weak verification — this is the single most significant, openly acknowledged weakness in beneficial ownership regimes globally. The regulation's real deterrent value in those jurisdictions comes less from the registry itself and more from the criminal liability attached to knowingly filing false information, which only bites once an investigation independently uncovers the lie."
+      }
+    ]
+  },
+  {
+    "id": "predicate-offence",
+    "pillar": "law",
+    "title": "Predicate Offence",
+    "teaser": "No money laundering without an identifiable underlying crime — the doctrinal hinge the entire AML regime turns on.",
+    "sections": {
+      "Core Idea": "The underlying criminal activity that generated proceeds later subjected to laundering — laundering is defined as disguising the proceeds of some other, prior crime, not as a freestanding offence.",
+      "The Hook": "<em>An \"all crimes\" approach treats virtually any criminal activity as a qualifying predicate; FATF's standards now push jurisdictions strongly toward this broader approach over a narrower specified list.</em>",
+      "Application": "Wildlife trafficking, cross-referenced from the Environmental section, is increasingly prosecuted as a predicate offence with real money-laundering exposure attached."
+    },
+    "links": [
+      {
+        "id": "money-laundering-stages",
+        "label": "Three-Stage Model"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If many AML statutes now allow proof of laundering without a separate conviction for the predicate offence, doesn't that risk convicting someone of laundering money that, it later turns out, was never actually connected to any real crime at all?",
+        "a": "A genuine risk the lower evidentiary bar creates, and part of why most systems still require the prosecution to establish the funds' criminal origin to some standard, even without a full separate conviction — usually a reasonable-grounds or balance-of-probabilities showing that criminal activity, of some kind, is the funds' likely source, not zero evidentiary burden at all."
+      }
+    ]
+  },
+  {
+    "id": "targeted-sanctions",
+    "pillar": "law",
+    "title": "Targeted Financial Sanctions & Asset Freezing",
+    "teaser": "A name added to a list triggers an immediate freeze worldwide — no trial, no conviction, before the freeze takes effect.",
+    "sections": {
+      "Core Idea": "UN Security Council or state designation of specific individuals or entities, requiring immediate freezing of assets — the enforcement mechanism with the most immediate geopolitical bite of anything in this section.",
+      "The Hook": "<em>A name added to a sanctions list triggers an immediate freezing obligation on every regulated financial institution worldwide, with no trial or conviction required first.</em>",
+      "Application": "UN sanctions regimes require every member state to freeze relevant assets, operating independently of and considerably faster than any domestic criminal prosecution."
+    },
+    "links": [
+      {
+        "id": "natural-justice",
+        "label": "Natural Justice"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the whole point of the mechanism is to act before due process could realistically conclude, doesn't that make the natural-justice objection unanswerable by design — the speed and the fairness genuinely can't coexist here?",
+        "a": "That's close to the honest position, and it's exactly why courts in several jurisdictions have found specific designations to violate domestic due-process protections while the underlying sanctions regime remains in force elsewhere. The tension isn't fully resolved — most systems have added post-designation review and delisting procedures as a partial fix, but a genuine pre-freeze hearing would defeat the mechanism's entire purpose, so the fairness gap at the moment of freezing is real and largely accepted as the cost of the tool working at all."
+      }
+    ]
+  },
+  {
+    "id": "non-conviction-confiscation",
+    "pillar": "law",
+    "title": "Non-Conviction-Based Confiscation",
+    "teaser": "Property, not a person, is formally the defendant — the state can seize crime-connected assets without anyone being convicted of anything.",
+    "sections": {
+      "Core Idea": "The state seizes and forfeits property provably connected to criminal activity without requiring a criminal conviction — civil asset forfeiture, genuinely one of the strangest, most contested mechanisms in this section.",
+      "The Hook": "<em>A case is literally styled as the state against a specific sum of money — property can be forfeited even where no criminal charge was ever brought against any individual.</em>",
+      "Application": "Directly relevant to Pakistan's own asset recovery efforts regarding corruption-connected assets held offshore, often the only practically available route given the genuine difficulty of extradition."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the burden effectively shifts onto the property owner to prove their own innocence to recover seized assets, doesn't that directly invert the Presumption of Innocence already built on this page?",
+        "a": "A genuinely sharp catch, and the standard defence is a formal one: the proceeding is styled as civil, against the property, not criminal, against a person, so the presumption of innocence (a criminal-procedure protection) doesn't formally apply. Critics argue this is a distinction without a real difference when the practical effect on the property owner is functionally the same as being presumed guilty — documented abuse cases are exactly where that formal/practical gap has done the most damage."
+      }
+    ]
+  },
+  {
+    "id": "udhr",
+    "pillar": "law",
+    "title": "UDHR & the International Bill of Rights",
+    "teaser": "A shared, universal baseline of human dignity no state's domestic law should be permitted to fall below.",
+    "sections": {
+      "Core Idea": "The UDHR (1948), together with the ICCPR and ICESCR (1966), collectively the International Bill of Rights, forms the foundational instrument underlying the entire modern human rights framework.",
+      "The Hook": "<em>Adopted in the direct aftermath of the Second World War, the UDHR's 30 articles were a deliberate response to the atrocities the war had just revealed.</em>",
+      "Application": "Nearly every subsequent instrument in this section — CEDAW, the CRC, non-refoulement — traces its lineage back to this foundational document."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the UDHR itself was never formally binding, and even the Covenants rely mostly on state self-reporting rather than direct enforcement, is 'the International Bill of Rights' doing real legal work or is it mostly aspirational language?",
+        "a": "Both, genuinely — the enforcement mechanism is weak, but the normative reference point is real: nearly every subsequent binding instrument in this section cites back to it, and substantial parts are now treated as customary international law binding even non-ratifying states. Weak enforcement and genuine normative force aren't mutually exclusive."
+      }
+    ]
+  },
+  {
+    "id": "cedaw",
+    "pillar": "law",
+    "title": "CEDAW",
+    "teaser": "Requires states to modify social and cultural patterns, not just formal law — reaching directly into the izzat and honour-killing territory already built on this project's Sociology page.",
+    "sections": {
+      "Core Idea": "The Convention on the Elimination of All Forms of Discrimination Against Women (1979) requires states to end discrimination against women and to modify discriminatory social and cultural patterns.",
+      "The Hook": "<em>CEDAW doesn't just prohibit direct legal discrimination — it requires states to address discriminatory cultural patterns, reaching upstream into exactly the territory the Cooper Vane case study already identified as the harder problem.</em>",
+      "Application": "Pakistan ratified CEDAW in 1996; its own periodic reporting has directly addressed honour-based violence and the 2016 anti-honour-killing amendments already built in full on the Aviation page."
+    },
+    "links": [
+      {
+        "id": "honour-killing",
+        "label": "Anti-Honour Killing Legislation"
+      },
+      {
+        "id": "state-due-diligence",
+        "label": "State Due Diligence"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If CEDAW allows states to enter reservations against provisions conflicting with religious or personal status law, doesn't that let a state formally ratify the treaty while opting out of exactly the provisions most likely to matter?",
+        "a": "A real, documented limitation — reservations can significantly narrow the substantive obligation a ratifying state actually accepts. This is precisely why CEDAW Committee reporting and international scrutiny matter as much as ratification itself: the treaty's real bite in a specific state depends heavily on which reservations were entered, not just whether the state signed."
+      }
+    ]
+  },
+  {
+    "id": "crc",
+    "pillar": "law",
+    "title": "CRC — Convention on the Rights of the Child",
+    "teaser": "The most widely ratified human rights treaty in history — and its own Article 38 sets a lower age than its general childhood definition.",
+    "sections": {
+      "Core Idea": "Establishes a comprehensive rights framework for children, including protection from exploitation and the principle that a child's best interests should be a primary consideration in all actions concerning them.",
+      "The Hook": "<em>The Convention sets 18 as the general threshold for childhood — directly relevant to both the JJSA 2018 and military recruitment age material already built on the Sociology page.</em>",
+      "Application": "Article 38 sets 15 as the minimum combat-participation age, an internal tension connecting directly to the military recruitment entry already built on this project's own Sociology page."
+    },
+    "links": [
+      {
+        "id": "military-recruitment-kohlberg",
+        "label": "Military Recruitment at 15-16"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the Convention's own combat-age threshold (15) is lower than its general childhood definition (18), doesn't that internal inconsistency undermine the Convention's own credibility as a coherent rights framework?",
+        "a": "A fair, frequently made criticism, and part of why the 2000 Optional Protocol exists specifically to raise the combat threshold to 18 — the original Convention's own drafters accepted a compromise reflecting existing state military practice at the time rather than a principled position, and the Protocol is the international community's own subsequent correction. Not every state has ratified the Protocol, so the inconsistency persists in practice even where it's been addressed on paper."
+      }
+    ]
+  },
+  {
+    "id": "ilo-child-labour",
+    "pillar": "law",
+    "title": "ILO Child Labour Conventions (No. 138 & No. 182)",
+    "teaser": "Gradual progress on minimum age; immediate, non-negotiable prohibition on the worst forms.",
+    "sections": {
+      "Core Idea": "Convention No. 138 (1973) sets a general minimum employment age; Convention No. 182 (1999) targets the worst forms of child labour as an immediate obligation regardless of development level.",
+      "The Hook": "<em>Convention 182 was adopted with unusual, near-universal speed precisely because it targets the worst forms as urgent, distinct from the gradual progress Convention 138 allows.</em>",
+      "Application": "Pakistan has ratified both; domestic labour law following the 18th Amendment's devolution has been substantially shaped by alignment with these standards."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If Convention 138 allows states flexibility in setting their own minimum age based on development level, doesn't that let a poorer country simply set a lower bar and call it compliance?",
+        "a": "Genuinely, yes — the flexibility is deliberate, reflecting a real trade-off between universal standards and acknowledging that a rigid single age might be unenforceable or economically devastating in some contexts. Convention 182's absolute, non-negotiable prohibition on the worst forms exists specifically because that trade-off was judged unacceptable for the most severe categories, even while it's tolerated for ordinary minimum-age progress."
+      }
+    ]
+  },
+  {
+    "id": "forced-labour",
+    "pillar": "law",
+    "title": "Forced Labour / Modern Slavery",
+    "teaser": "\"Menace of penalty\" doesn't require violence — debt bondage and confiscated documents both qualify.",
+    "sections": {
+      "Core Idea": "The ILO Forced Labour Convention (1930) and its 2014 Protocol define forced labour as work exacted under menace of penalty, not offered voluntarily — a precise threshold distinguishing it from merely poor conditions.",
+      "The Hook": "<em>The \"menace of penalty\" element doesn't require physical violence — debt bondage, confiscated identity documents, and threats of denunciation to immigration authorities all qualify.</em>",
+      "Application": "Bonded labour in brick kilns and agricultural work remains well-documented in parts of Pakistan, where debt bondage, often passed across generations, constitutes forced labour without any single overt act of coercion."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If debt bondage can be inherited across generations with no single coercive act by anyone currently alive, who exactly is legally responsible for the forced labour — the current employer who never personally created the debt?",
+        "a": "Yes, typically the current employer, and this is precisely why bonded labour abolition legislation (Pakistan's own Bonded Labour System Abolition Act) generally voids the underlying debt obligation itself rather than trying to assign individual blame for its origin — the legal fix targets the debt structure, not a specific culpable act, because the coercive effect operates regardless of who currently holds the debt or how it originated."
+      }
+    ]
+  },
+  {
+    "id": "palermo-protocol",
+    "pillar": "law",
+    "title": "Human Trafficking — The Palermo Protocol",
+    "teaser": "Act + Means + Purpose — the precise three-element test defining trafficking, with Means removed entirely for children.",
+    "sections": {
+      "Core Idea": "The Palermo Protocol (2000) defines trafficking through three elements: the Act, the Means (coercion, deception, abuse of vulnerability), the Purpose (exploitation). For children, the Means requirement is removed entirely.",
+      "The Hook": "<em>Proving the Means element — that coercion or deception was actually used rather than voluntary choice of exploitative circumstances — is frequently the hardest part of any trafficking case.</em>",
+      "Application": "The Dubai sexscape material already built on the Sociology page's VCR-Era Diffusion Triad entry sits directly within this Protocol's Act-Means-Purpose structure."
+    },
+    "links": [
+      {
+        "id": "vcr-era-diffusion-triad",
+        "label": "The VCR-Era Wave"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If a child's consent is legally irrelevant to whether trafficking occurred, but an adult's genuine, uncoerced consent to the same exploitative work would mean no trafficking occurred at all, doesn't that create a strange, hard-to-administer bright line right at the age of majority?",
+        "a": "A real, if deliberate, feature rather than an oversight — the Protocol treats a child as categorically incapable of meaningfully consenting to their own exploitation, which is a defensible bright line even though it creates exactly the discontinuity you're pointing at. The genuinely hard cases cluster right around that age boundary, and the Protocol's own drafters accepted that cost as the price of a workable, administrable rule rather than a case-by-case capacity assessment for every near-adult."
+      }
+    ]
+  },
+  {
+    "id": "non-discrimination",
+    "pillar": "law",
+    "title": "Non-Discrimination & Equal Protection",
+    "teaser": "Not all differential treatment is prohibited — only treatment lacking sufficient justification.",
+    "sections": {
+      "Core Idea": "Individuals should not be treated differently on protected characteristics without genuine, sufficient justification — the umbrella principle across nearly every human rights instrument and modern constitution.",
+      "The Hook": "<em>The principle doesn't prohibit all differential treatment, only treatment lacking sufficient justification — which is why non-discrimination analysis usually collapses into a version of Proportionality.</em>",
+      "Application": "Pakistan's own Article 25 guarantees equal protection and prohibits sex-based discrimination explicitly — directly connected to CEDAW and the honour-killing/izzat material built extensively on the Sociology page."
+    },
+    "links": [
+      {
+        "id": "proportionality",
+        "label": "Proportionality"
+      },
+      {
+        "id": "cedaw",
+        "label": "CEDAW"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If heightened scrutiny applies to race and sex 'most commonly,' who decides which other characteristics deserve that same heightened protection, and on what basis?",
+        "a": "Courts, incrementally, case by case, usually reasoning by analogy to the already-recognized categories — asking whether a new characteristic shares the features that justified heightened scrutiny for race and sex in the first place, such as a history of being used to entrench unjust hierarchy or an immutable, largely unchosen characteristic. This is exactly why the list is described as evolving rather than fixed — it expands through accumulated judicial reasoning, not a single legislative decision."
+      }
+    ]
+  },
+  {
+    "id": "state-due-diligence",
+    "pillar": "law",
+    "title": "State Due Diligence for Private Violations",
+    "teaser": "A state doesn't escape responsibility for gender-based violence simply because it was a private family member, not an official, who committed it.",
+    "sections": {
+      "Core Idea": "A state is responsible not only for violations by its own officials, but for failing to exercise due diligence to prevent, investigate, and punish violations by private individuals.",
+      "The Hook": "<em>This is the precise doctrinal name for the upstream gap already at the centre of the Cooper Vane / anti-honour-killing case study on the Aviation page — the 2016 Act closed the waiver loophole but left the upstream reporting-and-classification gap untouched.</em>",
+      "Application": "Developed substantially through jurisprudence on violence against women, recognizing that criminalizing private violence achieves little if institutions systematically fail to enforce those laws against a known pattern."
+    },
+    "links": [
+      {
+        "id": "cooper-vane",
+        "label": "Cooper Vane"
+      },
+      {
+        "id": "honour-killing",
+        "label": "Anti-Honour Killing Legislation"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the 'due diligence' standard is deliberately fact-specific rather than a fixed threshold, how would a court ever actually find a state failed this test rather than just having limited resources doing its honest best?",
+        "a": "By looking at the pattern, not a single failure — courts applying this doctrine generally examine whether the state's institutional response was reasonable given a KNOWN, documented, recurring risk, not whether any single investigation was perfect. A state that has clear statistical evidence of a pervasive pattern and makes no structural response to it looks very different, under this test, from a state genuinely under-resourced but making good-faith, if imperfect, efforts against the same pattern."
+      }
+    ]
+  },
+  {
+    "id": "margin-of-appreciation",
+    "pillar": "law",
+    "title": "Margin of Appreciation",
+    "teaser": "National authorities are often better positioned to judge local considerations relevant to balancing a right against competing interests.",
+    "sections": {
+      "Core Idea": "The deference international and regional human rights bodies extend to national authorities in how they implement a shared standard, recognizing legitimate national variation in application.",
+      "The Hook": "<em>The European Court of Human Rights doesn't require every member state to implement a shared right identically — national authorities are often better positioned to judge local considerations.</em>",
+      "Application": "Now referenced far beyond its European origin in comparative constitutional reasoning worldwide, including debates over how much deference domestic courts should extend to legislatures on contested questions."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the margin narrows where international consensus is broad and widens where it's thin, doesn't that just mean the doctrine gives states MORE room to under-protect rights precisely on the hardest, most contested questions where protection might matter most?",
+        "a": "Exactly the criticism the entry's own caveat names directly, and it's a genuine, unresolved tension in the doctrine's own design — the doctrine's defenders argue that forcing a single answer onto genuinely contested moral questions where reasonable states disagree would itself be a form of illegitimate imposition, while critics argue this reasoning conveniently protects rights only where protecting them is easy. Both positions are held by serious scholars; this isn't a settled question."
+      }
+    ]
   }
 ]
