@@ -1315,5 +1315,1101 @@
         "a": "Exactly the criticism the entry's own caveat names directly, and it's a genuine, unresolved tension in the doctrine's own design — the doctrine's defenders argue that forcing a single answer onto genuinely contested moral questions where reasonable states disagree would itself be a form of illegitimate imposition, while critics argue this reasoning conveniently protects rights only where protecting them is easy. Both positions are held by serious scholars; this isn't a settled question."
       }
     ]
+  },
+  {
+    "id": "budapest-convention",
+    "pillar": "law",
+    "title": "Budapest Convention on Cybercrime",
+    "teaser": "The first international treaty addressing internet-based crime — its offence categories now shape law far beyond its own signatory list.",
+    "sections": {
+      "Core Idea": "The Convention on Cybercrime (2001) requires signatories to criminalize illegal access, data interference, and computer-related fraud, and establishes cross-border cooperation mechanisms.",
+      "The Hook": "<em>Cybercrime is inherently transnational — an offender in one country attacking a victim in another using infrastructure in a third — exactly the jurisdictional problem the Convention was built to solve.</em>",
+      "Application": "Pakistan's own Prevention of Electronic Crimes Act 2016 substantially reflects offence categories first defined here, despite Pakistan not being a signatory."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If major states like Russia and China aren't signatories and object on sovereignty grounds, how much is the Convention actually achieving as a global cooperation mechanism versus just a Western/aligned-states framework?",
+        "a": "A real limitation on the cooperation side — mutual legal assistance genuinely only works between actual signatories, so cross-border investigation involving a non-signatory state faces real practical barriers the Convention can't solve. Its broader influence as a definitional template, shaping domestic offence categories even in non-signatory states like Pakistan, is a separate and considerably wider achievement than its formal cooperation network."
+      }
+    ]
+  },
+  {
+    "id": "data-protection-principles",
+    "pillar": "law",
+    "title": "Data Protection Principles",
+    "teaser": "The Brussels effect — GDPR's real global reach comes less from jurisdiction than from companies finding one global standard simpler than two.",
+    "sections": {
+      "Core Idea": "GDPR (2018) codified core principles — lawfulness, purpose limitation, data minimization, accountability — that have become the de facto global template.",
+      "The Hook": "<em>Global companies find it simpler to apply GDPR-standard practices worldwide than maintain separate, lower-standard systems for non-EU users.</em>",
+      "Application": "Pakistan's own draft Personal Data Protection Bill substantially mirrors GDPR's structure."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If Pakistan currently has no comprehensive binding data protection law of its own, what's actually enforceable right now if a Pakistani company mishandles user data?",
+        "a": "Considerably less than GDPR-equivalent protection — absent the draft bill's passage, enforcement relies on scattered sector-specific rules and general consumer-protection or contract law rather than a dedicated data-protection regime. This is exactly why the entry flags this as a live gap, not settled infrastructure: the principles are increasingly referenced in draft law and corporate practice, but binding domestic enforcement mechanisms are not yet fully in place."
+      }
+    ]
+  },
+  {
+    "id": "right-to-be-forgotten",
+    "pillar": "law",
+    "title": "Right to Be Forgotten",
+    "teaser": "The right doesn't delete the underlying information — it targets the search engine's own indexing of it.",
+    "sections": {
+      "Core Idea": "Established in Google Spain v. AEPD (2014), allowing removal of search engine links to inadequate, outdated, or excessive personal information, even where the underlying information remains lawfully published.",
+      "The Hook": "<em>A search engine's aggregation and easy retrievability of scattered information creates a genuinely different, more consequential privacy harm than the original scattered publication alone.</em>",
+      "Application": "Public figures and matters of genuine ongoing public interest receive considerably less protection than purely private individuals."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the underlying article stays published and only the search link disappears, isn't this right mostly cosmetic — anyone determined enough can still find the information some other way?",
+        "a": "It reduces accessibility rather than eliminating information entirely, which the doctrine's own defenders treat as the actual point, not a flaw — most real-world privacy harm from old information comes from casual, easy discoverability (someone Googling a name before a job interview), not from a determined investigator willing to dig through original sources. Raising the friction to find something is a meaningfully different, lesser harm than making it instantly, effortlessly available."
+      }
+    ]
+  },
+  {
+    "id": "crypto-classification-howey",
+    "pillar": "law",
+    "title": "Legal Classification of Cryptocurrency & the Howey Test",
+    "teaser": "A 1946 test for an entirely different context is now the informal global reference point for classifying crypto.",
+    "sections": {
+      "Core Idea": "Whether a cryptocurrency is a currency, commodity, or security remains genuinely unsettled — the US Howey test has become the informal global reference point most jurisdictions at least consider.",
+      "The Hook": "<em>Howey asks whether purchasers rely on the efforts of an identifiable third party for expected profit — a test built decades before cryptocurrency existed.</em>",
+      "Application": "Tokens with an identifiable development team tend to classify as securities; genuinely decentralized cryptocurrencies with no controlling party, Bitcoin most prominently, have generally been treated as commodities."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If Bitcoin is treated as a commodity because it has no identifiable controlling party, but most major cryptocurrencies DO have visible founding teams and foundations, doesn't that mean almost everything except Bitcoin itself risks being classified as a security?",
+        "a": "That's roughly the practical effect Howey analysis has produced in US regulatory practice, and it's precisely why so many token issuers have worked hard to demonstrate genuine decentralization after launch — the classification isn't fixed at issuance forever; a token can potentially migrate from security-like to commodity-like status as control genuinely diffuses away from any founding team over time."
+      }
+    ]
+  },
+  {
+    "id": "travel-rule-virtual-assets",
+    "pillar": "law",
+    "title": "The Travel Rule for Virtual Assets",
+    "teaser": "Cryptocurrency's early reputation for anonymity is exactly what this rule was designed to dismantle for regulated exchanges.",
+    "sections": {
+      "Core Idea": "FATF Recommendation 16, extended in 2019 to virtual assets, requires crypto exchanges to collect and transmit originator/beneficiary information above a threshold, the same burden traditional banks carry.",
+      "The Hook": "<em>An exchange now has to know and transmit who is actually sending and receiving a transaction above the threshold.</em>",
+      "Application": "Directly relevant to Pakistan's own developing regulatory approach to virtual assets, working to avoid the deficiencies that contributed to its earlier FATF grey-listing."
+    },
+    "links": [
+      {
+        "id": "fatf",
+        "label": "FATF"
+      },
+      {
+        "id": "beneficial-ownership",
+        "label": "Beneficial Ownership"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If transactions to unhosted personal wallets remain a largely unresolved compliance gap, doesn't that mean the Travel Rule mostly just pushes sophisticated bad actors toward exactly the unhosted-wallet route it can't reach, rather than actually stopping them?",
+        "a": "A real, acknowledged displacement risk rather than a solved problem — the Rule genuinely raises friction for exchange-to-exchange transfers, which is real progress, but sophisticated actors specifically avoiding regulated exchanges in favor of unhosted wallets is exactly the predictable adaptation any partial regulatory net produces. This is an open implementation gap, not a hidden flaw the entry is glossing over."
+      }
+    ]
+  },
+  {
+    "id": "smart-contracts",
+    "pillar": "law",
+    "title": "Smart Contracts & Legal Enforceability",
+    "teaser": "Code that keeps the agreement automatically — with no room for frustration or force majeure to intervene before it already executed.",
+    "sections": {
+      "Core Idea": "Whether self-executing code satisfies the legal requirements of a binding contract, and how doctrines like Frustration apply to code that executes automatically regardless of changed circumstances, remains genuinely live law.",
+      "The Hook": "<em>A smart contract doesn't ask whether performance has become impossible before executing — it simply executes exactly as coded, even when that produces a result the parties clearly never intended.</em>",
+      "Application": "Connects directly to Pacta Sunt Servanda — smart contracts are perhaps the most literal technological embodiment of \"agreements must be kept.\""
+    },
+    "links": [
+      {
+        "id": "pacta-sunt-servanda",
+        "label": "Pacta Sunt Servanda"
+      },
+      {
+        "id": "frustration-force-majeure",
+        "label": "Frustration / Force Majeure"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If a smart contract already executed exactly as coded before any court could intervene, what does a legal remedy even look like at that point — can a court actually reverse a transaction that's already permanently recorded on a blockchain?",
+        "a": "Often, no, not directly — this is exactly why smart contract disputes are genuinely harder to remedy than ordinary contract breaches. Courts have generally had to fall back on ordering a party to make an equivalent compensating payment or transfer, rather than literally undoing the on-chain execution, which is precisely the practical gap the entry flags as still unresolved rather than a settled body of remedy law."
+      }
+    ]
+  },
+  {
+    "id": "eu-ai-act",
+    "pillar": "law",
+    "title": "The EU AI Act & Risk-Tiered Regulation",
+    "teaser": "The identical underlying technology faces radically different regulatory burden depending entirely on what it's actually being used for.",
+    "sections": {
+      "Core Idea": "The first comprehensive, binding hard-law AI framework (2024), structured around risk tiers — unacceptable (banned), high (extensive compliance), limited (transparency obligations), minimal (largely unregulated).",
+      "The Hook": "<em>An AI system used to screen job applications faces substantial compliance obligations; a simple AI-powered spam filter faces essentially none — the same underlying technology, radically different treatment based purely on application.</em>",
+      "Application": "The first real hard-law template other jurisdictions, including comparative policy discussions relevant to Pakistan's own eventual AI legislation, are actively studying."
+    },
+    "links": [
+      {
+        "id": "soft-law-ai",
+        "label": "Soft Law in AI Governance"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the same technology can be high-risk in one application and minimal-risk in another, doesn't that create an incentive for companies to just relabel or repurpose a high-risk use case as something more benign to dodge the compliance burden?",
+        "a": "A genuine gaming risk the Act's own drafters anticipated — which is why classification depends on the AI system's actual, substantive purpose and deployment context rather than the vendor's own stated label, and why enforcement bodies retain authority to reclassify a system found to be functionally high-risk regardless of how it was marketed. Whether that enforcement authority proves robust enough in practice is exactly the kind of open question this entry's own caveat flags as still unanswered."
+      }
+    ]
+  },
+  {
+    "id": "soft-law-ai",
+    "pillar": "law",
+    "title": "Soft Law in AI Governance",
+    "teaser": "There isn't binding law yet, but there is real, converging soft law doing genuine governance work in the meantime.",
+    "sections": {
+      "Core Idea": "Outside the EU's binding Act, the dominant global approach operates through non-binding standards — OECD AI Principles, NIST's Risk Management Framework, corporate AI governance frameworks — shaping behaviour without formal legal force.",
+      "The Hook": "<em>Soft law is not a lesser, placeholder version of real regulation — it is itself a recognized, functioning category of governance, doing real work in the gap before binding legislation catches up.</em>",
+      "Application": "Today's soft law often becomes tomorrow's hard law, as regulators frequently draw directly on already-developed frameworks when they do eventually legislate — the same pattern already observed in FATF's own soft-law standard-setting."
+    },
+    "links": [
+      {
+        "id": "eu-ai-act",
+        "label": "EU AI Act"
+      },
+      {
+        "id": "fatf",
+        "label": "FATF"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If soft law's whole limitation is that compliance depends entirely on voluntary adoption, what's actually stopping a company from publishing an impressive AI governance framework and then simply not following it in practice?",
+        "a": "Very little, structurally — this is soft law's genuine, acknowledged weak point relative to binding law. What provides some real pressure is reputational risk if the gap between stated framework and actual practice becomes public, and increasingly, litigation and regulatory risk where a company's own published standards get used as the benchmark against which its actual conduct is judged after something goes wrong — a published framework can become evidence against the company that ignored its own stated commitments."
+      }
+    ]
+  },
+  {
+    "id": "legal-capacity",
+    "pillar": "law",
+    "title": "Legal Capacity / Competence Doctrine",
+    "teaser": "Capacity is assessed decision by decision, not as a blanket status.",
+    "sections": {
+      "Core Idea": "The legal test for whether a person possesses the mental ability to understand, retain, weigh, and communicate a decision — a functional, decision-specific standard, not a single global determination.",
+      "The Hook": "<em>Someone with a cognitive impairment might genuinely lack capacity to manage complex financial affairs while retaining full capacity to decide what to eat for dinner.</em>",
+      "Application": "Directly connects to the Insanity Defence entry, which addresses capacity specifically in the criminal context."
+    },
+    "links": [
+      {
+        "id": "insanity-defence",
+        "label": "The Insanity Defence"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If capacity is presumed unless there's good reason to question it, doesn't that create a real risk that people with genuine, subtle incapacity get overlooked simply because no one thought to formally assess them?",
+        "a": "A real, acknowledged risk of the presumption-based system — it's designed to avoid the opposite harm (treating people as incompetent without cause), but that design choice does mean subtle incapacity can go unassessed until a specific decision or dispute triggers scrutiny. The presumption protects autonomy at the cost of some under-detection; most systems accept that trade-off deliberately rather than defaulting to mandatory universal assessment."
+      }
+    ]
+  },
+  {
+    "id": "informed-consent",
+    "pillar": "law",
+    "title": "Informed Consent",
+    "teaser": "A signature on a form doesn't automatically satisfy this doctrine — the real question is what was actually explained.",
+    "sections": {
+      "Core Idea": "A patient must be given adequate information about a treatment's nature, risks, benefits, and alternatives before valid consent exists — consent without adequate disclosure is not legally valid.",
+      "The Hook": "<em>The actual legal question is whether the patient was given genuinely adequate information, not merely whether a document was signed.</em>",
+      "Application": "Foundational to medical malpractice practice, directly connected to Clinical Negligence & Duty of Care."
+    },
+    "links": [
+      {
+        "id": "clinical-negligence",
+        "label": "Clinical Negligence & Duty of Care"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the patient-centered standard asks what a reasonable patient would want to know, and every patient's actual informational needs differ, how does a practitioner ever know in advance whether they've disclosed enough for a SPECIFIC patient in front of them?",
+        "a": "Most patient-centered standards actually apply an objective 'reasonable patient' benchmark rather than requiring practitioners to read each individual's specific psychology — the test is what information a reasonable person in the patient's position would consider significant, not a subjective inquiry into this particular patient's unique preferences, which is exactly what makes the standard workable in practice despite sounding individualized."
+      }
+    ]
+  },
+  {
+    "id": "involuntary-commitment",
+    "pillar": "law",
+    "title": "Involuntary Civil Commitment",
+    "teaser": "A diagnosis alone is never sufficient grounds — demonstrated risk of harm is the additional, deliberately demanding requirement.",
+    "sections": {
+      "Core Idea": "The standard for detaining someone for psychiatric treatment against their will, requiring both a genuine mental disorder AND significant risk of harm to self or others.",
+      "The Hook": "<em>The risk-of-harm requirement exists specifically to prevent commitment from becoming a tool for detaining people simply because their mental state makes others uncomfortable.</em>",
+      "Application": "Directly connects to Legal Capacity, since commitment necessarily involves overriding a person's own stated wishes."
+    },
+    "links": [
+      {
+        "id": "legal-capacity",
+        "label": "Legal Capacity"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If emergency commitment allows rapid detention on an initial risk assessment, how much genuine procedural protection does the person actually have in that critical first window before the longer-term hearing process kicks in?",
+        "a": "Genuinely less than they'd have at the longer-term stage, and this is an acknowledged, deliberate trade-off — emergency provisions exist precisely because waiting for a full hearing before acting on an acute, imminent risk could itself cause serious harm. Most systems try to manage this by keeping the emergency detention period short and mandating rapid judicial review, but the initial window remains the point of least procedural protection in the whole process."
+      }
+    ]
+  },
+  {
+    "id": "insanity-defence",
+    "pillar": "law",
+    "title": "The Insanity Defence (M'Naghten Rules)",
+    "teaser": "Not whether you have a mental illness — specifically whether it stopped you understanding what you were doing, or that it was wrong.",
+    "sections": {
+      "Core Idea": "The M'Naghten Rules (1843) hold a defendant not criminally responsible if, due to disease of the mind, they didn't know the nature of their act, or didn't know it was wrong.",
+      "The Hook": "<em>Many defendants with serious, documented mental illness still fail to meet the M'Naghten standard, since the illness didn't specifically destroy their understanding of the act's nature or wrongness at the relevant moment.</em>",
+      "Application": "A successful defence typically results not in release but in mandatory psychiatric commitment, reflecting a lack of culpable mental state, not that no response is warranted."
+    },
+    "links": [
+      {
+        "id": "mens-rea",
+        "label": "Mens Rea & Actus Reus"
+      },
+      {
+        "id": "diminished-responsibility",
+        "label": "Diminished Responsibility"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If M'Naghten has been criticized for decades as outdated and purely cognitive, why does it remain the foundational reference point rather than having been fully replaced everywhere by now?",
+        "a": "Partly institutional inertia, and partly because the alternatives (broader volitional tests asking whether the defendant could control their impulses) have their own serious problems — volitional impairment is notoriously harder to prove or disprove with any reliability than cognitive understanding, which courts can at least assess through more concrete evidence. M'Naghten's narrowness is a criticized weakness and also, for some jurisdictions, a deliberately preferred feature: a harder-to-meet but more evidentially tractable standard."
+      }
+    ]
+  },
+  {
+    "id": "diminished-responsibility",
+    "pillar": "law",
+    "title": "Diminished Responsibility",
+    "teaser": "The gap between full insanity and no defence at all — culpability exists on a spectrum, not as a binary.",
+    "sections": {
+      "Core Idea": "A partial defence reducing a charge (typically murder to manslaughter) where mental functioning was substantially impaired without meeting the full insanity standard.",
+      "The Hook": "<em>Mental impairment exists on a spectrum, and a substantially, though not completely, impaired defendant deserves a meaningfully different legal outcome than either a fully sane defendant or one who meets the full insanity standard.</em>",
+      "Application": "Connects to sentencing policy broadly, allowing more proportionate outcomes than a binary sane/insane framework would permit."
+    },
+    "links": [
+      {
+        "id": "insanity-defence",
+        "label": "The Insanity Defence"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the defence is generally only available for murder-type charges, doesn't that mean a defendant with the exact same genuine mental impairment gets no comparable partial-responsibility consideration for a different, lesser charge?",
+        "a": "Largely correct, and a real, acknowledged limitation of how narrowly the defence is scoped — mental impairment as a mitigating factor still gets considered more broadly at sentencing for other offences, but as a formal defence that actually changes the charge itself, diminished responsibility's narrow scope to homicide-type offences is a genuine structural inconsistency in how the law treats comparable impairment across different crimes."
+      }
+    ]
+  },
+  {
+    "id": "clinical-negligence",
+    "pillar": "law",
+    "title": "Clinical Negligence & Duty of Care",
+    "teaser": "The standard isn't perfection — it's what a reasonably competent practitioner in the same field would have done.",
+    "sections": {
+      "Core Idea": "Negligence law applied to medical and mental health treatment — a duty of care owed, breached by falling below the standard a reasonably competent practitioner would meet, causing genuine harm.",
+      "The Hook": "<em>A treatment outcome can be genuinely poor without constituting negligence, provided the practitioner's conduct met the professional standard even though the result was unfortunate.</em>",
+      "Application": "Mental health treatment raises a distinct duty owed in some circumstances to identifiable third parties the patient poses a risk to, connecting directly to Involuntary Commitment."
+    },
+    "links": [
+      {
+        "id": "informed-consent",
+        "label": "Informed Consent"
+      },
+      {
+        "id": "involuntary-commitment",
+        "label": "Involuntary Civil Commitment"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If a practitioner owes a duty of care to an identifiable third party the patient threatens, doesn't that create a direct conflict with the practitioner's separate, usually strict duty of confidentiality to the patient themselves?",
+        "a": "Yes, and this is a genuine, recognized tension most jurisdictions resolve through a narrow, carefully bounded exception — confidentiality can be breached specifically where there's a credible, identifiable threat to a specific identifiable person, not for general risk or vague concern. The exception is deliberately kept narrow precisely because it cuts against the strong default duty of confidentiality that makes mental health treatment possible in the first place."
+      }
+    ]
+  },
+  {
+    "id": "wellness-healthcare-gap",
+    "pillar": "law",
+    "title": "The Wellness-versus-Healthcare Regulatory Gap",
+    "teaser": "The same intervention, radically different regulatory exposure, based substantially on marketing language rather than clinical function.",
+    "sections": {
+      "Core Idea": "Wellness apps, AI chatbot \"coaching,\" and mental-fitness services marketed to people who are not patients routinely fall entirely outside the regulatory perimeter built for healthcare and medical devices — a genuine, current gap, not a settled doctrine like the rest of this section.",
+      "The Hook": "<em>A mental health app marketed as \"wellness\" rather than as diagnosing or treating a condition can operate with essentially none of the regulatory obligations that would apply to an equivalent service explicitly marketed as treatment.</em>",
+      "Application": "A genuine, live area for future regulatory development, directly relevant to Pakistan's own developing digital health policy."
+    },
+    "links": [
+      {
+        "id": "samd",
+        "label": "Software as a Medical Device"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If this is explicitly named as a gap rather than a doctrine, what's actually stopping a genuinely harmful, clinically unfounded 'wellness' product from operating indefinitely with zero accountability, simply by never using the word 'treatment'?",
+        "a": "Very little, structurally, which is precisely the honest point of naming this a gap rather than dressing it up as regulated territory. Some accountability still exists through general consumer protection law and defamation/negligent-misstatement claims if specific harm can be proven, but the demanding, specific safeguards built for actual healthcare — licensing, clinical evidence requirements, informed consent — simply don't apply, and that's a real, current vulnerability, not a hidden safety net this entry is failing to mention."
+      }
+    ]
+  },
+  {
+    "id": "samd",
+    "pillar": "law",
+    "title": "Software as a Medical Device (SaMD) & Digital Therapeutics",
+    "teaser": "The same app can be a regulated medical device or an unregulated wellness product, depending substantially on what it claims to do.",
+    "sections": {
+      "Core Idea": "The emerging line regulators draw around software performing a genuine medical function, based substantially on the specific claims made rather than the underlying technology — the mechanism by which some digital health products get pulled into regulation while others remain unregulated wellness products.",
+      "The Hook": "<em>An app claiming to diagnose a condition faces regulation; a functionally similar app marketed only as supporting general wellbeing may not — the same underlying technology, radically different regulatory treatment based on the claim made.</em>",
+      "Application": "Directly relevant to any digital health product's regulatory strategy, and to Pakistan's own developing digital health regulatory framework."
+    },
+    "links": [
+      {
+        "id": "wellness-healthcare-gap",
+        "label": "The Wellness-versus-Healthcare Regulatory Gap"
+      },
+      {
+        "id": "eu-ai-act",
+        "label": "EU AI Act"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If classification depends substantially on what claims the product makes about itself, doesn't that just create a direct incentive for companies to deliberately understate their product's actual clinical function specifically to dodge SaMD regulation?",
+        "a": "Exactly the gaming risk this doctrine and the Wellness-versus-Healthcare gap immediately above both point at from different angles — regulators have tried to close this by looking at functional claims and actual use patterns, not just marketing language, but enforcement resources are limited relative to the volume of digital health products now on the market, meaning this incentive to understate function is real and only partially checked in practice."
+      }
+    ]
+  },
+  {
+    "id": "polluter-pays",
+    "pillar": "law",
+    "title": "Polluter Pays Principle",
+    "teaser": "The cost of degrading clean air or water is meant to be internalized into the polluter's own operating costs, not externalized onto everyone downstream.",
+    "sections": {
+      "Core Idea": "The party responsible for causing pollution should bear the cost of managing it, rather than that cost being absorbed by the public or the environment itself.",
+      "The Hook": "<em>A factory doesn't get to treat clean air and water as a free input it can degrade without consequence.</em>",
+      "Application": "Operationalized through pollution taxes, mandatory cleanup liability, and permit systems requiring payment for pollution rights."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the principle is now widely accepted in theory but enforcement varies enormously by regulatory capacity, isn't it functionally just aspiration in most developing economies rather than a real constraint on polluters?",
+        "a": "A fair, honest characterization in many contexts, and part of why the entry's own caveat names this gap directly. Where formal adoption exists without genuine enforcement capacity, the principle functions more as a legal aspiration than a real cost-internalization mechanism — worth distinguishing between jurisdictions where it's genuinely operative and ones where it's mostly symbolic."
+      }
+    ]
+  },
+  {
+    "id": "precautionary-principle",
+    "pillar": "law",
+    "title": "Precautionary Principle",
+    "teaser": "Waiting for absolute scientific proof before acting on a plausible, serious risk can mean waiting until the harm is already irreversible.",
+    "sections": {
+      "Core Idea": "Act to prevent serious or irreversible harm even before full scientific certainty exists — inverting the usual burden toward requiring the party proposing a potentially harmful activity to demonstrate safety.",
+      "The Hook": "<em>The precautionary principle treats a credible threat of serious harm as sufficient grounds for action even under genuine scientific uncertainty.</em>",
+      "Application": "Now standard across environmental and public-health law worldwide, not one jurisdiction's invention."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the principle can be invoked for genuinely speculative risk as easily as credible risk, what actually stops it from being used to block any innovation someone simply doesn't like, dressed up as caution?",
+        "a": "Nothing built into the principle itself — this is exactly the critics' strongest point, and the entry's own caveat names it directly. The line between legitimate precaution and unjustified obstruction depends entirely on how 'credible' versus 'speculative' gets assessed in a specific case, which is a judgment call the principle doesn't itself resolve."
+      }
+    ]
+  },
+  {
+    "id": "cbdr",
+    "pillar": "law",
+    "title": "Common But Differentiated Responsibilities",
+    "teaser": "A nation that industrialized a century ago and one only beginning now are asked to do genuinely different things under the same underlying commitment.",
+    "sections": {
+      "Core Idea": "All states share responsibility for addressing climate change, but developed nations, historically responsible for the majority of cumulative emissions, bear a differentiated, generally greater obligation.",
+      "The Hook": "<em>Runs from the Rio Declaration through Kyoto's binding targets for developed nations only, to Paris's more flexible framework, which still preserves the differentiation principle.</em>",
+      "Application": "Directly relevant to Pakistan's own position in international climate negotiations, as a developing nation with historically low emissions but significant current climate vulnerability."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If the precise operationalization of 'differentiated' responsibility remains one of the most contested questions in climate negotiations, has the principle actually resolved anything, or just given everyone a shared vocabulary to disagree within?",
+        "a": "The second, largely — and that's still a genuine achievement, not nothing. A shared vocabulary for the disagreement (agreeing the differentiation is real and legitimate) is a real precondition for eventually negotiating specifics, even though it doesn't itself settle what those specifics should be. Compare it to Universal Doctrine's own Natural Justice — agreeing hearing rights matter doesn't settle exactly how much process is due."
+      }
+    ]
+  },
+  {
+    "id": "public-trust-doctrine",
+    "pillar": "law",
+    "title": "Public Trust Doctrine",
+    "teaser": "The state as trustee of shared natural resources — increasingly the load-bearing doctrine in rights-based climate litigation.",
+    "sections": {
+      "Core Idea": "The state holds certain natural resources in trust for present and future public use, meaning it cannot simply dispose of or degrade these resources as an ordinary private owner could.",
+      "The Hook": "<em>Plaintiffs increasingly argue a government's failure to address climate change breaches its trustee duty over shared natural resources — not merely policy failure, an actual breach of legal trust obligation.</em>",
+      "Application": "Directly connects to Climate Litigation below and to Intergenerational Equity, since a trust obligation inherently runs to future beneficiaries too."
+    },
+    "links": [
+      {
+        "id": "climate-litigation",
+        "label": "Climate Litigation"
+      },
+      {
+        "id": "intergenerational-equity",
+        "label": "Intergenerational Equity"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the doctrine's traditional scope is navigable waters specifically, and several climate cases relying on the extended atmospheric version have been dismissed for stretching it too far, is this actually a viable climate-litigation theory or mostly an aspirational reach that keeps failing?",
+        "a": "Genuinely mixed — some courts have accepted the extension, others have rejected it as beyond the doctrine's established scope, which is exactly why the entry's own caveat calls this contested rather than settled. It's a real, live litigation strategy with a real track record of both wins and losses, not a purely aspirational theory that never gets traction."
+      }
+    ]
+  },
+  {
+    "id": "environmental-impact-assessment",
+    "pillar": "law",
+    "title": "Environmental Impact Assessment",
+    "teaser": "EIA doesn't prohibit harmful projects — it forces the harm to be identified and disclosed before a decision is made.",
+    "sections": {
+      "Core Idea": "A formal assessment of a proposed project's likely environmental effects must be conducted and considered before approval — a preventive, information-forcing procedural mechanism, now globally standard.",
+      "The Hook": "<em>EIA converts an invisible cost into a visible one decision-makers and the public can actually weigh.</em>",
+      "Application": "Directly relevant to any major infrastructure project in Pakistan, where EIA requirements under the Pakistan Environmental Protection Act govern approval processes."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If a project can still proceed despite a genuinely negative EIA finding in most systems, what's actually stopping EIA from becoming pure box-ticking with no real power to prevent harm?",
+        "a": "Nothing structurally built into the requirement itself, which is exactly the entry's own caveat — a rigorous EIA process paired with a decision-maker free to disregard its findings provides considerably weaker protection than the procedural requirement alone suggests. The real check is usually public disclosure and the political cost of visibly ignoring a serious negative finding, not a legal bar on proceeding."
+      }
+    ]
+  },
+  {
+    "id": "intergenerational-equity",
+    "pillar": "law",
+    "title": "Intergenerational Equity",
+    "teaser": "A legal obligation running to parties who don't yet exist and cannot themselves assert any claim.",
+    "sections": {
+      "Core Idea": "Present generations owe a legal and moral duty to preserve environmental resources and options for generations not yet born.",
+      "The Hook": "<em>Every other legal relationship in this Law pillar involves at least two parties who can appear before a court — this asks courts to weigh the interests of people who don't exist yet.</em>",
+      "Application": "The direct theoretical foundation for youth-led climate litigation worldwide, connecting to Climate Litigation below."
+    },
+    "links": [
+      {
+        "id": "climate-litigation",
+        "label": "Climate Litigation"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If future generations can't themselves assert a claim, and today's representatives (environmental groups, guardians) are choosing what to argue on their behalf, how do we know those representatives are actually representing future interests accurately rather than just their own present-day agenda dressed up as intergenerational concern?",
+        "a": "We genuinely don't, with certainty — this is a real, structural limitation the doctrine can't fully escape, since there's no way to consult the actual future beneficiaries. The best available check is that the represented interest (a habitable environment) is broad and general enough that it's hard to plausibly misrepresent, unlike a narrower claim where a representative's own agenda could diverge sharply from what future people would actually want."
+      }
+    ]
+  },
+  {
+    "id": "climate-litigation",
+    "pillar": "law",
+    "title": "Climate Litigation & Rights-Based Climate Claims",
+    "teaser": "Urgenda v. Netherlands — the first time a court ordered a national government to strengthen its climate policy on human-rights grounds.",
+    "sections": {
+      "Core Idea": "The genuinely new doctrinal trend treating climate inaction itself as a human rights violation or breach of a state's own legal duties, rather than pure political discretion beyond judicial reach.",
+      "The Hook": "<em>A Dutch court ordered the government to increase its emissions reduction targets, finding inadequate climate action violated its citizens' human rights under the European Convention.</em>",
+      "Application": "Combines Public Trust Doctrine, State Due Diligence, and direct human rights claims already built on this page — a genuinely live, rapidly developing area."
+    },
+    "links": [
+      {
+        "id": "public-trust-doctrine",
+        "label": "Public Trust Doctrine"
+      },
+      {
+        "id": "state-due-diligence",
+        "label": "State Due Diligence"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If courts start ordering governments to strengthen climate policy, doesn't that directly raise the Separation of Powers concern already built on this page — judges setting policy that's supposed to be a legislative and executive call?",
+        "a": "Exactly the objection Urgenda's own critics raised, and courts applying this doctrine have generally tried to answer it by ordering a target (an emissions reduction percentage) rather than dictating the specific policy mechanism for reaching it — leaving the legislature and executive to choose HOW to comply while the court sets a floor. Whether that distinction genuinely respects separation of powers or just relocates the same tension one level down is a live, unresolved debate."
+      }
+    ]
+  },
+  {
+    "id": "cites-exotic-pets",
+    "pillar": "law",
+    "title": "CITES & the Exotic Pet Trade",
+    "teaser": "Why certain exotic animals cannot be legally imported as pets regardless of demand.",
+    "sections": {
+      "Core Idea": "The Convention on International Trade in Endangered Species (1973) regulates international trade through a tiered appendix system based on conservation status.",
+      "The Hook": "<em>An Appendix I species faces an effective international trade ban for commercial purposes — the direct legal reason certain exotic animals cannot be legally imported or exported as pets.</em>",
+      "Application": "Connects to Wildlife Trafficking as a Predicate Offence below, since illegal trade in CITES-listed species is increasingly prosecuted as serious transnational organized crime."
+    },
+    "links": [
+      {
+        "id": "wildlife-trafficking-predicate",
+        "label": "Wildlife Trafficking as a Predicate Offence"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If CITES only regulates international trade and not domestic possession, doesn't that leave a huge practical loophole — smuggle the animal in once, and domestic law might not touch what happens after?",
+        "a": "A real, documented gap, and precisely why CITES's practical effectiveness depends heavily on domestic legislation choosing to also restrict possession, not just import — many jurisdictions have closed this gap with their own domestic wildlife possession laws, but where domestic law is silent or weak, the international trade ban alone provides considerably less real protection than it appears to on paper."
+      }
+    ]
+  },
+  {
+    "id": "animal-sentience",
+    "pillar": "law",
+    "title": "Animal Sentience Doctrine",
+    "teaser": "A horse and a wagon used to sit in roughly the same legal category — sentience doctrine says that was always factually wrong.",
+    "sections": {
+      "Core Idea": "The growing legal recognition of animals as sentient beings capable of experiencing pain and suffering, rather than mere property with no legally relevant interior experience.",
+      "The Hook": "<em>Classical common law property doctrine treated an animal like any other owned object — sentience doctrine is the formal legal recognition that this was always, factually, wrong.</em>",
+      "Application": "Connects to Legal Personhood for Animals below, the more radical and contested next step some litigation has attempted."
+    },
+    "links": [
+      {
+        "id": "legal-personhood-animals",
+        "label": "Legal Personhood for Animals"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If most jurisdictions that adopted sentience language still treat animals as property for most practical legal purposes, is this doctrine actually changing anything, or is it symbolic language with no real teeth?",
+        "a": "Mostly symbolic so far in most jurisdictions, and the entry's own caveat says so directly rather than overselling it. Where it has produced genuine practical effect — some custody-dispute rulings treating pets differently from furniture during divorce, some welfare-standard cases — those are narrow, specific applications, not a wholesale transformation of animals' legal status."
+      }
+    ]
+  },
+  {
+    "id": "legal-personhood-animals",
+    "pillar": "law",
+    "title": "Legal Personhood for Animals",
+    "teaser": "A chimpanzee's habeas corpus claim — the same procedural mechanism used to challenge unlawful human detention, extended to a non-human plaintiff.",
+    "sections": {
+      "Core Idea": "The genuinely contested frontier asking whether at least some animals should hold at least limited legal personhood, including standing to challenge their own captivity — more radical than sentience recognition alone.",
+      "The Hook": "<em>The Nonhuman Rights Project has argued, with mixed success, that a chimpanzee held in captivity should have habeas corpus standing to challenge that captivity directly.</em>",
+      "Application": "Argentina's 2016 ruling recognizing Sandra the orangutan as a \"non-human person\" remains one of the most cited real-world instances of a court extending some form of legal personhood to an animal."
+    },
+    "links": [
+      {
+        "id": "animal-sentience",
+        "label": "Animal Sentience Doctrine"
+      },
+      {
+        "id": "corporate-veil",
+        "label": "Separate Legal Personality"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If corporations already get legal personhood without possessing sentience at all, and animals with genuine sentience are mostly denied it, doesn't that reveal that legal personhood was never really about consciousness or capacity to suffer — it's about something else entirely?",
+        "a": "A genuinely sharp observation the doctrine's own critics have made — courts have generally tied personhood to the capacity to bear legal DUTIES and responsibilities, not to sentience or cognitive capacity, which is exactly why a duty-incapable but legally useful fiction like a corporation qualifies while a duty-incapable but genuinely sentient animal doesn't. Whether that duty-based criterion is actually the right test, or just a historical accident being defended after the fact, is precisely what this litigation frontier is contesting."
+      }
+    ]
+  },
+  {
+    "id": "wildlife-trafficking-predicate",
+    "pillar": "law",
+    "title": "Wildlife Trafficking as a Predicate Offence",
+    "teaser": "One of the most lucrative illicit markets in the world requires exactly the same laundering infrastructure as drugs or corruption proceeds.",
+    "sections": {
+      "Core Idea": "Wildlife trafficking is increasingly prosecuted as a predicate offence for money laundering, not merely a conservation violation — recognized as serious transnational organized crime with real financial-crime exposure.",
+      "The Hook": "<em>The global illegal wildlife trade generates proceeds requiring exactly the same laundering infrastructure — shell companies, complicit intermediaries, cross-border layering — already built in the Money Laundering Three-Stage Model.</em>",
+      "Application": "FATF has specifically flagged wildlife trafficking as a priority AML/CFT area, relevant to Pakistan's own position as both a transit point and, in some documented cases, a source country."
+    },
+    "links": [
+      {
+        "id": "predicate-offence",
+        "label": "Predicate Offence"
+      },
+      {
+        "id": "money-laundering-stages",
+        "label": "Money Laundering Three-Stage Model"
+      },
+      {
+        "id": "fatf",
+        "label": "FATF"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If financial-crime prosecution of wildlife trafficking is 'still an emerging rather than fully mature enforcement approach,' what's actually gained by pursuing traffickers this way rather than just through traditional wildlife protection law that's already established?",
+        "a": "The financial-crime approach reaches the infrastructure and the money, not just the individual poacher or smuggler caught with contraband — traditional wildlife law tends to catch low-level operators while the financial backers and organizers stay insulated. It's a genuinely different, complementary target, not a replacement, which is exactly why it's pursued alongside rather than instead of traditional enforcement."
+      }
+    ]
+  },
+  {
+    "id": "chain-of-custody",
+    "pillar": "law",
+    "title": "Chain of Custody",
+    "teaser": "DNA evidence proving guilt beyond scientific doubt is worthless if you can't prove the sample tested is the one collected from the scene.",
+    "sections": {
+      "Core Idea": "The documented, unbroken record of who collected, handled, transferred, and stored evidence from collection to courtroom — ensuring it hasn't been altered, substituted, or contaminated.",
+      "The Hook": "<em>Scientifically flawless DNA evidence is worthless in court if the prosecution cannot show, step by documented step, that the sample tested is actually the same sample collected from the crime scene.</em>",
+      "Application": "Foundational to any evidence-heavy prosecution, and directly connects to Daubert/Frye below, since even scientifically valid evidence is worthless without an intact chain."
+    },
+    "links": [
+      {
+        "id": "daubert-frye",
+        "label": "Daubert / Frye Standard"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If some courts treat a chain-of-custody gap as fatal to admissibility while others treat it as just going to weight, doesn't that mean identical evidence handling could produce completely different outcomes depending purely on which court happens to hear the case?",
+        "a": "Yes, and this is a genuine, acknowledged inconsistency across jurisdictions rather than a hidden problem — it reflects a deeper disagreement about whether chain-of-custody defects should be treated as a threshold admissibility question (can the jury even hear this) or a credibility question (how much should the jury trust this), and reasonable legal systems have landed on different answers."
+      }
+    ]
+  },
+  {
+    "id": "daubert-frye",
+    "pillar": "law",
+    "title": "Daubert / Frye Standard",
+    "teaser": "DNA evidence wasn't simply \"new\" — it had to earn admissibility the same way any scientific technique does.",
+    "sections": {
+      "Core Idea": "The admissibility test for scientific evidence — Frye (1923) asks whether a technique has \"general acceptance\" in the relevant scientific community; Daubert (1993) asks judges to directly assess validity, reliability, and error rate.",
+      "The Hook": "<em>Early DNA evidence faced genuine, serious admissibility challenges in the 1980s and early 1990s before the underlying science was sufficiently established for courts to reliably accept it.</em>",
+      "Application": "Newer forensic techniques, including some digital forensics methods, face genuine ongoing admissibility challenges under exactly this framework as they seek the same acceptance DNA evidence eventually earned."
+    },
+    "links": [
+      {
+        "id": "chain-of-custody",
+        "label": "Chain of Custody"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Daubert makes the judge the gatekeeper actively assessing scientific validity, but most judges have no scientific training themselves, isn't that asking judges to do a job they're genuinely unqualified to do?",
+        "a": "A real, frequently made criticism of the Daubert standard specifically — judges aren't scientists, and critics argue this produces inconsistent, sometimes scientifically unsound gatekeeping decisions. Defenders argue the alternative (Frye's pure deference to community acceptance) has its own problem: a genuinely flawed technique can gain community acceptance through institutional inertia, which Daubert's more searching review is meant to catch."
+      }
+    ]
+  },
+  {
+    "id": "authentication-electronic-records",
+    "pillar": "law",
+    "title": "Authentication of Electronic Records",
+    "teaser": "A text message has no single physical \"original\" the way a signed paper contract does.",
+    "sections": {
+      "Core Idea": "The modern adaptation of the old Best Evidence Rule for a world where electronic records often have no single physical original — establishing that a record is what it purports to be and hasn't been altered.",
+      "The Hook": "<em>A text message, an email, a blockchain transaction record — none have a single physical \"original,\" forcing evidence law to develop genuinely new authentication methods.</em>",
+      "Application": "Connects directly to Chain of Custody, since digital evidence authentication and custody tracking are closely related, often overlapping requirements in practice."
+    },
+    "links": [
+      {
+        "id": "chain-of-custody",
+        "label": "Chain of Custody"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the technical sophistication required often exceeds what a general practitioner can confidently assess, doesn't that create a real access-to-justice problem — a party without resources for expert digital forensics testimony effectively can't authenticate contested digital evidence at all?",
+        "a": "A genuine, under-discussed concern — the growing need for expert testimony to authenticate digital evidence does create a real resource asymmetry between well-funded and under-resourced parties, mirroring similar access-to-justice concerns already present wherever specialized expert evidence matters. This isn't unique to digital evidence, but the pace at which digital authentication complexity is growing makes the gap more acute than it was for older, more familiar evidence types."
+      }
+    ]
+  },
+  {
+    "id": "mlat-cloud-act",
+    "pillar": "law",
+    "title": "Cross-Border Data Requests — MLATs and the CLOUD Act",
+    "teaser": "How a 'Google subpoena' actually works — and why it can take a foreign government months or years to get an answer.",
+    "sections": {
+      "Core Idea": "MLATs are the traditional, often slow bilateral mechanism for a foreign government to compel a US platform to hand over data; the CLOUD Act (2018) created a faster, more direct alternative for qualifying partner countries.",
+      "The Hook": "<em>Traditional MLATs could take many months, sometimes years — the CLOUD Act was built specifically to address this delay, but by creating executive-agreement bypasses that raise real questions about reduced judicial oversight for speed.</em>",
+      "Application": "Pakistan does not currently have a CLOUD Act executive agreement with the US, meaning Pakistani law enforcement requesting data from a US platform would generally still need the slower traditional MLAT process."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If CLOUD Act agreements require partner countries to meet human-rights and rule-of-law standards, but those standards are 'vague and potentially subject to political judgment,' what's actually stopping the US from using this as a foreign-policy lever rather than a neutral legal gatekeeping mechanism?",
+        "a": "Structurally, not much — the entry's own caveat names this directly. The qualifying standards are assessed by the US executive branch itself, which inherently mixes legal criteria with foreign policy considerations, and there's no independent, non-political body verifying the assessment. This is a genuine, unresolved concern about the mechanism's design, not a hypothetical risk."
+      }
+    ]
+  },
+  {
+    "id": "reasonable-expectation-privacy",
+    "pillar": "law",
+    "title": "Reasonable Expectation of Privacy & Video Surveillance",
+    "teaser": "No expectation of privacy on a public street — but networked facial recognition tracking you across an entire city is a genuinely different question.",
+    "sections": {
+      "Core Idea": "Whether video surveillance is lawfully obtained and admissible turns centrally on whether the person recorded had a genuine, legally recognized expectation of privacy in the specific location and circumstances.",
+      "The Hook": "<em>There is generally no reasonable expectation of privacy in a public street, but the same camera technology aggregated at scale through networked facial recognition raises a genuinely different, more contested question.</em>",
+      "Application": "Connects to Non-Discrimination & Equal Protection, given well-documented facial recognition accuracy disparities across different demographic groups."
+    },
+    "links": [
+      {
+        "id": "non-discrimination",
+        "label": "Non-Discrimination & Equal Protection"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the foundational privacy test was built decades before networked surveillance existed, and courts are still 'actively working out' how it applies, doesn't that mean there's currently no reliable legal protection against mass surveillance at all — just an open question with no answer yet?",
+        "a": "A fair characterization of the current gap, and worth taking seriously rather than assuming existing doctrine already covers this adequately. There's real, if inconsistent, movement toward recognizing aggregated tracking as a distinct privacy harm, but no settled, universally applied rule yet — which means protection in this specific area currently depends heavily on which jurisdiction and which court, not on a stable, predictable legal standard."
+      }
+    ]
+  },
+  {
+    "id": "intermediary-liability",
+    "pillar": "law",
+    "title": "Intermediary Liability / Safe Harbor",
+    "teaser": "Section 230 is why a social media company generally isn't sued for defamatory content the way a newspaper would be.",
+    "sections": {
+      "Core Idea": "Whether a platform is legally responsible for user-generated content — Section 230 (US, 1996) grants broad immunity; the EU's Digital Services Act (2022) ties safe-harbor protection to active moderation obligations.",
+      "The Hook": "<em>Section 230's core provision — that a platform generally isn't the \"publisher\" of user content — is why the entire structure of the modern internet developed the way it did.</em>",
+      "Application": "Connects directly to Right to Be Forgotten, since intermediary liability rules directly shape how aggressively a platform will comply with content-removal requests."
+    },
+    "links": [
+      {
+        "id": "right-to-be-forgotten",
+        "label": "Right to Be Forgotten"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Section 230 faces criticism both from people who want more moderation and people who want less, doesn't that actually suggest the current balance might be roughly correct — genuinely contested from both directions usually means you're near the actual fair midpoint?",
+        "a": "An appealing inference, but not necessarily a sound one — being attacked from both sides is also exactly what you'd expect if a policy simply satisfies neither side's actual underlying concern, rather than correctly balancing them. Bilateral criticism is consistent with both 'this is the fair midpoint' and 'this fails both goals simultaneously' — the entry's own caveat doesn't resolve which explanation is correct, and neither does the fact of contestation alone."
+      }
+    ]
+  },
+  {
+    "id": "conflict-laws-content-moderation",
+    "pillar": "law",
+    "title": "Conflict of Laws in Content Moderation",
+    "teaser": "Germany can order content removed as illegal; the US Constitution protects the same speech — and no doctrine yet reliably resolves which law governs.",
+    "sections": {
+      "Core Idea": "A platform operating across multiple jurisdictions can face directly conflicting legal obligations, with no single doctrine yet reliably resolving which law actually governs content simultaneously accessible everywhere.",
+      "The Hook": "<em>Germany's NetzDG can order specific content removed; the same content might be constitutionally protected speech under the US First Amendment — a platform is caught genuinely between two valid, conflicting legal orders.</em>",
+      "Application": "Platforms have generally resolved this in practice through geo-blocking rather than a single global removal or formally resolved choice-of-law rule."
+    },
+    "links": [],
+    "sparring": [
+      {
+        "q": "If geo-blocking is just a practical workaround, not a legal resolution, what happens when someone uses a VPN to access content geo-blocked in their own country — has the conflict actually been avoided, or just made technically circumventable?",
+        "a": "Genuinely just made circumventable, not resolved — geo-blocking manages the platform's own compliance exposure (it can show good-faith effort to restrict access within the requiring jurisdiction) without actually preventing determined users from reaching the content anyway. This is precisely why the entry frames geo-blocking as a workaround rather than a doctrine: it satisfies the letter of a removal order without solving the underlying conflict-of-laws problem at all."
+      }
+    ]
+  },
+  {
+    "id": "judicial-notice-digital",
+    "pillar": "law",
+    "title": "Judicial Notice in the Digital Age",
+    "teaser": "Can a court simply accept a fact stated on a website the way it accepts that a specific date fell on a Tuesday?",
+    "sections": {
+      "Core Idea": "Whether and how a court can rely on online information without formal proof — judicial notice traditionally covers generally known facts or facts readily determined from unquestionably reliable sources.",
+      "The Hook": "<em>Official government websites and archived, verified digital records are more readily accepted for judicial notice than user-editable or unverified sources, with no single settled standard yet.</em>",
+      "Application": "Connects to Authentication of Electronic Records above, since the reliability concerns underlying both doctrines significantly overlap."
+    },
+    "links": [
+      {
+        "id": "authentication-electronic-records",
+        "label": "Authentication of Electronic Records"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If courts are taking a cautious, source-by-source approach with no universal rule yet, doesn't that create a real predictability problem — a lawyer genuinely can't know in advance whether a specific online source will be accepted without formal proof or not?",
+        "a": "A real, practical uncertainty the entry's own caveat names directly — this is precisely the kind of unsettled procedural area where a careful practitioner defaults to formal proof anyway rather than relying on judicial notice succeeding, exactly because the unpredictability makes the safer, more established evidentiary route the prudent choice until courts converge on a clearer standard."
+      }
+    ]
+  },
+  {
+    "id": "hammurabi",
+    "pillar": "law",
+    "title": "Code of Hammurabi",
+    "teaser": "c. 1754 BC — the earliest comprehensive written legal code to survive largely intact.",
+    "sections": {
+      "Core Idea": "Inscribed on a stone stele in Babylon, covering commercial, family, and criminal law through nearly 300 specific provisions.",
+      "The Hook": "<em>The origin point of lex talionis — \"an eye for an eye\" — proportional retribution as a legal principle, still directly referenced in comparative criminal law discussions today.</em>",
+      "Application": "Establishes the earliest known model of a ruler publicly codifying law rather than leaving it to unwritten custom — the template Fuller's own inner-morality-of-law requirement of publicity would later formalize."
+    },
+    "links": [
+      {
+        "id": "fuller",
+        "label": "Fuller — Inner Morality of Law"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the code was inscribed publicly on a stone stele, how many people in Babylon could actually read it, given how limited literacy was at the time — was 'publication' doing real practical work, or was it mostly symbolic?",
+        "a": "Genuinely limited practical reach given contemporary literacy rates — the symbolic and legitimizing function (a ruler visibly subjecting himself to a fixed, public standard) likely mattered as much as direct citizen access to the text itself. Publication as a legal principle doesn't require universal literacy to do real work; it establishes that the rule exists independent of the ruler's momentary will, which officials and scribes who could read it would then apply."
+      }
+    ]
+  },
+  {
+    "id": "twelve-tables",
+    "pillar": "law",
+    "title": "The Twelve Tables",
+    "teaser": "c. 451-449 BC — plebeian pressure forced the pontiffs to publish law that had been kept oral and exclusive.",
+    "sections": {
+      "Core Idea": "Rome — plebeian pressure forced the patrician pontiffs to publish Roman law, previously oral and known only to the priestly class, who had used that information asymmetry against plebeians in disputes.",
+      "The Hook": "<em>The direct historical root of the civil law tradition's own commitment to codification.</em>",
+      "Application": "The doctrinal ancestor of Good Faith (Bona Fides) and the entire Roman-law-derived civil law tradition running through most of the non-English-speaking world today."
+    },
+    "links": [
+      {
+        "id": "good-faith",
+        "label": "Good Faith (Bona Fides)"
+      },
+      {
+        "id": "corpus-juris-civilis",
+        "label": "Corpus Juris Civilis"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If no complete original text survives and we only have fragments preserved through later Roman writers, how confident can historians actually be about what the Twelve Tables originally said?",
+        "a": "Genuinely limited confidence for many specific provisions — historians reconstruct the content from citations and references in much later Roman legal and literary sources, which means some reconstructed provisions are well-attested across multiple independent sources while others rest on a single, less certain citation. Treat the broad historical narrative (plebeian pressure forcing publication) as well-established; treat specific provision-level detail with more caution."
+      }
+    ]
+  },
+  {
+    "id": "corpus-juris-civilis",
+    "pillar": "law",
+    "title": "Corpus Juris Civilis / Justinian Code",
+    "teaser": "529-534 AD — the actual root of the entire civil law tradition governing most of the non-English-speaking world.",
+    "sections": {
+      "Core Idea": "Emperor Justinian I's comprehensive compilation and systematization of Roman law.",
+      "The Hook": "<em>While English common law developed through accumulated judicial precedent, the civil law world's own foundational method — comprehensive, systematic written codes — traces directly back to this compilation.</em>",
+      "Application": "The direct ancestor of modern civil codes including the French Code Civil and German BGB, and the reason civil law systems structurally differ from common law's precedent-based method."
+    },
+    "links": [
+      {
+        "id": "twelve-tables",
+        "label": "The Twelve Tables"
+      },
+      {
+        "id": "stare-decisis",
+        "label": "Stare Decisis"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If common law and civil law both trace back to ancient Roman legal thinking in some sense, why did they diverge so sharply into precedent-based versus code-based systems rather than converging on one method?",
+        "a": "Largely a function of separate historical paths after the Western Roman Empire's fall — continental Europe's legal scholars rediscovered and systematized Justinian's compilation during the medieval university revival, building the civil law tradition directly on it, while England's own common law developed relatively independently through royal courts and accumulated case law with much less direct, continuous influence from Roman codification. Shared ancient roots, genuinely separate subsequent institutional histories."
+      }
+    ]
+  },
+  {
+    "id": "magna-carta",
+    "pillar": "law",
+    "title": "Magna Carta",
+    "teaser": "1215 — the king brought under the law, arguably the single most consequential sentence in the history of common law.",
+    "sections": {
+      "Core Idea": "English barons forced King John to accept limits on royal power, establishing for the first time that the king himself was subject to the law, not above it.",
+      "The Hook": "<em>\"To no one will we sell, to no one deny or delay, right or justice\" — the ancestor of both due process and habeas corpus.</em>",
+      "Application": "The direct historical foundation for Separation of Powers, Judicial Review, and the Rule of Law itself, all already built on this page."
+    },
+    "links": [
+      {
+        "id": "separation-of-powers",
+        "label": "Separation of Powers"
+      },
+      {
+        "id": "dicey",
+        "label": "Dicey — The Rule of Law"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Magna Carta was originally forced on King John by barons acting in their own self-interest, not out of any broader commitment to justice for ordinary people, does its later celebrated status as a foundational rights document actually reflect its original purpose, or is that a later reinterpretation?",
+        "a": "Largely a later reinterpretation, and worth being honest about — the 1215 document was substantially about protecting baronial feudal privileges, not universal rights, and most ordinary people had no direct benefit from it at the time. Its later symbolic elevation into a foundational rights document happened gradually over centuries, as later generations, particularly 17th-century parliamentarians, read broader constitutional principles into specific clauses originally addressed to much narrower baronial concerns."
+      }
+    ]
+  },
+  {
+    "id": "habeas-corpus-act",
+    "pillar": "law",
+    "title": "Habeas Corpus Act",
+    "teaser": "The ancient writ requiring a detained person be brought before a court — still the core tool challenging unlawful detention worldwide.",
+    "sections": {
+      "Core Idea": "1679, England — the ancient common law writ of habeas corpus, requiring a detained person be brought before a court to determine whether their detention is lawful, formalized into statute.",
+      "The Hook": "<em>The direct legal mechanism for challenging arbitrary detention — still the core procedural tool underlying modern constitutional challenges to unlawful imprisonment worldwide.</em>",
+      "Application": "The same writ the Nonhuman Rights Project attempted to extend to animal captivity, already built in the Environmental section."
+    },
+    "links": [
+      {
+        "id": "presumption-of-innocence",
+        "label": "Presumption of Innocence"
+      },
+      {
+        "id": "legal-personhood-animals",
+        "label": "Legal Personhood for Animals"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the writ predates the 1679 Act by centuries as common law practice, what did formalizing it into statute actually add beyond what already existed?",
+        "a": "Primarily procedural teeth and closing enforcement loopholes — the statute added specific penalties for officials who failed to comply with a habeas writ and closed off certain evasive practices (like moving a prisoner between jurisdictions to delay compliance) that had weakened the common law writ's practical effectiveness. The underlying right existed before 1679; the Act made it considerably harder for the crown to evade in practice."
+      }
+    ]
+  },
+  {
+    "id": "peace-of-westphalia",
+    "pillar": "law",
+    "title": "Peace of Westphalia",
+    "teaser": "1648 — the founding moment of state sovereignty as a legal concept.",
+    "sections": {
+      "Core Idea": "The treaties ending the Thirty Years' War, conventionally treated as establishing the principle that each state has exclusive authority within its own territory.",
+      "The Hook": "<em>The historical root underneath the entire International & Diplomatic Law section already built on this page.</em>",
+      "Application": "The conceptual foundation \"Westphalian sovereignty\" still describes, and still gets directly challenged by, Universal Jurisdiction and Jus Cogens, both already built on this page."
+    },
+    "links": [
+      {
+        "id": "sovereign-immunity",
+        "label": "Sovereign Immunity"
+      },
+      {
+        "id": "jus-cogens",
+        "label": "Jus Cogens"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Jus Cogens and Universal Jurisdiction both directly override the pure Westphalian principle that a state has exclusive authority within its own territory, is the 'Westphalian system' actually still the operative model today, or just a historical label everyone keeps using out of habit?",
+        "a": "A real, fair question — most international law scholars would say the Westphalian model remains the strong DEFAULT baseline while being genuinely, meaningfully eroded at the edges by exactly the doctrines you're naming. It's less that sovereignty was abandoned and more that it now operates with real, recognized exceptions carved into it — the label still describes the dominant structure, even though that structure is less absolute than in 1648."
+      }
+    ]
+  },
+  {
+    "id": "english-bill-of-rights",
+    "pillar": "law",
+    "title": "English Bill of Rights",
+    "teaser": "1689 — where \"the king under the law\" became institutionally operative, not just a principle on paper.",
+    "sections": {
+      "Core Idea": "Following the Glorious Revolution, established parliamentary sovereignty as actual constitutional doctrine, including that the monarch could not suspend laws or levy taxes without Parliament's consent.",
+      "The Hook": "<em>This is where Magna Carta's principle became institutionally operative — Parliament, not the monarch, as the actual supreme lawmaking authority.</em>",
+      "Application": "The direct ancestor of the parliamentary sovereignty tradition, distinct from the US Constitution's own separate written-constitution model."
+    },
+    "links": [
+      {
+        "id": "magna-carta",
+        "label": "Magna Carta"
+      },
+      {
+        "id": "us-constitution",
+        "label": "US Constitution & Bill of Rights"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If parliamentary sovereignty means Parliament itself is the supreme authority with no written constitution above it, what actually stops a sufficiently determined Parliament from simply legislating away the rights this very document established?",
+        "a": "In the strict Diceyan model, genuinely very little in formal legal terms — this is precisely the tension already flagged under the Dicey entry's own honest caveat. The practical constraint is political and constitutional convention rather than a formal legal bar, which is exactly why later systems building on the English tradition, including the US Constitution below, chose to entrench rights in a written document specifically to remove them from ordinary legislative reach."
+      }
+    ]
+  },
+  {
+    "id": "us-constitution",
+    "pillar": "law",
+    "title": "US Constitution & Bill of Rights",
+    "teaser": "The first major modern constitution to combine separation of powers with an entrenched bill of rights in one written document.",
+    "sections": {
+      "Core Idea": "1787 (Constitution) and 1791 (Bill of Rights) — separation of powers and entrenched, judicially enforceable individual rights put into constitutional practice through a single written founding document.",
+      "The Hook": "<em>A structural template subsequently copied, adapted, and departed from by nearly every constitutional system drafted since.</em>",
+      "Application": "Directly connects to Marbury v. Madison below and to Basic Structure Doctrine, already built on this page."
+    },
+    "links": [
+      {
+        "id": "separation-of-powers",
+        "label": "Separation of Powers"
+      },
+      {
+        "id": "marbury-v-madison",
+        "label": "Marbury v. Madison"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the Constitution's own Bill of Rights wasn't included in the original 1787 document and had to be added as amendments in 1791, doesn't that suggest entrenched individual rights weren't actually central to the founders' original design, just an afterthought bolted on under political pressure?",
+        "a": "A fair historical point, and genuinely contested among constitutional historians — the original 1787 Constitution focused primarily on structural questions (separation of powers, federal-state relations), and the Bill of Rights was added specifically in response to Anti-Federalist objections that individual rights protection was insufficient without explicit textual guarantees. Whether this makes rights protection an 'afterthought' or simply a second, necessary phase of the same founding project is a matter of interpretation, not settled fact."
+      }
+    ]
+  },
+  {
+    "id": "french-declaration",
+    "pillar": "law",
+    "title": "French Declaration of the Rights of Man and of the Citizen",
+    "teaser": "\"Men are born and remain free and equal in rights\" — natural law translated directly into revolutionary positive law.",
+    "sections": {
+      "Core Idea": "1789, France — natural rights codified as positive law during the French Revolution, the civil law tradition's own foundational rights document.",
+      "The Hook": "<em>A direct assertion of natural law principles, already built on this page under the Natural Law Tradition entry, translated into revolutionary positive constitutional law.</em>",
+      "Application": "The direct ancestor of the civil law world's own rights tradition, distinct in historical origin from the English/American common law rights tradition, though both converge substantially in modern human rights instruments."
+    },
+    "links": [
+      {
+        "id": "natural-law",
+        "label": "Natural Law Tradition"
+      },
+      {
+        "id": "udhr",
+        "label": "UDHR"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If this Declaration and the American Bill of Rights developed independently around the same historical moment (1789 vs 1791), were they actually independent, or did one directly influence the other given how closely they overlap in timing and content?",
+        "a": "Genuinely intertwined, not fully independent — Thomas Jefferson was in Paris as US Minister to France during the drafting of the French Declaration and had direct personal contact with several of its drafters, including Lafayette, meaning real cross-influence flowed both directions rather than two purely parallel, unconnected developments happening to arrive at similar conclusions."
+      }
+    ]
+  },
+  {
+    "id": "marbury-v-madison",
+    "pillar": "law",
+    "title": "Marbury v. Madison",
+    "teaser": "\"It is emphatically the province and duty of the judicial department to say what the law is.\"",
+    "sections": {
+      "Core Idea": "1803, United States — the case that actually established judicial review in practice, holding US courts have authority to strike down legislation conflicting with the Constitution.",
+      "The Hook": "<em>Chief Justice Marshall's opinion contains the doctrine's own founding logic in a single line.</em>",
+      "Application": "The direct historical anchor for Judicial Review, already built in Universal Doctrine, and the reason the American model differs structurally from many civil law systems' separate constitutional courts."
+    },
+    "links": [
+      {
+        "id": "judicial-review",
+        "label": "Judicial Review"
+      },
+      {
+        "id": "us-constitution",
+        "label": "US Constitution & Bill of Rights"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the US Constitution's own text never explicitly grants courts the power of judicial review, isn't Marshall's opinion essentially the judiciary claiming a power for itself that the founding document never actually gave it?",
+        "a": "Exactly the objection raised at the time and still debated by constitutional scholars — the Constitution's text is genuinely silent on judicial review as an explicit power, and Marshall's opinion reasons TO it from the Constitution's own supremacy clause and the logical structure of a written constitution, rather than citing an explicit textual grant. Whether that reasoning is a legitimate interpretation or the judiciary self-authorizing its own expanded power remains a live question in constitutional theory, not one this entry resolves."
+      }
+    ]
+  },
+  {
+    "id": "nuremberg-trials",
+    "pillar": "law",
+    "title": "Nuremberg Trials & Principles",
+    "teaser": "Established individual criminal responsibility under international law and formally rejected \"superior orders\" as a complete defence.",
+    "sections": {
+      "Core Idea": "1945-1946 — the trials of major Nazi war criminals, directly connected to Nullum Crimen Sine Lege already built on this page, since the trials had to directly confront that principle's own limits.",
+      "The Hook": "<em>Already the formal legal anchor for Milgram's own obedience psychology, built on this project's Psychology page — Nuremberg is the actual legal doctrine Milgram's experiments were designed, in the shadow of Eichmann's 1961 trial, to help explain psychologically.</em>",
+      "Application": "The foundational instrument for modern international criminal law, directly connected to Universal Jurisdiction, and the historical origin of the framework the International Criminal Court now administers."
+    },
+    "links": [
+      {
+        "id": "milgram",
+        "label": "Milgram — Obedience to Authority"
+      },
+      {
+        "id": "universal-jurisdiction",
+        "label": "Universal Jurisdiction"
+      },
+      {
+        "id": "nullum-crimen-sine-lege",
+        "label": "Nullum Crimen Sine Lege"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If Nuremberg was conducted by the victorious Allied powers judging the defeated, rather than by a neutral international body, doesn't that make it \"victor's justice\" rather than genuinely neutral international law — and if so, does that undermine its legal legitimacy as a founding precedent?",
+        "a": "A serious, longstanding criticism, not a fringe objection — critics have pointed out that Allied conduct during the war (including area bombing of civilian population centers) was never subjected to the same tribunal's scrutiny, a real asymmetry. Defenders argue the tribunal's actual legal reasoning and evidentiary standards were genuinely rigorous regardless of who convened it, and that establishing the principle at all, even imperfectly and by the victors, was more valuable than establishing no precedent. Both positions are held by serious scholars; this is not a settled question."
+      }
+    ]
   }
 ]
