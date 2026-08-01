@@ -664,7 +664,12 @@ function renderGrid(){
     </div>`).join('');
 }
 
+let savedGridScroll = 0;
+
 function openEntry(id){
+  if(document.getElementById('gridView').style.display !== 'none'){
+    savedGridScroll = window.scrollY;
+  }
   const e = ENTRIES.find(x=>x.id===id);
   const p = PILLARS[e.pillar];
   document.getElementById('dEyebrow').textContent = p.label;
@@ -728,6 +733,9 @@ function showDetail(){
 function showGrid(){
   document.getElementById('detailView').classList.remove('active');
   document.getElementById('gridView').style.display = 'block';
+  requestAnimationFrame(() => {
+    window.scrollTo({top: savedGridScroll, behavior: 'instant'});
+  });
 }
 
 const PILLAR_FILES = ['sociology', 'psychology', 'physiology', 'aviation', 'law'];
