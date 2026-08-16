@@ -21,6 +21,18 @@
       {
         "id": "cooper-vane",
         "label": "Cooper Vane"
+      },
+      {
+        "id": "amygdala-threat-detection",
+        "label": "The Amygdala — Threat Detection and the Low Road"
+      },
+      {
+        "id": "damasio",
+        "label": "Damasio — The Somatic Marker Hypothesis"
+      },
+      {
+        "id": "vision",
+        "label": "Vision — Foveal vs. Peripheral Processing"
       }
     ],
     "sparring": [
@@ -198,7 +210,16 @@
       "Sources & Further Reading": "Stanley Milgram, <em>Obedience to Authority: An Experimental View</em> (1974) — Milgram's own book-length account. Original study published in the <em>Journal of Abnormal and Social Psychology</em> (1963).",
       "Honest Caveats": "The original experiments have drawn real and serious ethical criticism over deception and the psychological distress inflicted on participants who believed, at the time, that they were genuinely harming another person. Gina Perry's <em>Behind the Shock Machine</em> (2013), drawing on archival material, has also questioned the precision of the originally reported compliance figures and the consistency of Milgram's own experimental protocol across variations. Treat exact percentages as approximate; treat the underlying qualitative finding — that legitimate authority can override individual moral objection at meaningful, measurable rates — as robust and repeatedly replicated in modified forms since."
     },
-    "links": [],
+    "links": [
+      {
+        "id": "neurochemistry-adrenaline-cortisol-stress",
+        "label": "Adrenaline and Cortisol — Stress Response"
+      },
+      {
+        "id": "autonomic-nervous-system-sympathetic-parasympathetic",
+        "label": "The Autonomic Nervous System"
+      }
+    ],
     "sparring": [
       {
         "q": "If proximity to victim and authority moderates compliance so strongly, didn't Milgram measure something narrower than 'obedience in general'?",
@@ -480,6 +501,10 @@
       {
         "id": "nudge-theory",
         "label": "Nudge Theory"
+      },
+      {
+        "id": "neurochemistry-dopamine-serotonin",
+        "label": "Dopamine and Serotonin — Wanting Versus Contentment"
       }
     ],
     "sparring": [
@@ -581,6 +606,14 @@
       {
         "id": "jung",
         "label": "Analytical Psychology"
+      },
+      {
+        "id": "neurochemistry-dopamine-serotonin",
+        "label": "Dopamine and Serotonin — Wanting Versus Contentment"
+      },
+      {
+        "id": "limbic-system-triune-brain-critique",
+        "label": "The Limbic System and the 'Triune Brain'"
       }
     ],
     "sparring": [
@@ -696,6 +729,14 @@
       {
         "id": "panksepp",
         "label": "Affective Neuroscience"
+      },
+      {
+        "id": "neurochemistry-dopamine-serotonin",
+        "label": "Dopamine and Serotonin — Wanting Versus Contentment"
+      },
+      {
+        "id": "amygdala-threat-detection",
+        "label": "The Amygdala — Threat Detection and the Low Road"
       }
     ],
     "sparring": [
@@ -719,7 +760,12 @@
       "Sources & Further Reading": "Iain McGilchrist, <em>The Master and His Emissary: The Divided Brain and the Making of the Western World</em> (2009); <em>The Matter with Things</em> (2021) — his later, considerably more expansive two-volume work.",
       "Honest Caveats": "Genuinely contested territory in both directions at once. The strict popular \"left brain, right brain\" personality-type myth McGilchrist himself explicitly rejects remains widely, incorrectly believed by the general public, and needs explicit correction whenever this entry is used. McGilchrist's own broader cultural thesis, that Western civilisation has become pathologically left-hemisphere-dominant, is a large, genuinely interpretive claim that reaches well beyond the underlying neuroscience itself and should be presented explicitly as his own argument, not as settled scientific fact."
     },
-    "links": [],
+    "links": [
+      {
+        "id": "limbic-system-triune-brain-critique",
+        "label": "The Limbic System and the 'Triune Brain'"
+      }
+    ],
     "sparring": [
       {
         "q": "Isn't 'the left hemisphere has taken over Western culture' an enormous, unfalsifiable claim dressed up in neuroscience?",
@@ -745,7 +791,12 @@
       "Sources & Further Reading": "K. Anders Ericsson, Krampe & Tesch-Römer, \"The Role of Deliberate Practice in the Acquisition of Expert Performance,\" <em>Psychological Review</em> (1993) — the primary academic source. Ericsson & Pool, <em>Peak: Secrets from the New Science of Expertise</em> (2016) — a considerably more accessible popularisation.",
       "Honest Caveats": "The widely cited \"10,000 hours\" figure is Malcolm Gladwell's own popularisation, from <em>Outliers</em> (2008), not Ericsson's original claim at all — Ericsson explicitly pushed back on the oversimplified number in his own later writing. Domains with genuinely high unpredictability, such as many business and financial decisions, show measurably weaker deliberate-practice effects than tightly rule-bound domains like chess or music."
     },
-    "links": [],
+    "links": [
+      {
+        "id": "central-pattern-generators",
+        "label": "Central Pattern Generators — Spinal Locomotor Autonomy"
+      }
+    ],
     "sparring": [
       {
         "q": "If deliberate practice requires a coach or clear feedback, is self-directed learning without a coach structurally incapable of building real expertise?",
@@ -933,6 +984,14 @@
       {
         "id": "deci-ryan",
         "label": "Deci & Ryan — Self-Determination Theory"
+      },
+      {
+        "id": "neurochemistry-adrenaline-cortisol-stress",
+        "label": "Adrenaline and Cortisol — Stress Response"
+      },
+      {
+        "id": "autonomic-nervous-system-sympathetic-parasympathetic",
+        "label": "The Autonomic Nervous System"
       }
     ],
     "sparring": [
@@ -999,6 +1058,14 @@
       {
         "id": "nudge-theory",
         "label": "Thaler & Sunstein — Nudge Theory"
+      },
+      {
+        "id": "neurochemistry-adrenaline-cortisol-stress",
+        "label": "Adrenaline and Cortisol — Stress Response"
+      },
+      {
+        "id": "prefrontal-cortex-executive-function",
+        "label": "The Prefrontal Cortex — Executive Function"
       }
     ],
     "sparring": [
@@ -1147,6 +1214,14 @@
       {
         "id": "carl-rogers",
         "label": "Carl Rogers — Person-Centered Therapy"
+      },
+      {
+        "id": "neurochemistry-testosterone-estrogen-oxytocin",
+        "label": "Testosterone, Estrogen, and Oxytocin"
+      },
+      {
+        "id": "touch",
+        "label": "Touch — The Somatosensory System"
       }
     ],
     "sparring": [
@@ -1178,6 +1253,10 @@
       {
         "id": "skinner",
         "label": "Skinner — Operant Conditioning"
+      },
+      {
+        "id": "amygdala-threat-detection",
+        "label": "The Amygdala — Threat Detection and the Low Road"
       }
     ],
     "sparring": [
@@ -1213,6 +1292,14 @@
       {
         "id": "ainsworth-strange-situation-attachment",
         "label": "Ainsworth's Strange Situation and Attachment Styles"
+      },
+      {
+        "id": "neurochemistry-testosterone-estrogen-oxytocin",
+        "label": "Testosterone, Estrogen, and Oxytocin"
+      },
+      {
+        "id": "touch",
+        "label": "Touch — The Somatosensory System"
       }
     ],
     "sparring": [
@@ -1244,6 +1331,14 @@
       {
         "id": "kahneman-dual",
         "label": "Kahneman & Tversky — Dual Process Theory"
+      },
+      {
+        "id": "hippocampus-memory-consolidation",
+        "label": "The Hippocampus — Memory Consolidation"
+      },
+      {
+        "id": "sensory-substitution",
+        "label": "Sensory Substitution & Synesthesia"
       }
     ],
     "sparring": [
@@ -1341,6 +1436,10 @@
       {
         "id": "panksepp",
         "label": "Panksepp — Affective Neuroscience"
+      },
+      {
+        "id": "prefrontal-cortex-executive-function",
+        "label": "The Prefrontal Cortex — Executive Function"
       }
     ],
     "sparring": [
@@ -1372,6 +1471,10 @@
       {
         "id": "kahneman-dual",
         "label": "Kahneman & Tversky — Dual Process Theory"
+      },
+      {
+        "id": "vision",
+        "label": "Vision — Foveal vs. Peripheral Processing"
       }
     ],
     "sparring": [
@@ -1485,6 +1588,10 @@
       {
         "id": "zimbardo",
         "label": "Zimbardo — Situational Power"
+      },
+      {
+        "id": "neurochemistry-testosterone-estrogen-oxytocin",
+        "label": "Testosterone, Estrogen, and Oxytocin"
       }
     ],
     "sparring": [
@@ -1625,6 +1732,10 @@
       {
         "id": "pavlov-watson-behaviorism-founding",
         "label": "Pavlov's Classical Conditioning and Watson's Behaviorism"
+      },
+      {
+        "id": "neurochemistry-dopamine-serotonin",
+        "label": "Dopamine and Serotonin — Wanting Versus Contentment"
       }
     ],
     "sparring": [

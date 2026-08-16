@@ -2098,6 +2098,14 @@
       {
         "id": "out-of-my-league",
         "label": "\"She's Out of My League\""
+      },
+      {
+        "id": "neurochemistry-testosterone-estrogen-oxytocin",
+        "label": "Testosterone, Estrogen, and Oxytocin"
+      },
+      {
+        "id": "gallagher",
+        "label": "Gallagher — How the Body Shapes the Mind"
       }
     ],
     "sparring": [
@@ -2328,6 +2336,10 @@
       {
         "id": "red-meat-ban-anomie",
         "label": "The Red Meat Ban & Anomie"
+      },
+      {
+        "id": "neurochemistry-adrenaline-cortisol-stress",
+        "label": "Adrenaline and Cortisol — Stress Response"
       }
     ],
     "sparring": [
@@ -2406,6 +2418,10 @@
       {
         "id": "political-skill-asymmetric-status",
         "label": "Managing Asymmetric Status Interactions"
+      },
+      {
+        "id": "merleau-ponty",
+        "label": "Merleau-Ponty — Phenomenology of Perception"
       }
     ],
     "sparring": [
