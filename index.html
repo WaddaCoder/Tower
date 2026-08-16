@@ -168,6 +168,33 @@
     display: flex;
     align-items: baseline;
     gap: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .card-section-chevron{
+    display: inline-block;
+    font-size: var(--fs-sm);
+    color: var(--pc);
+    transition: transform .18s ease;
+    transform: rotate(0deg);
+  }
+  .card-section.collapsed .card-section-chevron{
+    transform: rotate(0deg);
+  }
+  .card-section:not(.collapsed) .card-section-chevron{
+    transform: rotate(90deg);
+  }
+  .card-section-body{
+    overflow: hidden;
+    max-height: 20000px;
+    opacity: 1;
+    transition: max-height .25s ease, opacity .2s ease, margin .2s ease;
+  }
+  .card-section.collapsed .card-section-body{
+    max-height: 0;
+    opacity: 0;
+    margin: 0;
+    pointer-events: none;
   }
   .card-section-count{
     font-family: var(--mono);
@@ -698,18 +725,25 @@ function renderGrid(){
     return;
   }
 
-  grid.innerHTML = sectionOrder.map(section => {
+  grid.innerHTML = sectionOrder.map((section,si) => {
     const sectionItems = bySection[section];
-    return `<div class="card-section">
-      <div class="card-section-heading" style="--pc:${p.color}">
+    const secId = `sec-${currentPillar}-${si}`;
+    return `<div class="card-section collapsed" id="${secId}">
+      <div class="card-section-heading" style="--pc:${p.color}" onclick="toggleSection('${secId}')">
+        <span class="card-section-chevron">▸</span>
         ${section}
         <span class="card-section-count">${sectionItems.length}</span>
       </div>
-      <div class="grid">
+      <div class="grid card-section-body">
         ${sectionItems.map((e,i)=>cardHtml(e,i)).join('')}
       </div>
     </div>`;
   }).join('');
+}
+
+function toggleSection(secId){
+  const el = document.getElementById(secId);
+  if(el) el.classList.toggle('collapsed');
 }
 
 let savedGridScroll = 0;
