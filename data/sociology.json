@@ -28,7 +28,8 @@
         "q": "Habitus is supposed to be largely unconscious and stable. If the same person can also run a fully conscious, target-switching Machiavellian strategy, doesn't that mean habitus isn't as deep or automatic as Bourdieu claimed?",
         "a": "Not necessarily a contradiction — habitus governs the background register (posture, self-touch) while conscious strategy operates in a different register entirely, the same way an unconscious accent doesn't prevent someone from consciously choosing their words in a negotiation. The case shows both can run in the same person without either explaining the other."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "out-of-my-league",
@@ -63,7 +64,8 @@
         "q": "The entry corrects an attribution from Peterson/Trivers to Bandura/Deci&Ryan because the film shows no explicit demand. Isn't that a thin distinction — doesn't upward comparison always carry implicit pressure?",
         "a": "The distinction is mechanical, not semantic — Trivers predicts growth driven by fear of losing access (extrinsic, threat-based); Bandura predicts growth driven by seeing competence modeled (intrinsic). Same observable outcome, different pathway — and extrinsically driven growth typically doesn't persist once the pressure is removed, a real, testable difference."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "rural-urban-migration",
@@ -98,7 +100,8 @@
         "q": "The case says employers paying below-floor wages are 'participating in the same causal chain' as the crime against their own neighborhood. Isn't that assigning responsibility several steps removed from an individual's own choice to commit a crime?",
         "a": "A structural claim, not an individual moral indictment — the point is about the incentive structure the labor market creates in aggregate, not that any single employer intends or is liable for the downstream crime. Marx's framing describes an emergent pattern across many decisions, not a chain of individual culpability equivalent to direct causation."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "abu-ghraib-captured-me",
@@ -133,7 +136,8 @@
         "q": "Reframing prison as re-socializing people into a criminal self, using the same 'captured Me' logic — doesn't that prove too much? Wouldn't any total institution, including a monastery, be equally guilty?",
         "a": "The mechanism is genuinely the same across all total institutions — what differs is the direction and content of capture, not whether capture happens. A monastery captures the Me toward a value system the institution and person both endorse; a prison captures it toward norms neither the stated goal nor the person's interest wants. The critique isn't that total institutions are wrong, it's that prison's capture content runs against its own stated reformative purpose."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "mores-taboos-spectrum",
@@ -155,7 +159,8 @@
         "q": "If the frictionless mechanism (the scooter) is arguably more powerful than the confrontational one (LUMS), does that mean deliberate activism is actually a worse strategy for social change than quietly building an alternative?",
         "a": "Not universally worse, suited to a different barrier. The scooter worked because the underlying value wasn't being challenged, only the physical obstacle to complying with it. Confrontation is likely still necessary where the barrier is the value itself — the two mechanisms solve different classes of problem, not competing solutions to the same one."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "red-meat-ban-anomie",
@@ -177,7 +182,8 @@
         "q": "If unenforced laws just quietly stop mattering once cultural backing is gone, why bother formally repealing anything — why not let dead laws sit on the books forever?",
         "a": "Because a dormant law isn't harmless — it stays available for selective, opportunistic enforcement against whoever a powerful actor wants to target, the same 'law in books vs. law in action' mechanism the Kanjar entry describes from the opposite direction. A technically-valid, socially-dead law is a loaded, unpredictable instrument, which is exactly why formal repeal matters even when non-compliance already looks total."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "izzat-legal-variable",
@@ -204,7 +210,8 @@
         "q": "If the rule accommodates izzat culture rather than confronting it, doesn't that mean the law reinforces the very stigma it's trying to protect women from?",
         "a": "A genuine tension the entry doesn't resolve — accommodation and reinforcement aren't cleanly separable here. The rule protects individual women from an immediate, severe consequence while leaving the underlying izzat framework that creates that consequence completely intact. Harm reduction within an unjust system, not a challenge to the system — a genuinely different, more modest achievement than reform."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "jjsa-mirror",
@@ -226,7 +233,8 @@
         "q": "If the JJSA only solves the amplification problem and not the creation problem, is the identity-protection provision doing much real work, or mostly symbolic?",
         "a": "Real, bounded work — preventing a local stigma from becoming permanent and searchable nationally is genuine harm reduction, even if not a complete solution. The harder, earlier problem (preventing the label attaching at all) is addressed by a different part of the same Act — the diversion provisions — not evidence the identity-protection clause is merely symbolic."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "philip-lal-friendship",
@@ -252,7 +260,8 @@
         "q": "The case ends by asking whether a purely-affective theory of friendship is 'a virtue, a luxury, or a sociological blind spot' — and declines to answer. Isn't refusing to answer a cop-out?",
         "a": "Not here — some questions are for the person living them to answer, not for outside analysis to settle on their behalf. The sparring discipline pushes back on reasoning and evidence, not on substituting a verdict on someone's values for their own judgment. Naming the three live possibilities honestly is the deliverable, not picking one."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "philip-lal-work",
@@ -279,7 +288,8 @@
         "q": "If the advice worked specifically because of Mr. Lal's own strain-theory Innovation path — excellence as a route around blocked means — does it actually generalize to someone not facing the same structural blockage?",
         "a": "A real, worthwhile limit. The advice generalizes at the level of mechanism (structure and integration resist anomie for anyone, per Durkheim) even where the specific content — excellence as a workaround for exclusion — doesn't apply identically without his particular disadvantage. The universal part is 'work provides structure that metabolizes disorder'; the autobiographical part is 'and for me, that structure also had to outrun systemic exclusion' — worth separating rather than assuming the whole sentence transfers unchanged."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "shawshank-resocialization",
@@ -306,7 +316,8 @@
         "q": "If the deciding factor is a bond's future orientation, doesn't that put an unfair amount of responsibility on Andy specifically — as if Brooks's death is partly attributable to nobody having built him an equivalent bond?",
         "a": "An uncomfortable but real implication worth sitting with, not deflecting. This isn't assigning Brooks moral blame for his own death — it's identifying that turning points, per Sampson & Laub's actual research, are often not self-generated, they require someone else's deliberate investment. Institutions that don't deliberately construct outward-facing bonds for the people inside them are, in aggregate, producing more Brookses than Reds, independent of individual effort or character."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "erikson-memory-palace",
@@ -337,7 +348,8 @@
         "q": "If the images are this personal, does the technique actually transfer to someone else building their own palace, or is its power specific to having lived exactly these eight scenes?",
         "a": "The specific images don't transfer, but the mechanism does — emotional encoding, the self-reference effect, and image-as-concept rather than image-as-symbol are available to anyone building their own version from their own life, not unique to this particular set of scenes. That's also exactly why it's this durable — nobody else's version could be borrowed wholesale and work as well."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "kanjar-labeling",
@@ -364,7 +376,8 @@
         "q": "If relabeling from master status to secondary status reduces social consequence without changing material behavior or income, is it actually helping anyone, or just making an unchanged reality easier for everyone else to tolerate?",
         "a": "Both, not mutually exclusive — it genuinely reduces lived social consequence (less total exclusion, more functional integration), while doing nothing about the underlying structural conditions (income, safety, legal protection) that master-status stigma also suppressed scrutiny of. A relabeling can be a real, partial improvement in one dimension while leaving every material condition of the underlying activity untouched."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "handshake-zaban",
@@ -391,7 +404,8 @@
         "q": "If zaban's social enforcement is often stronger than legal enforcement, why bother with formal written contracts in a culture where zaban already works better?",
         "a": "The two mechanisms have different reach — zaban's enforcement depends on shared community membership and ongoing reputation stakes, which breaks down for one-off transactions with strangers or cross-jurisdictional deals. Written contracts exist precisely to cover the cases zaban's social enforcement can't reach, not because zaban is weaker where it does apply."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "adr-conversion",
@@ -413,7 +427,8 @@
         "q": "If arbitration is 'structured conflict' and the parties still each want to win, in what sense is it actually alternative to litigation rather than litigation with a different judge?",
         "a": "The genuine alternative isn't in the interaction type — both remain adversarial in goal — it's in the process characteristics: cost, speed, confidentiality, party control over the arbitrator's selection. This is exactly why ADR isn't one thing: arbitration's and mediation's value propositions come from entirely different mechanisms, and treating them as interchangeable obscures what each is actually alternative to."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "defining-sociology",
@@ -439,7 +454,8 @@
         "q": "Weber's Verstehen asks you to understand action from the actor's own point of view. Durkheim's social facts are external and coercive, independent of any individual's understanding. Aren't these fundamentally incompatible starting points?",
         "a": "They operate at different levels that need each other — Durkheim explains why a social fact exists as a real, coercive pattern independent of any one person's intentions; Weber explains why an individual, inside that pattern, experiences their own action as meaningful and chosen. A full account often needs both, applied to the same phenomenon."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "sociological-imagination",
@@ -470,7 +486,8 @@
         "q": "Mills wrote in 1959 America. Does the personal-trouble/public-issue distinction transfer cleanly to a very different context like Pakistan's criminal justice system, or is it doing more metaphorical than analytical work there?",
         "a": "The mechanism transfers even where the specific content doesn't — Mills's point was structural (any individual experience recurring at scale signals a public issue, regardless of country or era), which is why the Pakistani example works without needing 1950s America's specific context. What wouldn't transfer without adjustment is any period-specific illustration; the underlying analytical move is portable by design."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "jirga-lady-justice",
@@ -501,7 +518,8 @@
         "q": "Weber's formal rationality is called the Code's 'aspiration, however imperfectly realised.' If it's only imperfectly realized, is the formal/substantive distinction doing real work, or just describing an ideal the real Code doesn't meet either?",
         "a": "It still does real work because it's a spectrum, not a binary either system fully achieves or entirely fails. The Code sits closer to the formal-rationality end even when imperfectly realized; the jirga sits closer to the substantive end by design. The comparison is about relative orientation, not either system perfectly embodying its ideal type."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "structural-functionalism",
@@ -532,7 +550,8 @@
         "q": "Latent function is illustrated as imprisonment removing offenders temporarily, regardless of rehabilitation. Isn't that just restating what imprisonment obviously does — is the label adding real content?",
         "a": "The content is in what the label does to the argument, not the observation itself — calling it latent forces you to evaluate imprisonment's actual social role even when its manifest rehabilitative goal fails, which is exactly why sociologists can coherently say a prison system 'works' at incapacitation while 'failing' at reform. Without the distinction, that combination looks like a contradiction rather than two separate, both-true claims."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "conflict-theory",
@@ -563,7 +582,8 @@
         "q": "The entry's own critique says conflict theory can overstate antagonism. Given the crack/powder example is genuinely stark, how do you know a real disparity reflects conflict theory's mechanism versus administrative accident?",
         "a": "Not from the disparity alone — you need the historical record: who lobbied for what, whose testimony shaped the debate, whether stated justifications held up to scrutiny at the time. The 1986 law's own legislative history, citing since-discredited claims about crack's dangerousness, is what actually supports the conflict-theory reading here — the disparity alone would be weaker evidence without that documented history."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "symbolic-interactionism",
@@ -585,7 +605,8 @@
         "q": "If meaning is negotiated in each individual interaction, how does the theory explain why the same symbol reliably produces similar reactions across thousands of different interactions rather than being renegotiated from scratch every time?",
         "a": "Interactionism doesn't claim meaning is invented fresh each encounter — it claims meaning is built and sustained through repeated interactions over time, which is why it becomes stable and shared within a community while remaining, in principle, negotiable if enough interactions start producing a different pattern. Stability across many interactions and negotiability within any one aren't contradictory — the theory predicts both."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "defining-culture",
@@ -612,7 +633,8 @@
         "q": "If folkways, mores, taboos, and laws are a spectrum of increasing severity, how does that square with mores and taboos migrating between categories — doesn't a spectrum imply fixed positions?",
         "a": "No real contradiction — a spectrum describes relative positions at a given moment, not permanent addresses on it. Something can occupy the Taboo position in 1990 and the More position in 2020 without the underlying four-category spectrum itself being wrong — the categories are stable, what occupies them isn't."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "culture-crime-law-triangle",
@@ -639,7 +661,8 @@
         "q": "The Scottish Kilt example shows the same garment reading differently across cultures. But clothing seems low-stakes — does the triangle hold up for practices causing direct physical harm?",
         "a": "This is exactly where the model gets harder and more honest — the triangle explains why laws differ across cultures on high-stakes practices too, but explaining why a law exists somewhere is different from endorsing that it should. The triangle is descriptive; it doesn't answer which cultural value systems deserve legal protection — that's where universal human rights arguments have to do additional work the triangle alone can't."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "ethnocentrism",
@@ -666,7 +689,8 @@
         "q": "If ethnocentrism is 'the default human position,' how do you train yourself out of a default — is 'be aware of it' realistic, or does awareness alone not change an automatic reaction?",
         "a": "Awareness alone is genuinely insufficient — the more realistic countermeasure is structural: deliberately seeking out the insider's own explanation of a practice before forming a judgment, rather than relying on willpower to suppress a reaction once it's already formed."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "cultural-relativism",
@@ -697,7 +721,8 @@
         "q": "Napier's quote is framed as capturing the tension perfectly. But he was a colonial officer enforcing colonial law over a colonized population — doesn't using his quote risk smuggling in exactly the ethnocentric colonial narrative the entry elsewhere criticizes?",
         "a": "A fair, uncomfortable tension worth naming, not smoothing over. The quote is rhetorically effective because it's a real historical instance of the dilemma, but its speaker's own position — a colonial administrator with his own ethnocentric motives — means the quote illustrates the problem without being a neutral or admirable resolution of it. Framing the question with it is different from endorsing his standing to answer it."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "socialization-definition-types",
@@ -724,7 +749,8 @@
         "q": "If Victor shows socialization is necessary for full humanity, does that mean someone never socialized is less morally responsible for antisocial behavior than someone socialized badly?",
         "a": "A real, uncomfortable question the case doesn't resolve. There's a meaningful difference between the complete absence of socialization (Victor's case, producing someone incapable of basic social functioning at all) and imperfect or harmful socialization, which most criminological explanations of crime actually deal with — most real criminal-justice questions involve people socialized into norms that conflict with the law, a different situation entirely."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "agents-of-socialization",
@@ -755,7 +781,8 @@
         "q": "If peer groups compete seriously with family from age 12, does that mean parents are structurally losing a battle they can't win?",
         "a": "Not losing so much as sharing influence by design — some distancing from parental authority is a normal developmental process, not evidence of failed socialization. The genuine risk isn't peer influence existing, it's peer norms diverging sharply enough from both family and legal norms that psychologically urgent peer approval pulls toward delinquent behavior specifically — a magnitude problem, not an inherent failure."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "cooley-looking-glass-self",
@@ -786,7 +813,8 @@
         "q": "If self-perception is built from imagining others' judgment, what happens when someone imagines those judgments inaccurately — is their self-concept based on a real social mirror, or a fictional one?",
         "a": "Cooley's point is that it doesn't matter for the mechanism whether the imagined judgment is accurate — the self-feeling is generated by the imagining itself, not verified external fact. This is exactly why the JJSA and league cases work: the judgment doesn't have to be correct to shape the self, only believed."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "mead-i-and-me",
@@ -813,7 +841,8 @@
         "q": "If the 'Me' can be captured or narrowed by institutional pressure, and the 'I' is spontaneous and unsocialized, why doesn't the 'I' just override a captured 'Me' and act on its own impulse instead?",
         "a": "Because the 'I' isn't a separate, always-available override — it's the raw impulse that still has to pass through the 'Me' to become socially meaningful action, and a sufficiently narrowed 'Me' filters what impulses even register as thinkable options. Capture doesn't mean the 'I' disappears; it means the range of actions the 'Me' will permit narrows until only one path remains visible."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "kohlberg-moral-development",
@@ -844,7 +873,8 @@
         "q": "If most people operate at the Conventional level, and law itself operates there, doesn't that make Post-Conventional reasoning somewhat dangerous from a legal-order standpoint — someone might justify breaking an unjust law based on their own universal principles?",
         "a": "Genuinely yes, and this connects directly to the natural law tradition already built on the Law page — a Post-Conventional reasoner is exactly who might conclude, per Radbruch's formula, that an intolerably unjust law fails to bind in conscience. The framework explains the psychological mechanism behind civil disobedience and whistleblowing alike, which can look identical to a legal system whether the law being defied is unjust or merely inconvenient."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "age-crime-curve",
@@ -879,7 +909,8 @@
         "q": "If turning points like marriage and stable employment are the real desistance mechanism, should crime policy focus on making these accessible rather than on punishment at all?",
         "a": "A direct policy implication the logic supports, though not fully spelled out — if bonds, not deterrence, are the real mechanism, policies making marriage and employment harder to reach for an at-risk population would predictably work against desistance regardless of punishment severity. Not that punishment does nothing — that it may treat a symptom while structural access to turning points treats the mechanism."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "bowlby-attachment",
@@ -906,7 +937,8 @@
         "q": "If attachment quality in infancy predicts outcomes decades later, is early attachment close to deterministic — locked into a worse trajectory regardless of what happens afterward?",
         "a": "No — the broader life-course framework (Sampson & Laub's turning points) exists precisely to explain why it isn't. A person with disrupted early attachment can still experience a strong later turning point that measurably changes trajectory. Attachment theory names an early risk factor with real predictive power, not a fixed sentence."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "goffman-total-institutions",
@@ -937,7 +969,8 @@
         "q": "If total institutions reliably resocialize toward institutionalization rather than away from crime, is prison functioning exactly as designed, just not for its stated purpose — closer to Merton's latent function than a simple policy failure?",
         "a": "A genuinely sharp application of Structural Functionalism's own manifest/latent distinction — prison's manifest function is rehabilitation; its well-documented latent function is producing institutionalized, network-strengthened offenders. Whether that's an accident of poor implementation or a structurally inevitable feature of any total institution is exactly the debate criminology has with itself."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "social-structure-architecture",
@@ -964,7 +997,8 @@
         "q": "If social structure is 'both enabling and constraining,' how do you know whether a given structure is doing more enabling or more constraining — isn't that a value judgment dressed as description?",
         "a": "A fair challenge — the definition doesn't resolve which is doing more work in any specific case; that requires empirical and often normative analysis of the structure in question. What it does provide is a reminder not to treat structure as purely oppressive or purely beneficial by default — the same court system constraining judges' discretion also enables coordinated, predictable justice that couldn't exist without it."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "five-interaction-types",
@@ -991,7 +1025,8 @@
         "q": "Coercion is 'not inherently illegitimate — the state's authority rests on it.' Doesn't that framing risk normalizing coercion too easily, given the same category includes a criminal threatening a witness?",
         "a": "Both are placed in the same analytical category deliberately, not to equate their legitimacy but to show the sociological mechanism — compelled behaviour via force or credible threat, without genuine consent — is identical regardless of who's compelling. What differentiates the criminal's coercion from the state's is a separate legitimate-authority question sociology describes the mechanism for but doesn't itself answer."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "sociometry-moreno",
@@ -1013,7 +1048,8 @@
         "q": "If sociometric mapping is this useful and 'rarely done,' is the barrier really about acknowledging social reality, or something more practical — cost, privacy, or misuse risk?",
         "a": "Likely all of the above operating together — practical costs and misuse risk are real, additional obstacles, but institutions that already absorb the cost of formal disciplinary infrastructure could, in principle, absorb this too. The more persistent barrier may be that mapping formal gang structure inside a prison population is itself an uncomfortable admission the institution doesn't fully control what it's supposed to control."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "status-ascribed-achieved",
@@ -1040,7 +1076,8 @@
         "q": "If achieved status is 'theoretically open to everyone' but ascribed circumstances heavily shape who can actually achieve it, is the distinction doing real work, or is almost everything secretly ascribed once traced back far enough?",
         "a": "The distinction still does real work at the level of the specific status itself — the credential was genuinely earned, not assigned — even while the enabling conditions are frequently ascribed. Both are true simultaneously, which is precisely why the distinction is useful for identifying exactly where inequality of opportunity operates, rather than collapsing everything into one undifferentiated category."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "role-and-role-set",
@@ -1067,7 +1104,8 @@
         "q": "If latent roles are 'unstated but socially real,' how would you actually prove one exists rather than just asserting it from informal observation?",
         "a": "Consistency and consequence are the practical tests — does the expectation recur predictably across many instances of the role, and are there real social consequences for violating it even though no formal rule was broken? A senior judge who never offers informal guidance and faces zero professional consequence would be evidence against the latent role's real existence there — the claim is falsifiable, not merely asserted."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "role-conflict-vs-strain",
@@ -1098,7 +1136,8 @@
         "q": "The single-parent example is framed as pure role strain. But isn't 'single parent' often the product of a role EXIT (from spouse) combined with role conflict (no co-parent to divide duties with)? Is calling it pure strain the most precise framing?",
         "a": "A genuinely sharp catch — the situation likely layers all three concepts together (a prior role exit, a redistribution removing what would have been role-sharing, producing intensified strain within the remaining status), which framing it as pure role strain compresses for teaching clarity. Not wrong so much as incomplete — useful for illustrating strain specifically, less precise as a full account of how someone becomes a single parent in the first place."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "role-exit-ebaugh",
@@ -1125,7 +1164,8 @@
         "q": "If successful role exit requires a clear alternative identity, and many people exiting a central role don't have one waiting, does the theory predict most such exits will fail without deliberate institutional support?",
         "a": "Precisely the theory's own practical implication, and exactly why it ties directly to rehabilitation programs — successful exits typically require active identity reconstruction, not just leaving the old role behind. Programs that only remove someone from an old role, without helping construct a viable new one, predictably underperform compared to programs that do both."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "berger-luckmann-construction",
@@ -1156,7 +1196,8 @@
         "q": "The Thomas Theorem explains how a community's belief a group is criminal becomes self-fulfilling through arrest rates. Does any sufficiently widespread false belief automatically become 'true' in some meaningful sense?",
         "a": "Not true in a factual sense, but real in its consequences — exactly the distinction the theorem preserves. The belief doesn't make the group actually more crime-prone; it produces disproportionate enforcement that generates the appearance of confirming evidence. A warning about how self-fulfilling prophecies operate in social systems, not a claim that belief creates objective truth."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "goffman-dramaturgy",
@@ -1187,7 +1228,8 @@
         "q": "Cross-examination is described as a deliberate attack on front-stage control — engineering conditions to force a witness's backstage self to leak through. Does that mean cross-examination is designed to reveal truth, or just to disrupt performance, and are those actually the same thing?",
         "a": "Genuinely not automatically the same thing, worth separating carefully. Disrupting a composed front-stage performance can reveal genuine inconsistency (useful for truth-finding) or can simply produce a different performance — flustered, defensive — under pressure, which isn't the same as revealing what actually happened. A skilled cross-examiner's technique works precisely because pressure sometimes surfaces truth and sometimes just surfaces stress; the courtroom's own rules of evidence and a judge's discretion exist partly to police that difference, not to assume disruption always equals revelation."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "doxa-hegemony",
@@ -1218,7 +1260,8 @@
         "q": "Hegemony explains why subordinated groups reproduce a system against their material interest. But if it's genuinely against their interest, why would 'common sense' framing sustain compliance across generations without dissent ever accumulating?",
         "a": "Dissent does accumulate, which is precisely how hegemonic common sense eventually shifts — Gramsci's theory isn't a claim that hegemony is permanently unbreakable, only that it's the default stable state absent a counter-hegemonic challenge. Labor and feminist movements are the historical record of exactly this accumulation reaching a tipping point — the theory explains stability's mechanism, not permanence."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "becker-lemert-labeling",
@@ -1253,7 +1296,8 @@
         "q": "If secondary deviance is caused by the label, wouldn't the safest policy be never formally charging anyone with anything — remove all labels, remove all secondary deviance?",
         "a": "Exactly the naive over-extension the JJSA's own design avoids — it doesn't eliminate charging or accountability, it eliminates PUBLIC labeling specifically, keeping the legal process intact while preventing the permanent, community-wide stigma that drives secondary deviance. The policy implication is controlling the label's reach and permanence, not eliminating consequences altogether."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "merton-strain-five-adaptations",
@@ -1284,7 +1328,8 @@
         "q": "If Innovation covers both property crime and excellence-driven success as responses to the same blocked-means structure, does the theory predict which direction a given person's Innovation takes, or just that some innovation will happen?",
         "a": "Better at predicting that strain will produce some adaptation than at predicting which specific one — the five-category typology names the possibility space, not a deterministic outcome function. What differs between the two paths is which legitimate-but-unconventional routes were actually visible and available to each individual, a question strain theory alone doesn't fully specify."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "durkheim-functions-deviance",
@@ -1311,7 +1356,8 @@
         "q": "If deviance serves real social functions, does that mean a society should actually want some deviance to exist, rather than trying to eliminate it entirely?",
         "a": "Durkheim's own genuinely provocative implication, not an over-reading — he explicitly argued a society with literally zero deviance would be pathological, because the functions deviance serves require some deviance to exist. Not that any specific harmful act is good — that the complete absence of boundary-testing behaviour would itself signal something wrong with a society's capacity to evolve its norms."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "sutherland-white-collar",
@@ -1342,7 +1388,8 @@
         "q": "If differential association means criminal behavior is learned through interaction rather than innate, how does that explain white-collar crime — executives aren't typically learning fraud from a criminal subculture the way street-crime theories describe?",
         "a": "The mechanism applies just as much inside corporate environments — an executive can be socialized into normalized fraud, rationalized as 'how business is done here,' through the same interactional learning, transmitted through boardrooms rather than street peer groups. The theory doesn't require the learning environment to look criminal on its surface."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "types-of-crime",
@@ -1369,7 +1416,8 @@
         "q": "If public perception of crime risk is this distorted toward street crime, should categories be redesigned around actual statistical risk rather than public fear?",
         "a": "A real tension worth naming, not resolving cleanly — statistically-accurate typology serves rational resource allocation, but one totally divorced from public fear risks appearing unresponsive and eroding trust in the system's legitimacy. Crime typology has to serve both functions simultaneously, and they can genuinely pull in different directions."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "types-of-criminal",
@@ -1391,7 +1439,8 @@
         "q": "If Lombroso's theory is thoroughly discredited, why does this typology still bother teaching it, rather than just presenting the currently-accepted categories?",
         "a": "Understanding why a theory failed is itself useful training — Lombroso's error (treating a socially and legally constructed category as a fixed biological type, then hunting for physical markers) is a specific methodological mistake worth recognizing when it resurfaces, and it did, in more sophisticated language, in some 20th-century genetic-determinism debates about crime. A warning, not a curiosity."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "poverty-absolute-relative",
@@ -1417,7 +1466,8 @@
         "q": "Sen's capability approach seems much harder to measure than income. Doesn't that make it a less useful policy tool, even if it's a more accurate concept?",
         "a": "A real trade-off the approach doesn't escape — capability measures are genuinely harder to operationalize into one comparable number than income, which is why income-based poverty lines remain the dominant practical tool despite Sen's conceptual critique. Its real influence has been adding capability indicators (like the UN's Human Development Index) alongside income measures, not replacing them."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "differential-offending-enforcement",
@@ -1448,7 +1498,8 @@
         "q": "If differential enforcement means crime statistics reflect who gets caught rather than who actually offends, does that make crime statistics essentially useless for understanding real crime patterns?",
         "a": "Not useless, but requiring a second question alongside the first — what these statistics say about offending has to be paired with what they say about enforcement patterns, since both signals mix together in raw crime data. Reform requires reducing socioeconomic strain AND enforcement-equality reform, not treating the statistics as if they cleanly measured only one."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "stratification-systems-davis-moore",
@@ -1479,7 +1530,8 @@
         "q": "If Davis-Moore is right that unequal reward is necessary to motivate people into functionally important positions, how does it explain societies where the most functionally important positions — teachers, nurses, sanitation workers during a pandemic — are often among the least rewarded?",
         "a": "The thesis's most cited empirical weakness, not a misunderstanding of it. Davis-Moore predicts a correlation between functional importance and reward that real labour markets frequently violate — exactly the observation Marx's counter-thesis (reward tracks power to extract value, not functional necessity) explains more directly. The thesis survives best as a partial, contested explanation, not a complete account."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "land-caste-marriage-triangle",
@@ -1510,7 +1562,8 @@
         "q": "If the triangle is this structurally powerful, explaining four separate tragic love stories across different eras, did romantic love as an organizing principle for marriage ever have a chance — or are the stories evidence people kept trying anyway?",
         "a": "The second reading is more defensible and more interesting — the same tragic structure needing retelling across four separate stories, in different eras, suggests romantic love was a persistent, recurring pressure the triangle had to keep defeating, not a possibility that never arose. A structure that never faced a real challenger wouldn't need four cautionary tales warning against the challenge."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "four-tragic-romances",
@@ -1545,7 +1598,8 @@
         "q": "Gayle Rubin's framework says the system eliminates resistance rather than negotiates with it. But Sahiban DID resist, by breaking Mirza's arrows to save her brothers — doesn't that complicate the claim?",
         "a": "A genuinely sharp catch, worth being precise about — Sahiban's action wasn't resistance to the family system, it was compliance with a different, competing family obligation (protecting her brothers) at the direct expense of her romantic choice. The system didn't negotiate with her romantic resistance; it activated a different loyalty claim that overrode it, then killed Mirza and her too — fully consistent with elimination, not negotiation, since her attempted mercy produced no negotiated exception at all."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "son-quest-missing-women",
@@ -1572,7 +1626,8 @@
         "q": "If the MFLO 1961's arbitration requirement failed because the councils were socially subordinate to the petitioner, does that mean any law regulating elite behavior is doomed unless the enforcement body is elite-proof — is that even achievable?",
         "a": "Not doomed in principle, but a genuinely instructive failure mode worth generalizing carefully — enforcement bodies with less social power than the regulated party predictably underperform, which argues for either genuinely independent enforcement mechanisms or structural incentives that don't rely on the enforcer's personal courage against a socially superior petitioner. Whether that's achievable depends on the specific institutional design, not a fixed law of elite-regulation."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "institutions-family-education",
@@ -1599,7 +1654,8 @@
         "q": "Parsons' functionalist family model (breadwinner/homemaker) is flagged as historically and culturally specific, not universal. If the model itself is contingent, does the manifest/latent/dysfunction framework built on top of it still hold for family structures that don't match Parsons' model at all?",
         "a": "Yes — worth separating clearly. The manifest/latent/dysfunction analytical tool is structure-agnostic; it can be run against a joint family, a nuclear family, a single-parent household, or any other form to identify each one's own functions and dysfunctions. What's contingent is Parsons' specific claimed content, not the analytical method itself."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "religion-economy-institutions",
@@ -1626,7 +1682,8 @@
         "q": "If Weber says Protestant doctrine caused disciplined economic behavior, and Marx says religion legitimizes existing class relations, aren't these contradictory claims about which direction causation runs?",
         "a": "They describe different historical moments and mechanisms, which is why both can be defensible without directly contradicting each other — Weber's claim is about Calvinism's doctrinal content producing NEW economic behaviour at capitalism's origin; Marx's is about religion, once established, being used to justify an ALREADY-existing power structure. Causation can run in different directions at different historical moments."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "parsons-sick-role",
@@ -1648,7 +1705,8 @@
         "q": "If the sick role comes with an obligation to want to get well, what happens to someone with a chronic, incurable condition who can never fully exit the role — does the framework treat them as failing to meet its obligations?",
         "a": "A genuine, well-recognized limitation, developed for acute illness — chronic illness sociology emerged specifically responding to this gap, arguing the sick role's temporary-exemption logic doesn't map onto conditions with no expected endpoint. The framework's core insight (illness carries socially assigned rights and obligations, not just biological fact) survives; its acute-illness assumptions don't generalize cleanly."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "gerbner-cultivation-theory",
@@ -1675,7 +1733,8 @@
         "q": "If heavy media exposure makes the world seem more dangerous than it is, wouldn't reducing media consumption simply fix the distortion — is cultivation a media problem, or a general information-diet problem?",
         "a": "The specific claim is about REPEATED, patterned exposure to a particular kind of content cultivating a specific distorted perception, not that any exposure at any volume causes distortion. Reducing overall consumption would likely help, but the more precise fix is diversifying what gets repeatedly consumed — a diet heavy in any single distorted pattern, at any volume, would cultivate a version of the same effect."
       }
-    ]
+    ],
+    "section": "Social Change, Media & Modernity"
   },
   {
     "id": "ogburn-cultural-lag",
@@ -1710,7 +1769,8 @@
         "q": "If cultural lag explains why laws always arrive late, is lag simply inevitable, or is there a version of lawmaking that closes the gap proactively rather than reactively?",
         "a": "Cultural lag as a predictive tool — tracking where material change is currently outpacing law to identify which statutes are next due for reform before a crisis forces the issue. Suo motu judicial activism is one existing, if imperfect, attempt at proactive gap-closing. The lag isn't permanent by nature, only by default, absent deliberate anticipatory effort."
       }
-    ]
+    ],
+    "section": "Social Change, Media & Modernity"
   },
   {
     "id": "blumer-rogers-diffusion",
@@ -1737,7 +1797,8 @@
         "q": "What actually determines whether a crowd or rumor crystallizes into an organized movement versus just dissipating — a predictable mechanism, or essentially unpredictable which sparks catch?",
         "a": "A genuinely open question in social movement theory — resource mobilization theory argues organizational infrastructure and leadership availability at the moment of diffuse behaviour determines crystallization, while purely spontaneous accounts emphasize the triggering event's severity. #MeToo's crystallization likely involved both: existing feminist organizational infrastructure ready to channel the diffuse wave into concrete demands, not the wave alone."
       }
-    ]
+    ],
+    "section": "Social Change, Media & Modernity"
   },
   {
     "id": "vcr-era-diffusion-triad",
@@ -1768,7 +1829,8 @@
         "q": "The Dubai sexscape involves real economic exploitation along a transnational supply chain. Does analyzing it with academic vocabulary like \"sexscape\" risk making a serious exploitation dynamic sound more neutral or abstract than it actually is?",
         "a": "A fair concern about register, worth taking seriously — academic vocabulary can flatten lived harm if it's the only lens offered. What the framing actually adds, rather than sanitizing the reality, is naming the specific mechanism — controlling intermediaries extracting value precisely because they gatekeep market access — which is analytically useful for anyone trying to intervene in or regulate the supply chain, not a replacement for treating the underlying harm as real and serious."
       }
-    ]
+    ],
+    "section": "Social Change, Media & Modernity"
   },
   {
     "id": "aberle-social-movement-types",
@@ -1795,7 +1857,8 @@
         "q": "Alcoholics Anonymous is given as redemptive — radical individual change, no ambition to change society. But AA has arguably shifted broader attitudes toward addiction as a disease, not a moral failing. Doesn't that mean redemptive movements can have reformative effects even unintentionally?",
         "a": "A genuinely sharp catch, worth naming the typology's own limit rather than defending it past its scope — the categories describe a movement's STATED target and intended scope, not its total downstream societal effect, and those can diverge exactly as this example shows. The typology is best used to classify a movement's own goals, not to predict everything it eventually causes."
       }
-    ]
+    ],
+    "section": "Social Change, Media & Modernity"
   },
   {
     "id": "modernity-postmodernity",
@@ -1826,7 +1889,8 @@
         "q": "Baudrillard says simulations no longer reference any underlying real. In a deepfake/AI-evidence legal context, doesn't a court's entire function depend on there still being an underlying real fact to find — wouldn't accepting this fully undermine a fair trial?",
         "a": "Exactly the tension the legal application flags without resolving — courts operationally still assume a fact-of-the-matter exists to be found, and Baudrillard's strongest claim would be corrosive to that assumption if taken literally and totally. Most legal scholarship invoking him uses it more narrowly — a warning about the increasing difficulty of VERIFYING the real amid convincing simulations, not a metaphysical claim that no real fact exists for a court to find."
       }
-    ]
+    ],
+    "section": "Social Change, Media & Modernity"
   },
   {
     "id": "foucault-discipline-punish",
@@ -1853,7 +1917,8 @@
         "q": "If the panopticon's power comes from internalized self-regulation under POSSIBLE surveillance, does modern digital surveillance — often actual, continuous, and known — represent an intensification of Foucault's model or something structurally different?",
         "a": "An intensification in one sense but structurally different in another — the panopticon works through uncertainty (you never know if you're watched right now, so you act as if you always are), while modern digital surveillance is often known and continuous rather than uncertain. Some scholars argue this shifts the mechanism from internalized discipline to a more direct, data-driven control that doesn't need the same psychological internalization to work — a genuinely open question in surveillance studies, not a settled extension of the original model."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "pakistan-cjs-stratified",
@@ -1884,7 +1949,8 @@
         "q": "If delay functions as informal punishment for those who can't afford expedited counsel, and this is well-documented, why hasn't a straightforward fix — mandatory speedy-trial deadlines — already solved it?",
         "a": "Because the delay isn't a drafting gap, it's a resource-allocation problem legal text alone can't fix — mandatory deadlines already exist in various forms in many systems and routinely get missed or waived precisely because underlying capacity (judges, courtrooms, prosecutors) doesn't match caseload volume. A speedy-trial right without proportionate institutional capacity produces either widespread non-compliance or dismissed cases for a procedural failure unrelated to the merits — neither a clean fix."
       }
-    ]
+    ],
+    "section": "Deviance, Crime & Social Control"
   },
   {
     "id": "pound-sociological-jurisprudence",
@@ -1915,7 +1981,8 @@
         "q": "If selective non-enforcement 'typically tracks who benefits from looking away,' doesn't that framing assume a cynical, corruption-based explanation by default, when resource constraints or evolving moral consensus could explain the same pattern without anyone deliberately benefiting?",
         "a": "A fair methodological caution, already applied to a similar claim elsewhere in this knowledgebase — the framework identifies a real, general pattern worth checking, but 'typically tracks who benefits' is a strong default that needs case-specific evidence to confirm rather than being assumed automatically. Resource constraints and shifting moral consensus are real alternative explanations a careful analysis has to rule out first."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "social-mobility-types",
@@ -1942,7 +2009,8 @@
         "q": "Land reform's limited effect shows how hard structural mobility is to legislate directly, but the civil service exam is cited as successful structural mobility. What's actually different between the two?",
         "a": "The civil service pathway succeeds partly because it creates a new channel alongside the existing wealth structure rather than redistributing it — it doesn't take land from anyone, only opens a parallel route to status that doesn't depend on land ownership. Land reform directly threatens existing asset holders' wealth, generating far more resistance and evasion than a new parallel pathway that leaves prior holdings untouched."
       }
-    ]
+    ],
+    "section": "Stratification, Culture & Institutions"
   },
   {
     "id": "military-recruitment-kohlberg",
@@ -1977,7 +2045,8 @@
         "q": "If Post-Conventional reasoners are structurally threatening to military institutions because they resist capture, does that mean a military that successfully recruits and trains soldiers is, by design, selecting against the exact reasoning that would catch a Joseph Darby situation before it happened?",
         "a": "A genuinely uncomfortable structural implication worth taking seriously — if training systematically favours Conventional-level compliance over independent ethical judgment, the same design that produces effective, cohesive units also predictably reduces the number of people inside capable of recognizing and reporting abuse before it escalates. The ethical safeguards likely have to come from outside the recruitment-and-training pipeline itself, since the pipeline is optimized against producing them internally."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "internalized-significant-other",
@@ -2016,7 +2085,8 @@
         "q": "This is framed beautifully around a positive mentor relationship. But isn't there a darker version of the same mechanism — an abusive or manipulative significant other's voice getting internalized by exactly the same process, becoming an equally durable, equally undetectable internal voice?",
         "a": "Yes, and the mechanism is morally neutral even though this entry's own framing understandably emphasizes the beautiful case. Primary internalization doesn't discriminate between a nurturing mentor's voice and a critical or abusive one — both get encoded with the same durability, experienced as one's own convictions. This is precisely the mechanism underlying clinical work on internalized criticism and inherited relational patterns: the same architecture that makes a mentor's wisdom permanent also makes an abusive voice permanent, unless specifically identified and worked through."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "fictional-significant-others",
@@ -2043,7 +2113,8 @@
         "q": "If the brain doesn't distinguish between a fictional mentor and a real one at the level of internalization, could parasocial relationships with fictional characters — or AI characters — function as genuine developmental influences, not just entertainment?",
         "a": "The logic points directly there, and it's a live, serious question in developmental psychology, not a stretch — if internalization cares about emotional charge, repetition, and identity-relevance rather than the reality-status of the source, a fictional character or a repeatedly-engaged AI system could plausibly become an internalized significant other through the same process. Whether that's healthy or concerning likely depends on the same factors that matter for real significant others, not on the fictional/real distinction itself."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "naming-convention-tragic-romances",
@@ -2074,7 +2145,8 @@
         "q": "Framing the contradiction as 'unresolved' and central to why the stories persist — is there a risk this makes the underlying violence feel like fate rather than something that could actually change?",
         "a": "A real risk worth naming directly. Describing the contradiction as historically persistent in these specific centuries-old narratives is a claim about why the stories lasted, not that the structure is permanent going forward. The Land-Caste-Marriage Triangle entry shows exactly the mechanism by which the structure erodes — when the material condition (land as dominant wealth form) changes, the norm built around it loses its necessity. The stories document a pattern that held for centuries, not a law of nature that must hold forever."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "political-skill-asymmetric-status",
@@ -2117,7 +2189,8 @@
         "q": "Isn't 'apparent sincerity' just a polite name for successful faking?",
         "a": "Only if the sincerity is performed rather than genuine — and Ferris's own research treats that distinction as the whole ballgame. The construct doesn't collapse political skill into manipulation; it explicitly separates a genuine-sincerity profile, which predicts trusted leadership, from a Machiavellian profile that pairs the same social-reading ability with self-interested intent. The skill is neutral; what it is used for is not."
       }
-    ]
+    ],
+    "section": "Socialization, Self & Identity"
   },
   {
     "id": "cross-gender-scripts-backlash-bhutto-jahangir",
@@ -2160,7 +2233,8 @@
         "q": "Bhutto's case required no behaviour at all to trigger the verdict, while Jahangir's required visible, chosen behaviour. Doesn't that actually undercut the claim that these are 'the same mechanism' — if one needs a trigger and the other doesn't, are they really the same thing?",
         "a": "They're the same downstream mechanism — status characteristics theory's re-explanation-to-preserve-the-script logic — operating on two different upstream scripts. Ridgeway's framework doesn't require a single trigger type; it predicts that any violation, real or presumed, of the expected script gets re-explained in whatever terms are available. Bhutto violates the purity script by circumstance; Jahangir violates the modesty script by behaviour. Different scripts, different triggers, same re-explanation mechanism and the same output. That's a feature of the theory's generality, not a contradiction in applying it to both."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "three-solutions-missing-platonic-script",
@@ -2199,7 +2273,8 @@
         "q": "Fictive kinship and jocular banter are framed as 'mirror-image' solutions — one formal, one informal — but categorical exit doesn't obviously mirror either of them. Does the three-part structure actually hold together, or is the third case just a different problem wearing the same label?",
         "a": "It holds together at the level of the shared problem, not at the level of a shared mechanism, and the entry says so directly in the Core Idea and Application sections — three different mechanisms solving one identical structural gap, not three variations on one mechanism. Fictive kinship and banter do mirror each other cleanly, formal-taboo-import against informal-manufactured-intimacy, both still operating inside the heterosexual frame. Categorical exit breaks that symmetry on purpose, by exiting the frame entirely rather than managing risk within it — which is exactly why it's described as the more complete solve. The three-part structure is a genuine typology of routes to the same destination, not a claim that all three routes look alike."
       }
-    ]
+    ],
+    "section": "Gender, Relationships & Case Studies"
   },
   {
     "id": "marx-alienation-superstructure",
@@ -2238,7 +2313,8 @@
         "q": "The alienation-from-species-being claim assumes there's a true, unalienated human nature that wage labor corrupts — isn't that just an unfalsifiable philosophical assumption dressed up as sociology?",
         "a": "Yes, and this is a genuine and long-standing criticism of the concept, not a minor quibble — species-being is the most explicitly philosophical, least empirically testable piece of the whole model, which is exactly why the caveats section flags it as contested rather than settled. It's worth keeping in the entry because it's Marx's own stated reasoning, not because it survives scrutiny as an empirical claim the way the other three alienation mechanisms arguably do."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "weber-class-status-party",
@@ -2277,7 +2353,8 @@
         "q": "Doesn't the professor example undercut the model rather than support it — if status without much class or party power isn't converting into anything real, why call it a form of stratification at all rather than just a consolation prize?",
         "a": "Because status has real downstream effects even without converting cleanly into money or organized power — it shapes who gets deferred to in a room, whose opinion carries evidentiary weight in a dispute, who gets social forgiveness for the same mistake someone lower-status wouldn't. Those are stratification effects even when they don't show up in a bank account. The professor example is actually a good test of the model's honesty: it shows a dimension that stays real and consequential precisely because it doesn't reduce to the other two."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "weber-authority-types",
@@ -2312,7 +2389,8 @@
         "q": "The routinization-of-charisma idea assumes charismatic authority is inherently the least stable — but plenty of charismatic movements have lasted decades without converting to either traditional or legal-rational form. Doesn't that undercut the framework?",
         "a": "It's a fair pressure point, and the caveats section flags the two-path summary as an understatement of a messier historical record. But a multi-decade charismatic movement without conversion is usually still leader-dependent in a way that shows the instability the theory predicts — it just hasn't yet faced the test that reveals it, which is the leader's death or incapacity. The theory's real claim isn't that charismatic authority collapses quickly; it's that it hasn't solved the transferability problem, which only becomes visible at succession. A movement can look stable for decades and still be one succession crisis away from confirming exactly what the theory predicts."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "durkheim-suicide-types",
@@ -2351,7 +2429,8 @@
         "q": "If fatalistic suicide is barely developed in Durkheim's own text, why does this entry present all four types as a clean, equally-weighted model rather than flagging that asymmetry up front in the Core Idea rather than burying it in the caveats?",
         "a": "Fair critique of the structure — the caveats section is the right place for the accuracy check, but the Core Idea does present all four with equal weight for a defensible reason: that's how the concept is actually used in the field today, in nearly every modern textbook and in the ongoing anomic/fatalistic research literature, regardless of Durkheim's original emphasis. An entry describing the concept as currently used should lead with the current, standard four-part model; an entry specifically about Durkheim's own text and its history should probably lead with the asymmetry instead. This entry is doing the former, which is a legitimate choice, but you're right that it should be made explicit rather than left for the caveats to surface."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "merton-self-fulfilling-prophecy",
@@ -2390,7 +2469,8 @@
         "q": "The Application section says the concept lets you ask whether a confirmed prediction was 'actually accurate or self-manufactured' — but how would you ever tell the difference in a messy real-world case where you can't run Rosenthal and Jacobson's controlled random assignment?",
         "a": "Honestly, often you can't cleanly, and that's a genuine limit worth stating plainly rather than glossing over. The controlled version (random assignment, as in the classroom study) is what makes the mechanism undeniable; most real-world cases only give you a correlation between a belief and an outcome, with the causal direction genuinely ambiguous. The concept's real value in messy cases isn't proof, it's the discipline of asking the question at all — treating a confirmed prediction as automatically vindicating the original judgment, without ever considering that the confirmation might have been self-manufactured, is the mistake the theory guards against, even in cases where you can't fully resolve which explanation is correct."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "bourdieu-forms-of-capital",
@@ -2433,7 +2513,8 @@
         "q": "The credential-premium debate mentioned in the caveats sounds important — doesn't burying it in the caveats rather than the Application section understate how much it actually undermines the entry's central claim about institutionalized cultural capital?",
         "a": "Fair placement critique. The Application section states the disposition-signaling claim fairly confidently, and the caveat that complicates it — that human-capital economists have a live, competing explanation for the same credential premium — probably deserves to sit right next to that claim rather than arrive after the fact. The honest position is that both mechanisms (skill-building and disposition-signaling) likely contribute to the real-world credential premium, in unknown proportion, and presenting Bourdieu's account as though it were the whole explanation understates a genuinely unresolved debate in labor economics."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "garfinkel-ethnomethodology-breaching",
@@ -2468,7 +2549,8 @@
         "q": "The 'why do you say good, good compared to what' example sounds almost identical to just being a difficult, pedantic conversational partner — how is this actually revealing a hidden rule rather than just documenting that people don't like pedants?",
         "a": "The distinction is in what's being demanded, not just the tone: an ordinary pedant disputes the content of what you said; Garfinkel's students were disputing the sincerity-format of an utterance that isn't supposed to be taken as a literal information request at all — 'how are you' functions as a ritual greeting, not a genuine question, and treating it as a genuine question is precisely the violation. The reaction it produces (irritation escalating to hostility over something objectively minor) is disproportionate to a simple content disagreement, which is itself the evidence that something more structural than mere pedantry was being violated — the format of the exchange, not its content."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "dubois-double-consciousness",
@@ -2503,7 +2585,8 @@
         "q": "The mechanism section claims the dominant group 'generally does not need' to hold two simultaneous self-conceptions — but isn't that itself an oversimplification, since plenty of dominant-group individuals experience their own internal version of feeling misread or reduced by others?",
         "a": "The claim is specifically about a structural asymmetry, not a claim that dominant-group individuals never feel misunderstood as individuals — those are different things. Any person can feel misread in a particular relationship or moment. Du Bois's claim is narrower and structural: for a marginalized group, the gap between internal self-conception and the socially dominant definition of full personhood is systemic and unavoidable, built into the institutions and language available for self-description, not an occasional interpersonal friction. A dominant-group individual's experience of being misread is real but doesn't have that same systemic, inescapable, identity-defining quality — which is the actual distinction the mechanism section is pointing at, even if 'generally does not need to' understates it a little by not making that distinction fully explicit."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "veblen-conspicuous-consumption",
@@ -2538,7 +2621,8 @@
         "q": "The caveats section admits genuine quality differences can justify a price premium independent of status signaling — but the entry never gives any way to actually tell the two apart in a specific case. Doesn't that make the whole framework hard to apply rigorously rather than just rhetorically?",
         "a": "That's a fair and important limitation, and it's worth being direct about it: Veblen's framework is much stronger as an explanation of aggregate patterns — why demand curves invert for certain categories of goods, why luxury markets behave the way they do at scale — than as a tool for definitively diagnosing the motive behind any single individual purchase. In an individual case, genuine quality and status signaling are usually both present in some mix, and the framework doesn't hand you a clean test to separate them. Its predictive power shows up at the level of markets and categories of goods, not at the level of a specific person's specific reason for buying a specific item, and treating it as though it worked at that individual diagnostic level would be overreaching."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "comte-law-of-three-stages",
@@ -2573,7 +2657,8 @@
         "q": "The diagnostic reframing in the Application section — using theological/metaphysical/positive as a general test for any explanation's maturity — sounds like it's smuggling back in exactly the rigid, three-stage judgment the caveats just criticized. Isn't that a contradiction?",
         "a": "There's a real tension worth naming rather than smoothing over: using the three categories as a one-time diagnostic lens for evaluating a specific explanation's structure is a much smaller claim than Comte's original one, which was that all knowledge necessarily and universally progresses through these three stages in this fixed sequence over time. The diagnostic use doesn't require accepting the developmental, teleological claim at all — you can use 'does this appeal to unfalsifiable will, untestable abstraction, or checkable evidence' as a useful one-off sorting question without believing every field of knowledge marches through all three in strict historical order. It's a fair critique that the entry doesn't spell out that distinction as clearly as it should, though."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "foucault-biopower-governmentality",
@@ -2608,7 +2693,8 @@
         "q": "If biopower operates through population-level statistics and public health data, and disciplinary power operates through individual surveillance, aren't these really just two different scales of the exact same underlying phenomenon rather than two genuinely distinct types of power, as the entry implies?",
         "a": "They're related and often work together in practice, which is worth stating plainly, but the distinction Foucault draws is more than just scale — it's also about mechanism and target. Disciplinary power targets and trains the individual body directly, through internalized surveillance of the self as an individual. Biopower targets the population as a statistical aggregate and intervenes through infrastructure, incentive, and norm-setting rather than individual correction, and it can operate even when no individual is ever directly observed or disciplined at all — a public health campaign shifting aggregate smoking rates doesn't require watching any single smoker the way disciplinary power's panopticon logic does. The two frequently reinforce each other in real institutions, but collapsing them into 'just the same mechanism at different scales' loses the real difference in what's being targeted and how."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   },
   {
     "id": "becker-moral-entrepreneurs",
@@ -2643,6 +2729,7 @@
         "q": "The examples given (prohibition, narcotics enforcement) are both cases where the entrepreneurial rule-creation is now widely viewed as having been at least partly mistaken or overreaching. Does the theory actually predict when a moral crusade is right about a genuine harm versus overreaching, or does it only work as a retrospective explanation for the crusades that turned out badly?",
         "a": "This is a real limitation worth stating directly: the theory is much stronger as an explanation of the process by which rules get created and enforcement institutions get built and sustained than it is as a tool for predicting, in advance, which moral crusades are correctly identifying real harm and which are overreaching or mistaken. Becker's framework is agnostic on that normative question by design — it explains the mechanism of rule-creation and institutionalized enforcement interest regardless of whether the underlying moral judgment turns out, in hindsight, to have been right. Using it to retrospectively explain prohibition's overreach works well; using it prospectively to sort current or future moral crusades into 'legitimate' and 'overreaching' bins would be asking the theory to do work it isn't built to do."
       }
-    ]
+    ],
+    "section": "Foundational Theory & Classical Theorists"
   }
 ]

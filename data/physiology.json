@@ -32,7 +32,8 @@
         "q": "This entry ties to the Cotton League tactile-purchase argument. Could a good enough haptic device eventually make that argument obsolete?",
         "a": "In principle, yes. Nothing in the framework requires the body-schema information to come specifically from unmediated touch — only that it arrive through a genuine sensorimotor channel rather than pure visual description. A haptic device good enough to transmit real texture and weight would satisfy the same requirement. Current consumer haptics aren't there yet — a technological limit, not a permanent philosophical one."
       }
-    ]
+    ],
+    "section": "Phenomenology & Embodied Cognition"
   },
   {
     "id": "touch",
@@ -67,7 +68,8 @@
         "q": "Doesn't this argument prove too much — wouldn't it justify forcing every retail category into in-person-only sales?",
         "a": "No — it's category-specific. The argument applies where fine texture, weight, or authenticity detail is actually part of what's being evaluated and can't be verified another way (a handmade rug's weave). For products where the relevant quality is fully captured by other channels (a book's content, a digital subscription), there's no missing sensory information for touch to supply."
       }
-    ]
+    ],
+    "section": "Perception & the Senses"
   },
   {
     "id": "lakoff-johnson",
@@ -98,7 +100,8 @@
         "q": "This entry ties directly to 'visual words.' Is that genuine theoretical grounding, or two people independently noticing the same pattern and calling it related?",
         "a": "More than surface-level — both land on the same specific mechanism (concrete, bodily source domains carry more persuasive force than abstract ones), reached independently from academic linguistics and marketing practice, itself a form of corroboration. The real test is whether the theory predicts which words will work better before testing them, not just sharing vocabulary for the same intuition."
       }
-    ]
+    ],
+    "section": "Phenomenology & Embodied Cognition"
   },
   {
     "id": "gallagher",
@@ -129,7 +132,8 @@
         "q": "If body image and body schema can come apart, which one is 'really' in control of behavior — is conscious belief just along for the ride?",
         "a": "Neither is straightforwardly in control alone — they operate on different timescales for different purposes. Body schema handles fast, automatic coordination; body image handles slower conscious planning. The phantom-limb case shows they can conflict, not that one is a passive bystander — conscious body image genuinely does override automatic reaching in many other contexts."
       }
-    ]
+    ],
+    "section": "Phenomenology & Embodied Cognition"
   },
   {
     "id": "sensory-substitution",
@@ -164,7 +168,8 @@
         "q": "If synesthesia is likely genetic cross-wiring rather than learned, why does sensory substitution training — a learned skill — produce anything like a synesthetic experience at all?",
         "a": "They may reach a similar functional endpoint (cross-modal integration) through different routes — synesthesia through atypical wiring present early, substitution through trained cortical reorganization in adulthood. Convergent evidence for plasticity, not identical mechanisms."
       }
-    ]
+    ],
+    "section": "Perception & the Senses"
   },
   {
     "id": "central-pattern-generators",
@@ -195,7 +200,8 @@
         "q": "If the spinal cord can generate walking without brain input, does that mean the brain is less important to movement than commonly assumed?",
         "a": "Differently important, not less. The brain's role is supervisory — initiating, modulating, steering — rather than authoring every muscle movement. Removing brain input doesn't produce purposeful, goal-directed walking (crossing a street, avoiding an obstacle), just the raw rhythmic pattern the brain would normally recruit and direct."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   },
   {
     "id": "damasio",
@@ -226,7 +232,8 @@
         "q": "This entry says it complements Kahneman's System 1 caveat. But both describe fast, unconscious processing — are these two different mechanisms, or one mechanism described twice?",
         "a": "A fair question the entry doesn't fully resolve. Damasio's specific contribution is the physiological, body-based mechanism — an actual felt bodily state — underlying the phenomenon; Kahneman's is the higher-level cognitive-science description of its behavioral effects. Likely two levels of description of a related process, worth treating as complementary rather than redundant, but genuinely unreconciled here."
       }
-    ]
+    ],
+    "section": "Phenomenology & Embodied Cognition"
   },
   {
     "id": "vestibular-system",
@@ -253,7 +260,8 @@
         "q": "If the vestibular system is 'highly reliable under normal conditions,' why does ordinary motion (a car, a boat) reliably make some people sick?",
         "a": "The unreliability isn't the vestibular system misreporting motion — it's accurately reporting motion the visual system, fixed on something stationary, doesn't corroborate. The sickness comes from the mismatch between two accurate but conflicting signals, a genuinely different failure mode from the sense simply being wrong."
       }
-    ]
+    ],
+    "section": "Perception & the Senses"
   },
   {
     "id": "somatogravic-illusion",
@@ -288,7 +296,8 @@
         "q": "Could the exact same mechanism be deliberately exploited rather than just guarded against — could someone intentionally induce a false sensation of pitch through controlled acceleration?",
         "a": "In principle, yes, and it cuts both ways — anyone who understands the mechanism could theoretically induce the same false sensation deliberately, which is exactly why the aviation response is institutional and training-based (trust instruments, always) rather than relying on any individual detecting the illusion while it's happening to them."
       }
-    ]
+    ],
+    "section": "Perception & the Senses"
   },
   {
     "id": "vision",
@@ -319,7 +328,8 @@
         "q": "If most of the visual field is low-resolution peripheral processing, why doesn't everyday vision feel blurry or incomplete outside the center of gaze?",
         "a": "The brain fills the gap with prediction and rapid eye movements (saccades) sampling different points many times per second, constructing a subjective impression of uniform detail the raw sensory data never provides — the felt completeness is a construction, closely related to why the magic-trick misdirection example works."
       }
-    ]
+    ],
+    "section": "Perception & the Senses"
   },
   {
     "id": "neurochemistry-dopamine-serotonin",
@@ -362,7 +372,8 @@
         "q": "The entry criticizes popular science for treating dopamine as a 'single dial' — but doesn't building an entry titled just 'Dopamine and Serotonin' risk doing exactly that, presenting two neurotransmitters as the whole explanatory story rather than one piece of a much larger, more interconnected system?",
         "a": "That's a fair structural tension worth naming directly rather than deflecting — an entry organized around two named neurotransmitters does inherently risk implying they're the complete picture, which is precisely the oversimplification the caveats section warns against elsewhere in the same entry. The honest position is that this entry exists to correct the most common specific popular misconceptions about these two systems (pleasure-versus-wanting, mood-dial-versus-status-regulator), not to claim these two systems fully explain motivation or mood on their own — and the caveats section's closing line, that both systems interact heavily with many other factors, is trying to hold that line, though a title like 'Dopamine and Serotonin' by itself doesn't carry that nuance without the reader actually reading the caveats."
       }
-    ]
+    ],
+    "section": "Neurochemistry"
   },
   {
     "id": "neurochemistry-adrenaline-cortisol-stress",
@@ -405,7 +416,8 @@
         "q": "If chronic stress damage is 'at least partially reversible,' as the caveats state, doesn't that undercut how seriously the entry treats allostatic load earlier in the Mechanism and Examples sections?",
         "a": "Not entirely, but it's a fair tension worth naming plainly — partial reversibility doesn't mean the damage wasn't real or serious while it was accumulating, or that reversal is quick, complete, or guaranteed for everyone; allostatic load remains a genuine and well-documented cost even under a partial-reversibility model. What the caveat is correcting is a stronger, more alarming version of the claim sometimes implied in popular treatments — that chronic stress produces fixed, permanent brain damage — which overstates what the research actually shows. The more accurate position, which the entry could state more directly rather than leaving implicit, is: real and serious cumulative cost, with meaningful but incomplete and individually variable recovery once the stressor resolves — a middle position between 'harmless' and 'permanent,' not a reason to discount the earlier sections' seriousness."
       }
-    ]
+    ],
+    "section": "Neurochemistry"
   },
   {
     "id": "neurochemistry-testosterone-estrogen-oxytocin",
@@ -448,7 +460,8 @@
         "q": "If baseline testosterone's link to trait aggression is genuinely mixed and inconsistent, as the caveats admit, why does the entry's main body confidently present the challenge hypothesis as though it were the settled correction to the popular myth, rather than itself being one still-developing research strand?",
         "a": "The confident framing in the main body is doing legitimate work specifically against the cruder popular claim (testosterone directly and simply causes aggression), and the reactive, competition-triggered testosterone research really is more robust and better replicated than the baseline-trait research the caveats flag as mixed — so the entry isn't wrong to present the challenge hypothesis with real confidence on that narrower point. But you're right that the entry's framing risks reading as though the whole science of testosterone and behavior is now settled and corrected, when what's actually true is narrower: one specific popular myth (simple aggression trigger) is well-refuted by one specific, well-supported research strand (reactive status-competition testosterone), while a related but distinct question (does baseline testosterone predict trait aggression) remains considerably less resolved. The entry would be more precise if it drew that distinction explicitly in the main body rather than leaving it entirely to the caveats."
       }
-    ]
+    ],
+    "section": "Neurochemistry"
   },
   {
     "id": "nervous-system-architecture",
@@ -487,7 +500,8 @@
         "q": "The entry says breathing sits in a 'genuinely intermediate zone' between autonomic and somatic control as a kind of exception — but if there's at least one clear exception to the clean division, does that undermine the value of presenting the division as clean and binary in the Core Idea section at all?",
         "a": "It's a real tension the entry doesn't fully resolve, and it's worth being direct about that rather than treating breathing as a minor footnote to an otherwise clean binary. The honest structural picture is that the somatic/autonomic split is a genuinely useful organizing simplification for most of the nervous system's functions, with at least one well-documented and functionally important exception — and that pattern (mostly-clean categories with real, non-trivial exceptions) is common throughout biology generally, not unique to this map. A more careful version of this entry would probably introduce the breathing exception in the Core Idea itself, alongside the clean division, rather than saving it for the Mechanism section, so the reader isn't given a falsely absolute binary before the complication arrives."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   },
   {
     "id": "autonomic-nervous-system-sympathetic-parasympathetic",
@@ -526,7 +540,8 @@
         "q": "The entry frames popular stress discourse as overly focused on the sympathetic side and under-discussing parasympathetic recovery — but is that actually true of current wellness and self-help discourse, which talks constantly about 'recovery,' 'rest,' and 'nervous system regulation'? Might the entry be attacking a slightly outdated version of the popular conversation?",
         "a": "That's a fair challenge to the entry's framing, and it's worth acknowledging that popular wellness discourse has shifted meaningfully in recent years toward exactly the recovery-and-regulation language the entry claims is missing — 'nervous system regulation' and 'vagal tone' have become common enough terms in mainstream wellness content that the entry's Hook, framing parasympathetic function as barely discussed, may understate how much that specific gap has already closed in popular discourse, even if the underlying scientific nuance (including the polyvagal-theory caveat) still doesn't reliably make it into that popular content. The more accurate framing might be that recovery-focused language has become popular without the scientific caveats attached to it, rather than that recovery-focused language remains rare — a real distinction the entry's current framing doesn't quite capture."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   },
   {
     "id": "brainstem-ancient-autopilot",
@@ -565,7 +580,8 @@
         "q": "The entry claims a hierarchical brain model 'correctly identifies the brainstem as sitting at the functional base' even while the companion limbic-system entry is set up to critique that same hierarchical framing as oversimplified — isn't the entry contradicting its own cross-linked companion piece?",
         "a": "There's a real tension here worth being precise about rather than smoothing over: the entry is trying to hold a narrower claim (the brainstem genuinely is functionally non-negotiable and evolutionarily ancient in a way that supports at least the base layer of a hierarchical model) alongside a broader caution (the full triune-brain picture, where 'higher' structures cleanly override or sit developmentally 'above' 'lower' ones in a simple layered stack, is the part that's scientifically oversimplified). Those are compatible positions in principle — one narrow true claim within a broader flawed model — but the entry's own phrasing doesn't draw that distinction as carefully as it needs to, and does risk reading as though it's quietly re-endorsing the same hierarchical framing its companion entry is built specifically to complicate. That's a real inconsistency in emphasis between the two entries worth tightening."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   },
   {
     "id": "limbic-system-triune-brain-critique",
@@ -608,7 +624,8 @@
         "q": "The entry says LeDoux's 'low road' fast subcortical pathway 'does not require or depend on the broader triune-brain evolutionary-layering story being accurate' — but isn't the low-road/high-road framing itself basically a small-scale version of the same 'older structure overrides newer structure' story the entry is otherwise debunking?",
         "a": "That's a sharp catch, and it's a real structural tension in the entry worth acknowledging directly rather than resolving too neatly. LeDoux's low road does describe a faster subcortical pathway that can trigger a response before slower cortical processing completes, which is functionally similar in shape to the triune-brain's 'primitive override' story, even though LeDoux's own model doesn't rest on MacLean's specific evolutionary-layering claims. The honest distinction the entry is trying to draw is: a documented processing-speed difference between two pathways is not the same claim as a documented evolutionary-layering history between three cleanly separated brain 'eras' — but that's a narrower and more technical distinction than the entry's phrasing fully conveys, and a reader could reasonably come away thinking the entry has debunked the low-road mechanism too when it hasn't. The entry should probably state this distinction more explicitly rather than asserting it and moving on."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   },
   {
     "id": "hippocampus-memory-consolidation",
@@ -643,7 +660,8 @@
         "q": "The Miller's Magic Number Seven cross-link seems like a stretch — working memory capacity and hippocampal long-term memory consolidation are usually treated as distinct systems in cognitive psychology. What's the actual justification for that link?",
         "a": "That's a fair challenge, and the link is weaker than the others in this entry. Working memory (Miller's domain) and hippocampal long-term consolidation are indeed generally treated as functionally and anatomically distinct systems — working memory is more associated with prefrontal and parietal circuits maintaining information over seconds, while the hippocampus handles the much slower process of converting some of that transiently-held information into lasting storage. The link's weak justification is that both are 'memory' in a loose sense and that information has to survive working memory before it can become a candidate for hippocampal consolidation at all — but that's a thin, mostly definitional connection rather than a substantive shared mechanism, and on reflection this cross-link is the least well-justified of the three in this entry and could reasonably be removed rather than kept."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   },
   {
     "id": "amygdala-threat-detection",
@@ -690,7 +708,8 @@
         "q": "The entry claims the amygdala's low road is 'a plausible neural candidate for at least part of' Kahneman's System 1 — how solid is that specific mapping, or is this another case of the entry drawing a tempting but under-evidenced bridge between two separately developed research programs, similar to the hippocampus entry's Loftus connection?",
         "a": "Same pattern, and worth being equally direct about it here: this is a plausible conceptual parallel — both describe fast, automatic processing that can precede or bypass slower, more deliberate processing — rather than a directly demonstrated identity or even a tightly evidenced mapping between the two specific frameworks. Kahneman's dual-process theory was developed primarily through behavioral economics and cognitive psychology research on judgment and decision-making, largely independent of LeDoux's amygdala-specific neuroscience, and the entry's own hedged language ('a plausible neural candidate for at least part of') is doing real, necessary work to avoid overclaiming a cleaner equivalence than the evidence supports — but it's fair to flag that this is the third cross-link in this batch alone built on a suggestive-but-not-directly-evidenced bridge between two independently developed literatures, which is a recurring pattern worth naming rather than treating each instance as an isolated case."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   },
   {
     "id": "prefrontal-cortex-executive-function",
@@ -733,6 +752,7 @@
         "q": "The insanity-defence cross-link is new and the entry treats the translation from prefrontal neuroscience to legal thresholds with real caution — but did this cross-link actually get added to the Law entry itself, or is it, like the brainstem entry's admitted gap, another case of noting a connection without completing it on both sides?",
         "a": "That's exactly the right question to check rather than assume, and it points at unfinished work in this batch specifically — this entry's own links array includes insanity-defence, but whether the reverse link (from the insanity-defence entry in law.json back to this entry) has actually been added is a separate step that needs to be verified and completed as part of the audit and cross-linking work this whole session was scoped around, not assumed to be automatic just because one side of the link exists."
       }
-    ]
+    ],
+    "section": "Nervous System Architecture"
   }
 ]

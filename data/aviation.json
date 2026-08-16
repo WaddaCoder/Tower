@@ -36,7 +36,8 @@
         "q": "Could the vane's own logic eventually be turned against itself — some way to lower the stairs that doesn't trigger it?",
         "a": "Possibly, and it wouldn't refute the entry's point — it would confirm it. The vane's job was never to make hijacking impossible in the abstract, only to close the exact exploited mechanism. A new defeat method is exactly the gap-failure pattern already predicted, not an exception to it."
       }
-    ]
+    ],
+    "section": "Human Factors & Decision-Making"
   },
   {
     "id": "swiss-cheese",
@@ -61,7 +62,8 @@
         "q": "Normalization of deviance and grandfathering can look identical from outside — a rule not being enforced. How do you actually tell them apart?",
         "a": "Intent and origin, not appearance. Grandfathering is a deliberate, announced, bounded exemption decided the moment the new rule is created. Normalization of deviance is unannounced, gradual erosion nobody decided was acceptable — it just accumulated unpunished. The test: was there ever a moment someone said 'this is now the accepted exception,' on the record? If yes, grandfathering. If it just emerged from repeated small violations, normalization of deviance."
       }
-    ]
+    ],
+    "section": "Human Factors & Decision-Making"
   },
   {
     "id": "honour-killing",
@@ -88,7 +90,8 @@
         "q": "Could a law ever actually reach the upstream problem, or is that permanently outside law's reach?",
         "a": "Not permanently outside law's reach, but outside what one substantive-criminal-law amendment can do. Mandatory reporting requirements, independent (non-family-controlled) death-investigation triggers, and witness-protection provisions are still law — operating on the procedural/evidentiary layer rather than the substantive layer the 2016 Act touched. A live, unresolved design question for Pakistani criminal-justice reform."
       }
-    ]
+    ],
+    "section": "Human Factors & Decision-Making"
   },
   {
     "id": "aviate-navigate",
@@ -114,7 +117,8 @@
         "q": "Isn't 'name it, move' — the personal anxiety framework this maps to — just a simpler version of the same idea? Do we need the aviation version at all?",
         "a": "The aviation version adds a strict, non-negotiable order — fly, then navigate, then communicate — not just 'name the feeling and act.' The value-add is the sequencing discipline itself: under real panic, knowing you should do something isn't enough, you need to know which something comes first. Eastern 401 is the proof of what happens when that ordering breaks down even with well-trained people."
       }
-    ]
+    ],
+    "section": "Procedures & Checklists"
   },
   {
     "id": "crm",
@@ -144,7 +148,8 @@
         "q": "The five Hazardous Attitudes look like normal personality variation. When does a trait become 'hazardous' rather than just a personality difference?",
         "a": "The distinction is domain-specific application under safety-critical conditions, not the trait itself. Boldness is an asset in most of life; 'Macho' specifically names boldness that overrides an available safety margin to prove competence in a high-stakes moment — the same trait becomes hazardous only where the cost of being wrong is catastrophic."
       }
-    ]
+    ],
+    "section": "Human Factors & Decision-Making"
   },
   {
     "id": "situational-awareness",
@@ -170,7 +175,8 @@
         "q": "Radar shadow is a literal blind spot. But every perception system has blind spots by definition — does naming this one add anything?",
         "a": "The value isn't that blind spots exist, it's that they don't announce themselves. The danger isn't the gap, it's the false confidence a system otherwise performing well creates about coverage it doesn't actually have — a system that's usually reliable is more dangerous in its gaps than one known to be unreliable, because you don't know to compensate."
       }
-    ]
+    ],
+    "section": "Situational Awareness & Physiology"
   },
   {
     "id": "deviation-spiral",
@@ -196,7 +202,8 @@
         "q": "Dead reckoning is 'manageable' because you know error is accumulating. But without a real reference to check against, doesn't that knowledge provide zero practical benefit?",
         "a": "One genuine benefit even without a check: it tells you how much to trust your current position estimate, which changes your risk tolerance for subsequent decisions before you can correct the error itself. Knowing your confidence should be low is actionable, even when you can't yet know which direction the error runs."
       }
-    ]
+    ],
+    "section": "Situational Awareness & Physiology"
   },
   {
     "id": "circadian-low",
@@ -213,7 +220,8 @@
         "q": "If circadian low is measurable and predictable, why don't high-stakes institutions just ban major decisions during those hours entirely?",
         "a": "Some do, in narrow domains — certain medical and aviation protocols restrict specific high-risk procedures during known low-alertness windows. A full ban is often impractical because emergencies don't wait for a convenient window. The realistic goal is minimizing non-urgent high-stakes decisions during the low, not eliminating all decisions."
       }
-    ]
+    ],
+    "section": "Situational Awareness & Physiology"
   },
   {
     "id": "checklists",
@@ -234,7 +242,8 @@
         "q": "CIGARS is a flexible guide, not a fixed protocol. Doesn't that undermine the whole point of a checklist — isn't the value supposed to be removing discretion?",
         "a": "Depends which failure mode is being guarded against. A rigid Read-Do or Challenge-Response checklist for a time-pressured procedure removes discretion because discretion is the risk. CIGARS guards against simply forgetting to check something during unhurried pre-flight prep, where flexibility in order doesn't increase risk the way skipping a step mid-emergency would."
       }
-    ]
+    ],
+    "section": "Procedures & Checklists"
   },
   {
     "id": "get-there-itis",
@@ -252,7 +261,8 @@
         "q": "If get-there-itis is driven by schedule pressure and goal fixation, isn't the fix just 'reduce schedule pressure' rather than a checkpoint like the 3-2-1 rule?",
         "a": "Reducing schedule pressure helps but doesn't solve it, because goal fixation persists even without external pressure — a pilot with no timetable at all can still develop tunnel vision toward a landing they've mentally committed to. The checkpoint works because it doesn't rely on correctly diagnosing your own motivational state in the moment; it substitutes an objective test for a self-assessment get-there-itis is specifically known to corrupt."
       }
-    ]
+    ],
+    "section": "Human Factors & Decision-Making"
   },
   {
     "id": "pio",
@@ -273,7 +283,8 @@
         "q": "Could a sufficiently skilled pilot avoid PIO just by having faster reflexes and reacting sooner?",
         "a": "No — faster reflexes make PIO more likely if the pilot doesn't also wait for the response lag to play out. Speed without correctly timing against the actual delay is exactly what causes the compounding. The fix is timing discipline relative to the system's lag, not raw reaction speed."
       }
-    ]
+    ],
+    "section": "Aircraft Handling & Control"
   },
   {
     "id": "stick-rudder",
@@ -290,7 +301,8 @@
         "q": "If 'pitch for airspeed, thrust for altitude' is genuinely contested within flight training itself, why present it at all instead of the less contested alternative?",
         "a": "Because contested-but-real is still worth knowing, framed correctly: not as the single correct technique, but as one specific energy-management model with real physical grounding, alongside the acknowledgment that a different, also-defensible technique exists for other flight regimes. Teaching the actual debate is more honest than presenting either side as uncontested."
       }
-    ]
+    ],
+    "section": "Aircraft Handling & Control"
   },
   {
     "id": "performance-envelope",
@@ -316,7 +328,8 @@
         "q": "AF447's crew lost Normal Law's protections exactly when they needed them most. Doesn't that mean Normal Law is more dangerous than Direct Law, since it creates a dependency pilots aren't prepared for when it disappears?",
         "a": "A real, documented concern in the human-factors literature following AF447 — pilots trained almost entirely within Normal Law's protections had less hands-on practice with the unprotected regime they suddenly faced. Full protection can atrophy exactly the raw-flying skill needed the moment protection disappears — a genuine cost of the architecture-over-rule approach, not just a benefit to praise."
       }
-    ]
+    ],
+    "section": "Aircraft Handling & Control"
   },
   {
     "id": "engine-cycle",
@@ -333,7 +346,8 @@
         "q": "If hot-and-high is just physics, why treat it as a noteworthy 'compounding' insight rather than obvious arithmetic?",
         "a": "The operational danger isn't the physics, which is well understood — it's the human tendency to treat two independently-manageable factors as additive rather than multiplying each other. A pilot who mentally budgets separately for heat's effect and altitude's effect can still be caught off guard by how much worse the combination is than either alone — a cognitive-bias point riding on top of a physics point."
       }
-    ]
+    ],
+    "section": "Aircraft Handling & Control"
   },
   {
     "id": "stall-recovery",
@@ -359,7 +373,8 @@
         "q": "PARE's ordering is deliberate, not arbitrary. But if all four need to happen fast in a real spin, does the precise order actually matter, or is 'do all four fast' good enough?",
         "a": "The order matters because some steps can worsen the situation out of sequence — elevator forward before ailerons are neutralized doesn't get the same clean stall-break if the aircraft is still receiving an asymmetric aileron input. 'Do all four fast' in the wrong order can still fail to break the spin, even though every action was eventually taken."
       }
-    ]
+    ],
+    "section": "Aircraft Handling & Control"
   },
   {
     "id": "three-failure-modes",
@@ -389,6 +404,7 @@
         "q": "These three failure modes were discovered by testing one against another, not derived from a single unified theory. Does that undermine treating them as a clean taxonomy?",
         "a": "Closer to how genuinely useful taxonomies get built — categories that survive contact with real cases, refined through testing rather than deduced in advance. This taxonomy has held up against three real cases so far (a hijacking countermeasure, an accident-investigation framework, a colonial bounty scheme) and hasn't needed a fourth category yet — genuinely useful, not proven complete or final."
       }
-    ]
+    ],
+    "section": "Human Factors & Decision-Making"
   }
 ]

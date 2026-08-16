@@ -48,7 +48,8 @@
         "q": "You just used System 1/2 to explain why System 1 makes mistakes. Doesn't that mean your explanation is itself potentially just a fluent-sounding System 1 story?",
         "a": "Yes — a genuine, acknowledged epistemic bind. Dual-process theory is itself a simplification, popularized partly because it's fluent and memorable, exactly what System 1 favors. The theory being intuitively satisfying isn't evidence it's true; its actual support comes from controlled experiments — the bat-and-ball problem, dual-task interference studies — not from how compelling it feels to read about."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "griskevicius",
@@ -75,7 +76,8 @@
         "q": "If visibility is what drives the premium, does that mean genuinely private, unglamorous sustainability efforts are economically irrational?",
         "a": "Not irrational, just differently motivated. Private sustainable choices are typically driven by intrinsic motivation (cross-links Deci & Ryan's Self-Determination Theory) rather than status signaling. The finding isn't that invisible sustainability doesn't happen — it's that the visible kind commands a measurable market premium the invisible kind doesn't."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "cobra-effect",
@@ -106,7 +108,8 @@
         "q": "Every incentive scheme technically risks some gaming. Where's the line between ordinary gaming and a genuine cobra effect?",
         "a": "Does the harmful supply exist independent of the incentive (ordinary gaming — ordinary problem the incentive fails to fully solve), or does the incentive itself manufacture new supply that wouldn't exist otherwise (cobra effect — the incentive is a production input for the harm)? A rep padding hours slightly is ordinary gaming; a rep manufacturing fake leads specifically because leads are the paid metric is the cobra effect."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "prospect-theory",
@@ -141,7 +144,8 @@
         "q": "Doesn't 'the reference point is set by expectation, not absolute wealth' make the theory unfalsifiable — you can always pick a convenient reference point after the fact?",
         "a": "A real, legitimate methodological criticism. Reference-point selection is a known vulnerability where post-hoc reasoning can retrofit the theory to any outcome. The field's response has been to require the reference point be specified and justified before the experiment, not chosen afterward to fit the data — the theory's soft spot, not a reason to dismiss it."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "heuristics-biases",
@@ -172,7 +176,8 @@
         "q": "Confirmation bias and simply having well-supported beliefs can look identical from outside. How do you actually tell them apart?",
         "a": "By whether the search was symmetric before the belief was reached, not after. Confirmation bias is diagnosed by the search process — did you seek disconfirming sources with equal effort — not by whether the conclusion happens to be true. A correct belief reached through asymmetric search is still evidence of the bias."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "cialdini",
@@ -194,7 +199,8 @@
         "q": "If all six are 'normally adaptive social heuristics,' does knowing about them actually protect you, or does awareness alone not neutralize an automatic response?",
         "a": "Awareness helps but doesn't fully neutralize. Cialdini's own research found that people warned in advance still show reduced but not eliminated susceptibility. The practical defense is usually structural (a mandatory cooling-off period before a big purchase) rather than relying on willpower in the moment."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "milgram",
@@ -229,7 +235,8 @@
         "q": "Doesn't citing Milgram to explain 'superior orders' risk excusing the people who actually pulled the trigger?",
         "a": "The legal doctrine is careful about this distinction — Milgram's psychology explains why obedience happens, it doesn't excuse it legally. Nuremberg's rejection of the defense holds people responsible despite the psychological pressure being real, because the law's job is to set a standard people are expected to meet even when it's psychologically difficult."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "asch",
@@ -251,7 +258,8 @@
         "q": "If even one ally breaking unanimity sharply cuts conformity, doesn't that mean conformity is really about unanimity specifically, not group size at all?",
         "a": "Largely yes — one of Asch's most practically important findings. The raw number disagreeing with you matters far less than whether the disagreement is unanimous, which is why one person willing to say the unpopular thing is disproportionately powerful in a room."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "zimbardo",
@@ -282,7 +290,8 @@
         "q": "Is 'situational power' actually distinct from Milgram's obedience, or a different name for the same mechanism?",
         "a": "Related but distinct. Milgram's mechanism is obedience to an explicit, present authority giving direct instructions. Zimbardo's is role-and-institution-driven behavior with no one issuing moment-to-moment orders — a guard wasn't following commands, they were improvising cruelty consistent with an internalized role."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "festinger",
@@ -304,7 +313,8 @@
         "q": "If dissonance scales with effort and irrevocability, does that mean the MORE painful a bad decision was, the MORE convinced afterward someone will be it was right?",
         "a": "Yes — one of the theory's most counter-intuitive, well-replicated findings. The size of the belief-change effect scales with the size of the sunk cost, not inversely. The people most resistant to admitting a decision was wrong are often the ones who paid the highest price for it."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "maslow",
@@ -331,7 +341,8 @@
         "q": "The entry itself says the pyramid isn't Maslow's own diagram. Is there anything left of 'the hierarchy' once the strict pyramid is dropped?",
         "a": "Yes — the defensible core survives: some needs really are prepotent, unmet physiological/safety needs really do dominate motivation in extremis. What doesn't survive is the rigid, always-sequential five-stage ladder, which claims more precision than Maslow's own later writing or the evidence supports."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "deci-ryan",
@@ -366,7 +377,8 @@
         "q": "Isn't 'intrinsic motivation is better' just survivorship bias — people who already enjoy their work saying so?",
         "a": "The controlled experiments rule this out specifically because participants are randomly assigned to paid vs. unpaid conditions, not self-selected. The same people, same task, show measurably different post-task interest depending purely on whether they were paid — isolating the causal mechanism, not just observing a correlation."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "big-five",
@@ -397,7 +409,8 @@
         "q": "If traits are dimensional, not typological, why does everyday language and marketing segmentation keep sorting people into discrete types anyway?",
         "a": "Because discrete types are cognitively easier for fast decisions — a System-1-friendly simplification of a genuinely continuous reality. Segmentation often buckets a continuous score into high/medium/low bands, a legitimate simplification for action as long as the dimensional reality isn't forgotten for an individual case near a boundary."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "dark-triad",
@@ -428,7 +441,8 @@
         "q": "Isn't there a risk that labeling someone 'high in Machiavellianism' becomes a self-fulfilling, unfalsifiable accusation — any charm read as manipulation in hindsight?",
         "a": "A genuine risk, and exactly why this is framed as a defensive-literacy tool built on a specific field-observation method — does charm appear selectively toward people who can benefit the person, or consistently across contexts — rather than a vibe-based judgment."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "freud",
@@ -459,7 +473,8 @@
         "q": "Isn't calling Freud 'not falsifiable' itself an unfalsifiable claim — how would you know for certain no experiment could ever test it?",
         "a": "Fair pushback on the phrasing. The more precise version: key parts of the theory have consistently resisted the operationalization that would make them testable, and psychology has largely moved to frameworks that do meet that bar — not that testing is logically impossible in principle."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "piaget",
@@ -481,7 +496,8 @@
         "q": "If children often show competence earlier than Piaget's own methods detected, does that undermine the whole stage theory, or just his age boundaries?",
         "a": "Just the age boundaries. The qualitative claim — reasoning changes in kind across development — has held up well; what's been revised is how early certain capacities emerge, largely because Piaget's methods (requiring verbal explanation from young children) underestimated competence later experiments detected non-verbally."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "skinner",
@@ -512,7 +528,8 @@
         "q": "If variable-ratio reinforcement is the most powerful schedule, why doesn't every company use it for everything instead of fixed salaries?",
         "a": "Because it's powerful specifically for behaviors you want repeated frequently and compulsively. For behaviors requiring sustained quality and trust (a salaried professional's judgment) rather than raw repetition frequency, the same unpredictability that drives compulsive engagement breeds anxiety and short-termism — actively counterproductive."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "nudge-theory",
@@ -547,7 +564,8 @@
         "q": "Does the cafeteria example actually prove nudges work, or could people just be picking whatever's physically first in line?",
         "a": "The default-effect literature controls for exactly this by testing defaults requiring no extra physical effort to bypass (a pre-checked box, one click to uncheck). The effect persists even with zero additional physical effort required — ruling out pure convenience and pointing to genuine status-quo psychological inertia."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "jung",
@@ -586,7 +604,8 @@
         "q": "Isn't 'the Shadow' just a flattering rebrand of ordinary projection and denial — does Jung add anything Freud's vocabulary doesn't already cover?",
         "a": "Real overlap, and the entry doesn't claim otherwise. Jung's contribution isn't inventing projection, it's framing the disowned material as having positive integration value rather than purely pathological content to defend against — a genuinely different therapeutic prescription (consciously own it) built on a similar underlying mechanism."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "jordan-peterson",
@@ -625,7 +644,8 @@
         "q": "How do you actually tell a competence hierarchy from a power hierarchy from the inside, when the person on top of a power hierarchy usually claims their position is earned?",
         "a": "Genuinely hard to verify from inside, which is why this works better as a diagnostic question than a certain label. Does removal from the top happen through demonstrated failure at the actual task, or only through loss of coercive backing? A competence hierarchy visibly rewards skill under pressure; a power hierarchy protects the incumbent regardless."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "carl-rogers",
@@ -647,7 +667,8 @@
         "q": "If unconditional positive regard is the key ingredient, doesn't that risk enabling harmful behavior by never signaling disapproval?",
         "a": "Unconditional positive regard is for the person, not the behavior. A Rogerian therapist can be entirely honest a specific action was harmful while holding the person's underlying worth as unconditional — a genuinely load-bearing distinction, not a loophole: 'I value you, and this needs to change,' not 'I'll value you if you stop.'"
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "lacan",
@@ -674,7 +695,8 @@
         "q": "If the 'ideal-I' gap never fully closes, doesn't that make the framework a counsel of despair — nothing to actually do about it?",
         "a": "Not despair, more a permanent feature to work with rather than eliminate. The practical takeaway isn't closing the gap, which Lacan says is structurally impossible — it's recognizing the gap isn't a personal failure. The unfair comparison loses some sting once seen as structural, not evidence you're uniquely behind."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "panksepp",
@@ -705,7 +727,8 @@
         "q": "How can Panksepp claim animals have subjective emotional experience — isn't 'what it feels like to be a rat' fundamentally unverifiable?",
         "a": "Subjective experience is unverifiable in the strict sense for any mind but your own. Panksepp's actual testable claim is narrower: the same brain stimulation and drugs produce the same behavioral and physiological signatures across species — evidence for a shared mechanism, not direct proof of subjective experience."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "gray-bas-bis",
@@ -744,7 +767,8 @@
         "q": "If BAS/BIS explains why some people are naturally more reward-seeking, does that mean risk tolerance is basically fixed, not a matter of training?",
         "a": "No — a baseline calibration, not a hard ceiling. The Big Five entry already logged that Conscientiousness is trainable despite a real biological baseline; the same logic applies. A BIS-dominant baseline makes risk feel costlier by default, but deliberate exposure can shift the felt calibration over time."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "mcgilchrist",
@@ -775,7 +799,8 @@
         "q": "The entry draws a parallel to the Marketing hub's abstraction-ladder-vs-context tension. Is that a genuine structural match, or just two things that both involve the word 'context'?",
         "a": "Flagged in the entry itself as 'not yet formally connected' — an honest admission it's suggestive, not demonstrated. Per the Cross-Disciplinary Metaphor Method's own standard: does it generate a checkable prediction, or just redescribe two similar-sounding things? As written, it hasn't cleared that bar yet."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "ericsson",
@@ -802,7 +827,8 @@
         "q": "If deliberate practice requires a coach or clear feedback, is self-directed learning without a coach structurally incapable of building real expertise?",
         "a": "Not incapable, but harder. Without external feedback, it's genuinely difficult to know whether you're practicing at the actual edge of competence or comfortably below it. Self-directed deliberate practice is possible but requires substituting something for the coach's feedback function — objective performance data, structured self-testing, or a peer."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "campbell",
@@ -833,7 +859,8 @@
         "q": "If the monomyth's universality is 'somewhat overfit,' per the entry's own caveat, does that weaken its usefulness as a personal orienting framework?",
         "a": "A separate question, worth keeping apart. Whether the monomyth accurately describes all world mythology is a different claim from whether it's a useful personal narrative structure for an ongoing challenge — a framework can be imperfect anthropology and still be a genuinely functional tool, the way a map doesn't need to be a perfect scale replica to help you navigate."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "neumann",
@@ -864,7 +891,8 @@
         "q": "The entry flags this as having a smaller evidence base than Piaget or Erikson. Why include it at all rather than wait for stronger grounding?",
         "a": "Because it's explicitly filed and flagged as an interpretive, mythologically-grounded framework rather than an empirically validated developmental model — deliberate labeling work, following the discipline applied throughout: include genuinely useful interpretive frameworks, but never let them borrow the evidentiary weight of the empirically-grounded entries beside them."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "pinker",
@@ -890,7 +918,8 @@
         "q": "If treating the mind as a blank slate 'denies real variation a fair hearing,' couldn't the same argument justify almost any claim about group differences?",
         "a": "Exactly the fraught territory the entry flags and asks to be read alongside the contrary view. Pinker's argument, at face value, concerns innate structure in cognition generally, not a blank check for any specific group-difference claim — the caution exists precisely because this argument has historically been mis-extended beyond what Pinker's own evidence supports."
       }
-    ]
+    ],
+    "section": "Psychodynamic & Archetypal"
   },
   {
     "id": "bandura-social-learning-self-efficacy",
@@ -925,7 +954,8 @@
         "q": "Self-efficacy sounds suspiciously close to just 'confidence' — what does the more technical construct actually add beyond a familiar word?",
         "a": "The added precision is in what it's confidence about: self-efficacy is task-specific belief in one's capacity to execute particular actions toward a particular outcome, not a global personality trait like general self-esteem or extraversion. A person can have high self-efficacy for public speaking and low self-efficacy for cooking simultaneously — the construct doesn't travel as a fixed trait the way 'confidence' colloquially implies, and that specificity is exactly what makes it buildable through Bandura's four identified sources rather than just something you either have or don't."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "vygotsky-zpd-sociocultural",
@@ -960,7 +990,8 @@
         "q": "The caveats note that much of 'Vygotskian theory' was developed by later scholars from fragmentary source material — doesn't that mean this entry is partly describing Wood, Bruner, and Ross's theory under Vygotsky's name?",
         "a": "That's a fair and important distinction to hold onto, and it's exactly why the caveats flag it rather than bury it. The core claims — development is fundamentally social, the ZPD as the productive gap between unaided and guided performance, private speech as a working tool rather than a deficiency — are genuinely Vygotsky's own, documented in Mind in Society. The specific term 'scaffolding' and much of the operational, classroom-ready version of the theory is a later addition built on top of that core. Both facts are true at once: the foundational insight is Vygotsky's, and a meaningful part of its current practical form is a later synthesis."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "seligman-learned-helplessness-locus-of-control",
@@ -1003,7 +1034,8 @@
         "q": "Locus of control is described as 'a relatively stable individual difference' — but if learned helplessness shows a single experience can shift how much control a creature believes it has, why would locus of control be stable rather than just as situationally malleable as helplessness itself?",
         "a": "That's a genuine tension in how the two constructs are usually presented side by side, and it's worth naming rather than smoothing over: they're not actually describing the same timescale. Learned helplessness is typically studied as an acute, situation-triggered state that can be induced (and, per later research, reversed) relatively quickly. Rotter's locus of control is measured and validated as a slower-moving trait built up over a much longer developmental history, more resistant to any single experience. The honest position is that they sit on a spectrum from state to trait rather than being two versions of the identical thing — a single very intense or very repeated experience presumably can shift someone's broader locus of control over time, but that's a much bigger lift than the acute helplessness effect Seligman's original dogs demonstrated."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "ekman-universal-emotions",
@@ -1034,7 +1066,8 @@
         "q": "The entry notes micro-expression lie-detection training has 'a genuinely mixed evidence base' — so why does law enforcement keep using it, and should that itself be treated as evidence the training doesn't actually work?",
         "a": "Continued institutional use isn't strong evidence either way on its own — organizations adopt and keep tools for many reasons beyond rigorously validated effectiveness, including sunk cost, plausibility, and the difficulty of measuring a counterfactual (how many missed threats would there have been without it). The honest position, which the caveats section takes, is that Ekman's own accuracy claims have been challenged on methodology and that independent, real-world validation of the training's actual operational lie-detection benefit is thinner than its widespread adoption might suggest — that's a claim about the strength of the evidence, not a confident claim that the training definitely doesn't work at all."
       }
-    ]
+    ],
+    "section": "Emotion, Perception & Neuroscience-Adjacent"
   },
   {
     "id": "baumeister-ego-depletion",
@@ -1077,7 +1110,8 @@
         "q": "If Baumeister argues methodological differences explain the failed replication, and this entry doesn't resolve that dispute, hasn't the entry just presented two conflicting expert claims and left the reader without an actual answer?",
         "a": "That's an accurate description of where the science currently sits, and the honest move is to reflect that rather than manufacture false resolution. The 2016 replication was preregistered, multi-site, and methodologically rigorous specifically to rule out the kind of after-the-fact 'the methodology was different' explanation that's common when a striking finding fails to replicate — which is why the field's confidence has shifted substantially even though Baumeister's defense hasn't been fully disproven either. The entry's position (the original strong claim is seriously undermined, not conclusively falsified, and the field's confidence has genuinely dropped) is the accurate current state of an unresolved scientific dispute, not an evasion of one."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "sternberg-gardner-intelligence-love-theories",
@@ -1112,7 +1146,8 @@
         "q": "The triangular love theory predicts passion typically declines faster than intimacy or commitment — is that actually established, or is it just intuitively plausible and being stated with more confidence than the evidence supports?",
         "a": "It's a well-documented empirical pattern in longitudinal relationship research broadly, and it's consistent with Sternberg's own theory, but it's worth being precise that this specific claim (differential decay rates across the three components) is less rigorously tested within Sternberg's own original triangular framework specifically than it is supported by the wider relationship-science literature on passionate versus companionate love more generally. The entry states it as a general finding rather than citing a specific study establishing exactly that differential rate within Sternberg's own three-component measurement instrument, which is a fair thing to flag as a gap between the theory's intuitive plausibility and its own direct empirical validation."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "csikszentmihalyi-flow",
@@ -1151,7 +1186,8 @@
         "q": "The experience-sampling methodology asks people to self-report both challenge and skill at the same moment they're reporting flow — isn't there an obvious risk that people are just retroactively rationalizing 'I enjoyed that' into 'that was well-matched to my skill,' rather than the match actually causing the enjoyment?",
         "a": "That's a legitimate methodological concern about the self-report design, and it's exactly the kind of thing the caveats section is gesturing at when it flags reliance on self-report as a genuine limitation. The strongest response available is that the challenge-skill-match prediction is at least structurally falsifiable and has been tested against alternative explanations in later, more controlled experimental work beyond the original experience-sampling studies — but you're right that the original in-the-moment self-report design alone can't fully rule out the retroactive-rationalization explanation on its own, and that's a real gap between what the founding methodology can establish and what the theory claims."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "adler-individual-psychology",
@@ -1190,7 +1226,8 @@
         "q": "The 'fictional final goal' is described as 'not directly observable' and relying on 'clinical interpretation' — how is that meaningfully different from the same critique this app would presumably level at, say, Freud's account of unconscious drives?",
         "a": "It isn't meaningfully different, and the entry should be, and is, honest about that rather than giving Adler a pass Freud doesn't get — both concepts share the same core falsifiability problem: an unobservable internal construct inferred from behavior after the fact, with real risk of the theory being unfalsifiable in practice even where it's coherent in principle. Adler's framework doesn't escape that critique just because it's less sexually focused or more accessible in tone than Freud's. The honest caveats section applies the same standard to both rather than treating Adler as somehow more scientifically rigorous simply for feeling more intuitively plausible."
       }
-    ]
+    ],
+    "section": "Personality, Motivation & Self"
   },
   {
     "id": "ainsworth-strange-situation-attachment",
@@ -1233,7 +1270,8 @@
         "q": "The cross-cultural criticism is stated fairly briefly at the end — given that the procedure was validated on a narrow American middle-class sample, shouldn't that concern sit earlier in the entry rather than arrive only as a closing caveat?",
         "a": "That's a reasonable structural critique. The entry's Application section treats the framework as broadly applicable to clinical practice and popular relationship psychology without flagging the cultural-validity question until the very end, which risks understating how much that limitation should qualify claims made earlier about, for instance, cross-cultural replication rates. A stronger version of this entry would raise the cultural-specificity concern before or alongside the cross-cultural replication claim in the Examples section, rather than treating it as a separate concern reserved for the caveats — worth correcting if this entry gets revised."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "pavlov-watson-behaviorism-founding",
@@ -1268,7 +1306,8 @@
         "q": "The entry treats exposure therapy as a natural extension of 'running the fear-conditioning mechanism in reverse' — is undoing a conditioned fear actually that symmetrical with creating one, or is that an oversimplification of how extinction actually works?",
         "a": "It's a genuine oversimplification worth flagging directly — extinction is not simply conditioning run backward. Modern learning theory (built substantially after Pavlov and Watson's own work) treats extinction as the formation of a new, competing inhibitory association that suppresses the original conditioned response, rather than erasing it outright — which is precisely why extinguished fears can spontaneously recover later or return under stress, a phenomenon the simple 'reverse the pairing' model doesn't predict but a new-competing-memory model does. The entry's phrasing of exposure therapy's logic is accurate as a first-pass intuition for why exposure works at all, but understates the more complex, asymmetrical reality of how extinction actually operates at a mechanistic level."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "harlow-monkey-love-contact-comfort",
@@ -1311,7 +1350,8 @@
         "q": "If prolonged isolation caused 'severe, often irreversible' damage, how confident can we actually be that contact comfort specifically, rather than some other missing element of normal social contact, was the operative variable — isn't attributing the damage cleanly to 'lack of contact comfort' overreaching given how much else total isolation also removes?",
         "a": "That's a genuine confound worth naming plainly: total isolation removes contact comfort, but also removes visual and auditory social contact, play, maternal behavioral modeling, and essentially every other channel of social input at once, so the isolation studies alone can't cleanly isolate contact comfort as the single operative variable the way the earlier cloth-versus-wire comparison could. The stronger, more precisely isolating evidence for contact comfort specifically is the earlier surrogate-mother preference and fear-test results, where cloth-versus-wire was the one variable manipulated while other factors were held constant. The isolation studies are better evidence for the broader claim that early social contact overall is developmentally necessary than for the narrower claim that contact comfort specifically is the operative mechanism within that broader finding."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "loftus-bartlett-reconstructive-memory",
@@ -1350,7 +1390,8 @@
         "q": "The entry treats Bartlett's schema theory and Loftus's misinformation effect as two chapters of the same underlying story — but Bartlett's distortions happened through the participant's own prior cultural knowledge, while Loftus's happened through externally introduced misleading information. Are these actually the same mechanism, or is the entry papering over a real difference in cause?",
         "a": "There is a real difference in what's doing the distorting — internally-held prior schema versus externally-introduced post-event information — and it's fair to say the entry's framing of these as 'the same underlying principle' compresses that distinction more than it should. What genuinely is shared is the deeper structural claim both researchers are making against the same target: that memory retrieval is an active reconstruction process rather than a passive readback of a fixed stored trace, and that reconstruction is vulnerable to distortion from whatever informational source is available at the moment of recall, whether that source is the rememberer's own prior knowledge (Bartlett) or someone else's suggestion introduced afterward (Loftus). That shared claim is real and worth grouping the two around; the specific distorting mechanism in each case is genuinely different, and a more careful entry would separate those two levels more explicitly than this one currently does."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "miller-magic-number-seven",
@@ -1385,7 +1426,8 @@
         "q": "The chess-expert chunking finding is presented as strong evidence for chunking generally — but doesn't the fact that expert advantage 'disappeared almost entirely' with randomized boards suggest chunking is really just pattern-recognition from experience, which is a narrower and less generalizable claim than 'chunking expands working memory' as a general principle?",
         "a": "That's a precise and fair distinction to draw, and the entry's phrasing does risk implying more generality than the chess result alone supports. What the chess study directly demonstrates is that chunking capacity is domain-specific, built from extensive prior exposure to real, structured patterns within that domain — a chess expert's chunking advantage doesn't transfer to, say, memorizing random word lists. The broader claim that chunking as a strategy can expand effective working memory capacity in general is supported by other lines of research beyond just the chess studies (phone-number formatting, mnemonic techniques), but the chess result specifically is better read as evidence for domain-specific expertise-driven chunking than as a demonstration of chunking as a domain-general memory trick on its own."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "sperry-split-brain",
@@ -1416,7 +1458,8 @@
         "q": "The 'interpreter' phenomenon is framed as evidence that introspection is broadly unreliable — but isn't generalizing from a severed-brain patient confabulating about an experimentally engineered situation to claims about ordinary self-report in intact brains exactly the kind of overreach the caveats elsewhere warn against?",
         "a": "That's a sharp and fair catch, and it's a real tension in how the entry is structured — the caveats explicitly warn against over-generalizing the popular left-brain/right-brain simplification from split-brain findings to intact-brain claims, but the Application section then does something structurally similar by extending the interpreter phenomenon to broader claims about intact-brain introspection reliability. The honest distinction that should be drawn more clearly is that the interpreter-phenomenon extension has its own separate, independent supporting evidence in intact brains (referenced but not detailed here), rather than resting on split-brain evidence alone the way the left-brain/right-brain popularization does — but the entry doesn't make that distinction as sharply as it should, and reads as more consistent in its skepticism than it actually is."
       }
-    ]
+    ],
+    "section": "Emotion, Perception & Neuroscience-Adjacent"
   },
   {
     "id": "james-lange-cannon-bard-emotion",
@@ -1451,7 +1494,8 @@
         "q": "The entry says spinal-cord-injury patients 'unable to receive full normal bodily feedback' still reported emotions, calling this evidence against James-Lange — but isn't 'full' doing a lot of work there, since even severe spinal injury still leaves plenty of bodily feedback channels (face, breathing, heart rate via vagal pathways) intact?",
         "a": "That's a genuinely important qualifier, and 'full' in the entry's phrasing is doing real, necessary work rather than being incidental. You're right that even severe spinal cord injury leaves several feedback channels — facial expression, respiration, cardiac feedback via cranial nerve pathways not routed through the spine — fully or partially intact, which means the classic spinal-injury evidence is weaker as a clean disproof of James-Lange than a simpler retelling might suggest. A strict James-Lange theory only requires that some meaningful bodily feedback reach the brain, not that every possible channel be intact, so patients retaining partial feedback still experiencing emotion is less damaging to the theory than complete feedback loss would be — which is exactly why this evidence is described in the entry as Cannon's cited challenge rather than as a fully decisive refutation."
       }
-    ]
+    ],
+    "section": "Emotion, Perception & Neuroscience-Adjacent"
   },
   {
     "id": "invisible-gorilla-inattentional-blindness",
@@ -1486,7 +1530,8 @@
         "q": "The entry distinguishes inattentional blindness from 'ordinary forgetting' by pointing to participants' genuine shock on re-viewing — but isn't surprise also exactly what you'd expect if someone briefly saw something strange, immediately dismissed it as irrelevant to their task, and then simply forgot having done so? How does the study actually rule out that alternative?",
         "a": "That's a real methodological question worth taking seriously rather than assuming away. The stronger evidence Simons and Chabris and later researchers rely on isn't just the self-reported shock — it's converging evidence from eye-tracking studies (showing gaze can pass directly over the unexpected object without the corresponding brain activity patterns associated with conscious object recognition) and from studies measuring implicit or indirect awareness (testing whether unnoticed information influences behavior even without conscious report, which it largely does not in inattentional blindness paradigms, unlike genuine cases of consciously-perceived-then-forgotten information). That converging evidence is stronger support for genuine non-perception than participant self-report of shock alone would be, but it's fair to note the entry doesn't spell out this fuller evidentiary picture and leans more heavily on the more intuitive but individually weaker shock-based evidence instead."
       }
-    ]
+    ],
+    "section": "Cognitive Psychology & Judgment"
   },
   {
     "id": "mischel-marshmallow-test",
@@ -1521,7 +1566,8 @@
         "q": "The hot/cool systems mechanism is presented as well-supported because instructing children to think abstractly about the treat improved their wait times — but couldn't that finding just reflect a general distraction effect (thinking about anything else) rather than something specific to 'hot versus cool' cognitive framing?",
         "a": "That's a genuine alternative explanation worth taking seriously, and the entry doesn't fully rule it out. Mischel's own experimental variations did test more than pure distraction, though — comparing instructions to think about the treat itself in abstract, de-arousing terms (a 'cool' reframe of the actual object) against conditions involving distraction toward unrelated content, finding the specific reframing-toward-abstraction condition outperformed generic distraction in at least some of his experimental variants. But you're right that the entry states the hot/cool mechanism's support more confidently than a single clean comparison would fully establish, and a more careful account would note that disentangling 'reframing the temptation itself' from 'simply being distracted by literally anything else' is a harder methodological problem than the entry's brief treatment implies."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "bystander-effect-latane-darley",
@@ -1560,7 +1606,8 @@
         "q": "The intervention advice — 'single out one specific individual by description' — is presented as a direct, well-supported application. Has that specific training intervention actually been tested for effectiveness, or is it a plausible-sounding extrapolation from the diffusion-of-responsibility mechanism that hasn't itself been directly validated?",
         "a": "This is a fair thing to press on, and the entry states it with more confidence than it should without more specific supporting citation — the underlying logic (assigning individual responsibility should counteract diffusion) follows directly and plausibly from the core mechanism, and it is indeed standard practice in first-aid and CPR training curricula. But the entry doesn't cite direct outcome research specifically validating that this exact training technique measurably improves real-world intervention rates, as opposed to simply being a reasonable, theory-consistent recommendation that has become widespread practice. That's a real gap between 'consistent with well-established theory and widely adopted' and 'independently outcome-tested,' and the entry would be more precise if it distinguished those two things rather than presenting the application as though it carries the same evidentiary weight as the original experimental findings."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "tajfel-sherif-social-identity-robbers-cave",
@@ -1603,7 +1650,8 @@
         "q": "Tajfel's minimal group studies are framed as showing categorization 'alone' is sufficient for bias — but participants were still told which group they were in by researchers they presumably trusted, and knew the researcher was watching their allocation choices. Couldn't at least some of the observed favoritism be a demand-characteristic effect (participants behaving how they assumed the study wanted) rather than genuine spontaneous in-group bias?",
         "a": "That's a real and long-recognized methodological critique of the minimal group paradigm specifically, and it's a fair gap in the entry not to have raised directly. Demand characteristics are a genuine alternative explanation any single minimal-group study can't fully rule out on its own. What strengthens the finding beyond that single-study vulnerability is that the minimal-group effect has been replicated across many independent labs, with variations in framing, group-assignment method, and researcher presence, and the favoritism effect has persisted across most of these variations — which doesn't eliminate all demand-characteristic concern, but does make a purely demand-characteristic explanation considerably harder to sustain as the sole driver of such a robust and widely replicated result."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "rosenhan-sane-in-insane-places",
@@ -1638,7 +1686,8 @@
         "q": "The second-phase study is presented as proof the labeling mechanism 'could run in either direction' — but if the first study's data reliability is now seriously in question per Cahalan's investigation, how much confidence can actually be placed in the second-phase finding, which comes from the same original, now-disputed source?",
         "a": "A fair and consistent extension of the same skepticism — the second-phase study comes from the identical original 1973 paper and rests on the same author's self-reported account, so it inherits the same credibility concerns Cahalan's investigation raises about the first phase, not a separately verified body of evidence. The entry treats the two phases with the same level of confidence when the honest position is that both should carry the same caveat, since neither has been independently re-verified through Cahalan-style archival investigation to the same degree the first phase has been specifically scrutinized. That's a gap in how the entry currently allocates its skepticism unevenly across the two phases of the same study."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "zajonc-mere-exposure-effect",
@@ -1673,7 +1722,8 @@
         "q": "The mirror-image preference example is described as 'frequently cited' but is it actually well-established, or is it one of those intuitively appealing pop-psychology claims that doesn't hold up as cleanly under scrutiny as its popularity suggests?",
         "a": "It's genuinely somewhere in between, and 'frequently cited' is a more honest description than claiming it as firmly established — the original mirror-image preference finding traces to a smaller, older study (Mita, Dermer, and Knight, 1977) rather than to Zajonc's own core research program directly, and it has not been as extensively or as rigorously replicated across large modern samples as the core mere-exposure laboratory paradigm has. It's a plausible and popular illustrative extension of the underlying mechanism rather than an independently robust, heavily-replicated finding in its own right, and the entry's phrasing ('frequently cited') is doing appropriately cautious work by not overstating it as a settled fact on the same evidentiary footing as the primary nonsense-syllable studies."
       }
-    ]
+    ],
+    "section": "Social Psychology & Influence"
   },
   {
     "id": "baumrind-parenting-styles",
@@ -1708,7 +1758,8 @@
         "q": "The cross-cultural caveat says authoritarian-style parenting can show positive outcomes 'in cultural contexts where such parenting is normative' — isn't that explanation doing a lot of unexamined work, since it could just as easily be read as the research measuring outcomes using culturally biased metrics that favor whatever the researcher's own cultural background considers healthy?",
         "a": "That's a sharper and more fundamental critique than the caveat as written actually engages with, and it's worth taking seriously — the caveat as stated treats 'normative in that culture' as the explanation for why authoritarian parenting doesn't produce the same negative outcomes elsewhere, but doesn't address the more basic question of whether the outcome measures themselves (self-esteem scales, achievement measures, behavioral adjustment ratings) were developed and validated within a Western psychological framework that may not capture what a different culture would itself consider a positive developmental outcome. That's a deeper methodological problem than simple cultural variation in effect size — it's a question about whether the measuring instrument is even valid across cultural contexts in the first place, and the entry's caveat doesn't go that far, which is a fair gap to flag."
       }
-    ]
+    ],
+    "section": "Developmental & Learning"
   },
   {
     "id": "placebo-effect",
@@ -1747,6 +1798,7 @@
         "q": "If more elaborate, more expensive-seeming, and more invasive-seeming treatments produce stronger placebo effects, doesn't that create a troubling incentive structure where ethically administering a more convincing (and therefore more effective) placebo requires more deception, and less convincing, more honestly disclosed placebo use would be correspondingly weaker?",
         "a": "That's a genuine and actively discussed ethical tension in placebo research and clinical practice, not a hypothetical concern — it's part of why \"open-label\" placebo research (a smaller but growing body of studies testing whether placebos still work when patients are told upfront, honestly, that they are receiving an inert treatment) has become an important active research area, since it directly tests whether some meaningful placebo benefit can be preserved without the deception that maximizing the effect through elaborate, convincing delivery would otherwise require. Open-label placebo studies have found smaller but still measurable effects in some conditions even with full disclosure, which is a genuinely useful and ethically important finding, but the entry doesn't mention this research directly, and a more complete treatment of the topic would address this tension explicitly rather than leaving the reader to infer the ethical problem on their own."
       }
-    ]
+    ],
+    "section": "Emotion, Perception & Neuroscience-Adjacent"
   }
 ]
