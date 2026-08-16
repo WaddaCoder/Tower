@@ -154,6 +154,27 @@
     grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
     gap: 16px;
   }
+  .card-section{
+    margin-bottom: 36px;
+  }
+  .card-section-heading{
+    font-family: var(--serif);
+    font-size: var(--fs-md);
+    font-weight: 400;
+    color: var(--pc);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid rgba(247,245,240,0.08);
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  .card-section-count{
+    font-family: var(--mono);
+    font-size: var(--fs-xs);
+    color: #8a8fae;
+    font-weight: 400;
+  }
   .card{
     background: var(--navy-light);
     border: 1px solid rgba(247,245,240,0.08);
@@ -540,7 +561,7 @@
   <div id="gridView" style="display:none">
     <p class="section-label" id="gridLabel" style="--pc: var(--gold)">Pillar</p>
     <h2 class="section-title">Browse concepts</h2>
-    <div class="grid" id="cardGrid"></div>
+    <div id="cardGrid"></div>
   </div>
 
   <div id="detailView" class="detail">
@@ -635,7 +656,7 @@ function renderSearchResults(results){
     grid.innerHTML = `<p style="color:#8a8fae; font-family:var(--mono); font-size:var(--fs-sm);">No matches. Try a different term — search covers titles, hooks, mechanisms, and sparring questions across every pillar.</p>`;
     return;
   }
-  grid.innerHTML = results.map((e,i)=>{
+  grid.innerHTML = `<div class="grid">${results.map((e,i)=>{
     const p = PILLARS[e.pillar];
     return `<div class="card" style="--pc:${p.color}; animation-delay:${i*0.04}s" onclick="openEntry('${e.id}')">
       <div class="origin-pillar">${p.label}</div>
@@ -643,7 +664,7 @@ function renderSearchResults(results){
       <p>${e.teaser}</p>
       <div class="meta">${e.links.length} connection${e.links.length!==1?'s':''}</div>
     </div>`;
-  }).join('');
+  }).join('')}</div>`;
 }
 
 function renderGrid(){
@@ -656,12 +677,39 @@ function renderGrid(){
     grid.innerHTML = `<p style="color:#8a8fae; font-family:var(--mono); font-size:var(--fs-sm);">No sample entries loaded for this pillar in the mockup yet — real content already exists on Notion.</p>`;
     return;
   }
-  grid.innerHTML = items.map((e,i)=>
-    `<div class="card" style="--pc:${p.color}; animation-delay:${i*0.05}s" onclick="openEntry('${e.id}')">
+  const cardHtml = (e,i) => `<div class="card" style="--pc:${p.color}; animation-delay:${i*0.03}s" onclick="openEntry('${e.id}')">
       <h3>${e.title}</h3>
       <p>${e.teaser}</p>
       <div class="meta">${e.links.length} connection${e.links.length!==1?'s':''}</div>
-    </div>`).join('');
+    </div>`;
+
+  // Group by section, preserving the order sections first appear in the data.
+  const sectionOrder = [];
+  const bySection = {};
+  items.forEach(e => {
+    const s = e.section || 'Other';
+    if(!bySection[s]){ bySection[s] = []; sectionOrder.push(s); }
+    bySection[s].push(e);
+  });
+
+  if(sectionOrder.length <= 1){
+    // Nothing to group (e.g. a pillar with no section data) — fall back to a flat grid.
+    grid.innerHTML = `<div class="grid">${items.map((e,i)=>cardHtml(e,i)).join('')}</div>`;
+    return;
+  }
+
+  grid.innerHTML = sectionOrder.map(section => {
+    const sectionItems = bySection[section];
+    return `<div class="card-section">
+      <div class="card-section-heading" style="--pc:${p.color}">
+        ${section}
+        <span class="card-section-count">${sectionItems.length}</span>
+      </div>
+      <div class="grid">
+        ${sectionItems.map((e,i)=>cardHtml(e,i)).join('')}
+      </div>
+    </div>`;
+  }).join('');
 }
 
 let savedGridScroll = 0;
