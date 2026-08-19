@@ -252,7 +252,7 @@
         "a": "Genuinely hard in continuing-act cases — the entry's own no-parking example shows it. When does an initially innocent act transform into a culpable one as a later intention forms, if the physical situation continues unchanged? Courts have reached different conclusions on structurally similar facts, which is why this is a live doctrinal question, not a settled, obvious rule."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "burden-of-proof",
@@ -285,7 +285,7 @@
         "a": "Blackstone's number was rhetorical, not derived from precise calculation, and isn't presented here as a literally calibrated ratio. The substantive claim is the asymmetry itself — wrongful conviction is worse than wrongful acquittal — not the specific number. Different systems and theorists have proposed different implicit ratios reflecting the same asymmetric-error principle without claiming ten is uniquely correct."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "bentham",
@@ -569,7 +569,7 @@
         "a": "By whether the overlap still leaves each branch enough independent authority to meaningfully resist the others — an executive veto is a check; an executive that can unilaterally remove judges at will has crossed from overlap into capture. The test is functional independence, not zero contact."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "judicial-review",
@@ -602,7 +602,7 @@
         "a": "This is the real, unresolved 'counter-majoritarian difficulty' in constitutional theory. The standard response is that judicial review checks compliance with a constitution the legislature didn't unilaterally write — a narrower power than lawmaking — but reasonable scholars still disagree how much democratic legitimacy that actually secures."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "proportionality",
@@ -626,7 +626,7 @@
         "a": "Real truth to this — proportionality is criticized as less predictable than a rule-based test. Defenders argue a flexible test that weighs context beats a rigid rule producing the same answer regardless of how extreme the facts are, but the subjectivity concern is a genuine, unanswered cost."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "basic-structure-doctrine",
@@ -659,7 +659,7 @@
         "a": "A fair version of the counter-majoritarian concern, sharpened here since it constrains even a supermajority. Defenders argue some minimum content must be protected for a constitution to mean anything; critics argue that judgment should stay with elected bodies. Genuinely unresolved."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "natural-justice",
@@ -683,7 +683,7 @@
         "a": "A fair process is what makes any conclusion legitimate rather than merely lucky. A guilty verdict reached without letting the accused respond isn't proven right by chance — it's a process failure that happened to land on the correct outcome, and the next time it might not."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "presumption-of-innocence",
@@ -712,7 +712,7 @@
         "a": "Real, if partial, work — it still shapes the standard of proof, burden allocation, and appellate review, all with measurable outcome effects even where informal erosion undercuts it elsewhere. Symbolic and substantively protective aren't mutually exclusive."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "res-judicata",
@@ -736,7 +736,7 @@
         "a": "Yes, and the doctrine's own recognized exceptions manage that conflict rather than deny it — newly discovered evidence that couldn't reasonably have been found earlier is one narrow ground for reopening a matter. Finality is the default; the exceptions are for the clearest injustices."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "locus-standi",
@@ -760,7 +760,7 @@
         "a": "A real, live tension — broadened standing does increase claim volume, which is why courts that allow it typically pair it with their own discretionary gatekeeping over which public-interest claims to actually hear, rather than treating it as an unlimited open door."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "nullum-crimen-sine-lege",
@@ -789,7 +789,7 @@
         "a": "The strongest version of the objection, and serious scholars remain unsatisfied by the tribunal's answer. Its position was recognition of an existing prohibition, not retroactive criminalization — defensible in principle, harder to sustain the less clearly that prior prohibition was actually established. This is the doctrine's hardest real case, not a clean vindication of it."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "strict-liability",
@@ -818,7 +818,7 @@
         "a": "A real critique, part of why strict liability stays confined to regulatory contexts. The counter-argument: it isn't about intent at all — it places the cost of an activity's inherent risk on whoever undertakes it, regardless of fault, because the activity itself carries public risk the actor chose to take on."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "causation",
@@ -842,7 +842,7 @@
         "a": "Genuinely one of private law's least mechanically predictable areas, and scholars acknowledge this rather than paper over it. The doctrine trades predictability for the ability to track fairness intuitions case by case — a mechanical formula would be more predictable and would also produce clearly unjust results a rigid rule couldn't anticipate."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "pacta-sunt-servanda",
@@ -866,7 +866,7 @@
         "a": "The default does real work even though exceptions get the litigation attention — most contracts and treaties are performed exactly as agreed, without any exception ever invoked. The exceptions concentrate disputes because they're the narrow, contested edge; that doesn't mean the rule isn't operative everywhere else."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "good-faith",
@@ -890,7 +890,7 @@
         "a": "Common law doesn't forgo the protection, it reaches it through narrower, piecemeal doctrines instead of one general principle. The real difference is doctrinal architecture, not outcome — both traditions catch the same bad-faith problem with structurally different tools."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "vicarious-liability",
@@ -914,7 +914,7 @@
         "a": "Vicarious liability is explicitly not fault-based, and its defenders don't pretend otherwise — the justification is that the employer is better positioned to spread cost through insurance, supervise the activity, and profits from it. Whether that policy justification outweighs the fairness concern for a blameless employer is a real, ongoing tort-theory debate."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "ultra-vires",
@@ -938,7 +938,7 @@
         "a": "Ratification doesn't erase the violation, it provides a controlled remedy for it — the act was still ultra vires when performed, and ratification typically requires an affirmative decision by whoever actually holds the exceeded power. Acting beyond your authority still isn't safe by default; it just isn't always fatal."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "stare-decisis",
@@ -971,7 +971,7 @@
         "a": "The formal difference matters more than it appears — a common law court departing from precedent has to affirmatively justify why the earlier case was wrong, a burden that doesn't exist the same way for a civil law court simply reasoning differently. Practical convergence in outcomes doesn't erase a real structural difference in what each system treats as the default requiring justification to escape."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "ratio-decidendi-obiter-dicta",
@@ -1000,7 +1000,7 @@
         "a": "A fair limitation, not a fatal flaw — the distinction reduces uncertainty relative to having none at all, even without eliminating it entirely. Disagreement about a specific ratio is a normal feature of legal argument, evidence that applying any general principle to new facts requires judgment no doctrinal framework can fully remove."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "diplomatic-immunity",
@@ -2802,7 +2802,7 @@
         "a": "Genuinely limited practical reach given contemporary literacy rates — the symbolic and legitimizing function (a ruler visibly subjecting himself to a fixed, public standard) likely mattered as much as direct citizen access to the text itself. Publication as a legal principle doesn't require universal literacy to do real work; it establishes that the rule exists independent of the ruler's momentary will, which officials and scribes who could read it would then apply."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "twelve-tables",
@@ -2835,7 +2835,7 @@
         "a": "Genuinely limited confidence for many specific provisions — historians reconstruct the content from citations and references in much later Roman legal and literary sources, which means some reconstructed provisions are well-attested across multiple independent sources while others rest on a single, less certain citation. Treat the broad historical narrative (plebeian pressure forcing publication) as well-established; treat specific provision-level detail with more caution."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "corpus-juris-civilis",
@@ -2868,7 +2868,7 @@
         "a": "Largely a function of separate historical paths after the Western Roman Empire's fall — continental Europe's legal scholars rediscovered and systematized Justinian's compilation during the medieval university revival, building the civil law tradition directly on it, while England's own common law developed relatively independently through royal courts and accumulated case law with much less direct, continuous influence from Roman codification. Shared ancient roots, genuinely separate subsequent institutional histories."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "magna-carta",
@@ -2901,7 +2901,7 @@
         "a": "Largely a later reinterpretation, and worth being honest about — the 1215 document was substantially about protecting baronial feudal privileges, not universal rights, and most ordinary people had no direct benefit from it at the time. Its later symbolic elevation into a foundational rights document happened gradually over centuries, as later generations, particularly 17th-century parliamentarians, read broader constitutional principles into specific clauses originally addressed to much narrower baronial concerns."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "habeas-corpus-act",
@@ -2934,7 +2934,7 @@
         "a": "Primarily procedural teeth and closing enforcement loopholes — the statute added specific penalties for officials who failed to comply with a habeas writ and closed off certain evasive practices (like moving a prisoner between jurisdictions to delay compliance) that had weakened the common law writ's practical effectiveness. The underlying right existed before 1679; the Act made it considerably harder for the crown to evade in practice."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "peace-of-westphalia",
@@ -3008,7 +3008,7 @@
         "a": "In the strict Diceyan model, genuinely very little in formal legal terms — this is precisely the tension already flagged under the Dicey entry's own honest caveat. The practical constraint is political and constitutional convention rather than a formal legal bar, which is exactly why later systems building on the English tradition, including the US Constitution below, chose to entrench rights in a written document specifically to remove them from ordinary legislative reach."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "us-constitution",
@@ -3053,7 +3053,7 @@
         "a": "A fair historical point, and genuinely contested among constitutional historians — the original 1787 Constitution focused primarily on structural questions (separation of powers, federal-state relations), and the Bill of Rights was added specifically in response to Anti-Federalist objections that individual rights protection was insufficient without explicit textual guarantees. Whether this makes rights protection an 'afterthought' or simply a second, necessary phase of the same founding project is a matter of interpretation, not settled fact."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "french-declaration",
@@ -3094,7 +3094,7 @@
         "a": "Genuinely intertwined, not fully independent — Thomas Jefferson was in Paris as US Minister to France during the drafting of the French Declaration and had direct personal contact with several of its drafters, including Lafayette, meaning real cross-influence flowed both directions rather than two purely parallel, unconnected developments happening to arrive at similar conclusions."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "marbury-v-madison",
@@ -3127,7 +3127,7 @@
         "a": "Exactly the objection raised at the time and still debated by constitutional scholars — the Constitution's text is genuinely silent on judicial review as an explicit power, and Marshall's opinion reasons TO it from the Constitution's own supremacy clause and the logical structure of a written constitution, rather than citing an explicit textual grant. Whether that reasoning is a legitimate interpretation or the judiciary self-authorizing its own expanded power remains a live question in constitutional theory, not one this entry resolves."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
   },
   {
     "id": "nuremberg-trials",
@@ -3688,6 +3688,47 @@
         "a": "Given how central this claim is to the entry's central argument (that the relationship remains genuinely unresolved), the vagueness is a real weakness rather than appropriate caution — a claim this load-bearing should be supported by at least a few named cases and their actual holdings, not asserted at the level of general historical pattern. The entry cites State v. Zia-ur-Rahman (1973) once, in the Examples section, but doesn't return to name the specific later cases that would substantiate the claim of genuinely divided later jurisprudence following the 1985 Article 2A insertion. This is a legitimate gap: the entry makes a specific, contestable historical-legal claim without providing the specific supporting case law a reader would need to verify or challenge it, which is a lower standard of evidentiary support than the rest of this entry, and this batch generally, tries to hold itself to."
       }
     ],
-    "section": "Foundational Milestones & Constitutional Doctrine"
+    "section": "Foundational Milestones & General Legal Doctrine"
+  },
+  {
+    "id": "res-ipsa-loquitur",
+    "pillar": "law",
+    "title": "Res Ipsa Loquitur — \"The Thing Speaks for Itself\"",
+    "teaser": "A barrel of flour falls from a warehouse window and crushes a pedestrian below. Nobody saw what the warehouse workers did wrong. The court let the accident itself stand in for the missing evidence.",
+    "section": "Foundational Milestones & General Legal Doctrine",
+    "sections": {
+      "Time Period": "19th century (1863)",
+      "Core Idea": "Res ipsa loquitur is an evidentiary doctrine in the law of negligence that allows a court to infer that a defendant was negligent from the mere fact that a particular kind of accident occurred, without the plaintiff having to produce direct evidence of exactly what the defendant did wrong. Ordinarily, a negligence claim requires the plaintiff to prove the defendant breached a specific duty of care through some identifiable act or omission — this project's own causation entry already covers the general requirement that a genuine causal link must be shown between conduct and harm. Res ipsa loquitur addresses a narrower, specific problem: some accidents are of a type that, as a matter of ordinary experience, essentially never happen unless someone was negligent, and in exactly those cases, courts allow the accident's own occurrence to substitute for direct proof of the specific negligent act, shifting the practical burden onto the defendant to explain how the accident happened without fault on their part.",
+      "The Hook": "<em>Byrne v Boadle, the case that gave the doctrine its name in English law: a barrel of flour rolled out of the upper-floor window of the defendant's warehouse and struck a pedestrian in the street below. The plaintiff had no way to prove which specific warehouse employee did what, or exactly how the barrel came to fall. The court's answer was direct — barrels of flour do not ordinarily roll out of warehouse windows unless somebody has been careless, and that fact alone was enough to let the case go to the jury.</em>",
+      "Mechanism": "The doctrine's mechanism rests on three conditions, developed through English and American case law following Byrne v Boadle, all of which must generally be satisfied before an inference of negligence is permitted. First, the accident must be of a kind that does not ordinarily occur in the absence of negligence — an event that, based on common experience, essentially requires someone to have been careless for it to happen at all. Second, the instrumentality or situation that caused the harm must have been within the defendant's exclusive control at the relevant time, since the inference only makes sense if the defendant (rather than the plaintiff or some third party) was in the position to have prevented the accident through the exercise of reasonable care. Third, the plaintiff must not have contributed to the accident through their own conduct. Where all three conditions hold, the practical effect is a shift in the evidentiary burden: rather than the plaintiff having to affirmatively prove the specific negligent act, the defendant is called on to offer an explanation consistent with the exercise of reasonable care — and if no such explanation is forthcoming, the inference of negligence stands. This is a genuinely different mechanism from strict liability, already covered elsewhere in this pillar: strict liability dispenses with the need to prove fault at all, while res ipsa loquitur still requires negligence to be established, it just permits that negligence to be inferred circumstantially rather than proven directly.",
+      "Examples": "Byrne v Boadle (1863) remains the doctrine's founding illustration and the source of its common shorthand name in English-language legal practice. A later, equally influential American application, Ybarra v. Spangard (1944), extended the doctrine into a medical malpractice context: a patient who underwent surgery woke up with an injury to a part of his body unrelated to the surgical procedure itself, and — unable to identify which specific member of the surgical team was responsible while he was unconscious throughout the entire procedure — was permitted to rely on res ipsa loquitur against the whole team collectively, on the reasoning that such an injury does not ordinarily occur during surgery absent someone's negligence, and the patient could not reasonably be expected to identify which specific person among several who had control over him was at fault. Everyday negligence litigation continues to rely on the doctrine in comparable fact patterns — an object falling from a building, a foreign object left inside a patient after surgery, an elevator malfunctioning during ordinary operation — wherever the accident's own nature does the evidentiary work an eyewitness account would otherwise have to supply.",
+      "Application": "Res ipsa loquitur functions as a practical solution to a specific evidentiary asymmetry: cases where the defendant, not the plaintiff, has superior access to the facts about what actually happened, and where requiring the plaintiff to produce direct proof of the specific negligent act would in practice mean many genuinely meritorious claims could never be proven at all. This connects directly to this pillar's own burden-of-proof entry, since the doctrine operates specifically at the level of how a plaintiff can meet their evidentiary burden in a negligence claim, not by changing which party bears the ultimate burden of proof, but by permitting an inference that can satisfy it. The doctrine also remains a standard reference point in medical malpractice litigation specifically, given how often exactly this kind of evidentiary asymmetry arises when a patient, unconscious throughout a procedure, has no direct knowledge of what went wrong and no realistic way to obtain it except through the defendant's own account.",
+      "Sources & Further Reading": "Byrne v Boadle (1863) 2 H&C 722 — the founding English case establishing the doctrine. Ybarra v. Spangard, 25 Cal. 2d 486 (1944) — the influential American case extending the doctrine to a medical context with multiple potential defendants.",
+      "Honest Caveats": "The doctrine's first condition — that an accident is of a kind that does not ordinarily occur without negligence — depends on a judge's or jury's common-sense assessment of ordinary experience, which introduces a real degree of subjectivity into what is otherwise presented as a structured, three-part legal test; reasonable courts have disagreed about whether a given type of accident actually meets this threshold, and the doctrine's application is accordingly less mechanical in practice than its clean formal statement suggests. Ybarra v. Spangard's extension of the doctrine to multiple defendants collectively, rather than one identified defendant, has also been criticized by some scholars and courts as stretching the underlying logic of res ipsa loquitur past its original justification — inferring negligence against an entire surgical team, some of whose members may have had no actual opportunity to cause the injury, is a meaningfully more aggressive use of the doctrine than the original Byrne v Boadle scenario, where a single defendant plainly had exclusive control."
+    },
+    "links": [
+      {
+        "id": "causation",
+        "label": "Causation"
+      },
+      {
+        "id": "strict-liability",
+        "label": "Strict Liability"
+      },
+      {
+        "id": "burden-of-proof",
+        "label": "Burden and Standard of Proof"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If the first condition depends on a judge's or jury's subjective sense of 'ordinary experience,' as the caveats admit, how is this really a structured legal doctrine rather than just a formalized way of letting fact-finders decide cases on gut instinct?",
+        "a": "It's a fair pressure point, and the honest answer is that the doctrine narrows discretion without eliminating it. The three-part structure does real work: it forces the fact-finder to reason explicitly through exclusive control and absence of plaintiff contribution, not just whether the accident 'seems like someone's fault' in the abstract, and it requires the defendant to be given a genuine opportunity to rebut the inference with an innocent explanation before it's treated as established. That's meaningfully more structured than open-ended gut instinct, even though the threshold question — does this type of accident ordinarily require negligence — does rest on a judgment call the doctrine itself doesn't fully constrain."
+      },
+      {
+        "q": "The entry distinguishes res ipsa loquitur from strict liability by saying the former 'still requires negligence to be established, it just permits that negligence to be inferred' — but if the inference is allowed whenever the three conditions are met and the defendant can't rebut it, isn't the practical effect on the defendant essentially identical to strict liability?",
+        "a": "The practical outcome can look similar in a given case, but the legal structure underneath is genuinely different, and that difference has real consequences. Under res ipsa loquitur, the defendant retains a real opportunity to defeat the claim entirely by offering a credible, non-negligent explanation for how the accident occurred — if they succeed, no liability attaches at all, because negligence was never actually established. Under strict liability, no such escape route exists: liability attaches regardless of how much care the defendant exercised, since fault was never the question in the first place. In a case where the defendant genuinely cannot explain the accident, the two doctrines may produce the same result, but in a case where the defendant can offer a credible innocent explanation, res ipsa loquitur allows them to avoid liability entirely while strict liability would not — that's not a small technical difference, it changes who wins in a meaningful share of real cases."
+      }
+    ]
   }
 ]
