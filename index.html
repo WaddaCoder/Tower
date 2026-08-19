@@ -202,6 +202,59 @@
     color: #8a8fae;
     font-weight: 400;
   }
+  .pillar-intro{
+    margin-bottom: 28px;
+    padding: 18px 20px;
+    background: rgba(247,245,240,0.03);
+    border: 1px solid rgba(247,245,240,0.08);
+    border-radius: 10px;
+  }
+  .pillar-intro-heading{
+    font-family: var(--serif);
+    font-size: var(--fs-md);
+    font-weight: 400;
+    color: var(--pc);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    cursor: pointer;
+    user-select: none;
+  }
+  .pillar-intro.collapsed .pillar-intro-heading .card-section-chevron{
+    transform: rotate(0deg);
+  }
+  .pillar-intro:not(.collapsed) .pillar-intro-heading .card-section-chevron{
+    transform: rotate(90deg);
+  }
+  .pillar-intro-body{
+    overflow: hidden;
+    max-height: 20000px;
+    opacity: 1;
+    margin-top: 14px;
+    transition: max-height .25s ease, opacity .2s ease, margin .2s ease;
+  }
+  .pillar-intro.collapsed .pillar-intro-body{
+    max-height: 0;
+    opacity: 0;
+    margin-top: 0;
+    pointer-events: none;
+  }
+  .pillar-intro-body p{
+    font-family: var(--body);
+    font-size: var(--fs-sm);
+    line-height: 1.6;
+    color: var(--paper-dim);
+    margin-bottom: 12px;
+  }
+  .pillar-intro-body p:last-child{ margin-bottom: 0; }
+  .intro-section-para strong{ font-family: var(--serif); font-weight: 600; }
+  .intro-closing{
+    font-style: italic;
+    padding-top: 10px;
+    border-top: 1px solid rgba(247,245,240,0.08);
+    color: var(--paper-dim);
+    opacity: 0.9;
+  }
   .card{
     background: var(--navy-light);
     border: 1px solid rgba(247,245,240,0.08);
@@ -588,6 +641,7 @@
   <div id="gridView" style="display:none">
     <p class="section-label" id="gridLabel" style="--pc: var(--gold)">Pillar</p>
     <h2 class="section-title">Browse concepts</h2>
+    <div id="pillarIntroHolder"></div>
     <div id="cardGrid"></div>
   </div>
 
@@ -625,6 +679,45 @@ const PILLARS = {
   physiology: { label: "Physiology", color: "var(--c-physiology)" },
   law:        { label: "Law",        color: "var(--c-law)" },
   aviation:   { label: "Aviation",   color: "var(--c-aviation)" },
+};
+
+const PILLAR_INTROS = {
+  law: {
+    overview: "Legal doctrine breaks down into six broad layers, and knowing which layer a given concept sits in is usually more useful than memorizing the concept in isolation. Most doctrines in the five layers below jurisprudence exist as a direct response to something — an argument raised in the theory layer, or a real-world failure the older doctrine had no answer for. Knowing when an idea was proposed and what problem it was answering turns a long list of doctrines into a story with cause and effect, rather than a pile of definitions to memorize.",
+    sections: {
+      "Jurisprudence & Legal Theory": "This is the meta-level layer: theories about law, not law itself. Natural law holds that a rule must be minimally moral to genuinely count as law; positivism holds that a rule is valid if properly enacted, full stop, with morality treated as a separate question; legal realism holds that the law is best understood as what judges actually do, not what the books say; law-and-economics evaluates legal rules by their efficiency effects. This layer explains why a legal system is built the way it is — the running arguments between Hart and Fuller, Bentham and Blackstone, Hobbes and Locke are disagreements about the nature of law itself, and they quietly underpin almost everything in the other five sections.",
+      "Foundational Milestones & General Legal Doctrine": "This section holds two related things: the historical milestones that built the modern legal order (Magna Carta, the US Constitution, Marbury v. Madison), and the general operating rules that decide individual cases day to day (mens rea, causation, strict liability, vicarious liability, res ipsa loquitur). The milestones are the architecture; the general doctrine is the machinery that runs inside it. Both sit here because neither is specific to one legal domain — they're the baseline vocabulary nearly every other section assumes you already have.",
+      "International, Diplomatic & Human Rights Law": "Law between sovereign states poses a different foundational problem than domestic law: there is no single authority standing above states the way a domestic government stands above its citizens, so what makes an international rule genuinely binding has to be argued for, not simply assumed. This section covers that argument (Grotius, Vitoria, and the founders of international law) and its practical machinery — sovereign and diplomatic immunity, jus cogens, the Geneva Conventions, the Rome Statute, and the human rights treaties (UDHR, CEDAW, CRC) that extend legal protection to individuals across borders.",
+      "Financial Crime, Commercial & Corporate Law": "This section covers how the law treats money, property, and organizations as legal subjects in their own right — corporate personhood and the corporate veil, contract doctrines like frustration and good faith, and the modern financial-crime architecture (money laundering's three-stage model, FATF, KYC/CDD, targeted sanctions) that exists specifically to police how money moves through and around that commercial architecture.",
+      "Digital, AI, Mental Health & Capacity Law": "The newest and most actively evolving section, grouping two things that turn out to share a structural problem: both digital/AI regulation and mental-health/capacity law are about extending old legal concepts (evidence, consent, liability) to situations the concepts weren't originally built for — an AI system that makes autonomous decisions, or a person whose capacity to consent is itself in question. The EU AI Act and the insanity defence are separated by centuries but are doing structurally similar work: stretching existing doctrine to cover a case the original rule-makers never anticipated.",
+      "Environmental, Animal Rights & Evidence Law": "Two threads share this section for a specific reason: both environmental law (the precautionary principle, polluter pays, intergenerational equity) and evidence law (chain of custody, Daubert/Frye, authentication of electronic records) are fundamentally about how to act responsibly under uncertainty — one about incomplete scientific knowledge of future harm, the other about incomplete certainty over what actually happened in the past. Wildlife trafficking and animal sentience doctrine sit here too, at the point where environmental protection and legal evidentiary standards meet."
+    },
+    closing: "The throughline worth holding onto: doctrine rarely appears from nowhere. Res Ipsa Loquitur (1863) exists because injured plaintiffs kept losing cases they obviously should have won, for lack of direct evidence — the doctrine is jurisprudence's answer to a procedural gap. The Radbruch formula (1946) exists because pure legal positivism had just watched a regime legislate atrocity through formally valid procedure. Once you're looking for the \"response to what\" behind a doctrine, the whole pillar reads less like a list and more like a sequence of arguments."
+  },
+  sociology: {
+    overview: "Sociology's organizing logic is different from law's response-to-a-problem structure. Its core is a small number of foundational theoretical lenses — structural-functionalism, conflict theory, symbolic interactionism, and the individual worldviews of Marx, Weber, Durkheim, Bourdieu, Foucault and others — that get applied repeatedly across every other topic in the pillar. Once you know a given lens, you can often predict roughly how that theorist would read almost any social phenomenon, which is why the same case (say, deviance, or a marriage pattern) can look completely different depending which section's framework you bring to it.",
+    sections: {
+      "Foundational Theory & Classical Theorists": "The engine room: the big theoretical worldviews everything else in the pillar gets read through. Marx's conflict-and-class lens, Weber's rationalization and authority typologies, Durkheim's social-facts and solidarity framework, Bourdieu's capital and habitus, Foucault's power/knowledge — these aren't separate topics so much as competing cameras a sociologist can point at the same social scene, each one revealing a different structure underneath it.",
+      "Socialization, Self & Identity": "How a biological individual becomes a socially competent self. Cooley's looking-glass self, Mead's I and Me, Erikson's stages, Kohlberg's moral development, and role theory all address the same underlying question from different angles: how does a person absorb, internalize, and eventually perform the social world they were born into, and what happens when that process goes differently than expected.",
+      "Deviance, Crime & Social Control": "What happens when behavior violates a social norm, and — the more interesting question — who gets to decide that it violated one. Labeling theory, strain theory, and the criminology entries in this section share a common move: they treat \"deviance\" not as a fixed property of an act, but as a social judgment applied by specific people with specific power, which is why the same behavior gets labeled differently depending on who commits it and who's doing the labeling.",
+      "Stratification, Culture & Institutions": "How societies organize resources, status, and shared meaning at the group and system level, rather than the individual level. Class and caste stratification, family and education as institutions, religion's economic function, cultural lag — this section is about the relatively stable, slow-moving structures a person is born into and mostly can't choose, as opposed to the faster-moving interactions covered elsewhere.",
+      "Gender, Relationships & Case Studies": "The applied and narrative half of the pillar — where the theory gets put to work on a specific real or fictional scenario rather than stated in the abstract. Gender interaction scripts, romantic case studies, and analyses like Shawshank or Abu Ghraib all take a foundational theory from elsewhere in the pillar and run it against a concrete case, which is often the fastest way to actually understand what an abstract theory predicts.",
+      "Social Change, Media & Modernity": "How societies and their norms shift over time, and how media and technology accelerate or reshape that shift. Diffusion of innovation, cultivation theory, modernity-versus-postmodernity debates — this section is about sociology's own version of a time axis, tracking how yesterday's stable structure becomes today's contested one."
+    },
+    closing: "The contrast worth holding onto against Law: sociology's story isn't usually chronological cause-and-effect so much as competing lenses on the same standing phenomena. The same event can be read through Marx, through Durkheim, and through Goffman, and get three genuinely different, defensible explanations — the skill this pillar builds is knowing which lens is doing the explaining at any given moment, and why someone might reasonably reach for a different one."
+  },
+  psychology: {
+    overview: "Psychology's organizing logic differs from both law and sociology. Instead of \"which doctrine applies\" or \"which theoretical lens,\" this pillar's sections mostly split by which mental system or life stage is actually under discussion — psychology fragments the mind into distinct, semi-independent functional systems (judgment, social behavior, personality, the unconscious, development, emotion) that are often studied by entirely separate research traditions, rather than narrating one unified story the way Law's chronology or Sociology's competing lenses do.",
+    sections: {
+      "Cognitive Psychology & Judgment": "How the mind processes information, makes decisions, and — the more interesting half — where it systematically and predictably goes wrong. Kahneman and Tversky's heuristics and biases, prospect theory, memory research, and attention studies like the Invisible Gorilla all live here, sharing a common goal: mapping the gap between how people actually think and how a purely rational agent would.",
+      "Social Psychology & Influence": "How a person's behavior changes specifically because other people are present or implied — obedience to authority, conformity, group formation, and the bystander effect. The unifying finding across this section is uncomfortable and consistent: situational social pressure predicts behavior far more powerfully, and far more often, than most people's intuitive sense of their own stable personal character would suggest.",
+      "Personality, Motivation & Self": "The relatively stable individual differences between people, and what actually drives someone toward or away from a given action. The Big Five, Maslow's hierarchy, self-determination theory, and ego depletion research all address a version of the same question: what makes one person's motivation and behavior durably different from another's, even under identical circumstances.",
+      "Psychodynamic & Archetypal": "The unconscious and symbolic tradition — Freud, Jung, Peterson's archetypal synthesis, and related material. This section shares a family resemblance distinct from the rest of the pillar: it treats the mind as substantially shaped by forces the person isn't consciously aware of, working through symbol, myth, and unconscious drive rather than the more measurable, experiment-first methods used elsewhere in Psychology.",
+      "Developmental & Learning": "How psychological capacities are actually built over time, from infancy through the full lifespan, and how learning mechanically works once it's happening. Piaget's stages, Vygotsky's zone of proximal development, Pavlov's and Skinner's conditioning research, and attachment theory (Ainsworth, Harlow) all sit here, tracking construction rather than steady-state function.",
+      "Emotion, Perception & Neuroscience-Adjacent": "The most biologically grounded end of the pillar, sitting closest to Physiology's nervous-system material. Emotion theories (James-Lange, Cannon-Bard), Sperry's split-brain research, and the placebo effect all treat psychological experience as something with a direct, traceable physical substrate, rather than a purely behavioral or symbolic phenomenon."
+    },
+    closing: "The contrast worth holding onto against the other two pillars: Psychology doesn't narrate one continuous story the way Law's chronology does, or offer a small set of competing master-lenses the way Sociology does. It's closer to six separate rooms in the same building, each with its own research tradition and its own vocabulary — which is exactly why cross-links matter more here than anywhere else in the app: the same phenomenon (fear, say) shows up differently in the Cognitive room, the Emotion room, and the Developmental room, and seeing all three is what actually completes the picture."
+  }
 };
 
 let ENTRIES = [];
@@ -678,6 +771,7 @@ function handleSearch(value){
 function renderSearchResults(results){
   document.getElementById('gridLabel').textContent = 'Search Results';
   document.getElementById('gridLabel').style.setProperty('--pc', 'var(--gold)');
+  document.getElementById('pillarIntroHolder').innerHTML = '';
   const grid = document.getElementById('cardGrid');
   if(results.length===0){
     grid.innerHTML = `<p style="color:#8a8fae; font-family:var(--mono); font-size:var(--fs-sm);">No matches. Try a different term — search covers titles, hooks, mechanisms, and sparring questions across every pillar.</p>`;
@@ -694,10 +788,36 @@ function renderSearchResults(results){
   }).join('')}</div>`;
 }
 
+function renderPillarIntro(){
+  const intro = PILLAR_INTROS[currentPillar];
+  const holder = document.getElementById('pillarIntroHolder');
+  if(!intro){
+    holder.innerHTML = '';
+    return;
+  }
+  const p = PILLARS[currentPillar];
+  const introId = `intro-${currentPillar}`;
+  const sectionParas = Object.entries(intro.sections).map(([name, para]) =>
+    `<p class="intro-section-para"><strong style="color:${p.color}">${name}.</strong> ${para}</p>`
+  ).join('');
+  holder.innerHTML = `<div class="pillar-intro collapsed" id="${introId}">
+    <div class="pillar-intro-heading" style="--pc:${p.color}" onclick="toggleSection('${introId}')">
+      <span class="card-section-chevron">▸</span>
+      How ${p.label} is organized
+    </div>
+    <div class="pillar-intro-body">
+      <p>${intro.overview}</p>
+      ${sectionParas}
+      <p class="intro-closing">${intro.closing}</p>
+    </div>
+  </div>`;
+}
+
 function renderGrid(){
   const p = PILLARS[currentPillar];
   document.getElementById('gridLabel').textContent = p.label;
   document.getElementById('gridLabel').style.setProperty('--pc', p.color);
+  renderPillarIntro();
   const grid = document.getElementById('cardGrid');
   const items = ENTRIES.filter(e=>e.pillar===currentPillar);
   if(items.length===0){
