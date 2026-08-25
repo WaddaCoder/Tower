@@ -1226,6 +1226,10 @@
       {
         "id": "doxa-hegemony",
         "label": "Doxa, Hegemony, and False Consciousness"
+      },
+      {
+        "id": "merton-self-fulfilling-prophecy",
+        "label": "Merton's Self-Fulfilling Prophecy"
       }
     ],
     "sparring": [
@@ -2538,6 +2542,10 @@
       {
         "id": "jjsa-mirror",
         "label": "The JJSA as a Mirror"
+      },
+      {
+        "id": "berger-luckmann-construction",
+        "label": "Berger & Luckmann's Social Construction of Reality"
       }
     ],
     "sparring": [
