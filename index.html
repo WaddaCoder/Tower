@@ -885,7 +885,7 @@ function openEntry(id){
       <button class="accordion-trigger" aria-expanded="${i===0?'true':'false'}" onclick="toggleAcc(this)">
         ${label} <span class="chev">▾</span>
       </button>
-      <div class="accordion-panel" style="max-height:${i===0?'500px':'0'}">
+      <div class="accordion-panel" style="max-height:${i===0?'20000px':'0'}">
         <div class="inner">${content}</div>
       </div>
     </div>`).join('');
@@ -924,7 +924,7 @@ function toggleAcc(btn){
   const expanded = btn.getAttribute('aria-expanded') === 'true';
   btn.setAttribute('aria-expanded', String(!expanded));
   const panel = btn.nextElementSibling;
-  panel.style.maxHeight = expanded ? '0' : panel.scrollHeight + 'px';
+  panel.style.maxHeight = expanded ? '0' : '20000px';
 }
 
 function showDetail(){
