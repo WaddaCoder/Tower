@@ -314,6 +314,13 @@
     color: var(--pc);
     margin-bottom:6px;
   }
+  .detail-head .section-tag{
+    font-family: var(--body);
+    font-size: var(--fs-xs);
+    color: var(--paper-dim);
+    opacity: 0.75;
+    margin-bottom: 10px;
+  }
   .detail-head h2{
     font-family: var(--display);
     font-weight:600;
@@ -649,6 +656,7 @@
     <button class="back-btn" onclick="showGrid()">← Back to all concepts</button>
     <div class="detail-head">
       <p class="eyebrow" id="dEyebrow"></p>
+      <p class="section-tag" id="dSectionTag"></p>
       <h2 id="dTitle"></h2>
     </div>
     <div id="dAccordion"></div>
@@ -876,6 +884,9 @@ function openEntry(id){
   const p = PILLARS[e.pillar];
   document.getElementById('dEyebrow').textContent = p.label;
   document.getElementById('dEyebrow').style.setProperty('--pc', p.color);
+  const sectionTagEl = document.getElementById('dSectionTag');
+  sectionTagEl.textContent = e.section ? `within: ${e.section}` : '';
+  sectionTagEl.style.display = e.section ? '' : 'none';
   document.getElementById('dTitle').textContent = e.title;
   document.querySelector('.detail-head').style.setProperty('--pc', p.color);
 
