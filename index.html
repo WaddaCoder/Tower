@@ -166,10 +166,17 @@
     padding-bottom: 8px;
     border-bottom: 1px solid rgba(247,245,240,0.08);
     display: flex;
+    justify-content: space-between;
     align-items: baseline;
-    gap: 10px;
+    gap: 14px;
     cursor: pointer;
     user-select: none;
+  }
+  .card-section-label{
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    min-width: 0;
   }
   .card-section-chevron{
     display: inline-block;
@@ -201,6 +208,8 @@
     font-size: var(--fs-xs);
     color: #8a8fae;
     font-weight: 400;
+    flex-shrink: 0;
+    white-space: nowrap;
   }
   .pillar-intro{
     margin-bottom: 28px;
@@ -858,8 +867,10 @@ function renderGrid(){
     const secId = `sec-${currentPillar}-${si}`;
     return `<div class="card-section collapsed" id="${secId}">
       <div class="card-section-heading" style="--pc:${p.color}" onclick="toggleSection('${secId}')">
-        <span class="card-section-chevron">▸</span>
-        ${section}
+        <span class="card-section-label">
+          <span class="card-section-chevron">▸</span>
+          <span>${section}</span>
+        </span>
         <span class="card-section-count">${sectionItems.length}</span>
       </div>
       <div class="grid card-section-body">
