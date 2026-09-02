@@ -45,7 +45,8 @@
     "title": "Reason's Swiss Cheese Model + Manuals Written in Blood + Grandfathering",
     "teaser": "Most accidents are never one failure — they're a rare alignment of several smaller, individually survivable ones.",
     "sections": {
-      "Core Idea": "Systemic safety as multiple defense layers, each full of holes — disaster only strikes when the holes momentarily align. Grandfathering exempts an old population from a new rule without generating anything new; normalization of deviance is the same model in slow motion — each small unpunished shortcut resets the baseline."
+      "Core Idea": "Systemic safety as multiple defense layers, each full of holes — disaster only strikes when the holes momentarily align. Grandfathering exempts an old population from a new rule without generating anything new; normalization of deviance is the same model in slow motion — each small unpunished shortcut resets the baseline.",
+      "The Hook": "<em>No single hole in any one layer ever causes the crash on its own — that's the whole point of having multiple layers. The catastrophe requires every layer's hole to line up on the same axis, at the same moment, which is rare enough that most near-misses stay near-misses.</em>"
     },
     "links": [
       {
@@ -230,7 +231,8 @@
     "teaser": "Two independent axes, not one flat list — execution format and retrieval source, combining rather than standing as parallel types.",
     "sections": {
       "Core Idea": "Memory items are performed from memory under time pressure, then verified afterward via Challenge-Response once time exists to check against a QRH — muscle memory drives the action, Challenge-Response catches what muscle memory got wrong.",
-      "The Hook": "<em>Reserved for procedures either routine-and-critical or emergency-and-critical, in both cases because there isn't enough time to open a QRH and read.</em>"
+      "The Hook": "<em>Reserved for procedures either routine-and-critical or emergency-and-critical, in both cases because there isn't enough time to open a QRH and read.</em>",
+      "Application": "CIGARS is the standard pre-takeoff flow: Controls (free and correct), Instruments (set and cross-checked), Gas (fuel quantity and correct tank/pump selection), Attitude (trim and flaps set for takeoff — some schools use \"Airplane secure\" instead), Run-up (engine checks complete). It's a flow, not a fixed-order protocol, which is deliberate — see the sparring below. Worth knowing directly: the letter meanings genuinely vary by flight school and aircraft type (extended versions like \"CIGAR TIPS\" add Transponder, Interior, Position lights, Seatbelts), so treat this as the common core rather than one universal standard. PIOSEE, referenced in this entry's title, could not be verified against any standard aviation mnemonic reference — it may be school- or aircraft-specific rather than a widely used standard; flagged here rather than guessed at."
     },
     "links": [],
     "sparring": [
@@ -406,5 +408,277 @@
       }
     ],
     "section": "Human Factors & Decision-Making"
+  },
+  {
+    "id": "tem-shell",
+    "pillar": "aviation",
+    "title": "Threat and Error Management (TEM) + the SHELL Model",
+    "teaser": "The two frameworks nearly every modern airline training program is actually built on — one names what goes wrong, the other names where the interface breaks.",
+    "section": "Human Factors & Decision-Making",
+    "sections": {
+      "Core Idea": "TEM, ICAO's current standard safety framework, separates a bad outcome into three stages: threats (external factors a crew didn't create — weather, terrain, an air traffic control error), errors (crew actions or inactions that deviate from intention or expectation), and undesired aircraft states (the resulting unsafe condition — unstable approach, wrong configuration). The framework's real value is that it doesn't treat error as the starting point; a threat mismanaged becomes an error, an error mismanaged becomes an undesired state, and each stage is a separate, catchable opportunity to break the chain. The SHELL model names the four things a pilot (Liveware, at the center) actually interfaces with: Software (procedures, checklists, regulations), Hardware (the physical aircraft and controls), Environment (weather, terrain, cockpit conditions), and other Liveware (other crew, ATC, passengers) — most \"pilot error\" is really a mismatch at one of these four interfaces, not a character flaw.",
+      "The Hook": "<em>Swiss Cheese, already built in this pillar, explains how layered defenses fail. TEM explains what's actually flowing through the holes — and SHELL explains which specific interface the crew was standing at when it happened.</em>",
+      "Application": "TEM is the direct organizing structure behind modern Line Operations Safety Audits (LOSA), where trained observers ride the jumpseat specifically to catalog threats and errors as they occur in normal line flying, not just after an accident. SHELL is the standard diagnostic frame instructors use to sort an incident report: was this a Software problem (the checklist was ambiguous), a Hardware problem (a poorly placed switch), an Environment problem, or a Liveware-Liveware problem (a breakdown in crew coordination) — the same \"pilot error\" label can mean four structurally different fixes depending on which interface actually failed."
+    },
+    "links": [
+      {
+        "id": "swiss-cheese",
+        "label": "Reason's Swiss Cheese Model"
+      },
+      {
+        "id": "crm",
+        "label": "CRM + Authority Gradient + Hazardous Attitudes"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If TEM treats every threat as manageable and every error as catchable, doesn't it risk implying accidents are always preventable in hindsight, which is a much easier claim to make after the fact than in the moment?",
+        "a": "That's a real limitation of any post-hoc framework, and TEM doesn't fully escape it — LOSA's whole reason for existing is to catalog threats and errors during normal, non-accident flights specifically so the framework isn't only ever applied with hindsight. But you're right that TEM applied purely retrospectively to an accident report risks the same 'it was obviously catchable' illusion any hindsight analysis carries."
+      }
+    ]
+  },
+  {
+    "id": "normalization-deviance-just-culture",
+    "pillar": "aviation",
+    "title": "Normalization of Deviance + Just Culture",
+    "teaser": "One theory explains how a safety margin quietly erodes until it's gone. The other is the only known way to actually catch it happening before it does.",
+    "section": "Human Factors & Decision-Making",
+    "sections": {
+      "Core Idea": "Normalization of deviance, coined by sociologist Diane Vaughan analyzing the Challenger disaster, describes a specific organizational failure pattern: a small deviation from a safety standard doesn't produce disaster the first time, so it gets treated as acceptable, then repeated, then extended further, until a genuinely unsafe practice is fully normalized within the culture — nobody ever decided to accept a bigger risk, the risk grew invisibly through a long chain of individually-reasonable-seeming steps. Just Culture, developed substantially by James Reason (already built in this pillar via Swiss Cheese), is the organizational answer: a reporting environment that draws a clear, consistently applied line between honest error (which should be reported without fear of punishment, since punishing it just drives it underground) and genuine reckless or malicious conduct (which should still be sanctioned) — without that line, normalization of deviance has no early-warning system, because nobody reports the small deviation that would have exposed it.",
+      "The Hook": "<em>Every organization that normalized a fatal deviance can point to the exact moment it should have stopped being acceptable. Nobody inside the organization could see that moment while it was happening — that's precisely what \"normalized\" means.</em>",
+      "Application": "Just Culture reporting systems (voluntary, non-punitive incident reporting, like ASRS in the US) exist specifically to interrupt normalization of deviance before it produces an accident, by making it safe for a crew member to report \"we did X, which technically deviates from the standard, and it made me uncomfortable\" long before X becomes normal enough that nobody thinks to report it at all. The system only works if the line between error and recklessness is applied consistently — a Just Culture that punishes honest reporting even occasionally teaches everyone to stop reporting, which quietly restores exactly the blindness the system was built to prevent."
+    },
+    "links": [
+      {
+        "id": "swiss-cheese",
+        "label": "Reason's Swiss Cheese Model"
+      },
+      {
+        "id": "three-failure-modes",
+        "label": "Three Failure Modes"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If normalization of deviance is invisible from inside the organization while it's happening, how would a Just Culture reporting system actually catch it — wouldn't the same normalized blindness stop people from seeing it as worth reporting in the first place?",
+        "a": "This is the framework's real limit, not a solved problem. Just Culture doesn't guarantee anyone notices — it only removes the fear-of-punishment reason not to report something someone does notice. A crew member who's already fully acclimated to the deviation has no more reason to flag it than before; the system mainly helps the newer or more uneasy voice who hasn't yet been socialized into treating it as normal, which is exactly why fresh eyes and rotating crews matter as a separate mitigation."
+      }
+    ]
+  },
+  {
+    "id": "dirty-dozen",
+    "pillar": "aviation",
+    "title": "The Dirty Dozen — Twelve Named Causes of Maintenance Error",
+    "teaser": "Gordon Dupont named twelve specific human conditions behind aircraft maintenance mistakes — not as an insult to mechanics, but so each one could be trained against directly instead of blamed vaguely after the fact.",
+    "section": "Human Factors & Decision-Making",
+    "sections": {
+      "Core Idea": "Gordon Dupont, working for Transport Canada in the 1990s, identified twelve recurring human-factors causes behind aircraft maintenance errors, now standard in maintenance human-factors training worldwide: lack of communication, complacency, lack of knowledge, distraction, lack of teamwork, fatigue, lack of resources, pressure, lack of assertiveness, stress, lack of awareness, and norms (the informal, unofficial \"the way we actually do it around here\" that can drift from the official procedure). The list's real function is diagnostic rather than accusatory — instead of an investigation ending at \"maintenance error,\" a Dirty Dozen framework forces the question further: which of these twelve specific conditions actually produced this error, since each one implies a genuinely different fix.",
+      "The Hook": "<em>\"Maintenance error\" tells you almost nothing useful. \"Complacency\" tells you to change the checklist so a routine, thousandth-time task can't be completed from memory. \"Norms\" tells you the written procedure and the actual practiced procedure have quietly diverged, and someone needs to find out which one is actually correct.</em>",
+      "Application": "Modern maintenance human-factors training programs (mandated in various forms by regulators including the FAA and EASA) are built directly around walking technicians through all twelve categories with real case examples, specifically so a technician can self-recognize \"I'm rushing because of pressure\" or \"I'm doing this from memory because of complacency\" in the moment, before the error occurs rather than only being named after it does."
+    },
+    "links": [
+      {
+        "id": "swiss-cheese",
+        "label": "Reason's Swiss Cheese Model"
+      },
+      {
+        "id": "normalization-deviance-just-culture",
+        "label": "Normalization of Deviance + Just Culture"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "With twelve overlapping categories (stress and pressure and fatigue all sound related), how does a technician or investigator actually pick the right one rather than just picking whichever sounds most convenient after the fact?",
+        "a": "Fair critique — the categories do overlap in practice, and Dupont's own list was never meant as a mutually exclusive taxonomy. Its value isn't precision sorting, it's making sure the investigation asks the fuller question at all rather than stopping at 'human error.' Multiple categories being genuinely true at once (pressure driving fatigue-masked complacency, say) is common, not a flaw in the framework."
+      }
+    ]
+  },
+  {
+    "id": "automation-dependency-plan-continuation",
+    "pillar": "aviation",
+    "title": "Automation Dependency (\"Children of the Magenta Line\") + Plan Continuation Bias",
+    "teaser": "Modern glass cockpits solved one category of accident and quietly created a new one — pilots who can manage an automated flight beautifully and freeze the moment it needs to be flown by hand.",
+    "section": "Human Factors & Decision-Making",
+    "sections": {
+      "Core Idea": "\"Children of the magenta line\" — coined in a widely circulated American Airlines training video by Captain Warren VanderBurgh — names a generational shift in pilot skill: a pilot trained from the start on highly automated glass-cockpit aircraft (following the magenta flight-path line on the display) can develop strong automation-management skill while their raw hand-flying and manual instrument-scan skill atrophies from disuse, since the automation handles what earlier generations of pilots practiced constantly. This becomes dangerous specifically when the automation itself fails, degrades, or produces unexpected behavior (\"automation surprise\") and the pilot must suddenly hand-fly a jet they haven't manually flown in months, under exactly the high-stress conditions where that skill is most needed. Plan continuation bias, a distinct but related failure, is the tendency to continue an original plan (the approach, the flight) even as evidence accumulates that circumstances have changed enough to warrant abandoning it — get-there-itis's more precise technical cousin, already built elsewhere in this pillar, specifically describing degraded plan-revision rather than general external-pressure-driven risk-taking.",
+      "The Hook": "<em>Air France 447 and Colgan Air 3407 are the two accidents most directly cited in every automation-dependency training module since — in both, a crew that could manage a highly automated aircraft with real skill lost the aircraft specifically at the moment automation stopped managing it for them.</em>",
+      "Application": "Airlines have responded with explicit \"manual flying\" policy mandates — requiring crews to hand-fly a portion of routine, low-risk flights specifically to keep the skill from atrophying, rather than letting the autopilot fly every leg simply because it can. Plan continuation bias is directly addressed by the stabilized-approach concept already built in this pillar's get-there-itis entry: a hard, pre-briefed criterion for go-around removes the in-the-moment judgment call about whether \"this is still fine\" from a mind that's already committed to continuing."
+    },
+    "links": [
+      {
+        "id": "get-there-itis",
+        "label": "Get-There-itis + Stabilized Approach"
+      },
+      {
+        "id": "stick-rudder",
+        "label": "Stick and Rudder"
+      },
+      {
+        "id": "situational-awareness",
+        "label": "Situational Awareness"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If manual-flying skill atrophies from automation reliance, wouldn't the simplest fix just be flying manually more often — why does this remain an unsolved problem industry-wide rather than something airlines have already fixed with a policy?",
+        "a": "Because the same automation that erodes the skill also exists for genuine safety and efficiency reasons — reduced crew workload, more precise fuel and route management, lower error rates in normal operations — so airlines are trading one risk profile for another, not choosing between a good option and a bad one. Mandating more manual flying has real operational costs (fuel burn, workload, training time) that airlines weigh against a risk that, while catastrophic when it occurs, is statistically rare relative to the daily benefit automation provides."
+      }
+    ]
+  },
+  {
+    "id": "imsafe-pave",
+    "pillar": "aviation",
+    "title": "IMSAFE + PAVE — Personal and Risk Pre-Flight Checklists",
+    "teaser": "Before checking the aircraft, two mnemonics ask a harder question first: should this specific pilot be flying this specific flight at all, today.",
+    "section": "Procedures & Checklists",
+    "sections": {
+      "Core Idea": "IMSAFE is a personal self-assessment a pilot runs before every flight, checking Illness, Medication, Stress, Alcohol, Fatigue, and Emotion — failing any one criterion is, by the standard the checklist is taught with, sufficient reason to not fly, regardless of how minor it feels in the moment or how much external pressure exists to go anyway. PAVE broadens the same before-flight risk assessment beyond the pilot alone to four categories: Pilot (IMSAFE, plus currency and experience with this specific flight), Aircraft (airworthiness, equipment, performance for the conditions), enVironment (weather, terrain, airport conditions), and External pressures (the get-there-itis-generating factors — a schedule, passengers waiting, a event to attend). Both checklists share the same underlying design principle: naming a risk factor explicitly, on a fixed list, before departure, makes it far harder to unconsciously discount in the moment than leaving the same judgment to unstructured, in-flight gut feel.",
+      "The Hook": "<em>Nobody boards a flight consciously thinking \"I am too fatigued to fly safely.\" IMSAFE exists because that thought needs to happen on the ground, deliberately, against a checklist — not in the air, as a vague unease competing against a schedule already in motion.</em>",
+      "Application": "Flight instructors teach both as literal pre-flight rituals, not abstract concepts — a pilot who cannot honestly clear all six IMSAFE items, or who identifies a serious PAVE risk in any of the four categories, is trained to treat that as grounds for delay or cancellation, the same category of decision as an aircraft mechanical squawk, not a lesser or more negotiable one."
+    },
+    "links": [
+      {
+        "id": "circadian-low",
+        "label": "Circadian Low + Sleep Inertia"
+      },
+      {
+        "id": "get-there-itis",
+        "label": "Get-There-itis"
+      },
+      {
+        "id": "checklists",
+        "label": "Checklists"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If IMSAFE says any single failed item is grounds not to fly, isn't that standard unrealistic in practice — pilots are presumably mildly stressed or mildly tired fairly often, and a rule nobody actually follows to the letter is a weaker rule than it looks on paper?",
+        "a": "That's a fair practical tension, and it's worth being honest that IMSAFE functions more as a deliberate conservative anchor than a rule followed with zero judgment in every case — the real value is forcing the six-item check to happen explicitly rather than being skipped, so even an imperfect, judgment-adjusted application still catches more than never running the checklist at all. Where it clearly fails is if the conservative anchor gets quietly renegotiated every time under schedule pressure, which is exactly the erosion normalization of deviance describes."
+      }
+    ]
+  },
+  {
+    "id": "five-p-decide",
+    "pillar": "aviation",
+    "title": "5P + DECIDE — Structured Aeronautical Decision-Making",
+    "teaser": "Two frameworks built for the same purpose: giving a pilot a repeatable structure to think through mid-flight, specifically because good judgment under stress doesn't reliably happen on its own.",
+    "section": "Human Factors & Decision-Making",
+    "sections": {
+      "Core Idea": "The 5P model structures a pilot's ongoing risk assessment around five categories to check at several fixed points during a flight (before departure, before takeoff, cruise, before descent, before landing): Plan (is the flight plan still appropriate), Plane (is the aircraft still performing and configured correctly), Pilot (is IMSAFE still satisfied — fatigue and stress can change mid-flight), Passengers (are they a factor — medical issue, pressure to hurry), and Programming (is the automation doing what's actually intended, directly relevant to the automation-surprise risk already built elsewhere in this pillar). The DECIDE model structures in-the-moment decision-making itself, as a repeatable six-step loop: Detect a change has occurred, Estimate the need to react, Choose a desirable outcome, Identify actions to reach it, Do the action, Evaluate the effect — designed to be run as an actual loop, cycling back to Detect, rather than a single one-time decision.",
+      "The Hook": "<em>Both frameworks exist because of the same discovered failure pattern: pilots under stress don't lack the knowledge to make a good decision, they lack a structure that reliably surfaces the right information at the right moment — which is exactly what unstructured judgment, under load, tends to skip.</em>",
+      "Application": "5P is taught as a running background process throughout a flight, not a one-time pre-flight check — its explicit re-checking at multiple fixed points is a direct answer to plan continuation bias, since a fresh Plan/Plane/Pilot/Passengers/Programming check at each stage forces reconsideration of the original decision rather than assuming it still holds. DECIDE is taught as the structure to fall back on specifically when a genuinely novel, non-checklist situation arises mid-flight — the situations checklists and memory items weren't written for."
+    },
+    "links": [
+      {
+        "id": "automation-dependency-plan-continuation",
+        "label": "Automation Dependency + Plan Continuation Bias"
+      },
+      {
+        "id": "imsafe-pave",
+        "label": "IMSAFE + PAVE"
+      },
+      {
+        "id": "situational-awareness",
+        "label": "Situational Awareness"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "The DECIDE loop has six explicit steps to run through — under genuine acute time pressure (an engine failure at low altitude, say), is there actually time to consciously cycle through six named steps, or does the model only work for the slower-developing problems where there was already enough time to think clearly anyway?",
+        "a": "This is a real and known limitation, and it's why DECIDE is explicitly distinguished in training from memory items and Challenge-Response checklists — already built elsewhere in this pillar — which exist precisely for situations too time-critical for a six-step conscious loop. DECIDE is taught for the slower-developing, more ambiguous problem (deteriorating weather ahead, a system behaving strangely but not yet critically) where there genuinely is time to think, not the sudden acute emergency where memorized, pre-drilled action is the only realistic option."
+      }
+    ]
+  },
+  {
+    "id": "v-speeds",
+    "pillar": "aviation",
+    "title": "V-Speeds — The Vocabulary of Takeoff and Landing",
+    "teaser": "Every takeoff runs through a sequence of named speed thresholds, each one marking the exact point a specific decision becomes possible, mandatory, or no longer available at all.",
+    "section": "Aircraft Handling & Control",
+    "sections": {
+      "Core Idea": "V-speeds are standardized velocity thresholds, specific to each aircraft type and loaded weight, that mark decision points during takeoff and landing. V1 is takeoff decision speed — below V1, an abort is still possible within the remaining runway; above V1, the aircraft is committed to takeoff even in the event of an engine failure, because there is no longer enough runway to stop safely. VR is rotation speed, where the pilot begins pitching the nose up to fly. V2 is takeoff safety speed, the minimum speed guaranteeing an adequate climb gradient if an engine fails immediately after liftoff. Vmc is minimum control speed, below which a multi-engine aircraft cannot maintain directional control following an engine failure, regardless of pilot input. Vne is never-exceed speed, the airframe's structural limit.",
+      "The Hook": "<em>V1 is the single highest-stakes number in the entire flight — a captain who calls \"abort\" one second after V1, or fails to call it one second before, is choosing between the wrong version of two different emergencies, with no time left to reconsider either choice.</em>",
+      "Application": "V1, VR, and V2 are calculated fresh before every single takeoff, specific to that day's weight, temperature, runway length, and wind — not fixed numbers for the aircraft type — which is why performance-envelope calculations, already built elsewhere in this pillar, and V-speed calculation are done together as one pre-departure task. Vmc is why multi-engine pilot training spends significant time specifically on engine-failure-at-low-speed scenarios: below Vmc, more power on the working engine doesn't help and can make loss of control worse, the counterintuitive core lesson of multi-engine emergency training."
+    },
+    "links": [
+      {
+        "id": "performance-envelope",
+        "label": "Performance Envelope"
+      },
+      {
+        "id": "stall-recovery",
+        "label": "Stall Recognition & Recovery"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If V1 is calculated fresh for every takeoff based on that day's specific conditions, how much margin for human error is actually built into that number — is a slightly-late abort call a small deviation or effectively catastrophic?",
+        "a": "It depends heavily on how close to the calculated V1 the abort decision is made and how much runway margin was built into that day's calculation — V1 itself is derived with regulatory safety margins already included, not calculated as a razor's-edge minimum, but a late call specifically erodes exactly the margin the calculation assumed would be available. The honest answer is that the margin exists precisely so a normal human reaction-time delay is tolerable; it's not designed to absorb a genuinely late or hesitant call on top of that."
+      }
+    ]
+  },
+  {
+    "id": "cfit-loci",
+    "pillar": "aviation",
+    "title": "CFIT + LOC-I — Aviation's Two Biggest Fatal-Accident Categories",
+    "teaser": "Two accident categories keep topping the fatality statistics, decade after decade, despite enormous investment specifically aimed at both — because each one describes a way the aircraft was working perfectly right up until the end.",
+    "section": "Aircraft Handling & Control",
+    "sections": {
+      "Core Idea": "Controlled Flight Into Terrain (CFIT) describes an accident in which an entirely airworthy aircraft, under full pilot control, is flown into terrain, water, or an obstacle — the defining and unsettling feature is that nothing mechanical failed; the crew simply lost accurate awareness of the aircraft's position relative to the ground, usually in conditions of poor visibility, fatigue, or distraction that degraded the mental model already covered in this pillar's situational-awareness entry. Loss of Control In-flight (LOC-I) describes the aircraft departing from controlled, intended flight — an unrecoverable stall, spin, or upset the crew couldn't correct in time — and has been aviation's single leading category of fatal accidents for years running, ahead of CFIT, mechanical failure, and nearly every other category combined.",
+      "The Hook": "<em>Both categories share the same dark commonality: in the large majority of cases, the aircraft itself was mechanically capable of a safe outcome the entire time. The failure was never in the machine.</em>",
+      "Application": "CFIT rates dropped substantially industry-wide following the widespread adoption of Terrain Awareness and Warning Systems (TAWS/GPWS), which give a direct, automated cross-check against exactly the kind of situational-awareness degradation CFIT depends on — a rare case of technology directly closing a human-factors gap rather than just adding a new interface to manage. LOC-I prevention has been harder to solve with equipment alone, since it depends on manual flying and stall-recognition skill under stress — directly connecting to this pillar's stall-recovery and automation-dependency entries, both of which describe different pieces of the same underlying problem: the skill LOC-I recovery requires is exactly the skill modern automated flight most reduces the opportunity to practice."
+    },
+    "links": [
+      {
+        "id": "situational-awareness",
+        "label": "Situational Awareness"
+      },
+      {
+        "id": "stall-recovery",
+        "label": "Stall Recognition & Recovery"
+      },
+      {
+        "id": "automation-dependency-plan-continuation",
+        "label": "Automation Dependency + Plan Continuation Bias"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If TAWS/GPWS technology directly reduced CFIT rates, why hasn't equivalent technology solved LOC-I the same way — is there a reason one accident category is more technologically tractable than the other?",
+        "a": "Genuinely yes, and it comes down to what each system needs to detect versus what it needs to fix. TAWS only has to solve a detection problem — cross-check the aircraft's position against known terrain and issue a warning, which is a well-defined computational task. LOC-I prevention would need a system that can detect an impending aerodynamic upset and either warn in time for a stressed human to correctly recover, or take corrective control action itself — a much harder problem, both technically and in terms of pilot trust and regulatory acceptance of automation overriding a human pilot's control inputs, which is why LOC-I mitigation has leaned more on training (stall/upset recovery training mandates) than on equipment."
+      }
+    ]
+  },
+  {
+    "id": "aero-gotchas",
+    "pillar": "aviation",
+    "title": "Density Altitude, Wake Turbulence, Adverse Yaw, and Ground Effect — Four Aerodynamic Gotchas",
+    "teaser": "Four separate phenomena, each one a case where the aircraft behaves differently than a pilot's raw intuition expects — and each one has caused accidents specifically because it wasn't accounted for.",
+    "section": "Aircraft Handling & Control",
+    "sections": {
+      "Core Idea": "Density altitude is pressure altitude corrected for temperature — hot, high, and humid conditions all reduce air density, which degrades engine power, propeller efficiency, and wing lift simultaneously, meaning an aircraft can need dramatically more runway and climb more sluggishly on a hot day at a mountain airport than the same aircraft would at sea level in cool air, even though the altimeter and the pilot's eyes report an unchanged runway. Wake turbulence is the pair of counter-rotating horizontal tornadoes trailing from a wing generating lift, strongest behind large, slow, heavy aircraft (specifically the condition producing the most lift per unit of speed), and capable of inverting or structurally stressing a smaller aircraft that flies through it, which is why air traffic control enforces specific separation minima behind heavy aircraft. Adverse yaw is the tendency of an aircraft to yaw toward the outside of a turn during the turn's initiation, caused by the down-going aileron on the outside wing producing more drag than the up-going aileron on the inside wing — corrected with coordinated rudder input, the reason pilots are trained to never turn using ailerons alone. Ground effect is the measurable reduction in induced drag and increase in lift an aircraft experiences within roughly one wingspan of the ground, caused by the ground surface disrupting the wingtip vortices that normally reduce lift — it's why an aircraft can feel reluctant to land (floating) and, more dangerously, why an aircraft can seem to fly capably at low altitude in ground effect and then be unable to climb once it departs that effect.",
+      "The Hook": "<em>Four completely different physical mechanisms, one shared lesson: an aircraft's behavior is never fully described by what the pilot can see and feel in the moment — density, wake, coordination, and proximity to the ground are all silently rewriting the performance envelope in real time.</em>",
+      "Application": "Density altitude calculations are a mandatory part of pre-flight planning at hot or high-elevation airports specifically because the failure mode (attempting a takeoff that the published sea-level performance numbers don't actually support) has caused real accidents. Wake turbulence separation minima are a direct air traffic control responsibility, not just a pilot judgment call, precisely because the hazard is invisible until encountered. Adverse yaw correction (rudder coordination) is one of the first physical skills taught in primary flight training, before a student is trusted with more complex maneuvers. Ground effect is specifically why a pilot attempting to take off from a short or soft field is trained to accelerate in ground effect before climbing out, rather than trying to climb immediately, and why a heavily loaded aircraft that seemed to fly fine low over a runway has, in real accidents, failed to climb once clear of it."
+    },
+    "links": [
+      {
+        "id": "performance-envelope",
+        "label": "Performance Envelope"
+      },
+      {
+        "id": "stick-rudder",
+        "label": "Stick and Rudder"
+      },
+      {
+        "id": "v-speeds",
+        "label": "V-Speeds"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "Grouping four unrelated aerodynamic phenomena into one entry just because each is a 'gotcha' seems like a thinner organizing principle than pairing genuinely related concepts elsewhere in this pillar (like CFIT and LOC-I, or automation dependency and plan continuation bias). Is the combination actually earning its keep here, or is it just a convenient bucket for leftover topics?",
+        "a": "Fair challenge, and it's a genuinely thinner shared thread than the other paired entries in this batch — the honest justification is narrower than 'these are deeply connected mechanisms' and closer to 'these are four foundational aerodynamic concepts a pilot needs and none individually warranted a full separate entry at this pillar's depth.' The real organizing idea, that intuition about aircraft behavior is unreliable across several independent axes at once, is real but looser than the mechanism-level pairing used elsewhere — this entry is more a compact reference grouping than a single unified concept, and that's a fair distinction to draw rather than oversell."
+      }
+    ]
   }
 ]
