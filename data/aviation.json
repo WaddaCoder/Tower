@@ -680,5 +680,49 @@
         "a": "Fair challenge, and it's a genuinely thinner shared thread than the other paired entries in this batch — the honest justification is narrower than 'these are deeply connected mechanisms' and closer to 'these are four foundational aerodynamic concepts a pilot needs and none individually warranted a full separate entry at this pillar's depth.' The real organizing idea, that intuition about aircraft behavior is unreliable across several independent axes at once, is real but looser than the mechanism-level pairing used elsewhere — this entry is more a compact reference grouping than a single unified concept, and that's a fair distinction to draw rather than oversell."
       }
     ]
+  },
+  {
+    "id": "briefings-and-debriefs",
+    "pillar": "aviation",
+    "title": "Departure and Approach Briefings, and the Debrief",
+    "teaser": "A briefing isn't paperwork read aloud before the interesting part starts. It's the moment a crew's two separate private mental models get forced into one shared one — before the workload gets high enough that there's no time left to notice they didn't match.",
+    "section": "Human Factors & Decision-Making",
+    "sections": {
+      "Core Idea": "A departure briefing, delivered before every takeoff, covers the planned departure procedure, terrain and obstacles, and — critically — the engine-failure contingency: what happens before V1 (reject, already built in this pillar's V-speeds entry) versus after V1 (continue and fly the specific engine-out procedure for that runway). An approach briefing, delivered before every landing, covers the planned approach and runway, minimums, missed-approach procedure, and any threats specific to that airport or that day's conditions. Both exist for the same underlying reason: to build one shared mental model across the crew before entering a high-workload phase of flight, rather than relying on two pilots privately assuming they're thinking the same thing. The debrief closes the loop afterward — a deliberate, structured review of what actually happened against what was briefed, specifically designed to surface the gap between the plan and the reality while it's still fresh enough to learn from.",
+      "The Hook": "<em>American Airlines 965, approaching Cali, Colombia in 1995, had briefed one approach. Air traffic control offered a shortcut at the last minute. Under time pressure, with the original briefing no longer matching the new plan, a rushed keystroke into the flight management computer sent the aircraft toward a waypoint with a similar identifier but a different location entirely — and the crew, still operating on a mental model that no longer matched reality, flew a functioning aircraft into a mountain. Nothing mechanical failed. The briefing simply stopped being true, and nobody re-briefed before it mattered.</em>",
+      "Application": "The briefing's real value shows up specifically when something goes wrong in a way that matches what was briefed — a genuine engine failure after a proper departure brief is, per this pillar's TEM entry, a threat the crew already identified and already has a shared, rehearsed response to, which is measurably different from the same failure occurring with no briefing at all, where the crew has to build a plan from nothing under acute stress. This is exactly why a changed clearance, a late runway swap, or any other disruption to the briefed plan is treated in professional training as a mandatory re-brief trigger, not a minor adjustment to absorb silently — Cali's actual failure wasn't the initial briefing, it was continuing to operate on a briefing that had quietly stopped matching the situation. The debrief connects directly to this pillar's Just Culture and Normalization of Deviance entry: a debrief culture that's genuinely safe to be honest in is the mechanism that catches \"we nearly missed that\" before it becomes routine enough to stop being mentioned at all, and a debrief that only happens after something goes visibly wrong, rather than as a habitual practice after every flight, arrives too late to catch most of what it exists to catch."
+    },
+    "links": [
+      {
+        "id": "tem-shell",
+        "label": "Threat and Error Management + SHELL Model"
+      },
+      {
+        "id": "normalization-deviance-just-culture",
+        "label": "Normalization of Deviance + Just Culture"
+      },
+      {
+        "id": "v-speeds",
+        "label": "V-Speeds"
+      },
+      {
+        "id": "get-there-itis",
+        "label": "Get-There-itis + Stabilized Approach"
+      },
+      {
+        "id": "goffman-dramaturgy",
+        "label": "Goffman — Dramaturgical Theory"
+      },
+      {
+        "id": "non-punitive-safety-investigation",
+        "label": "Non-Punitive Safety Investigation (ICAO Annex 13)"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If a changed clearance is supposed to trigger a mandatory re-brief, but Cali shows exactly that situation producing a rushed, incomplete re-brief instead — doesn't that suggest the 'mandatory re-brief' rule is exactly the kind of thing that gets skipped under the time pressure it's meant to protect against, making it a weaker safeguard than it looks on paper?",
+        "a": "That's the real and uncomfortable lesson from Cali, and it's worth stating plainly rather than treating the rule as a solved problem. A rule that says 're-brief when the plan changes' is least reliable exactly when it's most needed — under acute time pressure, which is precisely when a rushed crew is most tempted to skip the thing that would slow them down by thirty seconds. This is part of why later training emphasizes not just the rule itself but a specific trained response to time pressure directly (deliberately slowing down, or explicitly declining a rushed clearance change when it doesn't leave time to re-brief properly) rather than assuming the re-brief mandate alone is sufficient protection."
+      }
+    ]
   }
 ]
