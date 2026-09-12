@@ -1930,5 +1930,50 @@
         "a": "That's a real and serious risk in how the framework gets applied, worth taking seriously rather than dismissing as a misreading. Frankl's own framing was specifically about unavoidable suffering — circumstances that genuinely cannot be changed, which was his own literal situation in the camps — not a general prescription to find meaning in suffering that could instead be escaped, fixed, or avoided. The danger the question identifies is real when the framework gets applied loosely outside that specific condition: encouraging someone to find meaning in a genuinely fixable bad situation, rather than fixing it, would be a misapplication of Frankl's own more narrowly scoped claim. The entry doesn't spell out that boundary as explicitly as it should, and a more careful version would state directly that the third route applies specifically to truly unavoidable suffering, not suffering in general."
       }
     ]
+  },
+  {
+    "id": "halo-effect-thorndike",
+    "pillar": "psychology",
+    "title": "The Halo Effect",
+    "teaser": "Meet someone attractive, and your brain quietly assumes they're also smarter, kinder, and more competent — before they've said a single word. One trait, unearned, radiating outward to fill in a dozen others.",
+    "section": "Cognitive Psychology & Judgment",
+    "sections": {
+      "Time Period": "20th century (1920)",
+      "Core Idea": "Edward Thorndike's original 1920 research, studying how military officers rated their soldiers, identified a specific and pervasive cognitive bias: a single, salient positive trait (in Thorndike's own data, often physical bearing and appearance) caused raters to infer unrelated positive qualities — intelligence, leadership, character — that they had no actual independent evidence for. Thorndike named this the halo effect, and it has since become one of the most extensively replicated findings in social psychology, extending well beyond its original military-rating context into how physical attractiveness specifically generates inferred competence, kindness, trustworthiness, and even intelligence in a target the perceiver has had no opportunity to actually assess on any of those dimensions.",
+      "The Hook": "<em>Karen Dion's later, more targeted 1972 study made the mechanism vivid: participants shown only a photograph, with zero other information about the person's actual character or behavior, consistently rated more physically attractive people as more likely to hold good jobs, have happy marriages, and lead generally successful lives — an entire imagined biography, constructed from bone structure alone.</em>",
+      "Mechanism": "The mechanism operates through a specific cognitive shortcut: rather than evaluating a person's various traits (competence, kindness, intelligence) independently, which would require actual evidence for each one, perceivers use one immediately available, salient cue (most commonly physical attractiveness) as a proxy that gets extended, without any additional information, across an entire cluster of unrelated positive traits — this is efficient, in the sense that it lets a perceiver form a fast overall impression, but systematically inaccurate, since the inferred traits have no actual demonstrated relationship to the triggering cue. This directly complicates this project's own Sociology-pillar entry on Hakim's erotic capital, which frames beauty as one component among several trainable capitals: the halo effect suggests physical attractiveness specifically may function less as one equally-weighted ingredient among many and more as a disproportionate multiplier that determines how much credit a person's other actual qualities receive once perceived, since an attractive person's genuine competence gets more readily believed and rewarded than an equally competent but less attractive person's.",
+      "Examples": "Beyond Dion's photograph-only study, the halo effect has been documented directly affecting real-world, consequential judgments: attractive criminal defendants have been shown in mock-jury research to receive more lenient sentencing recommendations than less attractive defendants presented with identical case facts, and attractive job candidates are rated as more competent and more likely to be hired based on resumes and interviews that are, in controlled studies, functionally identical to those of less attractive candidates. Teachers rating identical student work have, in controlled studies, given higher marks and more favorable behavioral assessments when the same work was attributed to a more attractive student's photograph, demonstrating the effect operates even in evaluative contexts, like grading, that are supposed to be judged on content alone.",
+      "Application": "The halo effect has direct, serious real-world consequences across hiring, legal, educational, and political domains, and awareness of the effect underlies specific structural interventions designed to counteract it — blind resume screening (removing photographs and identifying information before initial hiring review), anonymous grading, and structured, criteria-based interview and evaluation protocols are all direct attempts to interrupt the halo mechanism by preventing the initial salient cue (appearance, and by extension name, accent, or other markers that can trigger a similar unearned-inference effect) from ever reaching the evaluator before the actual evidence does. The effect also supplies a specific mechanistic explanation for why the labor-economics \"beauty premium\" data cited in this project's Sociology-pillar Hakim entry exists at all: employers aren't necessarily choosing attractive candidates purely for their appearance, they may be genuinely, if mistakenly, perceiving attractive candidates as more competent.",
+      "Sources & Further Reading": "Edward L. Thorndike, \"A Constant Error in Psychological Ratings,\" Journal of Applied Psychology 4, no. 1 (1920) — the founding source. Karen K. Dion, Ellen Berscheid, and Elaine Hatfield, \"What Is Beautiful Is Good,\" Journal of Personality and Social Psychology 24, no. 3 (1972) — the widely cited photograph-based demonstration.",
+      "Honest Caveats": "The halo effect is one of the most extensively replicated findings in social psychology, but the specific size of the effect varies considerably across studies, contexts, and the particular traits being inferred, and some more recent replication and meta-analytic work has found smaller effect sizes than the most dramatic early studies reported, consistent with the broader pattern of effect-size shrinkage documented across social psychology during the 2010s replication crisis discussed elsewhere in this project's own Baumeister ego-depletion entry. The \"what is beautiful is good\" framing from Dion's own study title has also been directly challenged by later research finding the effect is not uniformly positive across all inferred traits — attractiveness has, in some studies, been associated with negative inferences on specific dimensions (vanity, or perceived unfaithfulness in romantic-partner judgments), suggesting the halo effect's real structure is more selectively trait-specific than a single uniform \"beautiful equals good across the board\" rule would predict."
+    },
+    "links": [
+      {
+        "id": "hakim-erotic-capital",
+        "label": "Hakim's Erotic Capital"
+      },
+      {
+        "id": "naomi-wolf-beauty-myth",
+        "label": "Naomi Wolf's Beauty Myth"
+      },
+      {
+        "id": "heuristics-biases",
+        "label": "Tversky & Kahneman — Heuristics & Biases"
+      },
+      {
+        "id": "baumeister-ego-depletion",
+        "label": "Baumeister's Ego Depletion"
+      }
+    ],
+    "sparring": [
+      {
+        "q": "If more recent replication work has found smaller effect sizes than the classic studies, as the caveats admit, why does the entry still lead with Dion's dramatic 1972 findings as though they were the current best estimate of the effect's real size, rather than leading with the more modest, better-replicated modern figure?",
+        "a": "This is the same lead-with-the-dramatic-version-correct-in-caveats pattern that's come up repeatedly across this whole project's entries, and it applies here too. Dion's original study is presented prominently because it's the historically foundational and most widely cited demonstration, genuinely useful for illustrating the mechanism vividly — but a more disciplined entry would flag the effect-size moderation earlier, ideally in the Core Idea or Mechanism section, rather than only in the closing caveats, so the reader isn't left with an inflated sense of the effect's real-world magnitude until the very end."
+      },
+      {
+        "q": "The entry claims attractiveness functions as 'a disproportionate multiplier' relative to Hakim's other, more trainable components of erotic capital — but is that actually demonstrated by halo-effect research, or is it this entry's own speculative extension connecting two literatures that weren't necessarily designed to be compared this way?",
+        "a": "This is this entry's own synthesis and should be flagged as such rather than presented as an established finding. Halo-effect research demonstrates that physical attractiveness triggers unearned positive inferences about other traits; it doesn't directly measure or compare the relative weighting of attractiveness against Hakim's other erotic-capital components (charm, presentation, energy) in some unified scale that would let you confidently call one a 'multiplier' relative to the others. The comparison is a plausible and reasonable theoretical bridge this entry is drawing between two related literatures, not a finding either Thorndike's, Dion's, or Hakim's own research directly established."
+      }
+    ]
   }
 ]
